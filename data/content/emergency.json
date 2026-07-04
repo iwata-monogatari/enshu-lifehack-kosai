@@ -1,1 +1,389 @@
-[]
+[
+ {
+  "href": "/life/emergency/",
+  "lead": "湖西市の防災・災害情報は、市役所本庁の危機管理課 災害対策係が中心となって発信しています。地震・津波・台風・土砂災害それぞれでリスクの現れ方が異なるため、まずはお住まいの地区のハザードマップと避難場所を確認しておくことが大切です。",
+  "note": "旧新居町エリアは新居支所が窓口になる場合がありますが、防災・避難に関する情報発信は市全体で危機管理課が一元的に担っています。",
+  "real_cards": [
+   {"icon":"⚠️","title":"浜名湖沿岸と遠州灘沿岸、両方のリスクがある市","body":"湖西市は浜名湖の西岸に加えて遠州灘にも面しており、静岡県第4次地震被害想定では最大津波高15mと想定されています。地区ごとに津波避難タワーや命山（人工の高台）が整備されているため、自分の地区の避難場所を事前に確認しておきましょう。"},
+   {"icon":"📱","title":"防災ほっとメール・LINEで情報を受け取る","body":"気象警報や避難情報、地震情報などを配信する「防災ほっとメール」はメール版・LINE版があり、多言語（やさしい日本語、ポルトガル語、スペイン語）にも対応しています。事前登録しておくと市の一斉配信をスマートフォンで直接受け取れます。"},
+   {"icon":"🗺️","title":"地区別ハザードマップは5地区版で配布","body":"湖西市のハザードマップは知波田・新所・入出地区、岡崎地区、鷲津地区、白須賀地区、新居地区の5地区版に分かれて作成・配布されています（令和5年3月改訂）。津波避難タワーや命山の位置も反映されているので、最新版を確認しましょう。"}
+  ],
+  "action_grid": [
+   {"label":"災害対策・危機管理（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/bousai/index.html"},
+   {"label":"防災マップ・避難場所・避難所","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/index.html"},
+   {"label":"防災ほっとメール登録案内","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/douhoumusen/1157.html"},
+   {"label":"危機管理課 災害対策係（053-576-4538）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/index.html"}
+  ]
+ },
+ {
+  "href": "/life/emergency/disaster-certificates-procedures/",
+  "lead": "台風や地震などで住まいが被害を受けたときに発行される「罹災証明書」「被災届出証明書」は、湖西市では原則として税務課が申請窓口です。ただし火災による被害の場合は消防本部予防課が窓口になるため、被害の原因によって連絡先が変わる点に注意してください。",
+  "note": "申請は災害発生から原則6か月以内が目安です。現地調査が必要な場合もあるため、片付けの前に被害箇所の写真を残しておくと手続きがスムーズです。",
+  "real_cards": [
+   {"icon":"📋","title":"罹災証明書と被災届出証明書の違い","body":"住宅の被害程度を証明するのが「罹災証明書」、住宅以外（塀・カーポート・倉庫など）の被害の事実を証明するのが「被災届出証明書」です。保険金請求や見舞金申請、税の減免など提出先に応じて必要な証明書が異なります。"},
+   {"icon":"🏢","title":"申請窓口は原因によって異なる","body":"風水害・地震など火災以外が原因の場合は税務課（電話053-576-1218）へ。火災が原因の罹災証明書は湖西市消防本部予防課（電話053-574-0212）が窓口になります。窓口を間違えると二度手間になるので、まず原因を整理してから連絡しましょう。"},
+   {"icon":"📷","title":"申請に必要なもの","body":"申請書のほか、本人確認書類、被害を受けた建物全体と被害箇所がわかる写真が必要です。代理人が申請する場合は委任状も必要になります。現地調査の日程調整が必要な場合もあるため、早めの連絡がおすすめです。"}
+  ],
+  "qa": [
+   {"question":"り災証明書はどこで申請しますか。","answer":"風水害や地震など火災以外の被害は税務課（電話053-576-1218）、火災による被害は<a href=\"https://www.city.kosai.shizuoka.jp/shobo/index.html\" target=\"_blank\" rel=\"noopener\">湖西市消防本部</a>予防課（電話053-574-0212）が窓口です。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/12644.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>を確認してください。"},
+   {"question":"申請期限はありますか。","answer":"災害発生から概ね6か月以内の申請が目安とされています。片付けを始める前に被害箇所の写真を撮影しておくと、後日の申請がスムーズになります。"},
+   {"question":"証明書の発行に費用はかかりますか。","answer":"罹災証明書・被災届出証明書ともに発行手数料はかかりません。"},
+   {"question":"新居支所でも申請できますか。","answer":"取扱いは窓口により異なる可能性があるため、事前に税務課（053-576-1218）に電話で確認してから来庁することをおすすめします。"},
+   {"question":"証明書は何に使えますか。","answer":"民間保険会社への保険金請求、市税の減免（雑損控除・災害減免）、国民健康保険税の減免申請などに使用できます。用途によって必要な証明書の種類が異なるため、提出先に事前確認しましょう。"}
+  ],
+  "tabs": [
+   {"id":"type-risai","label":"住宅被害","heading":"罹災証明書（住宅の被害）","bullets":["風水害・地震など火災以外が原因の住宅被害が対象","税務課（053-576-1218）に申請","現地調査を経て被害程度（全壊・半壊など）を証明"],"actions":[{"label":"罹災証明書のご案内","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/12644.html","source":"湖西市公式サイト"}]},
+   {"id":"type-hisai-todokede","label":"住宅以外の被害","heading":"被災届出証明書（塀・倉庫等）","bullets":["住宅以外の建物・工作物の被害が対象","写真等の被害状況がわかる資料を添えて税務課へ届出","保険会社への提出書類として使われることが多い"],"actions":[{"label":"被災届出証明書のご案内","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/12644.html","source":"湖西市公式サイト"}]},
+   {"id":"type-kasai","label":"火災による被害","heading":"火災の罹災証明書","bullets":["火災が原因の場合は消防本部予防課が窓口","電話053-574-0212で申請方法を確認","消防の火災調査結果に基づき証明"],"actions":[{"label":"湖西市消防本部","href":"https://www.city.kosai.shizuoka.jp/shobo/index.html","source":"湖西市消防本部"}]},
+   {"id":"type-genzei","label":"税の減免","heading":"証明書を使った市税の減免手続き","bullets":["罹災証明書をもとに市県民税の雑損控除・災害減免を申請可能","国民健康保険税の減免も申請対象になる場合がある","窓口は税務課・保険年金課など制度ごとに異なるため要確認"],"actions":[{"label":"届出・登録・証明（総合案内）","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/todokede_toroku_shomei/index.html","source":"湖西市公式サイト"}]}
+  ],
+  "steps": {
+   "today": ["被害箇所と建物全体がわかる写真を撮影する", "火災か風水害・地震かで窓口を確認する（税務課か消防本部予防課か）"],
+   "this_week": ["税務課（053-576-1218）または消防本部予防課（053-574-0212）に電話し申請方法・必要書類を確認する", "本人確認書類・委任状（代理申請の場合）を準備する"],
+   "outside": ["現地調査の日程を確認し立ち会う", "証明書発行後、保険会社や税の減免窓口へ提出する"]
+  },
+  "action_grid": [
+   {"label":"罹災証明書・被災届出証明書について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/12644.html"},
+   {"label":"湖西市消防本部（火災の証明はこちら）","href":"https://www.city.kosai.shizuoka.jp/shobo/index.html"},
+   {"label":"届出・登録・証明（総合案内）","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/todokede_toroku_shomei/index.html"}
+  ]
+ },
+ {
+  "href": "/life/emergency/disaster-mail-line/",
+  "lead": "湖西市は気象警報や避難情報などを配信する「防災ほっとメール」をメール版・LINE版の両方で提供しています。担当は危機管理課 災害対策係で、登録は無料です。",
+  "note": "同報無線が聞き取りにくい地形・天候でも、メールやLINEなら手元で確実に情報を確認できます。家族分の端末にそれぞれ登録しておくと安心です。",
+  "real_cards": [
+   {"icon":"📩","title":"メール版・LINE版から選べる","body":"メール版は「すぐメール」システム、LINE版は湖西市の公式LINEアカウントから登録します。どちらも気象警報・地震情報・避難情報などの災害情報や防犯情報を配信します。"},
+   {"icon":"🌐","title":"多言語対応あり","body":"やさしい日本語のほか、ポルトガル語・スペイン語にも対応しています。外国籍の方が多い湖西市ならではの配慮です。家族や職場で外国籍の方がいる場合は案内してあげましょう。"},
+   {"icon":"📢","title":"同報無線・緊急速報メールと合わせて多重化","body":"避難情報は同報無線（防災行政無線）、防災ほっとメール、緊急速報メール（エリアメール）の複数手段で発信されます。1つの手段に頼らず、複数登録しておくことで聞き逃しを防げます。"}
+  ],
+  "qa": [
+   {"question":"防災ほっとメールの登録は無料ですか。","answer":"登録・配信は無料です（通信料は利用者負担）。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/douhoumusen/1157.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>のQRコードまたはリンクから登録できます。"},
+   {"question":"LINEでも受け取れますか。","answer":"はい。湖西市公式LINEの友だち追加から防災情報の配信設定が可能です。メールアドレスの管理が苦手な方はLINE版が便利です。"},
+   {"question":"外国語には対応していますか。","answer":"やさしい日本語、ポルトガル語、スペイン語に対応しています。詳細は危機管理課（053-576-4538）にお問い合わせください。"},
+   {"question":"配信される情報の種類は何ですか。","answer":"気象警報、地震情報、避難情報（警戒レベル）、防犯情報などです。訓練や試験配信が行われることもあります。"},
+   {"question":"問い合わせ先はどこですか。","answer":"危機管理課 災害対策係（電話053-576-4538、ファクス053-576-2315）です。"}
+  ],
+  "tabs": [
+   {"id":"type-mail","label":"メール版","heading":"防災ほっとメール（メール版）","bullets":["「すぐメール」システムで配信","気象警報・地震情報・避難情報などを受信","スマートフォン・携帯電話のメールアドレスで登録可能"],"actions":[{"label":"メール版登録ページ","href":"https://plus.sugumail.com/usr/kosai/home","source":"湖西市防災ほっとメール"}]},
+   {"id":"type-line","label":"LINE版","heading":"防災ほっとメール（LINE版）","bullets":["湖西市公式LINEアカウントを友だち追加","メールアドレス不要でスマホがあればすぐ登録","通知はLINEアプリに直接届く"],"actions":[{"label":"LINE版登録ページ","href":"https://lin.ee/vyoN4wS","source":"湖西市防災ほっとメール"}]},
+   {"id":"type-multilang","label":"多言語","heading":"やさしい日本語・外国語対応","bullets":["やさしい日本語での配信に対応","ポルトガル語・スペイン語にも対応","外国籍住民の多い湖西市の特色に合わせた配慮"],"actions":[{"label":"登録案内ページ","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/douhoumusen/1157.html","source":"湖西市公式サイト"}]},
+   {"id":"type-other","label":"他の情報源","heading":"同報無線・緊急速報メールとの併用","bullets":["屋外の同報無線（防災行政無線）でも一斉放送","携帯電話の緊急速報メール（エリアメール）でも受信可能","複数手段を併用することで聞き逃しを防止"],"actions":[{"label":"危機管理課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/index.html","source":"湖西市公式サイト"}]}
+  ],
+  "steps": {
+   "today": ["家族分のスマートフォンで防災ほっとメールまたはLINEを登録する"],
+   "this_week": ["同報無線の放送内容を確認できるテレフォンサービス等があれば番号を控える", "外国籍の家族・知人がいれば多言語配信の案内をする"],
+   "outside": ["登録後に届くテスト配信・訓練放送で受信できているか確認する"]
+  },
+  "action_grid": [
+   {"label":"防災ほっとメール登録案内","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/douhoumusen/1157.html"},
+   {"label":"メール版登録","href":"https://plus.sugumail.com/usr/kosai/home"},
+   {"label":"LINE版登録","href":"https://lin.ee/vyoN4wS"},
+   {"label":"危機管理課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/index.html"}
+  ]
+ },
+ {
+  "href": "/life/emergency/earthquake/",
+  "lead": "湖西市は浜名湖西岸に加え遠州灘にも面しており、静岡県第4次地震被害想定では最大津波高15mと想定されています。地震そのものの揺れへの備えと、津波避難の両方を意識した準備が必要です。",
+  "note": "津波は地震発生から短時間で到達する可能性があるため、揺れがおさまったらすぐに高台や津波避難タワー・命山へ向かう行動を家族で決めておきましょう。",
+  "real_cards": [
+   {"icon":"🌊","title":"津波避難タワー・命山が整備されている","body":"わんぱくランド津波避難タワー、日ヶ崎地区津波避難タワー、住吉地区命山（おたすけ山）など、高台が少ない沿岸部でも徒歩で避難できる施設が整備されています。自宅・職場から最も近い施設を事前に確認しておきましょう。"},
+   {"icon":"📖","title":"湖西市津波避難計画の考え方","body":"湖西市の津波避難計画は「自分で歩いて自分で考えて避難経路を作る」という考え方を基本にしています。決まった1つのルートに頼らず、状況に応じて安全な高台を目指す訓練を日頃から行うことが推奨されています。"},
+   {"icon":"🏗️","title":"地区別ハザードマップで自宅の想定を確認","body":"知波田・新所・入出、岡崎、鷲津、白須賀、新居の5地区版ハザードマップに、津波の想定浸水域や土砂災害危険区域、避難場所が示されています。危機管理課窓口や市公式サイトで入手できます。"}
+  ],
+  "qa": [
+   {"question":"湖西市の津波想定はどれくらいですか。","answer":"静岡県第4次地震被害想定（レベル2）では、湖西市沿岸部で最大津波高15mと想定されています。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/softtaisaku/keikaku/1515.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>で確認できます。"},
+   {"question":"揺れを感じたらまず何をすればよいですか。","answer":"まず身の安全を確保し、揺れがおさまったら火の始末をしてから、海岸や川沿いにいる場合は速やかに高台や津波避難タワー・命山などの指定緊急避難場所へ向かってください。"},
+   {"question":"津波避難タワーはどこにありますか。","answer":"わんぱくランド津波避難タワー、日ヶ崎地区津波避難タワーなどが整備されています。お住まいの地区の詳しい位置は地区別ハザードマップまたは危機管理課（053-576-4538）で確認してください。"},
+   {"question":"命山とは何ですか。","answer":"命山は津波発生時に徒歩で駆け上がれる人工の高台です。湖西市では住吉地区に「命山（おたすけ山）」が整備されています。"},
+   {"question":"地震被害想定はどこで見られますか。","answer":"<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/softtaisaku/keikaku/3079.html\" target=\"_blank\" rel=\"noopener\">静岡県第4次地震被害想定の町丁字別建物被害想定数</a>など、湖西市公式サイトで地区別データが公開されています。"}
+  ],
+  "tabs": [
+   {"id":"type-yure","label":"揺れへの備え","heading":"地震の揺れそのものへの備え","bullets":["家具の転倒防止・ガラス飛散防止フィルムなどの室内対策","非常持ち出し袋・備蓄品の準備（食料・水・簡易トイレ等）","自宅の耐震診断・耐震補強の検討"],"actions":[{"label":"地震備えガイドブック","href":"https://www.city.kosai.shizuoka.jp/bousai/index.html","source":"湖西市公式サイト"}]},
+   {"id":"type-tsunami","label":"津波避難","heading":"津波からの避難行動","bullets":["揺れがおさまったら速やかに高台・津波避難タワー・命山へ避難","車での避難は渋滞のリスクがあるため原則徒歩を基本とする","「自分で歩いて自分で考えて避難経路を作る」計画の考え方を確認"],"actions":[{"label":"湖西市津波避難計画","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/softtaisaku/keikaku/1593.html","source":"湖西市公式サイト"}]},
+   {"id":"type-map","label":"被害想定の確認","heading":"自宅・職場周辺の被害想定を知る","bullets":["静岡県第4次地震被害想定の町丁字別データを確認","地区別ハザードマップで津波浸水域・土砂災害区域を確認","標高マップで自宅の海抜を把握しておく"],"actions":[{"label":"被害想定・ハザードマップ確認ページ","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12938.html","source":"湖西市公式サイト"}]},
+   {"id":"type-info","label":"情報収集","heading":"地震・津波発生時の情報収集手段","bullets":["同報無線・防災ほっとメール・緊急速報メールで情報を確認","津波監視カメラの映像で沿岸部の状況を把握（設置されている場合）","気象庁・静岡県の津波警報情報も合わせて確認"],"actions":[{"label":"津波監視カメラの設置について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/1390.html","source":"湖西市公式サイト"}]}
+  ],
+  "steps": {
+   "today": ["自宅・職場から最も近い津波避難タワー・命山・高台を確認する", "家具の転倒防止など室内の安全対策をチェックする"],
+   "this_week": ["地区別ハザードマップを入手し、津波浸水想定・土砂災害区域を確認する", "非常持ち出し袋を準備・点検する"],
+   "outside": ["家族で避難場所・集合場所・連絡方法を話し合っておく", "地域の防災訓練（津波避難訓練など）に参加する"]
+  },
+  "action_grid": [
+   {"label":"静岡県第4次地震被害想定（湖西市）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/softtaisaku/keikaku/1515.html"},
+   {"label":"湖西市津波避難計画","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/softtaisaku/keikaku/1593.html"},
+   {"label":"被害想定・ハザードマップの確認方法","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12938.html"},
+   {"label":"危機管理課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/index.html"}
+  ]
+ },
+ {
+  "href": "/life/emergency/emergency-medical/",
+  "lead": "急な病気やけがで「救急車を呼ぶべきか迷う」ときは、静岡県の救急安心電話相談窓口「#7119」が令和7年4月から24時間365日対応で利用できます。休日・夜間の診療先を確認したいときは湖西市の休日救急当番医情報も活用しましょう。",
+  "note": "命に関わる緊急時はためらわず119番へ。判断に迷う場合の相談窓口として#7119を覚えておくと安心です。",
+  "real_cards": [
+   {"icon":"☎️","title":"#7119（救急安心電話相談窓口）","body":"急な病気やけがの際、相談員が電話で医療機関受診や救急車利用についてアドバイスします。相談無料（通話料は利用者負担）で24時間365日対応。ダイヤル回線・IP電話・県境付近の方は054-204-7119へ。"},
+   {"icon":"👶","title":"15歳未満は#8000（こども救急電話相談）","body":"#7119の対象は概ね15歳以上です。お子さんの急な体調不良の場合は「静岡こども救急電話相談（#8000）」を利用してください。"},
+   {"icon":"🏥","title":"休日・夜間は当番医を確認","body":"日曜・祝日・年末年始の急病患者向けに、湖西市では休日救急当番医・当番薬局の情報を公開しています。診療時間は9時から17時が目安ですが、変更になる場合があるため受診前に必ず電話確認をしてください。"}
+  ],
+  "qa": [
+   {"question":"救急車を呼ぶか迷ったらどうすればいいですか。","answer":"静岡県の救急安心電話相談窓口「#7119」に電話すると、相談員が症状を聞き取り、受診や救急車利用についてアドバイスをくれます。命に関わる緊急性が明らかな場合はためらわず119番通報してください。"},
+   {"question":"#7119はいつでも使えますか。","answer":"令和7年4月から24時間365日対応になりました。ダイヤル回線・IP電話・県境付近の方は「054-204-7119」を利用してください。"},
+   {"question":"子どもの急病の場合はどうすればいいですか。","answer":"概ね15歳未満の場合は「静岡こども救急電話相談（#8000）」を利用してください。#7119は概ね15歳以上が対象です。"},
+   {"question":"休日に診てくれる病院はどこで調べられますか。","answer":"湖西市の<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/2/1248.html\" target=\"_blank\" rel=\"noopener\">休日救急当番医・休日当番薬局のページ</a>で当番医療機関を確認できます。受診前に必ず電話連絡してください。"},
+   {"question":"休日当番医の問い合わせ先はどこですか。","answer":"健康増進課 健康政策係（電話053-576-1114）です。浜名医師会ウェブサイトや広報こさいでも情報が案内されています。"}
+  ],
+  "tabs": [
+   {"id":"type-adult","label":"大人の急病","heading":"#7119（救急安心電話相談窓口）","bullets":["24時間365日対応（令和7年4月開始）","相談無料、通話料のみ利用者負担","受診の必要性や救急車利用について相談員がアドバイス"],"actions":[{"label":"静岡県 #7119案内","href":"https://www.pref.shizuoka.jp/bosaikinkyu/shobo/1064942.html","source":"静岡県公式サイト"}]},
+   {"id":"type-child","label":"子どもの急病","heading":"#8000（こども救急電話相談）","bullets":["概ね15歳未満のお子さんが対象","夜間・休日の症状相談に対応","看護師・小児科医等が相談に応じる"],"actions":[{"label":"休日・救急医療（湖西市）","href":"https://www.city.kosai.shizuoka.jp/kenko_fukushi/iryo/kyujitsu_kyukyuiryo/index.html","source":"湖西市公式サイト"}]},
+   {"id":"type-holiday","label":"休日・夜間受診","heading":"休日救急当番医・当番薬局","bullets":["日曜・祝日・年末年始の急病患者向け診療","診療時間は概ね9時〜17時（処方箋受付は18時まで）","受診前に必ず電話確認が必要"],"actions":[{"label":"休日救急当番医・休日当番薬局","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/2/1248.html","source":"湖西市公式サイト"}]},
+   {"id":"type-emergency","label":"命に関わる場合","heading":"119番（救急車）","bullets":["意識がない、呼吸がおかしい等は迷わず119番","落ち着いて住所・症状を伝える","運転中は必ず安全な場所に停車してから通報"],"actions":[{"label":"119番通報の仕方について","href":"https://www.city.kosai.shizuoka.jp/shobo/shobo_119/15119.html","source":"湖西市消防本部"}]}
+  ],
+  "steps": {
+   "today": ["#7119・#8000・119番の使い分けを家族で共有する"],
+   "this_week": ["休日救急当番医の確認方法（湖西市サイト・浜名医師会サイト）をブックマークしておく"],
+   "outside": ["お薬手帳・保険証など受診時に必要なものをまとめておく"]
+  },
+  "action_grid": [
+   {"label":"休日救急当番医・休日当番薬局","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/2/1248.html"},
+   {"label":"休日・救急医療（湖西市）","href":"https://www.city.kosai.shizuoka.jp/kenko_fukushi/iryo/kyujitsu_kyukyuiryo/index.html"},
+   {"label":"静岡県 救急安心電話相談窓口（#7119）","href":"https://www.pref.shizuoka.jp/bosaikinkyu/shobo/1064942.html"},
+   {"label":"119番通報の仕方","href":"https://www.city.kosai.shizuoka.jp/shobo/shobo_119/15119.html"}
+  ]
+ },
+ {
+  "href": "/life/emergency/evacuation-centers/",
+  "lead": "湖西市では「避難場所（指定緊急避難場所）」と「避難所（指定避難所）」を区別しています。危険から一時的に逃げる場所と、自宅で生活できなくなったときに滞在する場所は違うため、事前に両方を確認しておきましょう。",
+  "note": "「私の避難場所・避難所一覧」に自分の情報を書き込んで、家族の目につく場所に貼っておくと、いざというとき迷わず行動できます。",
+  "real_cards": [
+   {"icon":"🏫","title":"避難場所と避難所の違い","body":"避難場所（指定緊急避難場所）は災害の危険が去るまでの一時的な避難先で、災害種別ごとに異なります。避難所（指定避難所）は自宅で生活できない方が一時的に生活する場所で、災害種別に関係なく最低1か所を決めておく必要があります。"},
+   {"icon":"📝","title":"「私の避難場所・避難所一覧」で事前に決めておく","body":"湖西市は、自分や家族の避難場所・避難所をあらかじめ書き込んで保管できるシート「私の避難場所・避難所一覧」を公開しています。印刷して冷蔵庫などに貼っておくと、いざというとき迷いません。"},
+   {"icon":"🐾","title":"福祉避難所・要配慮者への対応","body":"高齢者や障がいのある方など配慮が必要な方向けに福祉避難所の仕組みがあります。また避難行動要支援者名簿の登録制度もあるため、支援が必要な家族がいる場合は事前に危機管理課へ相談しておきましょう。"}
+  ],
+  "qa": [
+   {"question":"避難場所と避難所はどう違いますか。","answer":"避難場所は危険が去るまでの一時的な避難先、避難所は自宅に住めなくなった方が生活する場所です。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12899.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>で確認できます。"},
+   {"question":"自分の避難場所はどこで確認できますか。","answer":"地区別ハザードマップまたは「私の避難場所・避難所一覧」シートで確認できます。危機管理課（053-576-4538）でも案内してもらえます。"},
+   {"question":"ペットと一緒に避難所に行けますか。","answer":"同行避難（ペットを連れて避難所まで安全に避難すること）は可能ですが、避難所内で人とペットが同一空間で生活できることを意味するものではありません。詳細は別トピック「ペット防災」を参照してください。"},
+   {"question":"配慮が必要な家族がいる場合はどうすればいいですか。","answer":"福祉避難所や避難行動要支援者名簿の制度があります。事前登録が必要な場合があるため、危機管理課（053-576-4538）に早めに相談してください。"},
+   {"question":"新居地区の避難場所も同じ資料で確認できますか。","answer":"はい。新居地区版を含む5地区版のハザードマップ・避難場所一覧が用意されています。"}
+  ],
+  "tabs": [
+   {"id":"type-hinanbasho","label":"避難場所","heading":"指定緊急避難場所","bullets":["災害の危険が及ぶ前・発生時に緊急的に逃げる場所","津波・土砂災害・洪水など災害種別ごとに指定場所が異なる","高台・津波避難タワー・命山なども含まれる"],"actions":[{"label":"避難場所・避難所一覧","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12899.html","source":"湖西市公式サイト"}]},
+   {"id":"type-hinanjo","label":"避難所","heading":"指定避難所（生活の場）","bullets":["自宅で生活できなくなった場合に一時的に生活する場所","災害種別に関係なく最低1か所を決めておく","学校の体育館・公民館などが指定されることが多い"],"actions":[{"label":"指定避難所マニュアル","href":"https://www.city.kosai.shizuoka.jp/bousai/index.html","source":"湖西市公式サイト"}]},
+   {"id":"type-fukushi","label":"福祉避難所","heading":"配慮が必要な方向けの避難所","bullets":["高齢者・障がいのある方など特別な配慮が必要な方向け","事前の登録・調整が必要な場合がある","避難行動要支援者名簿への登録も合わせて検討"],"actions":[{"label":"災害対策・危機管理（総合案内）","href":"https://www.city.kosai.shizuoka.jp/bousai/index.html","source":"湖西市公式サイト"}]},
+   {"id":"type-jizen","label":"事前準備","heading":"「私の避難場所・避難所一覧」を作る","bullets":["自分・家族の避難場所と避難所をあらかじめ記入","印刷して家族の目につく場所に保管","定期的に内容を見直す（引っ越し・家族構成の変化時など）"],"actions":[{"label":"私の避難場所・避難所一覧","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12899.html","source":"湖西市公式サイト"}]}
+  ],
+  "steps": {
+   "today": ["自宅から一番近い避難場所と避難所を確認する"],
+   "this_week": ["「私の避難場所・避難所一覧」に記入して家族と共有する", "配慮が必要な家族がいれば危機管理課に相談する"],
+   "outside": ["実際に徒歩で避難場所まで移動してみる（所要時間の確認）"]
+  },
+  "action_grid": [
+   {"label":"防災マップ・避難場所・避難所","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/index.html"},
+   {"label":"私の避難場所・避難所一覧","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12899.html"},
+   {"label":"災害対策・危機管理（総合案内）","href":"https://www.city.kosai.shizuoka.jp/bousai/index.html"},
+   {"label":"危機管理課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/index.html"}
+  ]
+ },
+ {
+  "href": "/life/emergency/evacuation-hazard-map/",
+  "lead": "「いつ、どこへ逃げるか」を決めるには、警戒レベルの意味とハザードマップの見方の両方を知っておく必要があります。湖西市は警戒レベルと避難情報をあわせて発令し、同報無線・防災ほっとメール・緊急速報メールで伝えます。",
+  "note": "警戒レベル4「避難指示」が出たら危険な場所にいる方は全員避難が原則です。「様子を見てから」ではなく、明るいうち・早めの行動を心がけましょう。",
+  "real_cards": [
+   {"icon":"🚦","title":"警戒レベルと避難情報はセットで発令","body":"湖西市では「警戒レベル4避難指示を発令しました」のように、警戒レベルと避難情報をあわせて放送・配信します。レベル3で高齢者等は避難開始、レベル4で危険な場所にいる方は全員避難が基本です。"},
+   {"icon":"🗺️","title":"ハザードマップは災害種別ごとに確認","body":"洪水浸水想定区域、土砂災害警戒区域、津波浸水想定など、災害の種類によって危険な場所が異なります。地区別ハザードマップや県の浸水想定図で自宅・通勤経路のリスクを確認しておきましょう。"},
+   {"icon":"⏰","title":"「いつ逃げるか」は明るいうち・早めが原則","body":"夜間や大雨の中での避難は危険が増します。台風接近時などは警戒レベル3の段階で、高齢者や小さな子どもがいる家庭は早めの避難を検討してください。"}
+  ],
+  "qa": [
+   {"question":"警戒レベルはどこで確認できますか。","answer":"同報無線、<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/douhoumusen/1157.html\" target=\"_blank\" rel=\"noopener\">防災ほっとメール・LINE</a>、緊急速報メールで発令されます。気象庁や静岡県のサイトでも気象情報として確認できます。"},
+   {"question":"警戒レベル4が出たら必ず避難所に行くべきですか。","answer":"必ずしも指定避難所である必要はありません。安全な親戚・知人宅や、自宅が高台にあり浸水・土砂災害のリスクがなければ在宅避難も選択肢です。大切なのは「危険な場所から離れる」ことです。"},
+   {"question":"自宅がハザードマップの危険区域か確認するには。","answer":"地区別ハザードマップ（知波田・新所・入出、岡崎、鷲津、白須賀、新居の5地区版）で確認できます。危機管理課窓口でも配布しています。"},
+   {"question":"夜間に警戒レベル4が出たらどうすればいいですか。","answer":"夜間の移動はかえって危険な場合があります。自宅の2階など、より安全な場所への「垂直避難」も選択肢の一つです。日頃から早めの避難を心がけることが一番の対策です。"},
+   {"question":"避難情報を聞き逃さないためには。","answer":"同報無線だけでなく、防災ほっとメール・LINE・緊急速報メールなど複数の手段を併用して登録しておくことをおすすめします。"}
+  ],
+  "tabs": [
+   {"id":"type-level3","label":"警戒レベル3","heading":"高齢者等避難","bullets":["高齢者・障がいのある方・避難に時間がかかる方は避難開始","それ以外の方も避難の準備を始める","危険な区域にいる場合は早めの行動を検討"],"actions":[{"label":"避難情報の伝達について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/10002.html","source":"湖西市公式サイト"}]},
+   {"id":"type-level4","label":"警戒レベル4","heading":"避難指示（危険な場所から全員避難）","bullets":["危険な場所にいる方は速やかに避難場所・避難所等へ避難","在宅避難が安全な場合は無理に移動せず自宅の安全な場所へ","同報無線・防災ほっとメール・緊急速報メールで一斉発令"],"actions":[{"label":"避難情報をよりわかりやすく発令します","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/10002.html","source":"湖西市公式サイト"}]},
+   {"id":"type-level5","label":"警戒レベル5","heading":"緊急安全確保","bullets":["既に災害が発生またはさし迫った状況","直ちに命を守る行動（垂直避難・崖からの退避など）をとる","必ず発令されるとは限らないため、レベル4までに避難完了が原則"],"actions":[{"label":"防災気象情報と警戒レベル（気象庁）","href":"https://www.jma.go.jp/jma/kishou/know/bosai/alertlevel.html","source":"気象庁"}]},
+   {"id":"type-map2","label":"ハザードマップ","heading":"自宅・通勤経路のリスクを確認","bullets":["洪水浸水想定区域・土砂災害警戒区域・津波浸水想定を確認","標高マップで海抜を把握","地区別ハザードマップは危機管理課窓口・市公式サイトで入手"],"actions":[{"label":"防災マップ","href":"https://www.city.kosai.shizuoka.jp/bousai/map/index.html","source":"湖西市公式サイト"}]}
+  ],
+  "steps": {
+   "today": ["自宅の警戒レベル別の危険度（洪水・土砂災害・津波）をハザードマップで確認する"],
+   "this_week": ["警戒レベルごとに「誰が」「いつ」「どこへ」避難するか家族で話し合う"],
+   "outside": ["台風シーズン前に非常持ち出し袋・備蓄を点検する"]
+  },
+  "action_grid": [
+   {"label":"避難情報の発令について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/10002.html"},
+   {"label":"防災マップ","href":"https://www.city.kosai.shizuoka.jp/bousai/map/index.html"},
+   {"label":"被害想定・ハザードマップの確認方法","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12938.html"},
+   {"label":"危機管理課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/index.html"}
+  ]
+ },
+ {
+  "href": "/life/emergency/fire-ambulance/",
+  "lead": "湖西市の消防・救急は湖西市消防本部が担っています。中東遠エリア（磐田・掛川・袋井・森町・菊川・御前崎）が加盟する中東遠消防指令センターとは別系統で、本署・西分署・南分署の3拠点体制です。",
+  "note": "119番は全国共通の緊急通報番号です。携帯電話からの通報では県境付近だと隣県の消防につながることがあるため、「湖西市〇〇」と住所を明確に伝えましょう。",
+  "real_cards": [
+   {"icon":"🚒","title":"本署・西分署・南分署の3拠点体制","body":"本署（湖西市古見1076、電話053-574-0213）、西分署（湖西市岡崎821-1、電話053-574-2209）、南分署（湖西市新居町浜名657、電話053-574-2207）の3拠点で市内をカバーしています。高規格救急自動車を4台配備。"},
+   {"icon":"📞","title":"119番は落ち着いて、正確な場所を伝える","body":"通報時は住所が分からなくても近くの目印になる建物を伝えれば大丈夫です。運転中は必ず安全な場所に停車してから通報してください。"},
+   {"icon":"📵","title":"IP電話（050番号）は119番につながらない場合がある","body":"050から始まるIP電話は従来の119番回線に接続されないことがあります。契約しているプロバイダに、119番通報が可能かどうか事前に確認しておきましょう。"}
+  ],
+  "qa": [
+   {"question":"湖西市消防本部の管轄はどこですか。","answer":"湖西市全域です。中東遠エリアの消防指令センターとは別系統で、湖西市消防本部が独自に119番通報の受付から出動指令までを行っています。"},
+   {"question":"119番通報時の注意点は何ですか。","answer":"落ち着いて状況を把握し、住所や近くの目印を伝えてください。携帯電話からの通報で県境付近にいる場合、他県の消防につながることがありますが、電話を切らず「湖西市〇〇」と伝えれば転送されます。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/shobo/shobo_119/15119.html\" target=\"_blank\" rel=\"noopener\">湖西市消防本部の案内</a>を確認してください。"},
+   {"question":"救急講習は受けられますか。","answer":"湖西市消防本部の警防課（電話053-574-0219）で各種救急講習の受付を行っています。"},
+   {"question":"火災の罹災証明はどこで発行されますか。","answer":"湖西市消防本部予防課（電話053-574-0212）が窓口です。風水害・地震など火災以外の被害は税務課が窓口になるため異なります。"},
+   {"question":"新居支所管内でも同じ消防本部が対応しますか。","answer":"はい。旧新居町エリアも湖西市消防本部の管轄で、南分署（新居町浜名）が最寄りの拠点です。"}
+  ],
+  "tabs": [
+   {"id":"type-honsho","label":"本署","heading":"湖西市消防本部・本署","bullets":["所在地：湖西市古見1076番地","電話：053-574-0213","市内全域の消防・救急の指令機能を担う"],"actions":[{"label":"湖西市消防本部","href":"https://www.city.kosai.shizuoka.jp/shobo/index.html","source":"湖西市消防本部"}]},
+   {"id":"type-nishi","label":"西分署","heading":"湖西市消防本部・西分署","bullets":["所在地：湖西市岡崎821番地の1","電話：053-574-2209","市西部エリアをカバー"],"actions":[{"label":"消防署一覧","href":"https://www.city.kosai.shizuoka.jp/shobo/shobosho/index.html","source":"湖西市消防本部"}]},
+   {"id":"type-minami","label":"南分署","heading":"湖西市消防本部・南分署","bullets":["所在地：湖西市新居町浜名657番地","電話：053-574-2207","旧新居町エリアをカバー"],"actions":[{"label":"消防署一覧","href":"https://www.city.kosai.shizuoka.jp/shobo/shobosho/index.html","source":"湖西市消防本部"}]},
+   {"id":"type-119","label":"119番通報","heading":"119番通報の仕方","bullets":["落ち着いて状況と場所を伝える","携帯・IP電話利用時の注意点を確認しておく","訓練・講習は警防課（053-574-0219）で受付"],"actions":[{"label":"119番通報の仕方について","href":"https://www.city.kosai.shizuoka.jp/shobo/shobo_119/15119.html","source":"湖西市消防本部"}]}
+  ],
+  "steps": {
+   "today": ["自宅・職場から最寄りの消防署（本署・西分署・南分署）を確認する"],
+   "this_week": ["自宅の住所を子どもや高齢の家族も含めて誰でも言えるようにしておく"],
+   "outside": ["消防本部の救急講習（心肺蘇生・AED講習等）に参加を検討する"]
+  },
+  "action_grid": [
+   {"label":"湖西市消防本部","href":"https://www.city.kosai.shizuoka.jp/shobo/index.html"},
+   {"label":"消防署一覧（本署・分署）","href":"https://www.city.kosai.shizuoka.jp/shobo/shobosho/index.html"},
+   {"label":"119番通報の仕方について","href":"https://www.city.kosai.shizuoka.jp/shobo/shobo_119/15119.html"},
+   {"label":"警防課（救急講習・119番受付）","href":"https://www.city.kosai.shizuoka.jp/shobo/keiboka/index.html"}
+  ]
+ },
+ {
+  "href": "/life/emergency/hazard-maps/",
+  "lead": "湖西市のハザードマップは、津波・土砂災害・洪水浸水想定・ため池など複数の災害種別ごとに整備されています。地区によってリスクが大きく異なるため、必ず自分の住む地区版で確認しましょう。",
+  "note": "ハザードマップは令和5年3月に改訂され、津波避難タワーや命山などの新しい避難施設が反映されています。古い版をお持ちの場合は最新版に差し替えましょう。",
+  "real_cards": [
+   {"icon":"🗾","title":"5地区版で作成されている","body":"知波田・新所・入出地区、岡崎地区、鷲津地区、白須賀地区、新居地区の5地区版があり、市全体版やポルトガル語版も用意されています。危機管理課窓口や市公式サイトから入手できます。"},
+   {"icon":"⛰️","title":"土砂災害・ため池・洪水も個別に確認","body":"土砂災害ハザードマップ、ため池ハザードマップ、洪水浸水想定区域図、標高マップなど、災害種別ごとに専用のマップが用意されています。自宅が複数の危険区域に該当することもあるため、それぞれ確認しましょう。"},
+   {"icon":"🌊","title":"津波は最大津波高15mの想定","body":"静岡県第4次地震被害想定に基づき、湖西市沿岸部では最大津波高15mが想定されています。津波浸水想定区域や津波避難タワー・命山の位置もハザードマップに反映されています。"}
+  ],
+  "qa": [
+   {"question":"ハザードマップはどこで入手できますか。","answer":"<a href=\"https://www.city.kosai.shizuoka.jp/bousai/map/index.html\" target=\"_blank\" rel=\"noopener\">湖西市公式サイトの防災マップページ</a>からダウンロードできるほか、危機管理課窓口（053-576-4538）でも配布しています。"},
+   {"question":"自分の地区がどれに該当するか分かりません。","answer":"知波田・新所・入出、岡崎、鷲津、白須賀、新居の5地区に分かれています。分からない場合は危機管理課に住所を伝えて確認してください。"},
+   {"question":"外国語版はありますか。","answer":"ポルトガル語版のハザードマップが作成されています。その他の言語が必要な場合は危機管理課に相談してください。"},
+   {"question":"土砂災害警戒区域かどうかはどこで分かりますか。","answer":"<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/2065.html\" target=\"_blank\" rel=\"noopener\">土砂災害ハザードマップ</a>のページで確認できます。土砂災害（特別）警戒区域図も公開されています。"},
+   {"question":"ハザードマップはいつ改訂されましたか。","answer":"最新版は令和5年3月に改訂され、津波避難タワーや命山が追加されています。今後も改訂される可能性があるため、最新版を確認しましょう。"}
+  ],
+  "tabs": [
+   {"id":"type-tsunami2","label":"津波","heading":"津波ハザードマップ","bullets":["最大津波高15m（静岡県第4次地震被害想定）","津波避難タワー・命山の位置を反映","5地区版で詳細な浸水想定を確認可能"],"actions":[{"label":"津波災害警戒区域について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/12345.html","source":"湖西市公式サイト"}]},
+   {"id":"type-dosha","label":"土砂災害","heading":"土砂災害ハザードマップ","bullets":["土砂災害警戒区域・特別警戒区域を表示","急傾斜地の多い地区は特に確認が必要","市公式サイトから地図データを閲覧可能"],"actions":[{"label":"土砂災害ハザードマップ","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/2065.html","source":"湖西市公式サイト"}]},
+   {"id":"type-kouzui","label":"洪水・ため池","heading":"洪水浸水想定区域・ため池ハザードマップ","bullets":["河川氾濫時の浸水想定区域を表示","農業用ため池の決壊時浸水想定も別途公開","標高マップと合わせて自宅の海抜を確認"],"actions":[{"label":"防災マップ","href":"https://www.city.kosai.shizuoka.jp/bousai/map/index.html","source":"湖西市公式サイト"}]},
+   {"id":"type-check","label":"確認方法","heading":"自宅の被害想定を調べる","bullets":["「自分が住んでいるところの被害想定が知りたい」ページから検索","町丁字別の建物被害想定数も公開","不明な点は危機管理課へ電話で確認"],"actions":[{"label":"被害想定・ハザードマップの確認方法","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12938.html","source":"湖西市公式サイト"}]}
+  ],
+  "steps": {
+   "today": ["自宅の地区版ハザードマップをダウンロードまたは窓口で入手する"],
+   "this_week": ["津波・土砂災害・洪水それぞれの想定区域に自宅が該当するか確認する"],
+   "outside": ["最新版に改訂された際は差し替え、家族で内容を再確認する"]
+  },
+  "action_grid": [
+   {"label":"防災マップ","href":"https://www.city.kosai.shizuoka.jp/bousai/map/index.html"},
+   {"label":"土砂災害ハザードマップ","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/2065.html"},
+   {"label":"被害想定・ハザードマップの確認方法","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12938.html"},
+   {"label":"津波災害警戒区域について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/12345.html"}
+  ]
+ },
+ {
+  "href": "/life/emergency/pet-disaster-prevention/",
+  "lead": "湖西市はペット向けの災害対策情報を公開しており、フード・水・トイレ用品などの備蓄を呼びかけています。避難所でのペット受け入れルールなど詳細は、避難所ごとの運用によるため、事前に確認しておくことが大切です。",
+  "note": "同行避難はできても、避難所で人とペットが同じ空間で過ごせるとは限りません。キャリーケースやしつけなど、日頃からの備えが重要です。",
+  "real_cards": [
+   {"icon":"🐕","title":"備蓄はペットフード・水・トイレ用品を中心に","body":"湖西市は、ペットフード、ペット用の水、ペットシーツ・猫砂などのトイレ用品の備蓄を推奨しています。人間用の備蓄と同様、最低3日〜1週間分を目安に用意しましょう。"},
+   {"icon":"🏷️","title":"マイクロチップ・迷子札で身元を明確に","body":"災害時にはぐれてしまった場合に備え、マイクロチップの装着や迷子札の準備が推奨されています。しつけ（キャリーケースに慣れる、無駄吠えしない等）も同行避難をスムーズにするポイントです。"},
+   {"icon":"🎪","title":"市内でのペット防災啓発イベント","body":"湖西市新居町の浜名湖パークビレッジでは、ペット防災をテーマにしたイベントが開催されるなど、地域として飼い主への啓発が行われています。参加すると実践的な備えを学べます。"}
+  ],
+  "qa": [
+   {"question":"ペットと一緒に避難所へ行けますか。","answer":"同行避難（ペットを連れて安全に避難所まで避難すること）は可能とされています。ただし避難所内で人とペットが同一の空間で生活できることを意味するわけではないため、避難所ごとのルールを確認してください。"},
+   {"question":"ペット用の備蓄は何を用意すればいいですか。","answer":"ペットフード、水、ペットシーツ・猫砂などのトイレ用品が基本です。詳しくは湖西市の<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/12153.html\" target=\"_blank\" rel=\"noopener\">防災備蓄の案内ページ</a>を参照してください。"},
+   {"question":"マイクロチップは必須ですか。","answer":"法律上、犬猫の販売業者等には装着が義務化されていますが、既に飼っている場合の義務はありません。ただし災害時の身元確認のため装着が推奨されています。"},
+   {"question":"避難所でペットが苦手な人への配慮はありますか。","answer":"多くの避難所では、ペット同伴スペースと居住スペースを分けるなどの配慮がされる場合がありますが、運用は避難所や状況により異なります。詳細は危機管理課にご確認ください。"},
+   {"question":"詳しい情報はどこで確認できますか。","answer":"湖西市公式サイトのほか、一般社団法人静岡県動物保護協会や環境省のペット災害対策ページも参考になります。"}
+  ],
+  "tabs": [
+   {"id":"type-bichiku","label":"備蓄","heading":"ペット用の備蓄品","bullets":["ペットフード・飲み水を人と同様に3日〜1週間分用意","ペットシーツ・猫砂などのトイレ用品を備蓄","キャリーケース・リード・食器なども準備"],"actions":[{"label":"防災備蓄を見直しましょう","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/12153.html","source":"湖西市公式サイト"}]},
+   {"id":"type-shitsuke","label":"しつけ・備え","heading":"同行避難のためのしつけ","bullets":["キャリーケースやケージに慣れさせておく","無駄吠え・咬みつきを抑えるしつけをしておく","マイクロチップ・迷子札で身元を明確にする"],"actions":[{"label":"ペット・動物（湖西市）","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/sumai_kotsu/pet_dobutsu/index.html","source":"湖西市公式サイト"}]},
+   {"id":"type-doukou","label":"同行避難","heading":"避難所での同行避難のルール","bullets":["同行避難は可能だが同室生活を意味しない","避難所ごとにペットスペースの運用が異なる","事前に危機管理課や近隣の指定避難所に確認しておくと安心"],"actions":[{"label":"防災マップ・避難場所・避難所","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/index.html","source":"湖西市公式サイト"}]},
+   {"id":"type-event","label":"啓発イベント","heading":"ペット防災の啓発イベント","bullets":["浜名湖パークビレッジ（新居町）でペット防災イベントが開催実績あり","専門家によるしつけ・避難のコツの紹介","地域の飼い主同士の情報交換の機会にもなる"],"actions":[{"label":"環境省 ペットの災害対策","href":"https://www.env.go.jp/nature/dobutsu/aigo/1_law/disaster.html","source":"環境省"}]}
+  ],
+  "steps": {
+   "today": ["ペット用の水・フードの備蓄量を確認する"],
+   "this_week": ["キャリーケースに慣れさせる練習を始める", "マイクロチップ・迷子札の有無を確認する"],
+   "outside": ["近隣の指定避難所のペット受け入れ方針を確認しておく"]
+  },
+  "action_grid": [
+   {"label":"防災備蓄を見直しましょう","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/12153.html"},
+   {"label":"ペット・動物（湖西市）","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/sumai_kotsu/pet_dobutsu/index.html"},
+   {"label":"防災マップ・避難場所・避難所","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/index.html"}
+  ]
+ },
+ {
+  "href": "/life/emergency/road-river-info/",
+  "lead": "台風や大雨のときの通行止め・河川水位の確認は、湖西市の「道路・河川」担当（土木課）や静岡県・国の河川情報、道路管理者の情報を組み合わせて確認する必要があります。",
+  "note": "湖西市公式サイトの「道路・河川」ページは各種申請手続きが中心のため、リアルタイムの通行止め・水位情報は県の河川防災情報サイトや道路管理者（国道事務所等）の情報と併用してください。",
+  "real_cards": [
+   {"icon":"🚧","title":"道路の通行止め情報は管理者ごとに分かれる","body":"市道は湖西市土木課（電話053-576-4545）、国道・県道は国や静岡県の道路管理者が情報発信しています。大雨・台風時は複数の情報源を確認することが確実です。"},
+   {"icon":"🌊","title":"大津波警報時は国道1号が通行止めに","body":"湖西市・新居エリアでは大津波警報発令時に国道1号が通行止めになる区間があります。沿岸部を移動する際はこうした規制があることを覚えておきましょう。"},
+   {"icon":"📊","title":"河川水位は県の防災情報サイトで確認","body":"市管理の準用河川や普通河川の詳しい水位計は限られる場合があるため、静岡県の河川防災情報や国土交通省の川の防災情報サイトも合わせて確認するのが確実です。"}
+  ],
+  "qa": [
+   {"question":"市道の通行止め情報はどこで確認できますか。","answer":"湖西市土木課（電話053-576-4545）にお問い合わせいただくか、市公式サイトの<a href=\"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/doro_kasen/index.html\" target=\"_blank\" rel=\"noopener\">道路・河川ページ</a>のお知らせを確認してください。"},
+   {"question":"国道1号の通行止め情報はどこで確認できますか。","answer":"国の道路管理者（国土交通省浜松河川国道事務所等）や日本道路交通情報センターの情報を確認してください。大津波警報時は沿岸部の国道区間が通行止めになる場合があります。"},
+   {"question":"河川の水位はリアルタイムで見られますか。","answer":"静岡県の河川防災情報や国土交通省「川の防災情報」で観測所ごとの水位情報が確認できます。市内の主要河川についてはこれらの県・国のシステムを活用してください。"},
+   {"question":"工事に関する問い合わせ先はどこですか。","answer":"湖西市土木課が窓口です（電話053-576-4545）。工事に関するよくある質問も公式サイトに掲載されています。"},
+   {"question":"台風接近時に注意すべき道路はありますか。","answer":"沿岸部（新居・白須賀方面）は高潮・津波警報時に通行止めとなる区間があるため、台風接近時は早めに移動を済ませるか、内陸のルートを検討してください。"}
+  ],
+  "tabs": [
+   {"id":"type-shido","label":"市道","heading":"市道の通行止め・維持管理","bullets":["市道の維持管理・通行止め情報は土木課が担当","電話053-576-4545で問い合わせ可能","道路河川愛護事業など地域と連携した維持管理も実施"],"actions":[{"label":"道路・河川（湖西市）","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/doro_kasen/index.html","source":"湖西市公式サイト"}]},
+   {"id":"type-kokudo","label":"国道・県道","heading":"国道1号・県道の通行止め","bullets":["国道は国、県道は静岡県が管理","大津波警報発令時は国道1号の沿岸区間が通行止めになる場合あり","日本道路交通情報センター等で最新情報を確認"],"actions":[{"label":"大津波警報発令時の国道1号通行止め案内","href":"https://www.cbr.mlit.go.jp/hamamatsu/bousai/roadclosed/pdf/tsunami_kosai_arai.pdf","source":"国土交通省中部地方整備局"}]},
+   {"id":"type-kasen","label":"河川水位","heading":"河川の水位情報","bullets":["静岡県河川防災情報で観測所ごとの水位を確認","国土交通省「川の防災情報」も活用可能","市管理の小規模河川は現地の状況を目視確認する必要がある場合も"],"actions":[{"label":"静岡県 河川被害想定関連ページ","href":"https://www.pref.shizuoka.jp/bosaikinkyu/sonae/earthquake/1040810/1029868.html","source":"静岡県公式サイト"}]},
+   {"id":"type-toiawase","label":"問い合わせ","heading":"問い合わせ先まとめ","bullets":["市道・工事関連：土木課（053-576-4545）","防災・避難全般：危機管理課（053-576-4538）","国道・県道の規制：各道路管理者へ確認"],"actions":[{"label":"各課連絡先一覧","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/7884.html","source":"湖西市公式サイト"}]}
+  ],
+  "steps": {
+   "today": ["普段使う道路が国道・県道・市道のどれか把握しておく"],
+   "this_week": ["静岡県河川防災情報や国交省「川の防災情報」の使い方を確認しておく"],
+   "outside": ["台風接近が予想される際は、沿岸部の通行止めリスクを考慮して早めの行動計画を立てる"]
+  },
+  "action_grid": [
+   {"label":"道路・河川（湖西市）","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/doro_kasen/index.html"},
+   {"label":"各課連絡先一覧","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/7884.html"},
+   {"label":"大津波警報時の国道1号通行止め案内","href":"https://www.cbr.mlit.go.jp/hamamatsu/bousai/roadclosed/pdf/tsunami_kosai_arai.pdf"}
+  ]
+ },
+ {
+  "href": "/life/emergency/storm-heavy-rain/",
+  "lead": "台風・大雨シーズンには、警戒レベルに応じた避難情報が同報無線・防災ほっとメール・緊急速報メールで発令されます。湖西市は沿岸部の高潮・内陸部の土砂災害の両方に注意が必要な地形です。",
+  "note": "台風は地震と違い接近が事前に予測できます。警戒レベル3の段階で高齢者・小さな子どもがいる家庭は早めの避難を検討し、暗くなる前・風雨が強まる前の行動を心がけましょう。",
+  "real_cards": [
+   {"icon":"🌀","title":"沿岸部は高潮、内陸・傾斜地は土砂災害に注意","body":"新居・白須賀など沿岸部は台風接近時の高潮・高波、鷲津・岡崎・知波田など傾斜地を含む地域は土砂災害に注意が必要です。地区別ハザードマップで自宅のリスク種別を確認しておきましょう。"},
+   {"icon":"📶","title":"避難情報は警戒レベルとセットで発令","body":"「警戒レベル3高齢者等避難」「警戒レベル4避難指示」のように、警戒レベルと避難情報をあわせて同報無線・防災ほっとメール・緊急速報メールで発令します。複数の受信手段を持っておくと安心です。"},
+   {"icon":"🎒","title":"停電・断水を想定した備蓄も重要","body":"台風では倒木や飛来物による停電、断水が発生することがあります。懐中電灯・モバイルバッテリー・飲料水・簡易トイレなど、数日分のライフライン途絶に備えた備蓄を用意しておきましょう。"}
+  ],
+  "qa": [
+   {"question":"台風の接近時、いつ避難を始めればいいですか。","answer":"警戒レベル3が発令された時点で、高齢者や避難に時間がかかる方は避難を開始してください。それ以外の方も、暗くなる前・風雨が強まる前に避難の準備を整えましょう。"},
+   {"question":"高潮の影響が心配な地区はどこですか。","answer":"新居・白須賀など浜名湖・遠州灘に面した沿岸部は高潮・高波の影響を受けやすいエリアです。地区別ハザードマップで詳しい想定を確認してください。"},
+   {"question":"土砂災害の危険がある地区はどこですか。","answer":"傾斜地を含む鷲津・岡崎・知波田などの地区では土砂災害警戒区域が指定されている場所があります。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/2065.html\" target=\"_blank\" rel=\"noopener\">土砂災害ハザードマップ</a>で確認してください。"},
+   {"question":"停電した場合の情報収集手段はありますか。","answer":"スマートフォンの防災ほっとメール・LINEやラジオが有効です。モバイルバッテリーや乾電池式ラジオを備蓄しておくと安心です。"},
+   {"question":"避難情報が出たときの問い合わせ先はどこですか。","answer":"危機管理課 災害対策係（電話053-576-4538）です。緊急時は消防（119番）へ直接連絡してください。"}
+  ],
+  "tabs": [
+   {"id":"type-takashio","label":"高潮・高波","heading":"沿岸部（新居・白須賀等）の高潮対策","bullets":["台風接近時は高潮・高波による浸水リスクに注意","国道1号など沿岸道路が規制される場合がある","早めに内陸側または高台への移動を検討"],"actions":[{"label":"津波災害警戒区域について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/12345.html","source":"湖西市公式サイト"}]},
+   {"id":"type-dosha2","label":"土砂災害","heading":"傾斜地の土砂災害対策","bullets":["大雨が続くときは土砂災害警戒区域内の外出・在宅を再検討","前兆現象（湧き水の変化、斜面のひび割れ等）に注意","警戒レベル3の段階で危険区域からの避難を検討"],"actions":[{"label":"土砂災害ハザードマップ","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/2065.html","source":"湖西市公式サイト"}]},
+   {"id":"type-teiden","label":"停電・断水対策","heading":"ライフライン途絶への備え","bullets":["懐中電灯・モバイルバッテリー・乾電池を備蓄","飲料水・簡易トイレなど数日分の生活用品を準備","停電中の情報収集手段（ラジオ・スマホ）を確保"],"actions":[{"label":"防災備蓄を見直しましょう","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/12153.html","source":"湖西市公式サイト"}]},
+   {"id":"type-hinan2","label":"避難情報","heading":"警戒レベルと避難情報の確認","bullets":["同報無線・防災ほっとメール・緊急速報メールで発令","警戒レベル3で高齢者等避難、レベル4で全員避難が原則","気象庁・静岡県の気象情報も合わせて確認"],"actions":[{"label":"避難情報の発令について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/10002.html","source":"湖西市公式サイト"}]}
+  ],
+  "steps": {
+   "today": ["台風接近予報が出たら地区別ハザードマップで自宅のリスク（高潮・土砂災害）を再確認する"],
+   "this_week": ["懐中電灯・モバイルバッテリー・飲料水など停電・断水対策用品を点検する"],
+   "outside": ["台風シーズン前に側溝・雨どいの掃除、飛来物になりそうな屋外設置物の固定を行う"]
+  },
+  "action_grid": [
+   {"label":"防災ほっとメール登録案内","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/douhoumusen/1157.html"},
+   {"label":"土砂災害ハザードマップ","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/2065.html"},
+   {"label":"避難情報の発令について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/10002.html"},
+   {"label":"危機管理課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/index.html"}
+  ]
+ }
+]

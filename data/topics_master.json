@@ -562,7 +562,30 @@
     "label": "申請書ダウンロード"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/12644.html",
+    "label": "罹災証明書・被災届出証明書について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/shobo/index.html",
+    "label": "湖西市消防本部（火災の証明窓口）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/todokede_toroku_shomei/index.html",
+    "label": "届出・登録・証明（総合案内）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "税務課（火災は消防本部予防課）",
+   "tel": "053-576-1218（火災は053-574-0212）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "税務課が主窓口、火災のみ消防本部予防課が窓口になる点をWebFetchで確認。申請期限(概ね6か月)・必要書類も確認。"
  },
  {
   "href": "/life/emergency/disaster-mail-line/",
@@ -605,7 +628,30 @@
     "label": "防災（総合案内）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/douhoumusen/1157.html",
+    "label": "防災ほっとメール・LINE登録案内",
+    "confidence": "high"
+   },
+   {
+    "url": "https://plus.sugumail.com/usr/kosai/home",
+    "label": "防災ほっとメール メール版登録",
+    "confidence": "high"
+   },
+   {
+    "url": "https://lin.ee/vyoN4wS",
+    "label": "防災ほっとメール LINE版登録",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "危機管理課 災害対策係",
+   "tel": "053-576-4538"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "防災ほっとメール(メール版・LINE版)の登録URLをWebFetchで実在確認。多言語対応(やさしい日本語・ポルトガル語・スペイン語)も確認。"
  },
  {
   "href": "/life/emergency/earthquake/",
@@ -664,7 +710,36 @@
     "label": "防災（総合案内）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/softtaisaku/keikaku/1515.html",
+    "label": "静岡県第4次地震被害想定",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/softtaisaku/keikaku/1593.html",
+    "label": "湖西市津波避難計画",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12938.html",
+    "label": "被害想定・ハザードマップの確認方法",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/1390.html",
+    "label": "津波監視カメラの設置について",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "危機管理課 災害対策係",
+   "tel": "053-576-4538",
+   "tsunami_height": "最大津波高15m（静岡県第4次地震被害想定）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "遠州灘側の津波想定(最大15m)、津波避難タワー・命山（住吉地区おたすけ山等）の存在をWebFetchで確認。磐田版とは異なる湖西市固有の津波避難計画の考え方を反映。"
  },
  {
   "href": "/life/emergency/emergency-medical/",
@@ -695,7 +770,31 @@
     "label": "救急（静岡県の救急医療・相談窓口）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/2/1248.html",
+    "label": "休日救急当番医・休日当番薬局",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kenko_fukushi/iryo/kyujitsu_kyukyuiryo/index.html",
+    "label": "休日・救急医療（湖西市）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.pref.shizuoka.jp/bosaikinkyu/shobo/1064942.html",
+    "label": "救急安心電話相談窓口（#7119）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康増進課 健康政策係",
+   "tel": "053-576-1114",
+   "hashtag_dial": "#7119（24時間365日、令和7年4月開始）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "#7119が令和7年4月から24時間対応になったことをWebFetchで確認。休日救急当番医情報は健康増進課(053-576-1114)が担当。"
  },
  {
   "href": "/life/emergency/evacuation-centers/",
@@ -733,7 +832,30 @@
     "label": "防災（総合案内）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12899.html",
+    "label": "避難場所・避難所一覧（私の避難場所・避難所一覧）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/index.html",
+    "label": "防災マップ・避難場所・避難所",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/bousai/index.html",
+    "label": "災害対策・危機管理（総合案内）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "危機管理課 災害対策係",
+   "tel": "053-576-4538"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "「避難場所（指定緊急避難場所）」と「避難所（指定避難所）」の違いをWebFetchで確認。福祉避難所・要配慮者対応は個別相談が必要なため詳細窓口は確認中扱い。"
  },
  {
   "href": "/life/emergency/evacuation-hazard-map/",
@@ -771,7 +893,30 @@
     "label": "防災（総合案内）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/10002.html",
+    "label": "避難情報をよりわかりやすく発令します",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/bousai/map/index.html",
+    "label": "防災マップ",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12938.html",
+    "label": "被害想定・ハザードマップの確認方法",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "危機管理課 災害対策係",
+   "tel": "053-576-4538"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "警戒レベルと避難情報がセットで発令される運用をWebFetchで確認（例：「警戒レベル4避難指示を発令しました」）。詳細な5段階レベル×伝達手段の対応表は市サイトに明記なく気象庁基準を併記。"
  },
  {
   "href": "/life/emergency/fire-ambulance/",
@@ -814,7 +959,36 @@
     "label": "磐田市消防本部（施設案内）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/shobo/index.html",
+    "label": "湖西市消防本部",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/shobo/shobosho/index.html",
+    "label": "消防署（本署・西分署・南分署）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/shobo/shobo_119/15119.html",
+    "label": "119番通報の仕方について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/shobo/keiboka/index.html",
+    "label": "警防課（救急講習・119番受付）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "湖西市消防本部 警防課",
+   "tel": "053-574-0219（本署053-574-0213）",
+   "branches": "本署（古見）・西分署（岡崎）・南分署（新居町浜名）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市消防本部が中東遠消防指令センターとは別系統で本署・西分署・南分署の3拠点体制であることをWebFetchで確認。city.jsonの想定通り独自運用。"
  },
  {
   "href": "/life/emergency/hazard-maps/",
@@ -861,7 +1035,36 @@
     "label": "防災（総合案内）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/bousai/map/index.html",
+    "label": "防災マップ",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/2065.html",
+    "label": "土砂災害ハザードマップ",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/12938.html",
+    "label": "被害想定・ハザードマップの確認方法",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/12345.html",
+    "label": "津波災害警戒区域について",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "危機管理課 災害対策係",
+   "tel": "053-576-4538",
+   "map_editions": "知波田・新所・入出／岡崎／鷲津／白須賀／新居の5地区版（令和5年3月改訂）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "ハザードマップが5地区版で構成され、令和5年3月改訂版に津波避難タワー・命山が追加されたことをWebFetchで確認。"
  },
  {
   "href": "/life/emergency/",
@@ -880,7 +1083,30 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/bousai/index.html",
+    "label": "災害対策・危機管理（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/index.html",
+    "label": "危機管理課",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/index.html",
+    "label": "防災マップ・避難場所・避難所",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "危機管理課 災害対策係",
+   "tel": "053-576-4538"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "危機管理課(053-576-4538)が防災全般の窓口であることをWebFetchで確認。ハブページのため簡潔に構成。"
  },
  {
   "href": "/life/emergency/pet-disaster-prevention/",
@@ -926,7 +1152,30 @@
     "label": "人とペットの災害対策ガイドライン"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/12153.html",
+    "label": "防災備蓄を見直しましょう！",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/sumai_kotsu/pet_dobutsu/index.html",
+    "label": "ペット・動物（湖西市）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.env.go.jp/nature/dobutsu/aigo/1_law/disaster.html",
+    "label": "環境省 ペットの災害対策",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "危機管理課（同行避難全般）／環境課（ペット・動物に関する一般相談）",
+   "tel": "確認中（要確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトにはペット防災専用ページが見当たらず、防災備蓄ページ内での言及とペット・動物ページ(災害情報なし)を確認。避難所ごとのペット受け入れ運用の詳細窓口は確認できず「確認中」とした。"
  },
  {
   "href": "/life/emergency/road-river-info/",
@@ -977,7 +1226,30 @@
     "label": "道路情報（工事・通行規制）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/sangyo_shigoto/doro_kasen/index.html",
+    "label": "道路・河川（湖西市）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/7884.html",
+    "label": "各課連絡先一覧",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.cbr.mlit.go.jp/hamamatsu/bousai/roadclosed/pdf/tsunami_kosai_arai.pdf",
+    "label": "大津波警報発令時の国道1号通行止め案内",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "土木課",
+   "tel": "053-576-4545"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "市道の維持管理・通行止めは土木課(053-576-4545)が担当と検索で確認。市サイトの道路・河川ページはリアルタイム水位・通行止め情報がなく、県・国のシステム併用を案内。大津波警報時に国道1号が通行止めになる資料をWebFetchで確認。"
  },
  {
   "href": "/life/emergency/storm-heavy-rain/",
@@ -1028,7 +1300,30 @@
     "label": "防災（総合案内）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/oshirase/10002.html",
+    "label": "避難情報をよりわかりやすく発令します",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/hinan/2065.html",
+    "label": "土砂災害ハザードマップ",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kikikanrika/douhoumusen/1157.html",
+    "label": "防災ほっとメール登録案内",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "危機管理課 災害対策係",
+   "tel": "053-576-4538"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "沿岸部(新居・白須賀)の高潮リスク、内陸傾斜地(鷲津・岡崎・知波田)の土砂災害リスクという地形的な違いを踏まえて執筆。警戒レベルの伝達手段は同報無線・防災ほっとメール・緊急速報メールとWebFetchで確認。"
  },
  {
   "href": "/life/end-of-life/after-death-procedures/",
@@ -1058,7 +1353,37 @@
     "label": "相続人代表者届"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html",
+    "label": "死亡届",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html",
+    "label": "おくやみワンストップサービス",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1231.html",
+    "label": "斎場、火葬許可について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html",
+    "label": "所有者が死亡した場合の手続き",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民課（死亡届・おくやみワンストップサービス）",
+   "tel": "053-576-4531",
+   "deadline": "死亡から7日以内に死亡届を提出",
+   "note": "税金・年金・保険等の手続きはおくやみワンストップサービスで一本化可能"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトで死亡届・おくやみワンストップサービス・火葬許可・相続人代表者届を確認。ワンストップサービスは市民課予約制で最大11課の手続きに対応。"
  },
  {
   "href": "/life/end-of-life/bereavement/",
@@ -1084,7 +1409,32 @@
     "label": "戸籍・住民票の届出"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html",
+    "label": "死亡届",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1231.html",
+    "label": "斎場、火葬許可について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/16984.html",
+    "label": "年金相談",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民課（死亡届）・環境課生活係（火葬）",
+   "tel": "053-576-4531（市民課）／053-576-4533（環境課）",
+   "deadline": "死亡から7日以内",
+   "note": "湖西市新居斎場（やすらぎ苑、053-594-8900）の予約は環境課へ"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "死亡届の提出先・期限、火葬許可と斎場（やすらぎ苑）の予約先を公式サイトで確認。"
  },
  {
   "href": "/life/end-of-life/bereavement-procedures/",
@@ -1115,7 +1465,31 @@
     "label": "墓地・火葬場"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html",
+    "label": "おくやみワンストップサービス",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/event/okuyami/index.html",
+    "label": "お悔やみ",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html",
+    "label": "死亡届",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民課市民係（おくやみワンストップサービス予約）",
+   "tel": "053-576-4531",
+   "note": "QRコード・ウェブフォーム・電話・窓口のいずれかで予約可能。年度により一時休止期間あり（要事前確認）"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市はワンストップ窓口設置済み（複数課の手続きを1か所で案内）。予約制で1週間後以降でもよい方が主対象。"
  },
  {
   "href": "/life/end-of-life/grave-memorial/",
@@ -1142,7 +1516,26 @@
     "label": "磐田市合葬墓"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1149.html",
+    "label": "利木墓園について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1231.html",
+    "label": "斎場、火葬許可について",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "環境課生活係（利木墓園）",
+   "tel": "053-576-4533",
+   "note": "市営墓地は利木墓園（湖西市利木540-29）。焼骨のみ埋蔵可。募集状況は年度により異なる"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "市営墓地は利木墓園、窓口は環境課生活係と確認。使用料の具体的金額は公式ページに未掲載のため個別確認が必要。"
  },
  {
   "href": "/life/end-of-life/house-became-vacant/",
@@ -1168,7 +1561,31 @@
     "label": "危険空き家解体費用の助成"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html",
+    "label": "空き家について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html",
+    "label": "空き家バンクについて",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html",
+    "label": "所有者が死亡した場合の手続き",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "都市計画課まちづくり係（空き家相談・空き家バンク）",
+   "tel": "053-576-3117",
+   "note": "解体費用の補助金制度は2026年7月時点で無し（要継続確認）。空き家バンク登録は無料"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式ページで「現在、空き家の解体に関する補助金は制度化されていません」と明記されているのを確認。他都市（御前崎等）との違いに注意。"
  },
  {
   "href": "/life/end-of-life/",
@@ -1187,7 +1604,25 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/",
+    "label": "湖西市公式サイトを確認する",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html",
+    "label": "おくやみワンストップサービス",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民課（おくやみ全般の入口）",
+   "tel": "053-576-4531"
+  },
+  "status": "machine-verified",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "カテゴリハブページ。湖西市はおくやみワンストップサービスが特徴的な制度であることを確認。"
  },
  {
   "href": "/life/end-of-life/inheritance/",
@@ -1214,7 +1649,31 @@
     "label": "空き家"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html",
+    "label": "所有者が死亡した場合の手続き",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/16984.html",
+    "label": "年金相談",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html",
+    "label": "空き家について",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "税務課資産税係（相続人代表者届）",
+   "tel": "053-576-1217",
+   "note": "相続登記自体は法務局の管轄（市役所では扱わない）。相続税は税務署の管轄"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "市の手続き（固定資産税の相続人代表者届）と、法務局・税務署が管轄する手続き（相続登記・相続税）を区別して整理。"
  },
  {
   "href": "/life/end-of-life/inherited-house/",
@@ -1241,7 +1700,31 @@
     "label": "粗大ごみの戸別収集"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html",
+    "label": "所有者が死亡した場合の手続き",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/2397.html",
+    "label": "粗大ごみの戸別収集",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html",
+    "label": "空き家バンクについて",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "廃棄物対策課（粗大ごみ）／都市計画課まちづくり係（空き家）",
+   "tel": "053-577-1280（廃棄物対策課）／053-576-3117（都市計画課）",
+   "note": "粗大ごみ戸別収集は500円～1,000円程度、申込から収集まで約3週間かかる場合あり"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "名義（相続人代表者届）・片付け（粗大ごみ戸別収集）・活用（空き家バンク）の3窓口を整理して確認。富士ヶ丘サービス導線を含めた。"
  },
  {
   "href": "/life/end-of-life/inherited-vacant-house/",
@@ -1267,7 +1750,31 @@
     "label": "家屋または土地を譲渡した場合の優遇税制"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html",
+    "label": "空き家バンクについて",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html",
+    "label": "空き家について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/2397.html",
+    "label": "粗大ごみの戸別収集",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "都市計画課まちづくり係（空き家バンク・相談）",
+   "tel": "053-576-3117",
+   "note": "譲渡所得の優遇税制の適用有無は湖西市公式ページで明示確認できず「確認中（要確認）」。税務署・税理士への確認を推奨"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "空き家バンク・解体（補助金なし）・売却の3方向を整理。譲渡税制の優遇有無は公式サイトで直接確認できず安全側の表現とした。"
  },
  {
   "href": "/life/end-of-life/pension-inheritance/",
@@ -1289,7 +1796,31 @@
     "label": "国保・後期高齢者医療・年金"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/16984.html",
+    "label": "年金相談",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/nenkin_hoken/kokuminnenkin/index.html",
+    "label": "国民年金",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/18938.html",
+    "label": "マイナポータルを利用した国民年金の電子申請",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "保険年金課国保年金係",
+   "tel": "053-576-4585",
+   "note": "浜松西年金事務所（053-456-8511）による市内出張相談あり（健康福祉センター等、毎月・完全予約制）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "未支給年金と遺族年金は別手続きである点、市内出張相談の存在を公式サイトで確認。"
  },
  {
   "href": "/life/end-of-life/property-tax-inheritance/",
@@ -1311,7 +1842,26 @@
     "label": "固定資産税・都市計画税"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html",
+    "label": "所有者が死亡した場合の手続き",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html",
+    "label": "固定資産税・都市計画税",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "税務課資産税係",
+   "tel": "053-576-1217",
+   "note": "相続人代表者届と未登記家屋名義変更届は別書類。相続登記自体は法務局の管轄"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "相続人代表者届の窓口・電話番号、未登記家屋名義変更届の存在を公式サイトで確認。"
  },
  {
   "href": "/life/family-grow/child-allowance/",
@@ -1340,7 +1890,26 @@
     "label": "こども未来課のご案内"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo_s/gyomu/2/1205.html",
+    "label": "児童手当（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo_s/gyomu/2/1205.html",
+    "label": "令和6年10月分から児童手当の制度が拡充されました（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "こども政策課 こども政策係",
+   "tel": "053-576-1813",
+   "note": "健康福祉センター内。新居支所でも一部手続き可の可能性あり（要個別確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトをWebFetchで確認。支給額(0-3歳未満15,000円/3歳-高校生年代10,000円/第3子以降30,000円)、支給日(偶数月10日)、申請窓口(こども政策課053-576-1813)、申請期限(出生・転入から15日以内)を確認済み。"
  },
  {
   "href": "/life/family-grow/child-allowance-medical/",
@@ -1378,7 +1947,31 @@
     "label": "子どもの健診・教室"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo_s/gyomu/2/1428.html",
+    "label": "こども医療費の助成について（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo_s/gyomu/2/18288.html",
+    "label": "医療機関・薬局等の皆様へ（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo_s/gyomu/2/1205.html",
+    "label": "児童手当（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "こども政策課 こども政策係",
+   "tel": "053-576-1813",
+   "note": "対象は高校生相当年齢（18歳到達後最初の3月31日）まで。令和8年4月からマイナ保険証対応予定（一部医療機関）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトをWebFetchで確認。対象年齢・助成内容(保険診療自己負担分、入院時食事代全額)・申請窓口(こども政策課053-576-1813)・電子申請(ロゴフォーム)対応を確認済み。"
  },
  {
   "href": "/life/family-grow/child-vaccination/",
@@ -1416,7 +2009,21 @@
     "label": "転出・転入された方へ"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/1176/1583.html",
+    "label": "こどもの定期予防接種（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "こども未来課 子育て応援係",
+   "tel": "053-576-4794",
+   "note": "予診票は赤ちゃん訪問時・小学校で配布。転入時・紛失時は窓口で再交付"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトをWebFetchで確認。定期予防接種は自己負担なし、予診票の配布方法(赤ちゃん訪問・小学校)、窓口(こども未来課053-576-4794)を確認済み。磐田市の個別接種協力医療機関一覧に相当する湖西市版の具体的な医療機関リストURLは未特定のため、実施医療機関の詳細は「確認中」扱い。"
  },
  {
   "href": "/life/family-grow/childbirth/",
@@ -1458,7 +2065,31 @@
     "label": "子育てに関する手当・助成（一覧）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1232.html",
+    "label": "出生届（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo_s/gyomu/2/1205.html",
+    "label": "児童手当（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo_s/gyomu/2/1428.html",
+    "label": "こども医療費の助成について（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民課（出生届）／こども政策課（児童手当・医療費）",
+   "tel": "053-576-4541（市民課）／053-576-1813（こども政策課）",
+   "note": "出生届は生まれた日を含め14日以内。児童手当は出生から15日以内が目安"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトをWebFetchで確認。出生届の提出期限(14日以内)・提出先(市民課/新居支所)・必要書類、児童手当とこども医療費の申請窓口を確認済み。出産育児一時金の窓口（国保か社保かで異なる）は磐田市のような専用ページが未特定のため確認中扱い。"
  },
  {
   "href": "/life/family-grow/developmental-support/",
@@ -1497,7 +2128,31 @@
     "label": "こども相談"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/1/2253.html",
+    "label": "家庭児童相談（こどもに関する相談について）（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/gyomuannai/2/service/2489.html",
+    "label": "障害福祉サービス・障害児通所支援（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/KSC/shinjo/index.html",
+    "label": "新所子育て支援センター「にこりん」（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "家庭児童相談／地域福祉課 障害福祉係",
+   "tel": "053-576-1125（家庭児童相談）／053-576-4532（地域福祉課）",
+   "note": "発達の相談窓口は複数あり内容により異なる。子育て支援センター「にこりん」（053-576-4919）でも発達相談対応"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトをWebFetchで確認。磐田市の「発達支援センターはあと」のような単一の専門センターは湖西市には確認できず、家庭児童相談・地域福祉課・子育て支援センターが分担している構成であることを確認。窓口の呼び分けは今後変更の可能性あるため個別確認を推奨。"
  },
  {
   "href": "/life/family-grow/",
@@ -1516,7 +2171,26 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/kosodateshien/index.html",
+    "label": "子育てに関する支援（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/1/11776.html",
+    "label": "こども家庭センターのご案内（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "こども未来課／こども政策課（健康福祉センター「おぼと」内）",
+   "tel": "053-576-4794",
+   "note": "多くの子育て窓口が健康福祉センター「おぼと」（古見1044）に集約"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "カテゴリハブページ。湖西市の子育て関連窓口が健康福祉センター「おぼと」に集約されていること、こども家庭センターが総合相談窓口であることを確認済み。"
  },
  {
   "href": "/life/family-grow/infant-health-check/",
@@ -1546,7 +2220,26 @@
     "label": "子どもの予防接種"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/4/index.html",
+    "label": "健康診査（検診・健診）（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/1/11618.html",
+    "label": "LINEから子育て情報が受け取れます（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "こども未来課 子育て応援係",
+   "tel": "053-576-4794",
+   "note": "乳児健診(4か月児・10か月児)と幼児健診(1歳6か月児・3歳児等)が実施される。具体的な予約方法の専用ページは確認中"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市乳児健康診査実施要領(条例)や公式ページから、4か月児・10か月児健診の存在とこども未来課が窓口であることを確認。磐田市の「幼児健診の予約方法」に相当する専用ページは検索で特定できず、予約手段の詳細は確認中扱いとした。"
  },
  {
   "href": "/life/family-grow/marriage/",
@@ -1576,7 +2269,31 @@
     "label": "結婚新生活支援事業補助金"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1227.html",
+    "label": "婚姻届（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/hisho/gyomuannai/5_1/1/2793.html",
+    "label": "しあわせRINGの婚姻届（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/kyodo/2_1/4450/10731.html",
+    "label": "パートナーシップ・ファミリーシップ宣誓制度について（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民課／新居支所 市民窓口係",
+   "tel": "053-576-4531",
+   "note": "「新婚さん『こさい』へおいでん新生活応援金」は制度存在を条例で確認したが案内ページが404のため現行提供状況は確認中（要個別確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトをWebFetchで確認。婚姻届の提出先・必要書類、しあわせRING婚姻届、パートナーシップ・ファミリーシップ宣誓制度を確認済み。結婚新生活支援関連の補助金は現行の案内ページが見つからず(404)、制度の現況は確認中として本文には含めなかった。"
  },
  {
   "href": "/life/family-grow/nursery-childcare/",
@@ -1602,7 +2319,31 @@
     "label": "一時的な子どもの預け先"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/yojikyoikuka/gyomuannai/1_1/17926.html",
+    "label": "一時預かり（一般型・余裕活用型）（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/yojikyoikuka/gyomuannai/2_1/2113.html",
+    "label": "一時預かり（幼稚園型）・利用料の無償化について（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/1/family-support-center/1384.html",
+    "label": "ファミリー・サポート・センター（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "保育幼稚園課",
+   "tel": "053-576-1156",
+   "note": "公立園の一時預かり目安料金: 3歳以上児1日1,000円+給食費363円、3歳未満児1日1,800円（給食費込み）。私立園は個別確認が必要"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトをWebFetchで確認。一時預かり（一般型・余裕活用型・幼稚園型）、ファミリー・サポート・センター、のびのび預かり保育の内容と保育幼稚園課(053-576-1156)の窓口を確認済み。"
  },
  {
   "href": "/life/family-grow/nursery-school/",
@@ -1630,7 +2371,26 @@
     "label": "幼児教育・保育無償化"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/yojikyoikuka/gyomuannai/1_1/index.html",
+    "label": "認定こども園・認可保育施設について（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/yojikyoikuka/gyomuannai/1_2/16079.html",
+    "label": "令和8年度認可保育施設の新年度（4月）入園申込み（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "保育幼稚園課",
+   "tel": "053-576-1156",
+   "note": "幼保連携型認定こども園7施設ほか、保育所型認定こども園・認可保育所・小規模保育事業所がある"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトをWebFetchで確認。施設種別（幼保連携型認定こども園、保育所型認定こども園、認可保育所、小規模保育事業所）、入園申込みの窓口(保育幼稚園課053-576-1156)を確認済み。幼児教育・保育無償化の具体的な条件詳細は要個別確認。"
  },
  {
   "href": "/life/family-grow/parenting-support/",
@@ -1656,7 +2416,31 @@
     "label": "いわた子育てアプリ"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/kosodateshien/index.html",
+    "label": "子育て支援（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/1/2253.html",
+    "label": "家庭児童相談（こどもに関する相談について）（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/1/11776.html",
+    "label": "こども家庭センターのご案内（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "家庭児童相談／こども家庭センター",
+   "tel": "053-576-1125（家庭児童相談）／053-576-4794（こども未来課）",
+   "note": "子育て支援センターは「のびりん」（新居）「ほほえみ」（西部）など複数拠点"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトをWebFetchで確認。子育て支援センター(のびりん・ほほえみ等)、家庭児童相談、こども家庭センターの役割分担を確認済み。磐田市の「いわた子育てアプリ」に相当する湖西市独自アプリは確認できず、LINE公式アカウントでの情報配信に置き換えた。"
  },
  {
   "href": "/life/family-grow/pregnancy/",
@@ -1694,7 +2478,31 @@
     "label": "妊娠・出産に関する支援（一覧）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/6/1/10709.html",
+    "label": "母子健康手帳交付（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/6/1/1603.html",
+    "label": "妊婦健康診査（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/6/1/14105.html",
+    "label": "妊娠期パパママ講座（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "こども未来課 子育て応援係",
+   "tel": "053-576-4794",
+   "note": "手帳交付時に保健師の個別面談(約30分)あり。受付は平日9時～16時30分（水曜午前のみ）、予約優先"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトをWebFetchで確認。母子健康手帳交付の必要書類・面談内容、妊婦健診受診票、妊娠期パパママ講座、こども未来課(053-576-4794)の窓口を確認済み。産後ケア事業の詳細は磐田市ほど明確なページを特定できず個別確認が必要。"
  },
  {
   "href": "/life/family-grow/single-parent-support/",
@@ -1725,7 +2533,21 @@
     "label": "ひとり親家庭養育費確保支援助成金"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo_s/gyomu/1_2/index.html",
+    "label": "ひとり親家庭支援（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "こども政策課 こども政策係",
+   "tel": "053-576-1813",
+   "note": "児童扶養手当・ひとり親家庭等医療費助成・就学支援事業助成金・母子父子寡婦福祉資金等。所得制限等の詳細額は確認中（要個別確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "湖西市公式サイトをWebFetchで確認。支援制度の一覧(児童扶養手当、ひとり親家庭等医療費助成、就学支援事業助成金、母子父子寡婦福祉資金、交通遺児等福祉手当、村田光雄奨学金等)と窓口(こども政策課053-576-1813)を確認。各制度の金額・所得制限の詳細は個別ページの追加調査が必要なため断定を避けた。"
  },
  {
   "href": "/life/health-medical/adult-vaccination/",
@@ -1755,7 +2577,38 @@
     "label": "健康・医療"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/5/index.html",
+    "label": "予防接種（成人）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/5/14503.html",
+    "label": "高齢者肺炎球菌予防接種の助成について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/5/16295.html",
+    "label": "湖西市帯状疱疹ワクチン接種",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/2/1179.html",
+    "label": "市内の医療機関",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康増進課 健康政策係（健康福祉センターおぼと2階）",
+   "tel": "053-576-1114",
+   "address": "〒431-0442 静岡県湖西市古見1044",
+   "pneumococcal_65": "自己負担4,000円（生活保護世帯は無料）。誕生月末に接種券（ハガキ）発送",
+   "shingles": "生ワクチン3,500円（1回）、組換えワクチン17,500円×2回。対象は各年度65歳、経過措置で70/75/80/85/90/95/100歳も対象（令和7～11年度）"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "健康増進課(053-576-1114)を窓口として確認。高齢者肺炎球菌・帯状疱疹ワクチンの費用・対象年齢を公式ページで確認済み。インフルエンザ助成の詳細ページは未特定のため本文では言及を限定的に。"
  },
  {
   "href": "/life/health-medical/cancer-specific-checkups/",
@@ -1784,7 +2637,33 @@
     "label": "健康・医療"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/4/16015.html",
+    "label": "湖西市健診・検診事業",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/4/16015.html",
+    "label": "特定健診",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kenko_fukushi/kenko/index.html",
+    "label": "健康（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康増進課 健康政策係",
+   "tel": "053-576-1114",
+   "checkup_period": "令和8年度は4月20日～10月31日（一部医療機関は翌年1月16日まで）",
+   "fees": "胃がん検診（X線2,000円/内視鏡2,500円）、大腸がん検診500円、乳がん検診1,000円、子宮頸がん検診1,000円、肺がん検診500円、前立腺がん検診500円、肝炎検査500円",
+   "method": "個別受診（医療機関予約）、総合集団検診（要予約）、胸部検診バス（予約不要）の3方式"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "令和8年度健診・検診事業ページで各がん検診の自己負担額・実施期間・受診方法を確認済み。年度により金額・期間が変わるため本文は最新版確認を促す表現にした。"
  },
  {
   "href": "/life/health-medical/dental-care/",
@@ -1814,7 +2693,27 @@
     "label": "健康・福祉・医療"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/4/16015.html",
+    "label": "湖西市健診・検診事業（歯周病検診含む）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/2/1179.html",
+    "label": "市内の医療機関（浜名歯科医師会加入歯科医院検索）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康増進課 健康政策係",
+   "tel": "053-576-1114",
+   "dental_checkup": "健診・検診事業の一環として歯周病検診を実施（無料、令和8年度）。対象年齢等は年度ごとの案内で要確認",
+   "child_dental": "学校・園での歯科健診は教育委員会・各園が担当（確認中（要確認）：担当課の詳細は個別確認が必要）"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "令和8年度健診・検診事業ページで歯周病検診（無料）を確認。後期高齢者歯科健診の独立ページは検索で特定できず、健診・検診事業の一体案内から言及。学校歯科健診の担当課詳細は確認中扱いとした。 歯周病検診は実施機関一覧（PDF）で医療機関ごとに公開される方式であることも確認。"
  },
  {
   "href": "/life/health-medical/disability-services/",
@@ -1844,7 +2743,33 @@
     "label": "障がい児に関する通所サービス・助成"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/gyomuannai/2/service/2489.html",
+    "label": "障害福祉サービス・障害児通所支援",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/gyomuannai/2/service/12993.html",
+    "label": "障害福祉制度やサービスに関する一覧",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/15937.html",
+    "label": "相談窓口の一覧（障害者相談支援センターみなづき）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "地域福祉課 障害福祉係（健康福祉センターおぼと内）",
+   "tel": "053-576-4532",
+   "address": "〒431-0442 静岡県湖西市古見1044",
+   "consult_center": "障害者相談支援センターみなづき 053-576-4796（平日8:30-17:00、祝日・年末年始除く）",
+   "service_types": "訪問系（居宅介護・同行援護・行動援護・短期入所）、日中活動系（生活介護・療養介護・就労移行/継続支援・放課後等デイサービス・児童発達支援）、居住系（共同生活援助・施設入所支援）"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "地域福祉課障害福祉係（053-576-4532）とみなづき（053-576-4796、相談窓口一覧ページと静岡県資料の2ソースで番号一致確認）を窓口として確認。サービス種類は公式ページの分類をそのまま整理。"
  },
  {
   "href": "/life/health-medical/disability-welfare/",
@@ -1874,7 +2799,38 @@
     "label": "障がい者の自立支援"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kenko_fukushi/shogaishafukushi/syougai/index.html",
+    "label": "障害者手帳（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/gyomuannai/2/tetyou/2502.html",
+    "label": "精神障害者保健福祉手帳",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/gyomuannai/2/yougu/2505.html",
+    "label": "補装具の交付、貸与及び修理",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kenko_fukushi/shogaishafukushi/syougai/4591.html",
+    "label": "身体障害者手帳（申請方法）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "地域福祉課 障害福祉係（健康福祉センターおぼと内）",
+   "tel": "053-576-4532",
+   "fax": "053-576-1220",
+   "handbook_types": "身体障害者手帳・療育手帳・精神障害者保健福祉手帳の3種類",
+   "psych_handbook_renewal": "精神障害者保健福祉手帳は2年ごとの更新が必要。診断書等を添えて地域福祉課で申請"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "手帳3種の窓口が地域福祉課障害福祉係(053-576-4532)であることを確認。療育手帳・身体障害者手帳の個別手続きページは存在するが詳細未確認のため、本文では地域福祉課への確認を都度促す表現にした。 身体障害者手帳の申請書類（診断書・写真・マイナンバーカード等）も個別ページで確認済み。"
  },
  {
   "href": "/life/health-medical/find-hospitals/",
@@ -1900,7 +2856,32 @@
     "label": "医療情報ネット"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/2/1179.html",
+    "label": "市内の医療機関",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/2/1248.html",
+    "label": "休日救急当番医・休日当番薬局",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.iryou.teikyouseido.mhlw.go.jp/",
+    "label": "医療情報ネット（ナビイ）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康増進課 健康政策係",
+   "tel": "053-576-1114",
+   "how_to_search": "浜名医師会加入の市内医療機関・浜名歯科医師会加入の市内歯科医院を地区別（鷲津・岡崎・新所・新居など）に一覧できる",
+   "core_hospital": "市立湖西病院（鷲津2259-1、電話053-576-1231）が救急外来の中心的存在"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "市内医療機関一覧ページと市立湖西病院の情報を確認。新居地区を含む地区別検索が可能な点を明記した。"
  },
  {
   "href": "/life/health-medical/health-checkups/",
@@ -1930,7 +2911,28 @@
     "label": "健康・医療"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/4/16015.html",
+    "label": "湖西市健診・検診事業",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/4/16015.html",
+    "label": "特定健診",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康増進課 健康政策係",
+   "tel": "053-576-1114",
+   "tokutei_kenshin": "40～75歳の国保加入者が対象。身体計測・血圧・血液検査・検尿・診察",
+   "kouki_koureisha": "75歳以上・65～74歳の認定障がい者が対象、75歳以上は無料",
+   "period": "令和8年度は4月20日～10月31日（一部医療機関は翌年1月16日まで）"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "特定健診・後期高齢者健診の対象条件と実施期間を公式ページで確認済み。"
  },
  {
   "href": "/life/health-medical/health-promotion/",
@@ -1959,7 +2961,32 @@
     "label": "健康・医療"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/9/1309.html",
+    "label": "健康こさい21（健康増進計画・食育推進計画）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/55/6739.html",
+    "label": "コーちゃん健康マイレージ",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kenko_fukushi/kenko/index.html",
+    "label": "健康（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康増進課 健康づくり係",
+   "tel": "053-576-1114",
+   "plan_name": "健康こさい21（健康増進計画・食育推進計画）",
+   "mileage": "コーちゃん健康マイレージ：18歳以上の市内在住・在勤者が対象。健康活動でポイントを貯め、協賛店の特典と交換。紙のポイントカードとLINEショップカードの2方式"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "健康こさい21計画とコーちゃん健康マイレージ事業の対象・仕組みを公式ページで確認済み。"
  },
  {
   "href": "/life/health-medical/holiday-night-emergency-care/",
@@ -1985,7 +3012,34 @@
     "label": "健康・医療"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/2/1248.html",
+    "label": "休日救急当番医・休日当番薬局",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/2/18313.html",
+    "label": "令和8年4月からの休日当番医実施日数変更について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kenko_fukushi/iryo/kyujitsu_kyukyuiryo/index.html",
+    "label": "休日・救急医療（湖西市公式）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康増進課 健康政策係",
+   "tel": "053-576-1114",
+   "hours": "休日当番医は9時～17時（処方箋受付は18時まで）。訪問前に必ず電話連絡が必要",
+   "schedule_change_2026": "令和8年4月から実施日数変更。冬季(12～2月)は毎週日曜、それ以外(3～11月)は月1～3回程度に",
+   "no_duty_day": "当番医が無い日は市立湖西病院（鷲津2259-1、053-576-1231）や浜名病院の救急外来で受診可能",
+   "phone_consult": "こども医療電話相談#8000、救急安心電話相談#7119（24時間365日）"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "休日当番医の時間帯・令和8年度からの実施日数変更・当番日以外の受診先（湖西病院・浜名病院救急外来）・電話相談窓口(#7119/#8000)を公式ページで確認済み。"
  },
  {
   "href": "/life/health-medical/",
@@ -2004,7 +3058,25 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kenko_fukushi/kenko/index.html",
+    "label": "健康（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/",
+    "label": "湖西市公式サイトトップ",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康増進課（健康福祉センターおぼと2階）",
+   "tel": "053-576-1114"
+  },
+  "status": "machine-verified",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "健康・医療カテゴリのハブページ。個別トピックの詳細は各配下ページで確認済み。"
  },
  {
   "href": "/life/health-medical/mental-health-consulting/",
@@ -2034,7 +3106,28 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/55/12613.html",
+    "label": "見逃さないで心のSOS",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/15937.html",
+    "label": "相談窓口の一覧",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康増進課 健康づくり係",
+   "tel": "053-576-1114",
+   "kokoro_denwa": "こころの電話 0538-37-5560（静岡県西部健康福祉センター、平日8:30-11:45/13:00-16:30）",
+   "sougou_soudan": "こころの健康福祉総合相談 053-401-0155（西部健康福祉センター浜名分庁舎、精神科医・保健師、予約制）",
+   "hotlines": "いのちのSOS 0120-061-338（24時間）、よりそいホットライン 0120-279-338（24時間）、いのちの電話 0120-783-556（16:00-21:00）、チャイルドライン 0120-99-7777（16:00-21:00、18歳まで）"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "こころのSOSページと相談窓口一覧ページで各相談先の電話番号・受付時間を確認済み。健康相談(健康増進課)と精神科医による専門相談(西部健康福祉センター浜名分庁舎)を区別して記載。"
  },
  {
   "href": "/life/health-medical/night-holiday-medical/",
@@ -2060,7 +3153,32 @@
     "label": "健康・医療"
    }
   ],
-  "status": "draft"
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kenko_fukushi/iryo/kyujitsu_kyukyuiryo/index.html",
+    "label": "休日・救急医療（湖西市公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.hospital.kosai.shizuoka.jp/how_to/kyuukyuu-gairai/",
+    "label": "救急外来（市立湖西病院）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/2/18313.html",
+    "label": "令和8年4月からの休日当番医実施日数変更について",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康増進課 健康政策係",
+   "tel": "053-576-1114",
+   "hospital_er": "市立湖西病院 救急外来（鷲津2259-1、053-576-1231）：平日11:30～翌8:15、土日祝・年末年始は終日対応",
+   "phone_consult": "救急安心電話相談#7119（24時間365日）、こども医療電話相談#8000"
+  },
+  "status": "ai-checked",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "市立湖西病院公式サイトで救急外来の受付時間を確認。holiday-night-emergency-careとは視点を変え、平日夜間の受診先（湖西病院救急外来）を軸に構成。"
  },
  {
   "href": "/life/health-medical/vaccinations/",
@@ -2089,7 +3207,34 @@
     "label": "おとなの健診・予防接種・相談"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/1176/1583.html",
+    "label": "こどもの定期予防接種",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/1176/11458.html",
+    "label": "子宮頸がん（HPV）ワクチン接種について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenkozoshinka/gyomuannai/5/index.html",
+    "label": "予防接種（成人）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window_child": "こども未来課 子育て応援係",
+   "tel_child": "053-576-4794",
+   "window_adult": "健康増進課 健康政策係",
+   "tel_adult": "053-576-1114",
+   "child_fee": "定期予防接種は全て保護者負担なし（無料）",
+   "hpv": "子宮頸がん（HPV）ワクチンは小6～高1相当の女子が対象の定期接種。積極的勧奨は令和3年11月に再開"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "子ども向け予防接種の窓口（こども未来課子育て応援係、053-576-4794）と大人向け窓口（健康増進課、053-576-1114）を分けて確認。子どもの定期接種は無料である点を明記。"
  },
  {
   "href": "/life/housing/build-house/",
@@ -2119,7 +3264,35 @@
     "label": "耐震"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/4/1/2/1240.html",
+    "label": "市街化調整区域内における建築(都市計画法)",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/4/1/2/1257.html",
+    "label": "開発行為について(都市計画法)",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kosai_saiko/hojoseido/6391.html",
+    "label": "住もっか「こさい」定住促進奨励金",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/index.html",
+    "label": "耐震･リフォーム関係",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "都市計画課 開発指導係（開発許可）／企画政策課 共創推進係（定住促進奨励金）",
+   "tel": "053-576-1693（都市計画課 開発指導係）／053-576-4521（企画政策課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "市街化調整区域の建築制限・開発許可の要否、定住促進奨励金（単身40歳未満/夫婦合計80歳未満、登記後6ヵ月以内申請）を公式ページで確認。奨励金の具体的な金額はページ内に明記なく確認中。"
  },
  {
   "href": "/life/housing/buy-house/",
@@ -2149,7 +3322,35 @@
     "label": "耐震"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html",
+    "label": "「湖西市空き家バンク」について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html",
+    "label": "固定資産税・都市計画税",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/yokuarushitsumon/1366.html",
+    "label": "税に関するQ&A",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/index.html",
+    "label": "建築物等の耐震診断に対する助成",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "都市計画課 まちづくり係（空き家バンク）／税務課 資産税係（固定資産税）",
+   "tel": "053-576-3117（都市計画課）／053-576-1217（税務課 資産税係）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "空き家バンクの利用手続き、固定資産税の住宅用地特例、耐震診断助成を公式ページで確認。個別物件ごとの税額・権利関係は確認中（要個別確認）とした。"
  },
  {
   "href": "/life/housing/clean-parents-house/",
@@ -2179,7 +3380,35 @@
     "label": "住宅"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/gomi_kankyo/gomi_recycle/bunbetu/index.html",
+    "label": "家庭ごみの分別・出し方",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/gomimotikomi/2396.html",
+    "label": "ごみ・資源物の持ち込み",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/17500.html",
+    "label": "空き家を相続した場合",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/14395.html",
+    "label": "ごみ分別収集カレンダー ごみガイドブック 搬入規定",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "廃棄物対策課（環境センター内）／都市計画課（相続登記・空き家関連）",
+   "tel": "053-577-1280（廃棄物対策課・環境センター）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "ごみの分別・環境センターへの持ち込み、令和6年4月施行の相続登記義務化を公式ページで確認。富士ヶ丘サービスへの案内を1箇所含めた。持ち込み手数料の詳細額は確認中。"
  },
  {
   "href": "/life/housing/earthquake-demolition/",
@@ -2209,7 +3438,35 @@
     "label": "住まいの確保にお困りの方へ"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/index.html",
+    "label": "耐震･リフォーム関係",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/7462.html",
+    "label": "木造住宅の耐震改修促進事業",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/17193.html",
+    "label": "耐震シェルター・防災ベッド整備に対する補助金",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/index.html",
+    "label": "建築物等の耐震診断に対する助成",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建築住宅課 建築住宅係",
+   "tel": "053-576-4549"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "昭和56年5月以前の木造住宅を対象とした専門家診断・耐震改修・除却・耐震シェルター補助を公式ページで確認。補助金の具体的な上限額は年度により変動する可能性があり確認中。"
  },
  {
   "href": "/life/housing/",
@@ -2228,7 +3485,35 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/",
+    "label": "湖西市公式サイト",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/index.html",
+    "label": "空き家",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/index.html",
+    "label": "建築住宅課",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html",
+    "label": "固定資産税・都市計画税",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "都市計画課（空き家・開発許可）／建築住宅課（市営住宅・耐震）／税務課（固定資産税）",
+   "tel": "053-576-3117（都市計画課）／053-576-4549（建築住宅課）／053-576-1217（税務課 資産税係）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "カテゴリハブページ。配下トピックの主要窓口（都市計画課・建築住宅課・税務課）を集約して確認。"
  },
  {
   "href": "/life/housing/municipal-housing/",
@@ -2258,7 +3543,35 @@
     "label": "悩み・相談"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/index.html",
+    "label": "市営住宅入居者の募集について(随時募集)",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/7623.html",
+    "label": "市営住宅・県営住宅",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/section/reiki/reiki_honbun/g322RG00000453.html",
+    "label": "湖西市営住宅管理条例",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/5/index.html",
+    "label": "湖西市営住宅にお住まいの方へ",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建築住宅課 建築住宅係",
+   "tel": "053-576-4549"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "栄町・川尻・鷲津・五和住宅等の随時募集、家賃目安（月額約1万8,700円〜3万7,800円、時期により変動）を公式検索結果で確認。詳細な収入基準の数値は確認中。"
  },
  {
   "href": "/life/housing/property-tax/",
@@ -2287,7 +3600,35 @@
     "label": "納税通知書等の送付先変更"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html",
+    "label": "固定資産税・都市計画税",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/yokuarushitsumon/1366.html",
+    "label": "税に関するQ&A",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1342.html",
+    "label": "評価額と課税標準額",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/6/1362.html",
+    "label": "税金の納め方について",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "税務課 資産税係",
+   "tel": "053-576-1217"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "住宅用地の軽減措置（固定資産税最大1/6・都市計画税最大1/3）、解体時の軽減解除、特定空家等勧告時の軽減除外を公式ページ・Q&Aで確認。年度別の正確な納期日は確認中。"
  },
  {
   "href": "/life/housing/public-housing-consultation/",
@@ -2316,7 +3657,35 @@
     "label": "悩み相談"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/gyomuannai/4/8440.html",
+    "label": "生活にお困りの方へ",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html",
+    "label": "各種相談窓口",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/15937.html",
+    "label": "相談窓口の一覧",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/13248.html",
+    "label": "高齢者の相談窓口『地域包括支援センター』",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "地域福祉課 保護係（住居確保給付金）／湖西市社会福祉協議会（生活相談全般）",
+   "tel": "053-576-1295（地域福祉課 保護係）／053-575-0294（湖西市社会福祉協議会）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "住居確保給付金の対象要件・窓口、社会福祉協議会の相談体制を公式ページで確認。社協の電話番号は053-575-0294と053-525-6667の2種類が検索結果に出たため、地域福祉課経由の053-575-0294を主として掲載し確認中の余地を残した。"
  },
  {
   "href": "/life/housing/rent-house/",
@@ -2342,7 +3711,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html",
+    "label": "「湖西市空き家バンク」について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/index.html",
+    "label": "市営住宅入居者の募集について(随時募集)",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/gyomuannai/4/8440.html",
+    "label": "生活にお困りの方へ",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/",
+    "label": "湖西市公式サイト",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "都市計画課 まちづくり係（空き家バンク）／建築住宅課（市営住宅）",
+   "tel": "053-576-3117（都市計画課）／053-576-4549（建築住宅課）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "民間賃貸市場が基本であることに加え、空き家バンクの賃貸物件・市営住宅・住居確保給付金の窓口を確認。民間相場（1LDK目安約5万円程度）は民間サイトの参考情報であり確認中扱い。"
  },
  {
   "href": "/life/housing/sell-house/",
@@ -2374,7 +3771,35 @@
     "label": "住宅カテゴリ"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/17500.html",
+    "label": "空き家を相続した場合",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html",
+    "label": "固定資産税・都市計画税",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/7/1/1952.html",
+    "label": "郵送による請求",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html",
+    "label": "「湖西市空き家バンク」について",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "都市計画課 まちづくり係（空き家バンク）／税務課 資産税係（固定資産税証明）",
+   "tel": "053-576-3117（都市計画課）／053-576-1217（税務課 資産税係）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "相続登記義務化（令和6年4月〜、3年以内申請）、固定資産税証明の取得方法、空き家バンク活用を公式ページで確認。富士ヶ丘サービスへの案内を1箇所含めた。"
  },
  {
   "href": "/life/housing/vacant-house/",
@@ -2404,7 +3829,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kosai": [
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/index.html",
+    "label": "空き家",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html",
+    "label": "「湖西市空き家バンク」について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/7093.html",
+    "label": "第2次湖西市空家等対策計画を策定しました",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/17500.html",
+    "label": "空き家を相続した場合",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "都市計画課 まちづくり係",
+   "tel": "053-576-3117"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "空き家バンク・空家等対策計画・相続登記義務化・特定空家等認定時の固定資産税増税リスクを公式ページで確認。富士ヶ丘サービスへの案内を1箇所含めた。特定空家等の湖西市内認定件数は確認中。"
  },
  {
   "href": "/life/living-soon/about-kosai/",

@@ -1,1 +1,432 @@
-[]
+[
+ {
+  "href": "/life/end-of-life/",
+  "lead": "湖西市で家族が亡くなったときは、市役所市民課での「おくやみワンストップサービス」を使うと、複数の担当課をまわらずに1か所で手続きの案内を受けられます。相続・空き家・お墓など、その後に続く手続きも合わせて早めに全体像をつかんでおくと安心です。",
+  "note": "湖西市は本庁（吉美）のほか新居支所（旧新居町エリア）でも一部手続きができますが、取扱いが異なる場合があるため事前に電話確認をおすすめします。",
+  "real_cards": [
+   {"icon":"🕊️","title":"死亡届は7日以内に市民課へ","body":"死亡届は死亡した日から7日以内に、湖西市役所市民課（053-576-4531）または新居支所市民窓口係に医師の死亡診断書とあわせて提出します。時間外・休日は市役所守衛室（053-576-1111）で預かり対応があります。"},
+   {"icon":"📋","title":"おくやみワンストップサービスで窓口を一本化","body":"税金・年金・保険など最大11の担当課にまたがる手続きを、事前予約制の「おくやみワンストップサービス」でまとめて案内してもらえます。QRコード・ウェブフォーム・電話・市民課窓口のいずれかで予約できます。"},
+   {"icon":"🏠","title":"相続・空き家は早めに方向性を","body":"実家を相続した場合、固定資産税の「相続人代表者届」の提出に加えて、空き家として残すか売却・解体するかの判断も必要になります。判断に迷う場合は都市計画課や不動産の相談先に早めに相談すると選択肢が広がります。"}
+  ],
+  "action_grid": [
+   {"label":"おくやみワンストップサービス（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html"},
+   {"label":"お悔やみ（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/event/okuyami/index.html"},
+   {"label":"死亡届（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html"},
+   {"label":"空き家について（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html"}
+  ]
+ },
+ {
+  "href": "/life/end-of-life/after-death-procedures/",
+  "lead": "湖西市での死亡後の手続きは「すぐに必要な届出」と「1週間程度あとでよい手続き」に分けて考えると混乱しません。死亡届・火葬許可は数日以内、税金や年金の手続きはおくやみワンストップサービスでまとめて相談する、という流れが基本です。",
+  "note": "手続きにまわる担当課は最大11か所にのぼることがあります。おくやみワンストップサービスは予約制のため、余裕を持って市民課へ連絡しておくとスムーズです。",
+  "real_cards": [
+   {"icon":"📝","title":"死亡届と火葬許可はセットで","body":"死亡届（7日以内）を市民課または新居支所に提出する際、あわせて「火葬許可等申請書」を申請します。湖西市新居斎場（やすらぎ苑、053-594-8900）の利用予約は環境課生活係（053-576-4533）で受け付けています。"},
+   {"icon":"📋","title":"1週間後以降でよい手続きはワンストップで","body":"税金・年金・保険・上下水道の名義変更など、急がない手続きは「おくやみワンストップサービス」（市民課、053-576-4531）を予約すると、複数窓口を回らずまとめて案内を受けられます。"},
+   {"icon":"💰","title":"固定資産税は相続人代表者届を","body":"故人が土地・家屋を所有していた場合、相続登記が完了するまでの間、納税通知書を受け取る人を決める「相続人代表者の届出書」を税務課資産税係（053-576-1217）に提出します。"},
+   {"icon":"👛","title":"年金は保険年金課または年金事務所へ","body":"未支給年金や遺族年金の手続きは保険年金課国保年金係（053-576-4585）、または浜松西年金事務所（053-456-8511）が窓口です。市内では毎月出張相談も開催されています。"}
+  ],
+  "qa": [
+   {"question":"死亡届はどこに提出すればいいですか。","answer":"死亡地・故人の本籍地・届出人の住所地のいずれかの市区町村役場に提出できます。湖西市内であれば市民課（053-576-4531）または新居支所市民窓口係です。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ（死亡届）</a>をご確認ください。"},
+   {"question":"何から手をつければよいか分かりません。","answer":"まずは死亡届（7日以内）と火葬許可の手続きを最優先にし、その他の税金・年金・保険の手続きは「おくやみワンストップサービス」を予約してまとめて相談するのがおすすめです。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ（おくやみワンストップサービス）</a>をご覧ください。"},
+   {"question":"おくやみワンストップサービスは誰でも使えますか。","answer":"事前予約制で、1週間後以降でもよい方を主な対象としています。QRコード・ウェブフォーム・電話・市民課窓口のいずれかで予約可能です。"},
+   {"question":"休日や夜間に亡くなった場合はどうすればいいですか。","answer":"市役所守衛室（053-576-1111）で死亡届の預かり対応をしています。ただし本格的な受理・手続きは開庁後の対応になります。"},
+   {"question":"実家の名義や空き家のことも同時に相談できますか。","answer":"固定資産税の相続人代表者届は税務課資産税係（053-576-1217）が窓口です。空き家として残す場合の管理・活用の相談は都市計画課まちづくり係（053-576-3117）で受け付けています。"}
+  ],
+  "tabs": [
+   {"id":"type-isogu","label":"すぐに必要な届出","heading":"死亡から数日以内にすべきこと","bullets":["死亡届は死亡した日から7日以内に提出","医師の死亡診断書が必要","火葬許可等申請書も同時に申請","斎場（やすらぎ苑）の利用予約も早めに"],
+    "actions":[{"label":"死亡届","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html","source":"湖西市公式サイト"},{"label":"斎場、火葬許可について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1231.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-onestop","label":"あとからでよい手続き","heading":"1週間程度あとで対応する手続き","bullets":["税金・年金・保険・上下水道など複数窓口にまたがる手続き","おくやみワンストップサービスの予約で一本化できる","QRコード・ウェブフォーム・電話・窓口のいずれかで予約"],
+    "actions":[{"label":"おくやみワンストップサービス","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-zaisan","label":"財産・相続の手続き","heading":"固定資産税・年金など財産に関わる手続き","bullets":["固定資産税は相続人代表者届の提出が必要","未登記家屋がある場合は名義変更届も別途必要","未支給年金・遺族年金は保険年金課または年金事務所へ"],
+    "actions":[{"label":"所有者が死亡した場合の手続き","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html","source":"湖西市公式サイト"},{"label":"年金相談","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/16984.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-akiya","label":"実家・空き家の今後","heading":"相続した実家の扱いを考える","bullets":["空き家として残すか、売却・解体するかを早めに検討","湖西市には空き家解体の補助金制度は現時点でありません","都市計画課まちづくり係で管理・活用の相談ができます"],
+    "actions":[{"label":"空き家について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html","source":"湖西市公式サイト"}]
+   }
+  ],
+  "steps": {
+   "today": ["死亡診断書を受け取り、市民課(053-576-4531)または新居支所へ死亡届と火葬許可等申請書を提出する", "斎場（やすらぎ苑）の利用予約を環境課(053-576-4533)にする"],
+   "this_week": ["おくやみワンストップサービスを市民課に予約する", "税務課資産税係(053-576-1217)に相続人代表者届の要否を確認する"],
+   "outside": ["未支給年金・遺族年金の請求を保険年金課(053-576-4585)または年金事務所に相談する", "実家の今後（空き家管理・売却・解体）の方針を家族で話し合う"]
+  },
+  "action_grid": [
+   {"label":"死亡届（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html"},
+   {"label":"おくやみワンストップサービス","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html"},
+   {"label":"所有者が死亡した場合の手続き","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html"}
+  ]
+ },
+ {
+  "href": "/life/end-of-life/bereavement/",
+  "lead": "湖西市で家族が亡くなったら、まず死亡届の提出と火葬の手配を進め、そのあとに健康保険・年金・税金などの届出を整理していきます。市民課への死亡届提出時に、その後必要になる手続きの案内も受けられます。",
+  "note": "死亡届は死亡地・本籍地・届出人住所地のいずれでも提出できますが、湖西市内で完結させたい場合は市民課または新居支所が窓口です。",
+  "real_cards": [
+   {"icon":"📝","title":"死亡届の提出期限は7日以内","body":"死亡した日から7日以内に、医師の死亡診断書を添えて市民課（053-576-4531）または新居支所市民窓口係に提出します。届出人は親族、同居者、家主・地主・不動産管理人の順で優先されます。"},
+   {"icon":"🔥","title":"火葬許可と斎場の予約もあわせて","body":"死亡届と同時に火葬許可等申請書を申請し、湖西市新居斎場（やすらぎ苑、053-594-8900）の利用予約を環境課生活係（053-576-4533）で行います。火葬料は令和6年7月1日以降、火葬当日に斎場窓口で現金納付する運用です。"},
+   {"icon":"🕊️","title":"その後の手続きはおくやみワンストップサービスへ","body":"税金・年金・国民健康保険など複数の担当課にまたがる手続きは、市民課で予約できる「おくやみワンストップサービス」を利用すると、来庁1回で案内をまとめて受けられます。"}
+  ],
+  "qa": [
+   {"question":"死亡届は誰が提出できますか。","answer":"優先順位として、故人の親族、故人と同居していた人、故人の家主・地主・不動産管理人の順で届出人になれます。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ（死亡届）</a>をご覧ください。"},
+   {"question":"夜間や休日に亡くなった場合はどうすればいいですか。","answer":"市役所守衛室（053-576-1111）で死亡届の預かりを行っています。ただし正式な受理や関連手続きは開庁後の対応になります。"},
+   {"question":"火葬場はどこにありますか。","answer":"湖西市新居斎場（やすらぎ苑）が市営の火葬施設で、湖西市新居町中之郷1138-1にあります。電話は053-594-8900、元日のみ休館です。"},
+   {"question":"火葬料金はいくらですか。","answer":"大人（満12歳以上）は市内10,000円・市外12,000円、小人（満12歳未満）は市内6,000円・市外7,200円です。式場・控室使用料は別途5,000円～60,000円程度かかります。"},
+   {"question":"新居支所でも死亡届は受け付けていますか。","answer":"新居支所市民窓口係でも受け付けています。ただし手続きによっては本庁でしか対応できない場合があるため、事前に市民課（053-576-4531）へ確認すると安心です。"}
+  ],
+  "tabs": [
+   {"id":"type-todokede","label":"死亡届を出す","heading":"死亡届の提出","bullets":["死亡した日から7日以内に提出","医師の死亡診断書が必要","提出先は死亡地・本籍地・届出人住所地のいずれか","湖西市内なら市民課または新居支所"],
+    "actions":[{"label":"死亡届","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-kasou","label":"火葬・斎場の手配","heading":"火葬許可と斎場の予約","bullets":["死亡届と同時に火葬許可等申請書を申請","湖西市新居斎場（やすらぎ苑）が市営火葬場","利用予約は環境課生活係へ","火葬料は当日窓口で現金納付"],
+    "actions":[{"label":"斎場、火葬許可について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1231.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-onestop","label":"その後の手続きをまとめて","heading":"税金・年金・保険などの手続き","bullets":["おくやみワンストップサービスを市民課で予約","最大11の担当課にまたがる手続きを一本化","QRコード・ウェブフォーム・電話・窓口で予約可能"],
+    "actions":[{"label":"おくやみワンストップサービス","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-hoken","label":"保険・年金の手続き","heading":"国民健康保険・年金の届出","bullets":["国民健康保険の資格喪失手続きが必要な場合あり","未支給年金・遺族年金は保険年金課または年金事務所","出張年金相談は市内で毎月開催"],
+    "actions":[{"label":"年金相談","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/16984.html","source":"湖西市公式サイト"}]
+   }
+  ],
+  "steps": {
+   "today": ["医師から死亡診断書を受け取る", "市民課(053-576-4531)または新居支所に死亡届・火葬許可等申請書を提出する"],
+   "this_week": ["環境課(053-576-4533)に斎場（やすらぎ苑）の利用を予約する", "おくやみワンストップサービスを予約する"],
+   "outside": ["国民健康保険・年金の資格喪失や給付の手続きを保険年金課(053-576-4585)に相談する", "税金関係の手続き（相続人代表者届など）を税務課(053-576-1217)に確認する"]
+  },
+  "action_grid": [
+   {"label":"死亡届（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html"},
+   {"label":"斎場、火葬許可について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1231.html"},
+   {"label":"おくやみワンストップサービス","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html"}
+  ]
+ },
+ {
+  "href": "/life/end-of-life/bereavement-procedures/",
+  "lead": "湖西市のおくやみ手続きは、税金・年金・保険・上下水道など最大11の担当課にまたがることがあります。市が用意する「おくやみワンストップサービス」を予約すれば、1か所で案内を受けながら効率よく進められます。",
+  "note": "ワンストップサービスは事前予約制です。急ぎでない手続きをまとめて相談したい場合に向いており、死亡届自体はワンストップとは別に早めの提出が必要です。",
+  "real_cards": [
+   {"icon":"📋","title":"最大11の窓口にまたがる手続き","body":"市税、国民健康保険、後期高齢者医療、年金、上下水道の名義変更など、故人と家族の状況ごとに関係する担当課が複数にわたります。窓口ごとに同じ情報を何度も記入する負担を減らすため、ワンストップサービスが用意されています。"},
+   {"icon":"📱","title":"予約方法は4通り","body":"QRコード、湖西市ウェブサイトの入力フォーム、電話、市民課窓口のいずれかで予約できます。窓口は市民課市民係（053-576-4531）です。"},
+   {"icon":"🗓️","title":"1週間後以降でもよい方向け","body":"ワンストップサービスは「1週間後以降でもよい方」を主な対象としています。死亡届・火葬許可など急ぎの手続きは先に別途済ませておく必要があります。"},
+   {"icon":"⏸️","title":"休止期間に注意","body":"年度によってワンストップ窓口が一時休止する期間が設けられる場合があります（例：令和8年4月28日～5月7日）。予約前に最新の休止情報を確認しましょう。"}
+  ],
+  "qa": [
+   {"question":"おくやみワンストップサービスとは何ですか。","answer":"亡くなった方に関する手続きを、複数の担当課窓口を回らずに1か所で行える仕組みです。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ（おくやみワンストップサービス）</a>をご覧ください。"},
+   {"question":"予約はどうすればいいですか。","answer":"QRコード、ウェブサイトの入力フォーム、電話、市民課窓口のいずれかで予約できます。窓口は市民課市民係（053-576-4531）です。"},
+   {"question":"死亡届もこのサービスで済みますか。","answer":"死亡届は別途、死亡した日から7日以内に市民課または新居支所へ提出が必要です。ワンストップサービスは、その後に必要な税金・年金・保険等の手続きをまとめて案内するものです。"},
+   {"question":"新居地区に住んでいる場合も利用できますか。","answer":"予約は市民課で受け付けていますが、新居支所での取扱いについては事前に電話で確認することをおすすめします。"},
+   {"question":"当日はどのくらい時間がかかりますか。","answer":"複数窓口を個別に回る場合は半日以上かかることもありますが、ワンストップサービスを利用することで手続き時間の短縮が期待できます。持ち物や必要書類は予約時に案内されます。"}
+  ],
+  "tabs": [
+   {"id":"type-yoyaku","label":"予約する","heading":"おくやみワンストップサービスの予約方法","bullets":["QRコードから予約","湖西市ウェブサイトの入力フォームから予約","電話（市民課市民係 053-576-4531）で予約","市民課窓口で直接予約"],
+    "actions":[{"label":"おくやみワンストップサービス","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-taisho","label":"対象となる手続き","heading":"ワンストップで案内される主な手続き","bullets":["市税（固定資産税の相続人代表者届など）","国民健康保険・後期高齢者医療","国民年金（未支給年金・遺族年金）","上下水道の名義変更"],
+    "actions":[{"label":"お悔やみ（一覧）","href":"https://www.city.kosai.shizuoka.jp/event/okuyami/index.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-isogu","label":"急ぎの手続きは別途","heading":"ワンストップより先に済ませること","bullets":["死亡届（7日以内、市民課または新居支所）","火葬許可等申請書（死亡届と同時）","斎場（やすらぎ苑）の利用予約"],
+    "actions":[{"label":"死亡届","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-zaisan","label":"相続・財産の整理も並行して","heading":"実家や財産の今後を考える","bullets":["固定資産税は相続人代表者届の提出が必要","実家を空き家にする場合は都市計画課へ相談","相続登記や名義変更は法務局・専門家への相談も検討"],
+    "actions":[{"label":"所有者が死亡した場合の手続き","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html","source":"湖西市公式サイト"}]
+   }
+  ],
+  "steps": {
+   "today": ["死亡届・火葬許可等申請書を市民課(053-576-4531)または新居支所に提出する（未提出の場合）"],
+   "this_week": ["おくやみワンストップサービスをQRコード・ウェブフォーム・電話・窓口のいずれかで予約する", "必要な持ち物（本人確認書類・印鑑等）を予約時の案内で確認する"],
+   "outside": ["ワンストップサービス当日に案内された手続きを順次進める", "実家・財産の今後（相続登記・空き家管理等）を家族で話し合う"]
+  },
+  "action_grid": [
+   {"label":"おくやみワンストップサービス（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html"},
+   {"label":"お悔やみ（一覧）","href":"https://www.city.kosai.shizuoka.jp/event/okuyami/index.html"},
+   {"label":"死亡届","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/5/1230.html"}
+  ]
+ },
+ {
+  "href": "/life/end-of-life/grave-memorial/",
+  "lead": "湖西市には市営の利木墓園があり、一般墓のほか合祀・永代供養に対応した区画も用意されています。市営墓地の利用申込や、火葬後の埋蔵に必要な手続きは環境課生活係が窓口です。",
+  "note": "利木墓園は焼骨のみ埋蔵可能です。以前に土葬していた遺骨を改葬する場合は、あらためて火葬してから埋蔵する必要があります。",
+  "real_cards": [
+   {"icon":"⛩️","title":"市営墓地は利木墓園","body":"湖西市営利木墓園（湖西市利木540-29）は環境課生活係（053-576-4533）が所管しています。募集状況は年度により異なるため、利用希望の場合は公式サイトで最新の募集情報を確認してください。"},
+   {"icon":"🪦","title":"墓石の設置には条件があります","body":"碑石の高さは180センチメートル以内、盛土は20センチメートル以内、利用許可後1年以内に設置することが条件です。設置前に環境課への確認をおすすめします。"},
+   {"icon":"📮","title":"住所変更・承継・返還も窓口へ","body":"利用者の住所・氏名変更、利用者が亡くなった場合の名義承継、墓地の返還（既納使用料の半額返金）などの手続きも環境課生活係で受け付けています。窓口提出のほか郵送も可能です。"}
+  ],
+  "qa": [
+   {"question":"利木墓園は誰でも利用できますか。","answer":"募集状況によります。年度ごとに追加募集が行われることがあるため、最新の募集案内を<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1149.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ（利木墓園について）</a>で確認してください。"},
+   {"question":"焼骨以外は埋蔵できますか。","answer":"利木墓園では焼骨のみ埋蔵可能です。以前に土葬していた遺骨を移す場合は、あらためて火葬してから埋蔵する必要があります。"},
+   {"question":"墓地を返還したい場合はどうすればいいですか。","answer":"環境課生活係（053-576-4533）に申し出ることで返還手続きができます。既納使用料は半額が返金され、管理料は月割りで還付されます。"},
+   {"question":"利用者が亡くなった場合、名義はどうなりますか。","answer":"利用者の死亡時は名義承継の手続きが必要です。環境課生活係に問い合わせて必要書類を確認してください。"},
+   {"question":"民間の霊園や樹木葬も選べますか。","answer":"市営墓地以外にも、市内には樹木葬・永代供養に対応する民間霊園があります。継承者を必要としない供養方法を希望する場合は、各霊園に直接問い合わせて内容を比較することをおすすめします。"}
+  ],
+  "tabs": [
+   {"id":"type-riki","label":"市営墓地（利木墓園）","heading":"湖西市営 利木墓園の利用","bullets":["所在地は湖西市利木540-29","窓口は環境課生活係（053-576-4533）","焼骨のみ埋蔵可能","募集状況は年度により異なる"],
+    "actions":[{"label":"利木墓園について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1149.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-sekihi","label":"墓石の設置","heading":"墓石設置・改修のルール","bullets":["碑石の高さは180センチメートル以内","盛土は20センチメートル以内","利用許可後1年以内に設置","変更がある場合は事前相談が確実"],
+    "actions":[{"label":"利木墓園について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1149.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-tetsuzuki","label":"住所変更・承継・返還","heading":"利用中の各種届出","bullets":["住所・氏名変更届","利用者死亡時の名義承継","墓地返還（使用料半額返金）","利用許可書の再交付"],
+    "actions":[{"label":"利木墓園について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1149.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-minkan","label":"民間霊園・樹木葬も検討したい","heading":"継承者を必要としない供養を考える方","bullets":["市内には樹木葬・永代供養に対応する民間霊園がある","墓じまい後の供養先として選ばれることも多い","費用・条件は霊園ごとに異なるため個別確認が必要"],
+    "actions":[{"label":"斎場、火葬許可について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1231.html","source":"湖西市公式サイト"}]
+   }
+  ],
+  "steps": {
+   "today": ["環境課生活係(053-576-4533)に利木墓園の空き状況・募集状況を確認する"],
+   "this_week": ["墓石設置を予定している場合は高さ・盛土等の条件を確認する", "民間霊園も検討する場合は複数箇所に問い合わせて比較する"],
+   "outside": ["利用許可後1年以内に墓石設置を行う（該当する場合）", "住所変更や名義承継が必要になった際に環境課へ届け出る"]
+  },
+  "action_grid": [
+   {"label":"利木墓園について（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1149.html"},
+   {"label":"斎場、火葬許可について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/1/1231.html"}
+  ]
+ },
+ {
+  "href": "/life/end-of-life/house-became-vacant/",
+  "lead": "相続などをきっかけに湖西市内の実家が空き家になった場合、まず固定資産税の相続人代表者届を済ませたうえで、管理・活用・売却・解体のどの方向で進めるかを早めに検討することが大切です。湖西市には解体費用の補助金制度が現時点でないため、費用面も含めて計画的に判断する必要があります。",
+  "note": "湖西市都市計画課まちづくり係では空き家の相談窓口を設けていますが、解体補助金は制度化されていません（2026年7月時点）。制度の新設・変更がないか、相談時にあわせて確認してください。",
+  "real_cards": [
+   {"icon":"📋","title":"まずは相続人代表者届を","body":"故人が所有していた土地・家屋は、相続登記が完了するまでの間、納税通知書の宛先を決める「相続人代表者の届出書」を税務課資産税係（053-576-1217）に提出します。未登記家屋がある場合は「未登記家屋名義変更届」も必要です。"},
+   {"icon":"🏚️","title":"空き家の相談窓口は都市計画課","body":"空き家の管理・活用に関する相談は都市計画課まちづくり係（053-576-3117）で受け付けています。相続時の登記手続きや適切な管理方法について相談できますが、解体費用の補助金制度は現時点でありません。"},
+   {"icon":"🏘️","title":"空き家バンクという選択肢も","body":"売却・賃貸を検討する場合、無料で登録できる「湖西市空き家バンク」を利用できます。都市計画課への書類提出、または専用フォームから申し込み、現地調査を経て掲載されます。"},
+   {"icon":"🏡","title":"民間の不動産相談も選択肢に","body":"行政の窓口は制度案内が中心のため、売却時期や価格の見極め、片付けとの兼ね合いなど実務的な判断は、湖西市周辺の空き家・相続した実家の相談に詳しい<a href=\"https://www.fujigaoka-service.co.jp/\" target=\"_blank\" rel=\"noopener\">富士ヶ丘サービス</a>のような地域密着の不動産会社に相談するのも一つの方法です。"}
+  ],
+  "qa": [
+   {"question":"実家が空き家になったら最初に何をすればいいですか。","answer":"固定資産税の相続人代表者届を税務課資産税係（053-576-1217）に提出することが最初のステップです。そのうえで、空き家をどうするか（管理・活用・売却・解体）を検討します。"},
+   {"question":"空き家の解体費用の補助はありますか。","answer":"2026年7月時点では、湖西市に空き家解体の補助金制度はありません。都市計画課まちづくり係（053-576-3117）に最新の制度状況を確認することをおすすめします。"},
+   {"question":"空き家バンクに登録するとどうなりますか。","answer":"湖西市のウェブサイトや市役所窓口で物件情報が公開され、購入・賃借希望者とのマッチングの機会が生まれます。登録は無料で、都市計画課まちづくり係（053-576-3117）または専用フォームから申し込めます。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ（空き家バンク）</a>をご覧ください。"},
+   {"question":"管理が難しい場合はどうすればいいですか。","answer":"定期的な見回り・換気・草刈りなど管理が必要です。放置すると管理不全空家等として指導・勧告の対象になる可能性があります。都市計画課まちづくり係に相談することをおすすめします。"},
+   {"question":"売却を考えたい場合、どこに相談すればいいですか。","answer":"空き家バンクへの登録のほか、一般の不動産会社への相談も選択肢です。相続や実家じまいを含めた相談は、地域密着の不動産会社にまとめて相談する方法もあります。"}
+  ],
+  "tabs": [
+   {"id":"type-zeikin","label":"税金の手続きをする","heading":"固定資産税の相続手続き","bullets":["相続人代表者の届出書を提出","未登記家屋がある場合は名義変更届も必要","窓口は税務課資産税係（053-576-1217）"],
+    "actions":[{"label":"所有者が死亡した場合の手続き","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-soudan","label":"空き家の相談をする","heading":"管理・活用の相談窓口","bullets":["都市計画課まちづくり係（053-576-3117）","相続時の登記手続きや管理方法を相談できる","解体費用の補助金制度は現時点でなし"],
+    "actions":[{"label":"空き家について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-bank","label":"空き家バンクに登録する","heading":"売却・賃貸を考えたい方","bullets":["登録は無料","都市計画課への書類提出または専用フォームから申込","現地調査・本人確認のうえ掲載"],
+    "actions":[{"label":"空き家バンクについて","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-fudosan","label":"売却・実家じまいを相談したい","heading":"民間の不動産相談を検討する方","bullets":["行政窓口は制度案内が中心","価格・時期・片付けとの兼ね合いは専門家への相談が有効","地域密着の相談先も選択肢になります"],
+    "actions":[{"label":"富士ヶ丘サービスに相談する","href":"https://www.fujigaoka-service.co.jp/","source":"富士ヶ丘サービス"}]
+   }
+  ],
+  "steps": {
+   "today": ["固定資産税の納税通知書の宛先を税務課(053-576-1217)に確認する", "空き家の現状（外観・室内・敷地）を確認する"],
+   "this_week": ["都市計画課まちづくり係(053-576-3117)に管理・活用の相談をする", "空き家バンク登録や売却を検討する場合は資料を集める"],
+   "outside": ["相続登記の状況を確認し、未了であれば法務局・司法書士に相談する", "管理・売却・解体の方針を家族で決める"]
+  },
+  "action_grid": [
+   {"label":"空き家について（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html"},
+   {"label":"空き家バンクについて","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html"},
+   {"label":"富士ヶ丘サービスに相談","href":"https://www.fujigaoka-service.co.jp/"}
+  ]
+ },
+ {
+  "href": "/life/end-of-life/inheritance/",
+  "lead": "湖西市での相続に関する市役所の手続きは、固定資産税の相続人代表者届や国民健康保険・年金の資格変更が中心です。遺産分割協議や相続登記そのものは法務局・司法書士など専門家の領域になるため、市の手続きと家族で決めることを分けて考えると進めやすくなります。",
+  "note": "相続登記は2024年4月から義務化されています。未登記のまま放置すると過料の対象になる場合があるため、早めに法務局や司法書士へ相談することをおすすめします。",
+  "real_cards": [
+   {"icon":"🏛️","title":"市の手続きは税金と保険・年金が中心","body":"湖西市役所で行う相続関連の主な手続きは、固定資産税の相続人代表者届（税務課資産税係、053-576-1217）と、国民健康保険・年金の資格変更（保険年金課、053-576-4585）です。"},
+   {"icon":"⚖️","title":"相続登記・遺産分割は専門家へ","body":"不動産の名義変更（相続登記）は法務局の管轄で、2024年4月から義務化されています。遺産分割協議がまとまらない場合は司法書士・弁護士への相談が必要です。"},
+   {"icon":"🏠","title":"実家が含まれる場合は空き家対策も並行して","body":"相続財産に実家が含まれる場合、空き家として残すか売却・解体するかの検討も必要になります。都市計画課まちづくり係（053-576-3117）で管理・活用の相談ができます。"}
+  ],
+  "qa": [
+   {"question":"相続人代表者届とは何ですか。","answer":"故人が所有していた土地・家屋について、相続登記が完了するまでの間、固定資産税の納税通知書を受け取る人を決めて届け出るものです。税務課資産税係（053-576-1217）が窓口です。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ（所有者が死亡した場合の手続き）</a>をご覧ください。"},
+   {"question":"相続登記は市役所でできますか。","answer":"相続登記（不動産の名義変更）は法務局の管轄で、市役所では扱っていません。管轄の法務局または司法書士への相談が必要です。"},
+   {"question":"未登記家屋がある場合はどうすればいいですか。","answer":"税務課資産税係に「未登記家屋名義変更届」を提出する必要があります。相続人代表者届とあわせて確認しておくと安心です。"},
+   {"question":"相続税の申告についても市役所に相談できますか。","answer":"相続税は国税のため、市役所では扱っていません。税務署または税理士への相談が必要です。"},
+   {"question":"実家の相続と空き家の扱いはどう進めればいいですか。","answer":"固定資産税の手続きと並行して、空き家として残すか売却・解体するかを検討します。都市計画課まちづくり係（053-576-3117）で相談できるほか、売却を視野に入れる場合は地域の不動産会社への相談も選択肢です。"}
+  ],
+  "tabs": [
+   {"id":"type-zeikin","label":"固定資産税の手続き","heading":"相続人代表者届の提出","bullets":["相続登記完了までの納税通知書の宛先を届け出る","未登記家屋がある場合は名義変更届も必要","窓口は税務課資産税係（053-576-1217）"],
+    "actions":[{"label":"所有者が死亡した場合の手続き","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-touki","label":"相続登記・遺産分割","heading":"法務局・専門家への相談","bullets":["相続登記は2024年4月から義務化","遺産分割協議は司法書士・弁護士へ相談","市役所の管轄外の手続き"],
+    "actions":[{"label":"おくやみワンストップサービス","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/11056.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-hoken","label":"保険・年金の資格変更","heading":"国民健康保険・年金の手続き","bullets":["国民健康保険の資格喪失・変更手続き","未支給年金・遺族年金の請求","窓口は保険年金課（053-576-4585）"],
+    "actions":[{"label":"年金相談","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/16984.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-akiya","label":"実家が空き家になる場合","heading":"空き家の管理・活用・売却の検討","bullets":["都市計画課まちづくり係で管理・活用の相談ができる","空き家バンクへの登録も選択肢","売却を検討する場合は不動産会社への相談も有効"],
+    "actions":[{"label":"空き家について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html","source":"湖西市公式サイト"}]
+   }
+  ],
+  "steps": {
+   "today": ["相続財産（不動産・預貯金等）の概要をリストアップする", "税務課(053-576-1217)に相続人代表者届の要否を確認する"],
+   "this_week": ["相続登記の要否・進め方を法務局または司法書士に相談する", "保険年金課(053-576-4585)に健康保険・年金の資格変更を確認する"],
+   "outside": ["遺産分割協議を家族で進める（必要な場合）", "実家が含まれる場合は空き家の今後の方針を決める"]
+  },
+  "action_grid": [
+   {"label":"所有者が死亡した場合の手続き（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html"},
+   {"label":"年金相談","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/16984.html"},
+   {"label":"空き家について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html"}
+  ]
+ },
+ {
+  "href": "/life/end-of-life/inherited-house/",
+  "lead": "湖西市内の親の家を相続した場合、名義の整理（相続登記・固定資産税の手続き）、日常的な管理、片付け、そして今後どう使うか（住む・貸す・売る・解体する）を一つずつ整理していくと判断しやすくなります。",
+  "note": "湖西市の空き家相談窓口は都市計画課まちづくり係ですが、解体の補助金制度は現時点でありません。売却や活用を検討する際は行政と民間の相談先を組み合わせるのが現実的です。",
+  "real_cards": [
+   {"icon":"📜","title":"まず名義を確認する","body":"固定資産税は税務課資産税係（053-576-1217）への相続人代表者届で当面の納税先を決められますが、根本的な名義変更（相続登記）は法務局の手続きで、2024年4月から義務化されています。"},
+   {"icon":"🧹","title":"片付けは粗大ごみの活用も","body":"家財の片付けで出る粗大ごみは、廃棄物対策課（053-577-1280）への戸別収集申込か、環境センターへの直接持ち込みで処分できます。量が多い場合は民間の不用品回収・遺品整理業者の利用も選択肢です。"},
+   {"icon":"🏚️","title":"管理か活用か売却かを検討する","body":"当面住む予定がない場合、定期的な見回り・換気などの管理が必要です。活用・売却を考える場合は都市計画課まちづくり係（053-576-3117）の空き家バンクや、民間の不動産会社への相談が選択肢になります。"},
+   {"icon":"🏡","title":"総合的な相談は専門の相談先も","body":"名義・片付け・売却など複数の悩みが絡む場合は、湖西市周辺の実家・空き家相談に詳しい<a href=\"https://www.fujigaoka-service.co.jp/\" target=\"_blank\" rel=\"noopener\">富士ヶ丘サービス</a>のような地域密着の不動産会社にまとめて相談する方法もあります。"}
+  ],
+  "qa": [
+   {"question":"親の家の名義変更は何をすればいいですか。","answer":"不動産の名義変更（相続登記）は法務局の管轄です。並行して、固定資産税の納税先を決める相続人代表者届を税務課資産税係（053-576-1217）に提出します。"},
+   {"question":"大量の家財はどう処分すればいいですか。","answer":"粗大ごみは廃棄物対策課（053-577-1280）への戸別収集申込、または環境センターへの直接持ち込みで処分できます。大量に出る場合は民間の遺品整理業者の利用も検討できます。"},
+   {"question":"当面住む予定がない場合、何をすればいいですか。","answer":"定期的な見回り・換気・草刈りなどの管理が必要です。管理が難しい場合は都市計画課まちづくり係（053-576-3117）に相談するか、管理代行サービスの利用を検討してください。"},
+   {"question":"空き家バンクに登録するとどんなメリットがありますか。","answer":"無料で物件情報を公開でき、購入・賃借希望者とのマッチングの機会が生まれます。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ（空き家バンク）</a>をご覧ください。"},
+   {"question":"売却を検討したい場合はどこに相談すればいいですか。","answer":"空き家バンクのほか、一般の不動産会社にも相談できます。相続・実家じまいを含めた相談に対応する地域密着の不動産会社を利用する方法もあります。"}
+  ],
+  "tabs": [
+   {"id":"type-meigi","label":"名義を整理する","heading":"相続登記・固定資産税の手続き","bullets":["相続登記は法務局の管轄、2024年4月から義務化","固定資産税は相続人代表者届を税務課へ","未登記家屋がある場合は名義変更届も必要"],
+    "actions":[{"label":"所有者が死亡した場合の手続き","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-katazuke","label":"片付ける","heading":"家財・粗大ごみの処分","bullets":["粗大ごみは戸別収集または環境センターへの持ち込み","戸別収集の申込は廃棄物対策課（053-577-1280）","量が多い場合は民間の遺品整理業者も選択肢"],
+    "actions":[{"label":"粗大ごみの戸別収集","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/2397.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-katsuyo","label":"管理・活用を考える","heading":"当面住まない場合の管理・活用","bullets":["定期的な見回り・換気・草刈りが必要","空き家バンクへの登録で活用の道が開ける","都市計画課まちづくり係が相談窓口"],
+    "actions":[{"label":"空き家バンクについて","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-baikyaku","label":"売却を検討したい","heading":"実家の売却を考えている方","bullets":["空き家バンクと並行して一般の不動産市場も検討できる","相続・名義整理を終えてからの売却が基本","地域密着の不動産会社への相談も有効"],
+    "actions":[{"label":"富士ヶ丘サービスに相談する","href":"https://www.fujigaoka-service.co.jp/","source":"富士ヶ丘サービス"}]
+   }
+  ],
+  "steps": {
+   "today": ["家の権利証・固定資産税納税通知書など関係書類を確認する", "片付ける範囲とおおまかな物量を把握する"],
+   "this_week": ["税務課(053-576-1217)に相続人代表者届の要否を確認する", "粗大ごみの処分方法を廃棄物対策課(053-577-1280)に相談する"],
+   "outside": ["相続登記の要否・進め方を法務局や司法書士に相談する", "住む・貸す・売る・解体するの方向性を家族で決める"]
+  },
+  "action_grid": [
+   {"label":"所有者が死亡した場合の手続き（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html"},
+   {"label":"空き家バンクについて","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html"},
+   {"label":"粗大ごみの戸別収集","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/2397.html"},
+   {"label":"富士ヶ丘サービスに相談","href":"https://www.fujigaoka-service.co.jp/"}
+  ]
+ },
+ {
+  "href": "/life/end-of-life/inherited-vacant-house/",
+  "lead": "相続した湖西市内の家は、使う・貸す・売る・解体するのいずれかを家族で整理していくことになります。片付けや名義整理を先に済ませ、そのうえで活用・売却の方針を決めると進めやすくなります。",
+  "note": "湖西市には空き家解体の補助金制度が現時点でありません（2026年7月時点）。解体を検討する場合は費用面も含めて早めに複数の選択肢を比較することをおすすめします。",
+  "real_cards": [
+   {"icon":"🧹","title":"片付けから着手するケースが多い","body":"家財の片付けで出る不用品は、廃棄物対策課（053-577-1280）への戸別収集申込か、環境センターへの直接持ち込みで処分できます。量が多い場合は遺品整理業者の利用も選択肢です。"},
+   {"icon":"🏠","title":"住む・貸すなら空き家バンクも","body":"すぐに手放さず活用したい場合、湖西市空き家バンク（都市計画課まちづくり係、053-576-3117）への登録で、賃貸・売却どちらの情報提供も可能です。"},
+   {"icon":"🔨","title":"解体するなら補助金の有無を要確認","body":"解体を検討する場合、2026年7月時点で湖西市に解体費用の補助金制度はありません。都市計画課まちづくり係（053-576-3117）に最新の制度状況を確認し、複数の解体業者から見積もりを取ることをおすすめします。"},
+   {"icon":"🏡","title":"売却は不動産会社への相談も","body":"片付け・名義整理が終わった後の売却は、空き家バンクと並行して一般の不動産会社にも相談できます。相続・実家じまいの相談に詳しい<a href=\"https://www.fujigaoka-service.co.jp/\" target=\"_blank\" rel=\"noopener\">富士ヶ丘サービス</a>のような地域密着の相談先も選択肢です。"}
+  ],
+  "qa": [
+   {"question":"実家の片付けはどこに相談すればいいですか。","answer":"粗大ごみの処分は廃棄物対策課（053-577-1280）が窓口です。量が多い場合は民間の遺品整理業者に依頼する方法もあります。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/2397.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ（粗大ごみの戸別収集）</a>をご覧ください。"},
+   {"question":"解体費用の補助金はありますか。","answer":"2026年7月時点では、湖西市に空き家解体の補助金制度はありません。都市計画課まちづくり係（053-576-3117）に最新の状況を確認してください。"},
+   {"question":"空き家バンクに登録するとどうなりますか。","answer":"無料で物件情報が公開され、購入・賃借希望者とのマッチングの機会が生まれます。売却・賃貸のどちらの登録も可能です。"},
+   {"question":"当面空き家のままにしておく場合の注意点は。","answer":"管理不全のまま放置すると、指導・勧告の対象になるおそれがあります。定期的な見回り・換気・草刈りなどの管理を継続してください。"},
+   {"question":"片付け・名義整理・売却をまとめて相談できますか。","answer":"行政の窓口（税務課・都市計画課）は制度案内が中心のため、実務的な判断や売却の相談は、相続した実家の扱いに詳しい地域密着の不動産会社にまとめて相談する方法もあります。"}
+  ],
+  "tabs": [
+   {"id":"type-katazuke","label":"片付ける","heading":"家財・不用品の処分","bullets":["粗大ごみは戸別収集または環境センターへの持ち込み","申込は廃棄物対策課（053-577-1280）","大量の場合は遺品整理業者の利用も検討"],
+    "actions":[{"label":"粗大ごみの戸別収集","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/2397.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-katsuyo","label":"住む・貸す","heading":"活用を検討する場合","bullets":["空き家バンクへの登録で賃貸・売却情報を提供","登録は無料","都市計画課まちづくり係が窓口"],
+    "actions":[{"label":"空き家バンクについて","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-kaitai","label":"解体する","heading":"解体を検討する場合","bullets":["2026年7月時点で解体費用の補助金制度はなし","複数の解体業者から見積もりを取るのが安心","都市計画課まちづくり係に最新制度を確認"],
+    "actions":[{"label":"空き家について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-baikyaku","label":"売却する","heading":"売却を検討する場合","bullets":["空き家バンクと一般の不動産市場を併用できる","片付け・名義整理を終えてからの売却が基本","地域密着の不動産会社への相談も有効"],
+    "actions":[{"label":"富士ヶ丘サービスに相談する","href":"https://www.fujigaoka-service.co.jp/","source":"富士ヶ丘サービス"}]
+   }
+  ],
+  "steps": {
+   "today": ["片付ける範囲・大まかな物量を確認する", "固定資産税の納税通知書など関係書類を確認する"],
+   "this_week": ["廃棄物対策課(053-577-1280)に粗大ごみの処分方法を相談する", "都市計画課(053-576-3117)に空き家の活用・解体の相談をする"],
+   "outside": ["住む・貸す・売る・解体するの方向性を家族で決める", "売却を選ぶ場合は不動産会社に査定を依頼する"]
+  },
+  "action_grid": [
+   {"label":"粗大ごみの戸別収集（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/2397.html"},
+   {"label":"空き家バンクについて","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html"},
+   {"label":"富士ヶ丘サービスに相談","href":"https://www.fujigaoka-service.co.jp/"}
+  ]
+ },
+ {
+  "href": "/life/end-of-life/pension-inheritance/",
+  "lead": "年金を受けていた家族が亡くなった場合、「未支給年金」の請求と「遺族年金」の請求は別の手続きとして整理して考える必要があります。湖西市では保険年金課のほか、市内で開催される年金事務所の出張相談も利用できます。",
+  "note": "年金の種類（国民年金・厚生年金）や家族構成によって必要書類・請求先が異なります。基礎年金番号が分かるものを準備したうえで早めに相談することをおすすめします。",
+  "real_cards": [
+   {"icon":"💰","title":"未支給年金は生計を同じくしていた遺族が請求","body":"故人がまだ受け取っていなかった年金（未支給年金）は、生計を同じくしていた配偶者・子・父母などの遺族が請求できます。保険年金課国保年金係（053-576-4585）または年金事務所が窓口です。"},
+   {"icon":"🕊️","title":"遺族年金は別途請求が必要","body":"未支給年金とは別に、故人に生計を維持されていた遺族は遺族基礎年金・遺族厚生年金を請求できる場合があります。年金の種類や加入期間によって条件が異なります。"},
+   {"icon":"📅","title":"市内での出張相談も活用できる","body":"浜松西年金事務所（053-456-8511）による出張相談が、湖西市健康福祉センター（おぼと）、西部地域センター、新居地域センターで毎月開催されています。完全予約制で、基礎年金番号が分かるものを準備して電話予約します。"}
+  ],
+  "qa": [
+   {"question":"未支給年金と遺族年金はどう違いますか。","answer":"未支給年金は故人がまだ受け取っていなかった年金を遺族が受け取るもの、遺族年金は故人に生計を維持されていた遺族が新たに受給する年金です。どちらも別々の請求手続きが必要です。"},
+   {"question":"どこで手続きすればいいですか。","answer":"保険年金課国保年金係（053-576-4585）または浜松西年金事務所（053-456-8511）が窓口です。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/16984.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ（年金相談）</a>をご覧ください。"},
+   {"question":"市内で年金事務所の相談を受けられますか。","answer":"はい。湖西市健康福祉センター（おぼと）、西部地域センター、新居地域センターで浜松西年金事務所による出張相談が毎月開催されています。完全予約制です。"},
+   {"question":"手続きに必要なものは何ですか。","answer":"基礎年金番号が分かるもの（年金手帳・年金証書等）を準備しましょう。故人と請求者の関係を示す戸籍謄本等が必要になる場合もあります。"},
+   {"question":"インターネットで請求できますか。","answer":"マイナポータルやねんきんネットからの申し込みが可能な場合があります。詳細は年金事務所または保険年金課に確認してください。"}
+  ],
+  "tabs": [
+   {"id":"type-misikyu","label":"未支給年金を請求する","heading":"未支給年金の請求","bullets":["生計を同じくしていた遺族が請求可能","保険年金課国保年金係が市の窓口","年金事務所への請求も可能"],
+    "actions":[{"label":"年金相談","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/16984.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-izoku","label":"遺族年金を請求する","heading":"遺族基礎年金・遺族厚生年金の請求","bullets":["故人に生計を維持されていた遺族が対象","年金の種類・加入期間で条件が異なる","未支給年金とは別に請求が必要"],
+    "actions":[{"label":"国民年金","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/nenkin_hoken/kokuminnenkin/index.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-yoyaku","label":"出張相談を予約する","heading":"市内での年金事務所出張相談","bullets":["湖西市健康福祉センター（おぼと）等で毎月開催","完全予約制、浜松西年金事務所（053-456-8511）へ電話","基礎年金番号が分かるものを準備"],
+    "actions":[{"label":"年金相談","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/16984.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-online","label":"オンラインで手続きしたい","heading":"マイナポータル等の電子申請","bullets":["マイナポータルを利用した国民年金の電子申請が可能","ねんきんネットからの手続きも一部対応","詳細は年金事務所に確認"],
+    "actions":[{"label":"マイナポータルを利用した国民年金の電子申請","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/18938.html","source":"湖西市公式サイト"}]
+   }
+  ],
+  "steps": {
+   "today": ["故人の年金手帳・年金証書など基礎年金番号が分かるものを探す", "保険年金課(053-576-4585)に必要な手続きを確認する"],
+   "this_week": ["未支給年金・遺族年金それぞれの請求書類を準備する", "必要に応じて浜松西年金事務所(053-456-8511)に出張相談を予約する"],
+   "outside": ["請求書類一式を年金事務所または保険年金課に提出する", "支給決定通知が届いたら内容を確認する"]
+  },
+  "action_grid": [
+   {"label":"年金相談（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/16984.html"},
+   {"label":"国民年金","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/nenkin_hoken/kokuminnenkin/index.html"},
+   {"label":"マイナポータルを利用した国民年金の電子申請","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/3/18938.html"}
+  ]
+ },
+ {
+  "href": "/life/end-of-life/property-tax-inheritance/",
+  "lead": "湖西市で土地・家屋の所有者が亡くなった場合、相続登記が完了するまでの間、納税通知書を受け取る人を決める「相続人代表者の届出書」を税務課資産税係に提出する必要があります。未登記家屋がある場合は別途の届出も必要です。",
+  "note": "相続人代表者届はあくまで納税通知書の宛先を決めるものであり、不動産の名義そのものを変更するものではありません。名義変更（相続登記）は法務局の管轄です。",
+  "real_cards": [
+   {"icon":"📮","title":"相続人代表者の届出書とは","body":"相続登記が完了するまでの間、固定資産税の納税通知書を受け取る代表者を決めて届け出るものです。自署・押印のうえ、税務課資産税係（053-576-1217）に提出します。"},
+   {"icon":"🏠","title":"未登記家屋には別の届出が必要","body":"未登記家屋を所有していた場合は「未登記家屋名義変更届」も別途提出が必要です。あわせて税務課資産税係に確認しましょう。"},
+   {"icon":"⚖️","title":"相続登記そのものは法務局へ","body":"相続人代表者届は納税通知の宛先変更にとどまり、不動産登記簿上の名義変更（相続登記）は別途、法務局への申請が必要です。2024年4月から相続登記は義務化されています。"}
+  ],
+  "qa": [
+   {"question":"相続人代表者届はどこに提出しますか。","answer":"湖西市役所税務課資産税係（053-576-1217）です。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ（所有者が死亡した場合の手続き）</a>をご覧ください。"},
+   {"question":"相続人代表者届を出せば相続登記は不要ですか。","answer":"いいえ。相続人代表者届は納税通知書の宛先を決めるだけの手続きで、不動産の名義変更（相続登記）とは別です。相続登記は法務局への申請が必要で、2024年4月から義務化されています。"},
+   {"question":"複数の相続人がいる場合、誰が代表者になりますか。","answer":"相続人の中から自署・押印のうえ代表者を1名決めて届け出ます。詳しい決め方や様式については税務課資産税係（053-576-1217）に確認してください。"},
+   {"question":"未登記家屋とは何ですか。","answer":"登記簿に登録されていない家屋のことです。未登記家屋を所有していた場合は、通常の相続人代表者届に加えて「未登記家屋名義変更届」の提出が必要です。"},
+   {"question":"納税通知書はいつから代表者に届きますか。","answer":"届出が受理された後の納税通知から、届け出た代表者宛てに送付されます。具体的なタイミングは税務課資産税係に確認してください。"}
+  ],
+  "tabs": [
+   {"id":"type-daihyosha","label":"相続人代表者届を出す","heading":"納税通知書の宛先を決める手続き","bullets":["相続登記完了までの間の納税通知書の宛先を届け出る","自署・押印のうえ税務課資産税係に提出","窓口・郵送どちらでも相談可能"],
+    "actions":[{"label":"所有者が死亡した場合の手続き","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-mitoki","label":"未登記家屋がある場合","heading":"未登記家屋名義変更届の提出","bullets":["登記簿に登録のない家屋が対象","相続人代表者届とあわせて提出","税務課資産税係に事前確認がおすすめ"],
+    "actions":[{"label":"所有者が死亡した場合の手続き","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-touki","label":"相続登記も進めたい","heading":"不動産の名義変更（相続登記）","bullets":["法務局の管轄で市役所では扱わない","2024年4月から相続登記が義務化","司法書士への相談も選択肢"],
+    "actions":[{"label":"固定資産税・都市計画税","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html","source":"湖西市公式サイト"}]
+   },
+   {"id":"type-akiya","label":"実家が空き家になる場合","heading":"税金の手続きと空き家対策を同時に","bullets":["固定資産税の手続きと空き家の管理・活用は別窓口","都市計画課まちづくり係で空き家相談ができる","売却を検討する場合は不動産会社への相談も有効"],
+    "actions":[{"label":"空き家について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html","source":"湖西市公式サイト"}]
+   }
+  ],
+  "steps": {
+   "today": ["固定資産税の納税通知書・課税明細書を確認する", "税務課資産税係(053-576-1217)に相続人代表者届の様式を確認する"],
+   "this_week": ["相続人代表者届（必要に応じて未登記家屋名義変更届）を提出する", "相続登記の要否を法務局または司法書士に相談する"],
+   "outside": ["相続登記完了後、あらためて納税義務者の変更を税務課に届け出る", "実家が空き家になる場合は今後の方針を家族で決める"]
+  },
+  "action_grid": [
+   {"label":"所有者が死亡した場合の手続き（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1348.html"},
+   {"label":"固定資産税・都市計画税","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html"}
+  ]
+ }
+]

@@ -1,1 +1,358 @@
-[]
+[
+ {
+  "href": "/life/housing/",
+  "lead": "湖西市で家・住まいに関わる手続きは、新築・購入・賃貸・売却・空き家・税金・耐震・市営住宅など多岐にわたり、担当窓口も都市計画課・建築住宅課・税務課・地域福祉課に分かれています。まずは自分の状況がどのテーマに当てはまるかをここで確認してください。",
+  "note": "湖西市は本庁（吉美）のほか旧新居町エリアに新居支所があります。手続きによって取扱窓口が異なる場合があるため、来庁前に電話で確認すると安心です。",
+  "real_cards": [
+   {"icon": "🏠", "title": "住宅を建てる・買う", "body": "市街化調整区域での建築制限や、定住促進奨励金などの補助制度があります。土地の区域区分を最初に確認しましょう。"},
+   {"icon": "🔑", "title": "借りる・売る・空き家にする", "body": "賃貸探しは民間仲介が基本ですが、空き家の売買・賃貸は「湖西市空き家バンク」も選択肢です。売却時は固定資産税や相続登記の状況を先に整理しておくと話が早く進みます。"},
+   {"icon": "🧱", "title": "耐震・解体・市営住宅", "body": "昭和56年5月以前の木造住宅は耐震診断・改修の補助対象になり得ます。市営住宅は建築住宅課が窓口です。"},
+   {"icon": "💴", "title": "固定資産税・都市計画税", "body": "土地・家屋にかかる税金の窓口は税務課資産税係です。家屋を解体すると住宅用地の軽減措置が外れ、税額が変わる点に注意が必要です。"}
+  ],
+  "action_grid": [
+   {"label": "湖西市公式サイトで住宅関連ページを見る", "href": "https://www.city.kosai.shizuoka.jp/"},
+   {"label": "都市計画課（空き家・開発許可）に問い合わせる", "href": "tel:0535763117"},
+   {"label": "建築住宅課（市営住宅・耐震）に問い合わせる", "href": "tel:0535764549"}
+  ]
+ },
+ {
+  "href": "/life/housing/build-house/",
+  "lead": "湖西市で注文住宅を建てる場合、まず土地が市街化区域か市街化調整区域かで手続きが大きく変わります。調整区域では原則として開発許可や建築許可が必要になるため、土地探しの段階で都市計画課に相談するのが安全です。",
+  "note": "この記事は一般的な制度の入口を整理したものです。個別の土地の区域区分や建築条件は、必ず都市計画課・建築住宅課に直接確認してください。",
+  "real_cards": [
+   {"icon": "🗾", "title": "区域区分を最初に確認", "body": "湖西市は市街化区域と市街化調整区域に分かれています。調整区域内での自己用住宅の建築は、指定大規模既存集落制度などの許可基準を満たす必要があります。"},
+   {"icon": "📋", "title": "開発許可・建築確認の流れ", "body": "調整区域の開発行為は原則すべて許可が必要（市街化区域は1,000平方メートル以上が対象）。「湖西市開発行為等の手引き」で流れを確認できます。"},
+   {"icon": "💰", "title": "定住促進奨励金などの活用", "body": "「住もっか『こさい』定住促進奨励金」は、単身40歳未満・夫婦合計80歳未満などの条件を満たすと申請できます。登記から6ヵ月以内の申請が必要です（企画政策課 共創推進係）。"},
+   {"icon": "🏗️", "title": "耐震性能も設計段階で意識", "body": "新築であれば現行の耐震基準を満たしますが、将来の維持管理を見据えて、建築住宅課の耐震関連情報も参考にしてください。"}
+  ],
+  "qa": [
+   {"question": "市街化調整区域でも家は建てられますか。", "answer": "区域や土地の要件によっては、指定大規模既存集落制度や優良田園住宅制度などを使って建築できる場合があります。個別の土地ごとに判断が必要なので、<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/4/1/2/1240.html\" target=\"_blank\" rel=\"noopener\">都市計画課の市街化調整区域内建築のページ</a>を確認するか、直接問い合わせてください。"},
+   {"question": "定住促進奨励金はいくらもらえますか。", "answer": "基本額に加えて、移住加算・市内勤務加算・子ども加算などが設定されています。具体的な金額や最新の申請要件は、企画政策課 共創推進係（053-576-4521）または申請の手引きで確認してください。"},
+   {"question": "開発許可の相談はどこにすればいいですか。", "answer": "都市計画課 開発指導係（053-576-1693）が窓口です。土地の図面などを持参して相談すると話が早く進みます。"},
+   {"question": "新築時に使える補助金は他にもありますか。", "answer": "感震ブレーカー設置補助やブロック塀撤去・改善補助など、住宅に関連する補助制度が複数あります。<a href=\"https://www.city.kosai.shizuoka.jp/kosai_saiko/hojoseido/index.html\" target=\"_blank\" rel=\"noopener\">湖西市の補助制度一覧</a>で最新情報を確認してください。"},
+   {"question": "新居地区でも同じ窓口ですか。", "answer": "都市計画・建築関連の手続きは本庁（都市計画課・建築住宅課）が窓口です。新居支所での取扱可否は事前に電話確認をおすすめします。"}
+  ],
+  "tabs": [
+   {"id": "type-zone-check", "label": "区域確認", "heading": "土地の区域区分を確認する", "bullets": ["市街化区域か市街化調整区域かで建築の可否・手続きが変わる", "都市計画課で地番から区域を確認できる", "調整区域は原則許可制、区域外に比べ制約が多い"], "actions": [{"label": "市街化調整区域内における建築(都市計画法)", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/4/1/2/1240.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-development", "label": "開発許可", "heading": "開発行為の許可を確認する", "bullets": ["調整区域内の開発行為は原則すべて許可が必要", "「湖西市開発行為等の手引き」で必要書類・流れを確認できる", "指定大規模既存集落や優良田園住宅などの特例制度もある"], "actions": [{"label": "開発行為について(都市計画法)", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/4/1/2/1257.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-subsidy", "label": "定住支援", "heading": "定住促進奨励金を確認する", "bullets": ["単身40歳未満・夫婦合計80歳未満などの年齢要件がある", "登記後6ヵ月以内の申請が必要", "移住・市内勤務・子どもの有無で加算がある"], "actions": [{"label": "住もっか「こさい」定住促進奨励金", "href": "https://www.city.kosai.shizuoka.jp/kosai_saiko/hojoseido/6391.html", "source": "湖西市企画政策課"}]},
+   {"id": "type-taishin", "label": "耐震・安全", "heading": "耐震・安全関連の補助を確認する", "bullets": ["昭和56年5月以前の木造住宅は耐震診断・改修の補助対象になり得る", "ブロック塀の撤去・改善補助もある", "建築住宅課が窓口"], "actions": [{"label": "耐震･リフォーム関係", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/index.html", "source": "湖西市建築住宅課"}]}
+  ],
+  "steps": {
+   "today": ["候補地が市街化区域か調整区域かを都市計画課に電話で確認する", "利用できそうな補助金（定住促進奨励金等）の年齢・条件を確認する"],
+   "this_week": ["都市計画課で開発許可の要否・必要書類を相談する", "建築士・工務店と設計内容・スケジュールを打ち合わせる"],
+   "outside": ["登記完了後6ヵ月以内に定住促進奨励金の申請を行う（該当する場合）", "着工前に建築確認申請の要否を建築士と確認する"]
+  },
+  "action_grid": [
+   {"label": "都市計画課 開発指導係に問い合わせる", "href": "tel:0535761693"},
+   {"label": "湖西市開発行為等の手引きを見る", "href": "https://www.city.kosai.shizuoka.jp/material/files/group/26/kyokagaiyou202103.pdf"},
+   {"label": "定住促進奨励金の詳細を見る", "href": "https://www.city.kosai.shizuoka.jp/kosai_saiko/hojoseido/6391.html"}
+  ]
+ },
+ {
+  "href": "/life/housing/buy-house/",
+  "lead": "湖西市で中古住宅や土地を購入する際は、価格や間取りだけでなく、固定資産税評価額・区域区分・耐震性能を分けて確認すると判断がしやすくなります。空き家バンクの物件も選択肢の一つです。",
+  "note": "個別物件の権利関係や税額は一件ごとに異なります。契約前に必ず宅地建物取引業者や司法書士、税務課に確認してください。",
+  "real_cards": [
+   {"icon": "🏘️", "title": "空き家バンクも選択肢に", "body": "湖西市空き家バンクには売買・賃貸希望の空き家情報が掲載されています。見学・交渉には都市計画課への申込が必要です。"},
+   {"icon": "🧾", "title": "固定資産税・都市計画税を確認", "body": "購入後は毎年固定資産税・都市計画税がかかります。住宅用地の軽減措置が適用されているかどうかも確認しておきましょう。"},
+   {"icon": "🧱", "title": "耐震性能の確認", "body": "昭和56年5月以前に建てられた木造住宅は、耐震診断の補助制度の対象になり得ます。購入前に耐震性能を確認しておくと安心です。"},
+   {"icon": "📝", "title": "区域区分と再建築の可否", "body": "市街化調整区域の物件は、将来の建て替えや増改築に制限がかかる場合があります。購入前に都市計画課で確認しましょう。"}
+  ],
+  "qa": [
+   {"question": "空き家バンクの物件はどうやって見学できますか。", "answer": "都市計画課 まちづくり係（053-576-3117）に申込書を提出する流れです。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html\" target=\"_blank\" rel=\"noopener\">湖西市空き家バンクについて</a>を確認してください。"},
+   {"question": "購入時に使える補助金はありますか。", "answer": "定住促進奨励金など定住・移住関連の奨励金が対象になる場合があります。年齢要件や申請期限があるため、企画政策課（053-576-4521）に確認してください。"},
+   {"question": "固定資産税はいつからかかりますか。", "answer": "毎年1月1日時点の所有者に課税されます。年度途中の売買では、引渡し時に税額を按分して精算するのが一般的です。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/yokuarushitsumon/1366.html\" target=\"_blank\" rel=\"noopener\">税に関するQ&A</a>を参照してください。"},
+   {"question": "中古住宅の耐震性能はどこで調べられますか。", "answer": "建築時期や図面から概略は分かりますが、正確には耐震診断が必要です。建築住宅課（053-576-4549）で診断助成の制度を確認できます。"},
+   {"question": "新居地区の物件も同じ制度が使えますか。", "answer": "税制度・建築制度は市内共通ですが、窓口対応は本庁か新居支所かで異なる場合があります。事前に電話で確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-akiyabank", "label": "空き家バンク", "heading": "空き家バンクで物件を探す", "bullets": ["売買・賃貸希望の空き家情報を掲載", "見学・交渉には都市計画課への申込が必要", "登録前に現地調査・本人確認が行われる"], "actions": [{"label": "「湖西市空き家バンク」について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-tax", "label": "税金確認", "heading": "購入後の税負担を確認する", "bullets": ["固定資産税・都市計画税は毎年課税される", "住宅用地には軽減措置がある", "評価額・課税標準額は税務課で確認できる"], "actions": [{"label": "固定資産税・都市計画税", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html", "source": "湖西市税務課"}]},
+   {"id": "type-taishin", "label": "耐震確認", "heading": "耐震性能を確認する", "bullets": ["昭和56年5月以前の木造住宅は要注意", "専門家診断・耐震改修の補助制度がある", "建築住宅課で診断助成を確認できる"], "actions": [{"label": "建築物等の耐震診断に対する助成", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/index.html", "source": "湖西市建築住宅課"}]},
+   {"id": "type-zone", "label": "区域確認", "heading": "区域区分・再建築の可否を確認する", "bullets": ["市街化調整区域は建て替えに制限がある場合がある", "都市計画課で区域区分を確認できる", "契約前の確認が望ましい"], "actions": [{"label": "市街化調整区域内における建築(都市計画法)", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/4/1/2/1240.html", "source": "湖西市都市計画課"}]}
+  ],
+  "steps": {
+   "today": ["候補物件の区域区分（市街化区域/調整区域）を確認する", "固定資産税評価額のおおよその目安を確認する"],
+   "this_week": ["空き家バンクや不動産会社で物件情報を収集する", "耐震性能・築年数を確認し、必要なら診断を検討する"],
+   "outside": ["契約前に税務課で最新の税額・軽減措置の適用状況を確認する", "登記・引渡しのスケジュールを司法書士と調整する"]
+  },
+  "action_grid": [
+   {"label": "湖西市空き家バンクの物件情報を見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/7841.html"},
+   {"label": "税務課 資産税係に問い合わせる", "href": "tel:0535761217"},
+   {"label": "建築住宅課に耐震診断を相談する", "href": "tel:0535764549"}
+  ]
+ },
+ {
+  "href": "/life/housing/clean-parents-house/",
+  "lead": "実家の片付けは、ごみの分別・処分方法の確認と、遺品や権利関係の整理を分けて進めると混乱しません。湖西市はごみの分別ルールが細かく決まっており、量が多い場合は環境センターへの持ち込みも検討できます。",
+  "note": "遺品の中に価値がありそうな物や重要書類が混ざっていることがあります。処分前に一通り確認し、判断に迷うものは残しておくと安心です。",
+  "real_cards": [
+   {"icon": "🗑️", "title": "ごみの分別ルールを確認", "body": "湖西市は可燃・不燃・資源などに細かく分別する必要があります。「ごみ分別収集カレンダー」「ごみガイドブック」で品目ごとの区分を確認できます。"},
+   {"icon": "🚛", "title": "量が多い場合は環境センターへ持ち込み", "body": "粗大ごみや大量の家財は、廃棄物対策課（環境センター内、053-577-1280）への持ち込みが可能です。事前に搬入規定で量や大きさの制限を確認しましょう。"},
+   {"icon": "📄", "title": "相続登記・名義の確認も並行して", "body": "令和6年4月から相続登記が義務化されています。実家の名義が亡くなった方のままになっていないか、早めに確認しておくと後々の売却・処分がスムーズです。"},
+   {"icon": "🏠", "title": "片付け後の家をどうするか決める", "body": "住まない実家は空き家として管理が必要になります。売却を考える場合は、片付けの段階から不動産会社に相談しておくと、その後の流れがスムーズです。困ったときは地域の不動産相談窓口として<a href=\"https://www.fujigaoka-service.co.jp/\" target=\"_blank\" rel=\"noopener\">富士ヶ丘サービス</a>のような空き家・実家片付けに詳しい業者に相談する方法もあります。"}
+  ],
+  "qa": [
+   {"question": "大量に出た家財ごみはどう処分すればいいですか。", "answer": "分別した上で、廃棄物対策課（環境センター、053-577-1280）へ持ち込む方法があります。搬入規定で1回あたりの量や大きさに制限があるため、事前に問い合わせてください。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/gomimotikomi/2396.html\" target=\"_blank\" rel=\"noopener\">ごみ・資源物の持ち込み</a>を参照してください。"},
+   {"question": "遺品整理業者に頼んでもいいですか。", "answer": "民間の遺品整理業者を利用することもできます。ただし業者による回収であっても、市の分別ルールに従った処分が前提となるため、無許可の不用品回収業者には注意してください。"},
+   {"question": "実家の名義が親のままですが、片付けだけ先にしていいですか。", "answer": "片付け自体は進めて問題ありませんが、相続登記は令和6年4月から義務化されており、相続を知った日から3年以内の申請が必要です。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/17500.html\" target=\"_blank\" rel=\"noopener\">空き家を相続した場合</a>を確認してください。"},
+   {"question": "片付け後、家を空き家のままにしておくとどうなりますか。", "answer": "管理が不十分だと「特定空家等」に認定され、固定資産税の住宅用地の軽減措置が外れて税額が上がる場合があります。早めに活用・売却・解体などの方針を決めることをおすすめします。"},
+   {"question": "片付けと売却をあわせて相談できますか。", "answer": "はい。片付けの途中でも、不動産会社や空き家・実家整理に詳しい相談窓口に早めに相談すると、そのまま売却や賃貸につなげやすくなります。<a href=\"https://www.fujigaoka-service.co.jp/\" target=\"_blank\" rel=\"noopener\">富士ヶ丘サービス</a>でも空き家・実家片付けに関する相談を受け付けています。"}
+  ],
+  "tabs": [
+   {"id": "type-sort", "label": "分別確認", "heading": "ごみの分別ルールを確認する", "bullets": ["可燃・不燃・資源などの区分を確認する", "ごみ分別収集カレンダー・ガイドブックが目安になる", "迷う品目は廃棄物対策課へ電話確認"], "actions": [{"label": "家庭ごみの分別・出し方", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/gomi_kankyo/gomi_recycle/bunbetu/index.html", "source": "湖西市廃棄物対策課"}]},
+   {"id": "type-bring", "label": "持ち込み", "heading": "環境センターへの持ち込みを検討する", "bullets": ["量が多い場合は環境センターへ直接持ち込み可能", "搬入規定で量・サイズの制限を事前確認", "手数料がかかる場合がある"], "actions": [{"label": "ごみ・資源物の持ち込み", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/gomimotikomi/2396.html", "source": "湖西市廃棄物対策課"}]},
+   {"id": "type-registry", "label": "名義確認", "heading": "相続登記の状況を確認する", "bullets": ["令和6年4月から相続登記が義務化", "相続を知った日から3年以内に登記が必要", "司法書士への相談も選択肢"], "actions": [{"label": "空き家を相続した場合", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/17500.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-nextstep", "label": "今後の方針", "heading": "片付け後の活用・売却を考える", "bullets": ["空き家バンクへの登録も選択肢", "特定空家等の認定を避けるための管理が必要", "早めの相談でその後の手続きがスムーズに"], "actions": [{"label": "空き家について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/index.html", "source": "湖西市都市計画課"}]}
+  ],
+  "steps": {
+   "today": ["ごみの分別ルールをガイドブックで確認する", "重要書類・貴重品を先に確保しておく"],
+   "this_week": ["家財の量に応じて通常収集か持ち込みかを決める", "名義（相続登記の有無）を確認する"],
+   "outside": ["片付け後の家の活用方針（売却・賃貸・解体等）を決める", "必要であれば不動産相談窓口に相談する"]
+  },
+  "action_grid": [
+   {"label": "廃棄物対策課（環境センター）に問い合わせる", "href": "tel:0535771280"},
+   {"label": "ごみ分別収集カレンダー・ガイドブックを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/14395.html"},
+   {"label": "富士ヶ丘サービスに実家片付け・空き家を相談する", "href": "https://www.fujigaoka-service.co.jp/"}
+  ]
+ },
+ {
+  "href": "/life/housing/earthquake-demolition/",
+  "lead": "湖西市では、昭和56年5月以前に建てられた木造住宅を対象に、耐震診断・改修・解体・移転にかかる費用の一部を補助する制度が用意されています。まずは自分の家がいつ建てられたかを確認し、対象になりそうか整理しましょう。",
+  "note": "補助制度は予算や条件が年度により変わることがあります。申請前に必ず建築住宅課へ最新の内容を確認してください。",
+  "real_cards": [
+   {"icon": "🔍", "title": "わが家の専門家診断事業", "body": "昭和56年5月以前の木造住宅を対象に、専門家による耐震診断を受けられる制度です。建築住宅課（053-576-4549）が窓口です。"},
+   {"icon": "🛠️", "title": "木造住宅耐震改修事業", "body": "診断の結果、耐震性が不足している場合に、改修工事費用の一部を補助する制度です。"},
+   {"icon": "🚧", "title": "木造住宅除却事業（解体）", "body": "耐震性が不足する木造住宅の解体費用の一部を補助する制度もあります。令和4年度は3件の耐震改修、2件の解体に補助実績があります。"},
+   {"icon": "🛏️", "title": "耐震シェルター・防災ベッドの補助", "body": "住宅全体の耐震改修が難しい場合、就寝スペースを守る耐震シェルターや防災ベッドの設置費用を補助する制度もあります。"}
+  ],
+  "qa": [
+   {"question": "自宅が耐震診断の対象かどうか、どう確認すればいいですか。", "answer": "目安は昭和56年5月31日以前に着工された木造住宅です。建築確認済証や登記の年月日で確認できます。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/index.html\" target=\"_blank\" rel=\"noopener\">耐震・リフォーム関係</a>のページを確認してください。"},
+   {"question": "耐震改修と解体、どちらの補助を使うか迷っています。", "answer": "建物の状態や今後の住み方（住み続けるか、更地にするか）によって選択肢が変わります。建築住宅課（053-576-4549）に相談すると、どちらの制度が使えるか案内してもらえます。"},
+   {"question": "耐震シェルターとは何ですか。", "answer": "住宅全体を補強するのではなく、寝室など一部の空間を鉄骨などで補強し、就寝中の地震から命を守るための設備です。全体改修より低コスト・短工期で導入できます。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/17193.html\" target=\"_blank\" rel=\"noopener\">耐震シェルター・防災ベッド整備に対する補助金</a>を確認してください。"},
+   {"question": "申請の順番はどうなりますか。", "answer": "一般的には、まず専門家診断を受け、その結果をもとに改修や解体の補助を申請する流れになります。詳細な手順は建築住宅課に確認してください。"},
+   {"question": "解体だけしたい場合も補助対象になりますか。", "answer": "耐震性が不足する木造住宅の除却（解体）事業として補助の対象になる場合があります。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/7462.html\" target=\"_blank\" rel=\"noopener\">木造住宅の耐震改修促進事業</a>のページで詳細を確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-diagnosis", "label": "耐震診断", "heading": "専門家診断を受ける", "bullets": ["昭和56年5月以前の木造住宅が対象の目安", "専門家による診断で耐震性を数値で把握できる", "建築住宅課で申込方法を確認できる"], "actions": [{"label": "建築物等の耐震診断に対する助成", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/index.html", "source": "湖西市建築住宅課"}]},
+   {"id": "type-retrofit", "label": "耐震改修", "heading": "耐震改修工事の補助を確認する", "bullets": ["診断結果に応じて改修費用の一部を補助", "筋交いや構造用合板での補強などが対象", "予算枠があるため早めの相談が望ましい"], "actions": [{"label": "木造住宅の耐震改修促進事業", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/7462.html", "source": "湖西市建築住宅課"}]},
+   {"id": "type-demolition", "label": "解体", "heading": "解体（除却）の補助を確認する", "bullets": ["耐震性不足の木造住宅の解体費用を一部補助", "更地にした後の土地活用・売却も検討", "固定資産税の軽減措置が外れる点に注意"], "actions": [{"label": "耐震・リフォーム関係", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/index.html", "source": "湖西市建築住宅課"}]},
+   {"id": "type-shelter", "label": "簡易対策", "heading": "耐震シェルター・防災ベッドを検討する", "bullets": ["全体改修が難しい場合の代替策", "就寝スペースを重点的に守る", "費用・工期が全体改修より抑えられる"], "actions": [{"label": "耐震シェルター・防災ベッド整備に対する補助金", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/17193.html", "source": "湖西市建築住宅課"}]}
+  ],
+  "steps": {
+   "today": ["自宅の建築年（昭和56年5月以前かどうか）を確認する", "建築住宅課（053-576-4549）に対象かどうか問い合わせる"],
+   "this_week": ["専門家診断の申込方法・必要書類を確認する", "改修・解体・シェルターのどれが自分の状況に合うか整理する"],
+   "outside": ["診断結果をもとに補助金の申請時期・予算枠を確認する", "工事業者と見積り・スケジュールを調整する"]
+  },
+  "action_grid": [
+   {"label": "建築住宅課に耐震関連を問い合わせる", "href": "tel:0535764549"},
+   {"label": "耐震・リフォーム関係ページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/index.html"},
+   {"label": "耐震シェルター・防災ベッド補助を見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/taisin/17193.html"}
+  ]
+ },
+ {
+  "href": "/life/housing/municipal-housing/",
+  "lead": "湖西市の市営住宅は建築住宅課が窓口で、募集は随時募集の形をとっている団地があります。家賃は所得や住宅の広さに応じて決まるため、まずは募集状況と入居条件を確認しましょう。",
+  "note": "募集状況や家賃は時期・団地により変動します。最新情報は必ず建築住宅課または公式ページで確認してください。",
+  "real_cards": [
+   {"icon": "🏢", "title": "随時募集の団地がある", "body": "栄町住宅、川尻住宅、鷲津住宅、五和住宅など複数の市営住宅で随時募集を行っています。家賃はおおむね1万8,700円〜3万7,800円程度の幅があります（時期により変動）。"},
+   {"icon": "📋", "title": "入居条件を確認", "body": "収入基準や同居親族の有無など、市営住宅管理条例に基づく入居資格があります。申込前に条件を満たしているか確認しましょう。"},
+   {"icon": "🏠", "title": "県営住宅という選択肢も", "body": "湖西市内には市営住宅のほか県営住宅もあります。あわせて確認すると選択肢が広がります。"},
+   {"icon": "📞", "title": "建築住宅課が窓口", "body": "申込書の入手や提出、募集状況の確認は建築住宅課（053-576-4549）で行えます。"}
+  ],
+  "qa": [
+   {"question": "市営住宅の申込みはいつでもできますか。", "answer": "団地によっては随時募集を行っています。募集中の団地・部屋数は時期により変わるため、<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/index.html\" target=\"_blank\" rel=\"noopener\">市営住宅入居者の募集について(随時募集)</a>で最新状況を確認してください。"},
+   {"question": "入居できる収入の基準はありますか。", "answer": "はい。湖西市営住宅管理条例に基づく収入基準や同居親族の要件があります。詳細は建築住宅課（053-576-4549）に確認してください。"},
+   {"question": "家賃はどのくらいですか。", "answer": "団地・部屋の広さ・入居者の収入によって異なり、目安として月額1万8,700円〜3万7,800円程度の例があります。正確な金額は申込時に案内されます。"},
+   {"question": "県営住宅と市営住宅はどう違いますか。", "answer": "運営主体が異なり、申込窓口も別になります。湖西市内の県営住宅・市営住宅の情報は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/7623.html\" target=\"_blank\" rel=\"noopener\">市営住宅・県営住宅</a>のページでまとめて確認できます。"},
+   {"question": "現在市営住宅に住んでいますが、退去や修繕の相談はどこにすればいいですか。", "answer": "建築住宅課が窓口です。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/5/index.html\" target=\"_blank\" rel=\"noopener\">湖西市営住宅にお住まいの方へ</a>のページに手続きがまとまっています。"}
+  ],
+  "tabs": [
+   {"id": "type-boshu", "label": "募集状況", "heading": "随時募集の状況を確認する", "bullets": ["複数団地で随時募集を実施", "部屋の広さ・家賃は団地により異なる", "最新の空室状況は都度更新される"], "actions": [{"label": "市営住宅入居者の募集について(随時募集)", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/index.html", "source": "湖西市建築住宅課"}]},
+   {"id": "type-condition", "label": "入居条件", "heading": "入居資格・収入基準を確認する", "bullets": ["湖西市営住宅管理条例に基づく基準がある", "同居親族の有無なども確認項目", "収入超過の場合は明渡し努力義務が生じることも"], "actions": [{"label": "湖西市営住宅管理条例", "href": "https://www.city.kosai.shizuoka.jp/section/reiki/reiki_honbun/g322RG00000453.html", "source": "湖西市"}]},
+   {"id": "type-kenei", "label": "県営住宅", "heading": "県営住宅もあわせて確認する", "bullets": ["市営住宅とは別の窓口・条件", "湖西市内にも県営住宅がある", "選択肢を広げたい場合に確認"], "actions": [{"label": "市営住宅・県営住宅", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/7623.html", "source": "湖西市建築住宅課"}]},
+   {"id": "type-current", "label": "入居中の方", "heading": "入居中の手続き・修繕を確認する", "bullets": ["退去・修繕・更新などの手続きがある", "建築住宅課が窓口", "条例・規則に基づき対応"], "actions": [{"label": "湖西市営住宅にお住まいの方へ", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/5/index.html", "source": "湖西市建築住宅課"}]}
+  ],
+  "steps": {
+   "today": ["建築住宅課（053-576-4549）に募集状況を電話で確認する", "自分の世帯が収入基準を満たしそうか概算する"],
+   "this_week": ["募集中の団地の間取り・家賃を比較する", "申込書類（収入証明等）を準備する"],
+   "outside": ["申込後の審査結果を待ち、入居時期を確認する", "入居後は更新・収入報告などの手続きを忘れずに行う"]
+  },
+  "action_grid": [
+   {"label": "建築住宅課に市営住宅を問い合わせる", "href": "tel:0535764549"},
+   {"label": "市営住宅入居者の募集(随時募集)を見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/index.html"},
+   {"label": "市営住宅・県営住宅ページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/7623.html"}
+  ]
+ },
+ {
+  "href": "/life/housing/property-tax/",
+  "lead": "湖西市の固定資産税・都市計画税は税務課資産税係が担当しています。住宅用地には軽減措置がありますが、家屋を解体すると軽減が外れる場合があるため、解体前に税額の変化を確認しておくと安心です。",
+  "note": "税額の計算は個々の評価額・特例適用状況により異なります。正確な金額は税務課に直接確認してください。",
+  "real_cards": [
+   {"icon": "🧾", "title": "固定資産税・都市計画税の基本", "body": "毎年1月1日時点の土地・家屋の所有者に課税されます。評価額をもとに課税標準額が算定されます。"},
+   {"icon": "🏡", "title": "住宅用地の軽減措置", "body": "住宅として使用されている敷地は、200平方メートルまでの部分（小規模住宅用地）で固定資産税が最大1/6、都市計画税が1/3に軽減されます。"},
+   {"icon": "⚠️", "title": "解体すると軽減が外れる", "body": "家屋を取り壊すと住宅用地の軽減措置が適用されなくなり、土地の税額が上がる場合があります。解体を検討する際は事前に税額の変化を確認しましょう。"},
+   {"icon": "🏚️", "title": "特定空家等に認定されると増税の可能性", "body": "管理不全の空き家が「特定空家等」等に認定され、必要な改善が行われないまま勧告を受けると、住宅用地の軽減措置が除外され、税額が上がる場合があります。"}
+  ],
+  "qa": [
+   {"question": "固定資産税の納期はいつですか。", "answer": "納期は複数回に分かれています。正確な期日は年度により案内されるため、<a href=\"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/1/3700.html\" target=\"_blank\" rel=\"noopener\">市税の納期限について</a>を確認するか、税務課（053-576-1217）に問い合わせてください。"},
+   {"question": "評価額と課税標準額はどう違いますか。", "answer": "評価額は国の固定資産評価基準に基づく土地・家屋の価値、課税標準額はそこから特例などを適用して実際の税額計算に使う額です。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/4/1/1342.html\" target=\"_blank\" rel=\"noopener\">評価額と課税標準額</a>を確認してください。"},
+   {"question": "家を解体すると税金はどう変わりますか。", "answer": "住宅用地の軽減措置が外れるため、土地にかかる税額が上がる場合があります。評価額自体は下がることもありますが、負担水準の調整措置により税額が上がるケースもあるため、税務課に個別に確認することをおすすめします。"},
+   {"question": "空き家を放置すると税金が上がると聞きました。本当ですか。", "answer": "管理が行き届かず「特定空家等」等として勧告を受けた場合、住宅用地の軽減措置が除外され、更地と同程度の税額になることがあります。早めの管理・活用の検討をおすすめします。"},
+   {"question": "納税通知書が届かない・住所変更をしたい場合はどうすればいいですか。", "answer": "納税通知書等の送付先変更の手続きが必要です。<a href=\"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html\" target=\"_blank\" rel=\"noopener\">固定資産税・都市計画税</a>のページから手続き方法を確認するか、税務課に連絡してください。"}
+  ],
+  "tabs": [
+   {"id": "type-basic", "label": "基本", "heading": "固定資産税・都市計画税の基本を確認する", "bullets": ["毎年1月1日時点の所有者に課税", "評価額をもとに課税標準額を算定", "土地・家屋・償却資産が対象"], "actions": [{"label": "固定資産税・都市計画税", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html", "source": "湖西市税務課"}]},
+   {"id": "type-reduction", "label": "軽減措置", "heading": "住宅用地の軽減措置を確認する", "bullets": ["200平方メートル以下の部分は固定資産税が最大1/6", "都市計画税は最大1/3に軽減", "家屋がなくなると軽減が外れる"], "actions": [{"label": "税に関するQ&A", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/yokuarushitsumon/1366.html", "source": "湖西市税務課"}]},
+   {"id": "type-payment", "label": "納付", "heading": "納付方法・納期を確認する", "bullets": ["口座振替・コンビニ・窓口など複数の納付方法がある", "納期限は年度ごとに通知される", "納税通知書は毎年5月頃に発送"], "actions": [{"label": "税金の納め方について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/6/1362.html", "source": "湖西市税務課"}]},
+   {"id": "type-certificate", "label": "証明書", "heading": "税に関する証明書を取得する", "bullets": ["固定資産税評価証明書などが取得可能", "売却・相続手続きで必要になることが多い", "郵送請求にも対応"], "actions": [{"label": "郵送による請求", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/7/1/1952.html", "source": "湖西市税務課"}]}
+  ],
+  "steps": {
+   "today": ["納税通知書や評価証明書で現在の評価額・課税標準額を確認する", "住宅用地の軽減措置が適用されているか確認する"],
+   "this_week": ["解体・売却を予定している場合、税務課に税額変化を確認する", "納付方法（口座振替等）を見直す"],
+   "outside": ["毎年の納期限を確認し、滞納が発生しないようにする", "住所・所有者に変更があれば速やかに届け出る"]
+  },
+  "action_grid": [
+   {"label": "税務課 資産税係に問い合わせる", "href": "tel:0535761217"},
+   {"label": "固定資産税・都市計画税ページを見る", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html"},
+   {"label": "税に関するQ&Aを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/yokuarushitsumon/1366.html"}
+  ]
+ },
+ {
+  "href": "/life/housing/public-housing-consultation/",
+  "lead": "住まいに関する困りごとは、家賃が払えない・住む場所を失いそうといった緊急度の高いものから、市営住宅への入居相談まで幅広くあります。まず状況の緊急度を整理し、地域福祉課や社会福祉協議会に相談しましょう。",
+  "note": "住居確保給付金など収入・状況に応じた要件がある制度もあります。該当するかどうかは必ず窓口で確認してください。",
+  "real_cards": [
+   {"icon": "🆘", "title": "住居確保給付金", "body": "離職・廃業やそれに準ずる収入減少により住居を失った、または失うおそれがある方に、家賃相当額を一定期間支給する制度です。地域福祉課 保護係（053-576-1295）が窓口です。"},
+   {"icon": "🤝", "title": "湖西市社会福祉協議会への相談", "body": "生活全般の困りごと相談は湖西市社会福祉協議会（053-575-0294、または053-525-6667）でも受け付けています。"},
+   {"icon": "🏢", "title": "市営住宅への入居相談", "body": "住まい探し自体に困っている場合、市営住宅の随時募集状況を建築住宅課で確認する方法もあります。"},
+   {"icon": "📋", "title": "相談窓口の一覧を活用", "body": "湖西市には家庭問題・介護・法律・年金・消費生活など複数の相談窓口があります。まずどこに相談すべきか迷ったら一覧を確認しましょう。"}
+  ],
+  "qa": [
+   {"question": "家賃が払えなくなりそうな場合、どこに相談すればいいですか。", "answer": "地域福祉課 保護係（053-576-1295）または湖西市社会福祉協議会（053-575-0294）に早めに相談してください。住居確保給付金の対象になる可能性があります。"},
+   {"question": "住居確保給付金の対象者は誰ですか。", "answer": "離職・廃業から2年以内の方、または給与が本人の責任以外の理由で減少し離職と同等の状況にある方などが対象です。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/gyomuannai/4/8440.html\" target=\"_blank\" rel=\"noopener\">生活にお困りの方へ</a>のページを確認してください。"},
+   {"question": "市営住宅への入居を考えていますが、相談だけでもできますか。", "answer": "はい。建築住宅課（053-576-4549）で募集状況や入居条件について相談できます。"},
+   {"question": "高齢の親の住まいについて相談したい場合はどこに聞けばいいですか。", "answer": "高齢者の相談窓口として「地域包括支援センター」があります。住まいの相談とあわせて生活全般の相談が可能です。"},
+   {"question": "どの窓口に相談すればいいか分からない場合はどうすればいいですか。", "answer": "<a href=\"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html\" target=\"_blank\" rel=\"noopener\">各種相談窓口</a>の一覧から近い相談内容を探すか、まず湖西市社会福祉協議会に電話すると適切な窓口を案内してもらえます。"}
+  ],
+  "tabs": [
+   {"id": "type-urgent", "label": "緊急度高", "heading": "住居を失う恐れがある場合", "bullets": ["住居確保給付金の対象になる可能性がある", "地域福祉課 保護係が窓口", "早期の相談が支援の幅を広げる"], "actions": [{"label": "生活にお困りの方へ", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/gyomuannai/4/8440.html", "source": "湖西市地域福祉課"}]},
+   {"id": "type-general", "label": "生活相談", "heading": "生活全般の相談窓口を確認する", "bullets": ["湖西市社会福祉協議会で幅広い相談に対応", "専門相談員が支援内容を一緒に検討", "平日8時30分〜17時15分で対応"], "actions": [{"label": "相談窓口の一覧", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/15937.html", "source": "湖西市"}]},
+   {"id": "type-koueijutaku", "label": "市営住宅", "heading": "市営住宅への入居を相談する", "bullets": ["随時募集の状況を確認できる", "収入基準など条件がある", "建築住宅課が窓口"], "actions": [{"label": "市営住宅入居者の募集について(随時募集)", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/index.html", "source": "湖西市建築住宅課"}]},
+   {"id": "type-senior", "label": "高齢者", "heading": "高齢者の住まい相談を確認する", "bullets": ["地域包括支援センターが窓口", "住まいと介護をあわせて相談できる", "早めの相談で選択肢が広がる"], "actions": [{"label": "高齢者の相談窓口『地域包括支援センター』", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/13248.html", "source": "湖西市"}]}
+  ],
+  "steps": {
+   "today": ["今の状況（緊急度）を整理する", "地域福祉課または社会福祉協議会に電話で相談する"],
+   "this_week": ["必要書類（収入状況が分かるもの等）を準備する", "市営住宅など具体的な住まいの選択肢を確認する"],
+   "outside": ["支援制度の利用が決まったら、期間や条件を確認しながら手続きを進める", "生活が安定するまで定期的に窓口と連絡を取る"]
+  },
+  "action_grid": [
+   {"label": "地域福祉課 保護係に相談する", "href": "tel:0535761295"},
+   {"label": "湖西市社会福祉協議会に相談する", "href": "tel:0535750294"},
+   {"label": "相談窓口の一覧を見る", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html"}
+  ]
+ },
+ {
+  "href": "/life/housing/rent-house/",
+  "lead": "湖西市で賃貸を探す場合、基本は民間の不動産仲介会社を通じた物件探しになります。加えて、空き家バンクに登録された賃貸希望の空き家も選択肢の一つです。",
+  "note": "空き家バンクの物件は通常の賃貸市場とは別枠のため、数は多くありません。並行して民間の不動産会社にも相談すると選択肢が広がります。",
+  "real_cards": [
+   {"icon": "🔑", "title": "民間の不動産仲介が基本", "body": "アパート・マンションなど一般的な賃貸物件は民間の不動産会社経由で探すのが基本です。浜松市に隣接するため、通勤・通学の利便性で浜松側の物件と比較検討する人も少なくありません。"},
+   {"icon": "🏚️", "title": "空き家バンクの賃貸物件", "body": "湖西市空き家バンクには、所有者が賃貸希望として登録した空き家情報も掲載されます。見学・交渉には都市計画課への申込が必要です。"},
+   {"icon": "🏢", "title": "市営住宅という選択肢", "body": "収入要件などを満たせば、市営住宅への入居も選択肢になります。建築住宅課で随時募集の状況を確認できます。"},
+   {"icon": "🆘", "title": "住まい探しに困ったときの相談窓口", "body": "住居を失った・失うおそれがある場合は、住居確保給付金など生活支援制度の対象になることがあります。地域福祉課や社会福祉協議会に相談してください。"}
+  ],
+  "qa": [
+   {"question": "湖西市内の賃貸物件はどこで探せますか。", "answer": "一般的な賃貸は民間の不動産仲介会社（ホームズ、アパマンショップなど）で探すのが基本です。加えて、湖西市空き家バンクにも賃貸希望の空き家情報が掲載される場合があります。"},
+   {"question": "空き家バンクの賃貸物件はどう申し込みますか。", "answer": "見学・交渉を希望する場合は、都市計画課 まちづくり係（053-576-3117）に申込書類を提出する流れです。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html\" target=\"_blank\" rel=\"noopener\">「湖西市空き家バンク」について</a>を確認してください。"},
+   {"question": "市営住宅も賃貸の選択肢になりますか。", "answer": "はい。収入基準などの条件を満たせば市営住宅への入居も可能です。建築住宅課（053-576-4549）で随時募集の状況を確認できます。"},
+   {"question": "収入が減って家賃が払えなくなりそうです。どうすればいいですか。", "answer": "住居確保給付金など、家賃相当額を一定期間支給する制度があります。地域福祉課 保護係（053-576-1295）または湖西市社会福祉協議会（053-575-0294）に早めに相談してください。"},
+   {"question": "新居地区で賃貸を探す場合も同じ方法ですか。", "answer": "民間賃貸市場としての探し方は同じです。空き家バンクの登録物件は市内全域から掲載されるため、エリアを絞って都市計画課に確認するとよいでしょう。"}
+  ],
+  "tabs": [
+   {"id": "type-private", "label": "民間賃貸", "heading": "民間の不動産仲介で探す", "bullets": ["アパート・マンションなど一般的な賃貸が中心", "浜松市側の物件とあわせて検討する人も多い", "不動産会社ごとに取扱物件が異なる"], "actions": [{"label": "湖西市内の売買・賃貸・不動産会社情報", "href": "https://akiya-bank.shizuoka.fudohsan.jp/html/kosai.html", "source": "空き家バンク しずおか"}]},
+   {"id": "type-akiyabank", "label": "空き家バンク", "heading": "空き家バンクの賃貸物件を探す", "bullets": ["所有者が賃貸希望として登録した空き家がある", "見学・交渉には都市計画課への申込が必要", "掲載数は民間市場より少ない"], "actions": [{"label": "「湖西市空き家バンク」について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-koueijutaku", "label": "市営住宅", "heading": "市営住宅への入居を検討する", "bullets": ["収入基準など入居条件がある", "随時募集の団地がある", "建築住宅課が窓口"], "actions": [{"label": "市営住宅入居者の募集について(随時募集)", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kenchikujutakuka/kouei/index.html", "source": "湖西市建築住宅課"}]},
+   {"id": "type-support", "label": "家賃支援", "heading": "家賃が払えない場合の支援を確認する", "bullets": ["住居確保給付金は家賃相当額を一定期間支給", "離職・廃業から2年以内などの要件がある", "地域福祉課・社会福祉協議会が窓口"], "actions": [{"label": "生活にお困りの方へ", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/gyomuannai/4/8440.html", "source": "湖西市地域福祉課"}]}
+  ],
+  "steps": {
+   "today": ["希望エリア・予算・通勤経路を整理する", "民間の不動産会社数社に問い合わせる"],
+   "this_week": ["空き家バンクの掲載物件も確認する", "収入基準を満たせば市営住宅の募集状況も確認する"],
+   "outside": ["契約前に重要事項説明の内容をよく確認する", "家賃の支払いに不安がある場合は早めに相談窓口へ連絡する"]
+  },
+  "action_grid": [
+   {"label": "湖西市空き家バンクの物件情報を見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/7841.html"},
+   {"label": "都市計画課 まちづくり係に問い合わせる", "href": "tel:0535763117"},
+   {"label": "建築住宅課に市営住宅を問い合わせる", "href": "tel:0535764549"}
+  ]
+ },
+ {
+  "href": "/life/housing/sell-house/",
+  "lead": "湖西市で家や土地を売却する際は、固定資産税の状況・相続登記の有無・現地の状態を先にそろえておくと、その後の売却活動がスムーズです。空き家であれば空き家バンクの活用も選択肢になります。",
+  "note": "売却の税務・法務面は専門家の確認が必要です。ここでの情報は入口の整理であり、個別の判断は税務課・司法書士・不動産会社にご相談ください。",
+  "real_cards": [
+   {"icon": "📜", "title": "相続登記の有無を確認", "body": "売却前に名義が現在の所有者になっているか確認が必要です。令和6年4月から相続登記が義務化されており、放置すると売却手続きが進められません。"},
+   {"icon": "🧾", "title": "固定資産税の状況を確認", "body": "税務課で評価証明書を取得し、現在の課税状況を確認しておくと、売却時の税金の按分計算がスムーズです。"},
+   {"icon": "🏘️", "title": "空き家バンクという選択肢", "body": "空き家であれば、湖西市空き家バンクへの登録も売却手段の一つです。都市計画課 まちづくり係（053-576-3117）が窓口です。"},
+   {"icon": "🤝", "title": "不動産会社への相談", "body": "早い段階で地域の不動産事情に詳しい不動産会社に相談すると、価格の目安や売却の進め方が見えやすくなります。湖西市周辺の空き家・実家整理には<a href=\"https://www.fujigaoka-service.co.jp/\" target=\"_blank\" rel=\"noopener\">富士ヶ丘サービス</a>のような相談窓口も選択肢の一つです。"}
+  ],
+  "qa": [
+   {"question": "相続した家を売る前に何を確認すればいいですか。", "answer": "まず相続登記が済んでいるかを確認してください。令和6年4月から義務化されており、未登記のままだと売却契約を進められません。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/17500.html\" target=\"_blank\" rel=\"noopener\">空き家を相続した場合</a>を確認してください。"},
+   {"question": "固定資産税の証明書はどこで取れますか。", "answer": "税務課で評価証明書などを取得できます。窓口のほか郵送請求にも対応しています。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/7/1/1952.html\" target=\"_blank\" rel=\"noopener\">郵送による請求</a>を確認してください。"},
+   {"question": "空き家バンクに登録すれば必ず売れますか。", "answer": "登録は無料ですが、審査により掲載できない場合もあります。また掲載後もすぐに買い手が見つかるとは限らないため、民間の不動産会社への相談もあわせて行うことをおすすめします。"},
+   {"question": "土地の一部だけ売却することはできますか。", "answer": "分筆など測量・登記の手続きが必要になる場合があります。土地家屋調査士や不動産会社に相談してください。"},
+   {"question": "売却の相談はどこにすればいいですか。", "answer": "空き家バンクの利用なら都市計画課、税金面は税務課が窓口です。実際の売却活動や価格の相談は民間の不動産会社が中心になります。富士ヶ丘サービスのように空き家・実家の売却相談を受け付けている不動産会社に相談する方法もあります。"}
+  ],
+  "tabs": [
+   {"id": "type-registry", "label": "名義確認", "heading": "相続登記の状況を確認する", "bullets": ["令和6年4月から相続登記が義務化", "未登記だと売却契約が進められない", "司法書士への相談も検討する"], "actions": [{"label": "空き家を相続した場合", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/17500.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-tax", "label": "税金確認", "heading": "固定資産税の状況を確認する", "bullets": ["評価証明書で現状を確認できる", "売却時は税額の按分計算が必要になることが多い", "税務課で取得・確認できる"], "actions": [{"label": "固定資産税・都市計画税", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisanzei_toshikeikakuzei/index.html", "source": "湖西市税務課"}]},
+   {"id": "type-akiyabank", "label": "空き家バンク", "heading": "空き家バンクへの登録を検討する", "bullets": ["空き家の売買・賃貸の情報提供の場", "登録無料だが審査がある", "都市計画課が窓口"], "actions": [{"label": "「湖西市空き家バンク」について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-consult", "label": "民間相談", "heading": "不動産会社に相談する", "bullets": ["価格査定・売却活動は不動産会社が中心", "空き家・実家整理に詳しい会社だと相談しやすい", "早めの相談で選択肢が広がる"], "actions": [{"label": "富士ヶ丘サービスに相談する", "href": "https://www.fujigaoka-service.co.jp/", "source": "富士ヶ丘サービス"}]}
+  ],
+  "steps": {
+   "today": ["名義（相続登記の有無）を確認する", "固定資産税の評価証明書を確認・取得する"],
+   "this_week": ["空き家バンクへの登録可否を都市計画課に確認する", "不動産会社に査定を依頼する"],
+   "outside": ["売却方針（時期・価格）を決める", "契約・引渡しに向けて必要書類をそろえる"]
+  },
+  "action_grid": [
+   {"label": "都市計画課 まちづくり係に問い合わせる", "href": "tel:0535763117"},
+   {"label": "税務課 資産税係に問い合わせる", "href": "tel:0535761217"},
+   {"label": "富士ヶ丘サービスに売却を相談する", "href": "https://www.fujigaoka-service.co.jp/"}
+  ]
+ },
+ {
+  "href": "/life/housing/vacant-house/",
+  "lead": "湖西市では空き家の管理・活用・税金を都市計画課が窓口となって案内しています。「湖西市空き家バンク」や空家等対策計画に基づく相談体制があるので、放置する前に早めに相談することが大切です。",
+  "note": "空き家を放置し「特定空家等」等に認定されると、固定資産税の軽減措置が外れ税額が上がる場合があります。早めの管理・活用の検討をおすすめします。",
+  "real_cards": [
+   {"icon": "🏚️", "title": "空き家バンクで活用を検討", "body": "売る・貸すを考えている空き家は「湖西市空き家バンク」に登録できます。登録は無料ですが審査があります。都市計画課 まちづくり係（053-576-3117）が窓口です。"},
+   {"icon": "📋", "title": "第2次湖西市空家等対策計画", "body": "湖西市は空家等対策計画を策定し、空き家の発生予防から管理・活用、特定空家等への対応まで方針を定めています。"},
+   {"icon": "🌳", "title": "越境した木の枝の扱い", "body": "空き家の樹木が敷地境界を越えて隣地に伸びている場合のルールが改正されています。近隣トラブルにつながりやすいので、早めの管理が重要です。"},
+   {"icon": "💴", "title": "放置すると税負担が増える可能性", "body": "管理不全で「特定空家等」等に認定され勧告を受けると、住宅用地の固定資産税軽減措置が外れ、税額が上がる場合があります。"}
+  ],
+  "qa": [
+   {"question": "空き家の相談はどこにすればいいですか。", "answer": "都市計画課（053-576-3117）が空き家全般の相談窓口です。空き家バンクの利用や管理に関する相談ができます。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/index.html\" target=\"_blank\" rel=\"noopener\">空き家</a>のページを確認してください。"},
+   {"question": "空き家バンクに登録するとどうなりますか。", "answer": "購入・賃借希望者が市のウェブサイトや市役所窓口で物件情報を閲覧できるようになります。登録後は現地調査や本人確認があります。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html\" target=\"_blank\" rel=\"noopener\">「湖西市空き家バンク」について</a>を確認してください。"},
+   {"question": "相続した空き家をそのままにしておくとどうなりますか。", "answer": "管理が不十分な状態が続くと「特定空家等」等に認定される可能性があり、固定資産税の軽減措置が外れて税額が上がる場合があります。また令和6年4月からは相続登記も義務化されています。"},
+   {"question": "空き家の庭木が隣の家に伸びてしまっています。どうすればいいですか。", "answer": "越境した木の枝の切り取りルールが改正されています。近隣トラブルを避けるためにも、早めに剪定・管理を行うか、都市計画課に相談してください。"},
+   {"question": "空き家を売る・貸す以外の相談もできますか。", "answer": "はい。解体や耐震、税金の相談は建築住宅課・税務課とも連携が必要になる場合があります。まずは都市計画課に状況を伝え、必要な窓口を案内してもらうとスムーズです。空き家の実家整理や売却の相談は<a href=\"https://www.fujigaoka-service.co.jp/\" target=\"_blank\" rel=\"noopener\">富士ヶ丘サービス</a>のような不動産会社にも相談できます。"}
+  ],
+  "tabs": [
+   {"id": "type-bank", "label": "空き家バンク", "heading": "空き家バンクへの登録を検討する", "bullets": ["売る・貸すを考えている空き家が対象", "登録無料だが審査・現地調査がある", "都市計画課 まちづくり係が窓口"], "actions": [{"label": "「湖西市空き家バンク」について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/2107.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-plan", "label": "対策計画", "heading": "空家等対策計画を確認する", "bullets": ["第2次湖西市空家等対策計画を策定済み", "発生予防・管理・活用・対応の方針を定める", "市全体の空き家施策の方向性が分かる"], "actions": [{"label": "第2次湖西市空家等対策計画を策定しました", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/7093.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-inherit", "label": "相続時", "heading": "空き家を相続した場合の手続きを確認する", "bullets": ["令和6年4月から相続登記が義務化", "相続を知った日から3年以内に登記が必要", "放置すると過料の対象になり得る"], "actions": [{"label": "空き家を相続した場合", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/17500.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-manage", "label": "管理", "heading": "日常の管理・近隣対応を行う", "bullets": ["越境した樹木の枝は切り取りルールが改正されている", "定期的な見回り・清掃が近隣トラブル防止になる", "管理不全は特定空家等認定・増税につながる可能性"], "actions": [{"label": "越境した木の枝の切り取りルールの改正について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/16130.html", "source": "湖西市都市計画課"}]}
+  ],
+  "steps": {
+   "today": ["空き家の現状（管理状態・名義）を確認する", "都市計画課（053-576-3117）に相談してみる"],
+   "this_week": ["空き家バンク登録の可否や条件を確認する", "固定資産税の現状を税務課で確認する"],
+   "outside": ["活用・売却・解体などの方針を決める", "近隣への影響（樹木・外壁等）を定期的に点検する"]
+  },
+  "action_grid": [
+   {"label": "都市計画課 まちづくり係に問い合わせる", "href": "tel:0535763117"},
+   {"label": "湖西市空き家バンクの物件情報を見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/7841.html"},
+   {"label": "富士ヶ丘サービスに空き家を相談する", "href": "https://www.fujigaoka-service.co.jp/"}
+  ]
+ }
+]
