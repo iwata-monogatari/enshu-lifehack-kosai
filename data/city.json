@@ -1,0 +1,33 @@
+{
+ "city_id": "kosai",
+ "city_name": "湖西市",
+ "site_name": "湖西ライフハック",
+ "site_url": "https://kosai.enshu-lifehack.com",
+ "official": {
+  "domain": "www.city.kosai.shizuoka.jp",
+  "top": "https://www.city.kosai.shizuoka.jp/",
+  "hall_name": "湖西市役所",
+  "hall_address": "〒431-0492 静岡県湖西市吉美3268番地",
+  "hall_tel": "053-576-1111",
+  "branches": [
+   {
+    "name": "新居支所",
+    "note": "旧新居町エリアの窓口。取扱業務は本庁と異なる場合があるため個別確認が必要"
+   }
+  ],
+  "tetsuduki_navi": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/todokede_toroku_shomei/kakushutetsuzuki/index.html",
+  "fire_emergency": "湖西市消防本部（本署・西分署・南分署の体制）。電話053-595-0119。磐田・掛川・袋井・森町・菊川・御前崎が加盟する中東遠消防指令センターとは別系統で、市外局番も053(浜松エリア)であり独自運用の可能性が高い（要個別確認）"
+ },
+ "cv": {
+  "kaigo_lead": true,
+  "fudosan_link": true,
+  "monogatari_link": true,
+  "context_links": true
+ },
+ "notes": [
+  "2010年に湖西市と新居町が新設合併して現在の湖西市。本庁は旧湖西市エリア(吉美)、新居支所は旧新居町エリアの窓口",
+  "浜松市に隣接し、市外局番も053(浜松エリア)を使用。遠州ライフハック展開先の中では磐田・掛川・袋井・森町・菊川・御前崎の中東遠エリアとは別の生活圏(浜松都市圏)に属する点に留意",
+  "浜名湖の西岸に位置し、輸送用機器・楽器等の製造業が盛ん（ヤマハ発動機の主力工場等）。新居関所（今切関所）などの史跡も有名",
+  "介護CVリード対象（磐田・袋井・掛川・森町・菊川・御前崎と同様）。不動産商圏としては浜松市寄りである可能性があり、事実確認時は磐田・浜松どちらの生活圏の制度に近いか個別に見極めが必要"
+ ]
+}
