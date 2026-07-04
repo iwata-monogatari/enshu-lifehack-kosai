@@ -1,1 +1,307 @@
-[]
+[
+ {
+  "href": "/life/play-out/",
+  "lead": "湖西市には、浜名湖畔の運動公園から新居町側の弁天エリア、鷲津・新所の身近な公園まで、遊べる・使える施設が市内各地に点在しています。本庁エリアと新居支所エリアで窓口が分かれる施設もあるため、目的別にどこに聞けばよいかをここで確認してください。",
+  "real_cards": [
+   {"icon": "📚", "title": "図書館・学ぶ", "body": "中央図書館（吉美）と新居図書館（新居町新居）の2館体制。西部地域センター図書室・北部多目的センター図書コーナーでも本の返却などができます。"},
+   {"icon": "🏟️", "title": "スポーツ・体を動かす", "body": "湖西運動公園、複合運動施設アメニティプラザ、新居体育館、勤労者体育センターなど、屋外・屋内とも選択肢は豊富です。予約は共通の「湖西市公共施設予約システム」から。"},
+   {"icon": "🌳", "title": "公園・子どもと遊ぶ", "body": "市内には大小100を超える公園があり、鷲津公園や新居文化公園など遊具が充実した公園から、静かな親水公園まで幅広く選べます。"},
+   {"icon": "🏛️", "title": "集会施設を借りる", "body": "新居地域センター、西部地域センター、北部多目的センターなどが会議室・ホールの貸出窓口です。湖西市民会館の大ホールは現在利用できないため注意してください。"}
+  ],
+  "action_grid": [
+   {"label": "湖西市公式サイトで確認する", "href": "https://www.city.kosai.shizuoka.jp/"},
+   {"label": "湖西市公共施設予約システムを見る", "href": "https://yoyacool.e-harp.jp/kosai"},
+   {"label": "湖西市立図書館サイトを見る", "href": "https://www.lib.kosai.shizuoka.jp/"}
+  ]
+ },
+ {
+  "href": "/life/play-out/visit-library/",
+  "lead": "湖西市立図書館は中央図書館（吉美）と新居図書館（新居町新居）の2館体制で、どちらも開館時間は9時30分から18時30分です。休館日が曜日違いなので、行く前に必ずどちらの館かを確認してください。",
+  "note": "西部地域センター図書室・北部多目的センター図書コーナーは開館時間が9時～17時と異なります。最新の休館日はカレンダーで確認してください。",
+  "real_cards": [
+   {"icon": "📖", "title": "2館体制＋2つの図書コーナー", "body": "中央図書館（月曜休館）、新居図書館（火曜休館）のほか、西部地域センター図書室、北部多目的センター図書コーナーでも貸出・返却ができます。"},
+   {"icon": "🪪", "title": "貸出登録は在住・在勤・在学者", "body": "湖西市に住む・働く・通う人に加え、豊橋市在住者も登録可能です。カウンターでの申込のほか、電子申請での登録にも対応しています。"},
+   {"icon": "📅", "title": "貸出は15日間・12点まで", "body": "図書・雑誌・紙芝居は12点まで、CD・DVDは合わせて2点まで借りられます。貸出期間は15日間で、1回のみ延長可能（CD・DVDは延長不可）です。"},
+   {"icon": "🔖", "title": "予約もできる", "body": "図書は5点まで、CD・DVDは1点まで予約可能です。読みたい本が貸出中でも予約して取り寄せられます。"}
+  ],
+  "qa": [
+   {"question": "貸出カードはどこで作れますか。", "answer": "中央図書館・新居図書館どちらのカウンターでも作れます。本人確認書類を持参してください。詳しくは<a href=\"https://www.lib.kosai.shizuoka.jp/annai/howto-2/\" target=\"_blank\" rel=\"noopener\">湖西市立図書館 ご利用方法</a>を確認してください。"},
+   {"question": "本を借りられるのは湖西市民だけですか。", "answer": "湖西市に在住・在勤・在学の方に加え、豊橋市在住の方も貸出登録ができます。"},
+   {"question": "新居地区でも同じように借りられますか。", "answer": "新居図書館（新居町新居250-5）で同じルールで貸出・返却ができます。休館日が中央図書館と異なり火曜日なので注意してください。"},
+   {"question": "借りた本の返却期限を延長できますか。", "answer": "1回のみ、15日間の延長が可能です。CD・DVDは延長できません。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshokan/gyomuannai/1169.html\" target=\"_blank\" rel=\"noopener\">図書館の利用について</a>を参照してください。"},
+   {"question": "予約した本はどこで受け取れますか。", "answer": "予約時に指定した館・図書室で受け取れます。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshokan/yokuarushitsumon/1842.html\" target=\"_blank\" rel=\"noopener\">資料の予約をするには？</a>を確認してください。"},
+   {"question": "中央図書館の電話番号を教えてください。", "answer": "053-576-4351です。開館時間や休館日もあわせて電話で確認できます。"}
+  ],
+  "tabs": [
+   {"id": "type-chuo", "label": "中央図書館", "heading": "中央図書館（吉美）を利用する", "bullets": ["所在地は湖西市吉美3219-1", "開館時間は9時30分～18時30分", "休館日は月曜日（祝日の場合は翌日）と年末年始・特別整理期間"], "actions": [{"label": "図書館の利用について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshokan/gyomuannai/1169.html", "source": "湖西市"}]},
+   {"id": "type-arai", "label": "新居図書館", "heading": "新居図書館（新居町新居）を利用する", "bullets": ["所在地は湖西市新居町新居250-5", "開館時間は9時30分～18時30分", "休館日は火曜日（祝日の場合は翌日）と年末年始・特別整理期間"], "actions": [{"label": "湖西市立図書館トップページ", "href": "https://www.lib.kosai.shizuoka.jp/", "source": "湖西市立図書館"}]},
+   {"id": "type-register", "label": "貸出登録", "heading": "貸出カードを新規に作る", "bullets": ["在住・在勤・在学（豊橋市在住も可）が対象", "本人確認書類が必要", "電子申請での登録も可能"], "actions": [{"label": "ご利用方法（貸出登録）", "href": "https://www.lib.kosai.shizuoka.jp/annai/howto-2/", "source": "湖西市立図書館"}]},
+   {"id": "type-reserve", "label": "予約・延長", "heading": "予約や貸出延長の方法を確認する", "bullets": ["図書5点・CD/DVD1点まで予約可能", "貸出期間15日、1回のみ延長可", "延長・予約はインターネットからも申込できる"], "actions": [{"label": "資料の予約をするには？", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshokan/yokuarushitsumon/1842.html", "source": "湖西市"}]}
+  ],
+  "steps": {
+   "today": ["最寄りの図書館（中央 or 新居）の休館日を確認する", "貸出カードの有無を確認する"],
+   "this_week": ["読みたい本を蔵書検索で調べ、必要なら予約する", "初めての場合は本人確認書類を持って登録に行く"],
+   "outside": ["返却期限が近づいたらインターネットや電話で延長手続きをする", "西部・北部の図書コーナーの開館時間（9時～17時）を確認しておく"]
+  },
+  "action_grid": [
+   {"label": "湖西市立図書館サイトを見る", "href": "https://www.lib.kosai.shizuoka.jp/"},
+   {"label": "図書館の利用について（市公式）", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshokan/gyomuannai/1169.html"},
+   {"label": "中央図書館に電話する", "href": "tel:0535764351"}
+  ]
+ },
+ {
+  "href": "/life/play-out/cultural-facilities/",
+  "lead": "湖西市の文化施設は再編の途中にあります。旧・湖西市民会館の大ホールは耐震上の理由で現在使用できず、複合施設として建て替える計画が進行中です。当面は新居地域センターや図書館、文化観光課が所管する歴史施設が実質的な文化活動の拠点になります。",
+  "note": "市民会館の建替え計画は年度によって進捗が変わります。イベント会場を探す際は、必ず利用したい時期の最新情報を文化観光課・企画政策課に確認してください。",
+  "real_cards": [
+   {"icon": "🏛️", "title": "市民会館は建替え計画中", "body": "湖西市は新たな複合施設として市民会館機能を再整備する構想を進めています。現状のホール利用はできないため、発表会や公演を計画する際は代替施設を検討してください。"},
+   {"icon": "🎭", "title": "新居地域センターがホール機能を代替", "body": "新居地域センター3階のホール（ステージ付き）が貸館可能な施設として利用できます。申込は使用月の6ヵ月前から（ステージのみは3ヵ月前から）です。"},
+   {"icon": "🏯", "title": "歴史・文化財施設も充実", "body": "新居関跡（特別史跡）、新居宿旅籠紀伊国屋資料館、小松楼まちづくり交流館など、新居エリアには街道文化を伝える施設が集まっています。"},
+   {"icon": "📚", "title": "図書館も文化活動の場に", "body": "中央図書館・新居図書館では、おはなし会や大人向けイベントなど、読書に親しむ催しも行われています。"}
+  ],
+  "qa": [
+   {"question": "湖西市民会館のホールは今も使えますか。", "answer": "大ホール棟は耐震上の理由で使用できない状態です。新たな複合施設の整備が計画されているため、最新の状況は<a href=\"https://www.city.kosai.shizuoka.jp/shiseijoho/shisaku_keikaku/shisetsu/1/index.html\" target=\"_blank\" rel=\"noopener\">（新）市民会館関連</a>のページで確認してください。"},
+   {"question": "発表会や演奏会をするならどこが使えますか。", "answer": "新居地域センター3階のホール（ステージ付き）が候補になります。会場の規模や設備は事前に新居支所（053-594-8118）へ確認してください。"},
+   {"question": "新居関跡はどんな施設ですか。", "answer": "江戸時代の関所遺構を伝える特別史跡です。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/index.html\" target=\"_blank\" rel=\"noopener\">文化施設・観光施設（観光スポット）</a>を確認してください。"},
+   {"question": "文化イベントの情報はどこで見られますか。", "answer": "文化観光課や図書館、スポーツ・生涯学習課がそれぞれイベントを企画しています。広報紙や市公式サイトのイベント情報を確認するのが確実です。"},
+   {"question": "問い合わせ窓口はどこになりますか。", "answer": "歴史・観光関連施設は文化観光課（053-576-1230）、地域センターの貸館は各センター窓口が担当です。"}
+  ],
+  "tabs": [
+   {"id": "type-shiminkaikan", "label": "市民会館", "heading": "市民会館の現状を確認する", "bullets": ["大ホール棟は耐震上の理由で使用中止", "複合施設としての建替え構想が進行中", "最新の整備スケジュールは市公式サイトで確認できる"], "actions": [{"label": "（新）市民会館関連", "href": "https://www.city.kosai.shizuoka.jp/shiseijoho/shisaku_keikaku/shisetsu/1/index.html", "source": "湖西市"}]},
+   {"id": "type-araicenter", "label": "新居地域センター", "heading": "新居地域センターのホールを借りる", "bullets": ["3階にステージ付きホールがある", "使用月の6ヵ月前（ステージのみ3ヵ月前）から申込可能", "無料駐車場98台あり"], "actions": [{"label": "新居地域センターの使用（貸館）について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/araishisho/gyomuannai/2/1/2240.html", "source": "湖西市新居支所"}]},
+   {"id": "type-history", "label": "歴史・観光施設", "heading": "新居関跡など歴史文化施設を訪ねる", "bullets": ["新居関跡は特別史跡", "新居宿旅籠紀伊国屋資料館・小松楼まちづくり交流館も見学可能", "文化観光課が窓口"], "actions": [{"label": "文化施設・観光施設（観光スポット）", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/index.html", "source": "湖西市文化観光課"}]},
+   {"id": "type-library-event", "label": "図書館イベント", "heading": "図書館のイベントに参加する", "bullets": ["おはなし会は毎月開催", "大人向けの読書・工作イベントもある", "詳細は図書館ページで告知される"], "actions": [{"label": "図書館大人向けイベント", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshokan/gyomuannai/4/7753.html", "source": "湖西市図書館"}]}
+  ],
+  "steps": {
+   "today": ["市民会館の現状（使用中止）を把握する", "代替となる会場の候補（新居地域センターなど）を確認する"],
+   "this_week": ["利用したい日時の会場空き状況を公共施設予約システムで調べる", "歴史施設を訪れる場合は開館日を確認する"],
+   "outside": ["新市民会館の整備状況を定期的に確認する", "地域センターの貸館は半年前から申込予定を立てる"]
+  },
+  "action_grid": [
+   {"label": "（新）市民会館関連を見る", "href": "https://www.city.kosai.shizuoka.jp/shiseijoho/shisaku_keikaku/shisetsu/1/index.html"},
+   {"label": "新居支所に問い合わせる", "href": "tel:0535948118"},
+   {"label": "文化観光課に問い合わせる", "href": "tel:0535761230"}
+  ]
+ },
+ {
+  "href": "/life/play-out/facilities-library-parks/",
+  "lead": "湖西市の公共施設は、図書館・地域センター・スポーツ施設・公園がそれぞれ別の課で管理されています。目的の施設がどの窓口の管轄か分からないときは、まず「湖西市公共施設予約システム」の施設一覧から探すと迷いません。",
+  "note": "本庁エリアと新居支所エリアで管理課・電話番号が異なる施設があります。問い合わせ先を間違えると案内がたらい回しになりやすいので注意してください。",
+  "real_cards": [
+   {"icon": "🗂️", "title": "施設一覧はシステムで横断検索", "body": "公共施設予約システムの「施設一覧・検索」から、アメニティプラザ・湖西運動公園・地域センターなど主要施設をまとめて検索できます。"},
+   {"icon": "📖", "title": "図書館は独立したサイトを持つ", "body": "湖西市立図書館は専用サイト（lib.kosai.shizuoka.jp）で蔵書検索やマイページ機能を提供しています。"},
+   {"icon": "🌳", "title": "公園は土木課が案内", "body": "市内の公園紹介ページでは、代表的な公園の設備（遊具・トイレの有無）が写真付きで紹介されています。"},
+   {"icon": "🏢", "title": "地域センター・支所も窓口の一つ", "body": "西部地域センター、北部多目的センター、新居地域センターは、集会施設の貸出だけでなく地域の相談窓口も兼ねています。"}
+  ],
+  "action_grid": [
+   {"label": "公共施設予約システムで施設を探す", "href": "https://yoyacool.e-harp.jp/kosai/FacilitySearch/Index"},
+   {"label": "湖西市立図書館サイトを見る", "href": "https://www.lib.kosai.shizuoka.jp/"},
+   {"label": "公園紹介ページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/doboku/gyomuannai/12453.html"},
+   {"label": "庁舎・施設案内を見る", "href": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/index.html"}
+  ]
+ },
+ {
+  "href": "/life/play-out/find-parks/",
+  "lead": "湖西市には大小100を超える公園があり、遊具が充実した公園から浜名湖沿いの静かな親水公園まで幅広くあります。「湖西市公園紹介」ページで代表的な公園の遊具・トイレの有無をあらかじめ確認してから出かけると失敗が少なくなります。",
+  "note": "公園によって遊具の有無やトイレの設置状況が大きく異なります。小さな子ども連れの場合は特に事前確認をおすすめします。",
+  "real_cards": [
+   {"icon": "🎠", "title": "遊具が充実した公園", "body": "鷲津公園、新居文化公園などは複合遊具・ブランコが設置され、子ども連れに人気です。"},
+   {"icon": "🌊", "title": "浜名湖沿いの親水公園", "body": "おちばの里親水公園、新居弁天公園、梅田親水公園など、水辺の景観を楽しめる公園があります。遊具がない公園もあるため散策向きです。"},
+   {"icon": "🏃", "title": "広く体を動かせる公園", "body": "湖西運動公園は野球場・テニスコート・陸上競技場・多目的広場・弓道場を備え、スポーツ利用にも向いています。"},
+   {"icon": "🚉", "title": "駅前の小さな広場も", "body": "新所原駅南公園、鷲津駅前ひまわり広場など、駅からすぐの小さな公園もあり、待ち合わせや散歩の合間の休憩に便利です。"}
+  ],
+  "qa": [
+   {"question": "小さい子どもと遊べる公園を知りたいです。", "answer": "鷲津公園や新居文化公園は複合遊具があり人気です。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/doboku/gyomuannai/12453.html\" target=\"_blank\" rel=\"noopener\">公園紹介</a>で写真付きの一覧を確認できます。"},
+   {"question": "公園にトイレはありますか。", "answer": "公園によります。多くの主要公園にはトイレが設置されていますが、小規模な公園にはない場合もあるため、公園紹介ページで個別に確認してください。"},
+   {"question": "湖西運動公園はどんな公園ですか。", "answer": "野球場・テニスコート（クレーコート6面）・陸上競技場・弓道場・多目的広場・児童広場を備えた総合運動公園です。利用時間は6時～21時（多目的広場は8時30分～17時）で、月曜休園です。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shogaigakushu/5/2356.html\" target=\"_blank\" rel=\"noopener\">湖西運動公園</a>のページを参照してください。"},
+   {"question": "新居弁天エリアの公園は今も利用できますか。", "answer": "夏季営業だった新居弁天わんぱくランドのプールは閉鎖され、周辺エリアは滞在型観光を見据えた再整備が進められています。最新状況は文化観光課（053-576-1230）に確認してください。"},
+   {"question": "公園の管理窓口はどこですか。", "answer": "身近な公園は土木課、湖西運動公園などのスポーツ系公園はスポーツ・生涯学習課が窓口です。"}
+  ],
+  "tabs": [
+   {"id": "type-kids-park", "label": "遊具充実", "heading": "遊具が充実した公園を選ぶ", "bullets": ["鷲津公園・新居文化公園は複合遊具・ブランコあり", "複合遊具は年齢に応じたエリア分けがある公園もある", "トイレ設置状況は公園ごとに異なる"], "actions": [{"label": "公園紹介", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/doboku/gyomuannai/12453.html", "source": "湖西市土木課"}]},
+   {"id": "type-water-park", "label": "水辺の公園", "heading": "浜名湖沿いの親水公園を訪ねる", "bullets": ["おちばの里親水公園、新居弁天公園、梅田親水公園など", "遊具がなく散策向きの公園もある", "駐車場の有無は事前確認がおすすめ"], "actions": [{"label": "公園紹介", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/doboku/gyomuannai/12453.html", "source": "湖西市土木課"}]},
+   {"id": "type-sports-park", "label": "運動公園", "heading": "湖西運動公園で体を動かす", "bullets": ["野球場・テニスコート・陸上競技場・弓道場を完備", "利用時間は6時～21時（多目的広場は8時30分～17時）", "月曜（祝日の場合翌日）・年末年始休園"], "actions": [{"label": "湖西運動公園", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shogaigakushu/5/2356.html", "source": "湖西市スポーツ・生涯学習課"}]},
+   {"id": "type-station-park", "label": "駅前の広場", "heading": "駅前の小さな公園・広場を利用する", "bullets": ["新所原駅南公園、鷲津駅前ひまわり広場など", "待ち合わせや散歩の休憩に便利", "規模が小さく遊具がない場所が多い"], "actions": [{"label": "公園紹介", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/doboku/gyomuannai/12453.html", "source": "湖西市土木課"}]}
+  ],
+  "steps": {
+   "today": ["行きたいエリア（本庁側・新居側）を決める", "公園紹介ページで遊具・トイレの有無を確認する"],
+   "this_week": ["子どもの年齢に合う遊具がある公園を選ぶ", "駐車場の有無・アクセス手段を確認する"],
+   "outside": ["季節ごとのイベント（花見・祭りなど）の開催情報を確認する", "運動公園などを継続利用する場合は予約システムに登録しておく"]
+  },
+  "action_grid": [
+   {"label": "湖西市の公園紹介を見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/doboku/gyomuannai/12453.html"},
+   {"label": "湖西運動公園のページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shogaigakushu/5/2356.html"},
+   {"label": "公共施設予約システムを見る", "href": "https://yoyacool.e-harp.jp/kosai"}
+  ]
+ },
+ {
+  "href": "/life/play-out/kids-playgrounds/",
+  "lead": "湖西市には、公園の遊具コーナーのほかに、就学前の親子が無料で遊べる「遊びの広場」が新居・新所・西部の3ヵ所にあります。天候や子どもの年齢に応じて、屋外の公園と屋内の遊びの広場を使い分けるのがおすすめです。",
+  "note": "遊びの広場は施設ごとに開館日・時間が異なります。土日祝に利用したい場合は事前に開館状況を確認してください。",
+  "real_cards": [
+   {"icon": "🧸", "title": "遊びの広場が3ヵ所", "body": "新居「わくわく」（火～日 9:00-16:45）、新所「おおきい・ちいさい広場」（月～金 9:00-16:45）、西部「ほほえみ」（月～金 9:00-14:00）で、就学前の子どもと保護者が無料で利用できます。"},
+   {"icon": "👶", "title": "乳児向けプログラムもある", "body": "首すわり～つたい歩き頃向けの「たまごちゃん」（要予約）、あんよ～2歳向けの「ひよこちゃん」（予約不要）など、月齢に応じた集まりが企画されています。"},
+   {"icon": "🎠", "title": "屋外なら遊具充実の公園へ", "body": "鷲津公園や新居文化公園には複合遊具があり、天気のよい日は公園遊びも選択肢になります。"},
+   {"icon": "🏊", "title": "雨の日はアメニティプラザも", "body": "複合運動施設アメニティプラザの温水レジャープールは、3歳～中学生330円で利用でき、雨天時のお出かけ先としても使えます。"}
+  ],
+  "qa": [
+   {"question": "遊びの広場は誰でも無料で利用できますか。", "answer": "就学前の子どもとその保護者が対象で、利用は無料です。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/1/10306.html\" target=\"_blank\" rel=\"noopener\">乳幼児親子の遊び場を開設しています</a>を確認してください。"},
+   {"question": "新居地区の子育て支援センターはどこにありますか。", "answer": "新居子育て支援センター「のびりん」（湖西市新居町浜名485、053-594-5922）です。土日祝も遊びの広場を利用できます。"},
+   {"question": "西部エリアの支援センターも同じように使えますか。", "answer": "西部子育て支援センター「ほほえみ」（梅田128-3）は月～金9時～14時の開館です。土日祝・年末年始は休みなので注意してください。"},
+   {"question": "予約が必要なプログラムはありますか。", "answer": "首すわり～つたい歩き頃の乳児向け「たまごちゃん」は定員10組で要予約です。あんよ以降向けの「ひよこちゃん」は予約不要です。"},
+   {"question": "雨の日に遊べる屋内施設はありますか。", "answer": "遊びの広場のほか、アメニティプラザの温水レジャープールも通年利用できます。詳細は施設に直接お問い合わせください。"}
+  ],
+  "tabs": [
+   {"id": "type-asobihiroba", "label": "遊びの広場", "heading": "就学前の親子が遊べる遊びの広場", "bullets": ["新居「わくわく」は火～日9:00-16:45", "新所「おおきい・ちいさい広場」は月～金9:00-16:45", "西部「ほほえみ」は月～金9:00-14:00"], "actions": [{"label": "乳幼児親子の遊び場を開設しています", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/1/10306.html", "source": "湖西市"}]},
+   {"id": "type-nyuji", "label": "乳児向けプログラム", "heading": "月齢別のプログラムに参加する", "bullets": ["「たまごちゃん」は首すわり～つたい歩き頃、定員10組要予約", "「ひよこちゃん」はあんよ～2歳、予約不要", "いずれも子育て支援センターが窓口"], "actions": [{"label": "新居子育て支援センター「のびりん」", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/KSC/arai/index.html", "source": "湖西市"}]},
+   {"id": "type-outdoor", "label": "屋外の公園", "heading": "天気のよい日は公園の遊具で遊ぶ", "bullets": ["鷲津公園・新居文化公園は複合遊具あり", "公園によって遊具・トイレの有無が異なる", "駅近の公園は待ち合わせにも便利"], "actions": [{"label": "公園紹介", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/doboku/gyomuannai/12453.html", "source": "湖西市土木課"}]},
+   {"id": "type-indoor", "label": "屋内施設", "heading": "雨の日はアメニティプラザなどの屋内施設へ", "bullets": ["温水レジャープールは3歳～中学生330円", "ウォータースライダーや流れるプールもある", "年末年始以外はほぼ無休"], "actions": [{"label": "湖西市複合運動施設「アメニティプラザ」", "href": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/index.html", "source": "湖西市"}]}
+  ],
+  "steps": {
+   "today": ["子どもの月齢・年齢に合う施設を選ぶ", "利用したい遊びの広場の開館日を確認する"],
+   "this_week": ["予約が必要なプログラム（たまごちゃん等）があれば申し込む", "天気予報を見て屋内・屋外の計画を決める"],
+   "outside": ["継続して通う場合は最新の開館スケジュールを定期的に確認する", "近隣の公園もいくつか候補を持っておく"]
+  },
+  "action_grid": [
+   {"label": "乳幼児親子の遊び場を見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/1/10306.html"},
+   {"label": "子育て支援センター「のびりん」に問い合わせる", "href": "tel:0535945922"},
+   {"label": "公園紹介ページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/doboku/gyomuannai/12453.html"}
+  ]
+ },
+ {
+  "href": "/life/play-out/parking-access/",
+  "lead": "湖西市の主要な公共施設は無料駐車場を備えているところが多く、アメニティプラザは360台、新居地域センターは98台の駐車場があります。ただし施設によって台数・利用条件が異なるため、混雑が予想される日は事前に確認しておくと安心です。",
+  "note": "駅周辺の月極・時間貸駐車場は民間事業者が運営しています。公共施設の駐車場は基本的に施設利用者向けである点に注意してください。",
+  "real_cards": [
+   {"icon": "🅿️", "title": "アメニティプラザは360台無料", "body": "複合運動施設アメニティプラザには360台分の無料駐車場があります。プール・アリーナ利用の際に使えます。"},
+   {"icon": "🏢", "title": "新居地域センターは98台無料", "body": "貸館利用の際は、新居地域センターの無料駐車場（98台）が利用できます。イベント時は混雑することがあります。"},
+   {"icon": "🏛️", "title": "市役所本庁舎は100台無料", "body": "湖西市役所本庁舎（吉美3268）の駐車場は100台で無料です。手続きのついでに周辺施設に立ち寄る際の起点にもなります。"},
+   {"icon": "🚉", "title": "駅周辺は民間駐車場を利用", "body": "鷲津駅・新所原駅周辺には時間貸・月極の民間駐車場が複数あります。公共施設まで距離がある場合はこちらの利用も検討してください。"}
+  ],
+  "qa": [
+   {"question": "アメニティプラザの駐車場は無料ですか。", "answer": "はい、360台分が無料で利用できます。休館日は木曜（祝日の場合は開館し翌日休館）です。"},
+   {"question": "新居地域センターを借りる際の駐車場は。", "answer": "98台分の無料駐車場があります。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/araishisho/gyomuannai/2/1/2240.html\" target=\"_blank\" rel=\"noopener\">新居地域センターの使用（貸館）について</a>を確認してください。"},
+   {"question": "湖西運動公園に駐車場はありますか。", "answer": "無料駐車場が用意されていますが、公式ページには具体的な台数の記載がありません。イベント開催時は混雑するため、早めの来場をおすすめします。詳細は管理事務所（053-576-4795）にお問い合わせください。"},
+   {"question": "市役所の駐車場は何台ありますか。", "answer": "本庁舎（吉美3268）は100台、無料です。受付時間は8時30分～17時15分です。"},
+   {"question": "駅前の駐車場情報はどこで確認できますか。", "answer": "鷲津駅・新所原駅周辺は民間の時間貸・月極駐車場が中心です。市の公式サイトでは案内していないため、各駐車場事業者のサイトで確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-amenity", "label": "アメニティプラザ", "heading": "アメニティプラザの駐車場を利用する", "bullets": ["360台、無料", "プール・アリーナ利用者向け", "休館日は木曜（祝日の場合は開館、翌日休館）"], "actions": [{"label": "スポーツ施設", "href": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/index.html", "source": "湖西市"}]},
+   {"id": "type-arai-center", "label": "新居地域センター", "heading": "新居地域センターの駐車場を利用する", "bullets": ["98台、無料", "貸館利用者向け", "イベント時は混雑することがある"], "actions": [{"label": "新居地域センターの使用（貸館）について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/araishisho/gyomuannai/2/1/2240.html", "source": "湖西市新居支所"}]},
+   {"id": "type-cityhall", "label": "市役所本庁舎", "heading": "本庁舎の駐車場を利用する", "bullets": ["100台、無料", "受付時間は8時30分～17時15分", "土日祝・年末年始は休庁"], "actions": [{"label": "庁舎・施設案内", "href": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/index.html", "source": "湖西市"}]},
+   {"id": "type-undokoen", "label": "湖西運動公園", "heading": "湖西運動公園の駐車場を利用する", "bullets": ["無料駐車場あり（台数は要問合せ）", "野球場・テニスコート・陸上競技場利用者向け", "イベント時は早めの来場が安心"], "actions": [{"label": "湖西運動公園", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shogaigakushu/5/2356.html", "source": "湖西市スポーツ・生涯学習課"}]}
+  ],
+  "steps": {
+   "today": ["行き先の施設の駐車場台数・無料/有料を確認する", "混雑が予想される日程かどうかを確認する"],
+   "this_week": ["イベント参加の場合は開始時刻より早めに到着する計画を立てる", "施設が満車の場合の代替駐車場を調べておく"],
+   "outside": ["定期的に利用する施設は駐車場の混雑傾向を把握しておく", "公共交通機関の利用も選択肢に入れる"]
+  },
+  "action_grid": [
+   {"label": "庁舎・施設案内を見る", "href": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/index.html"},
+   {"label": "湖西市公共施設予約システムを見る", "href": "https://yoyacool.e-harp.jp/kosai"},
+   {"label": "湖西運動公園の管理事務所に問い合わせる", "href": "tel:0535764795"}
+  ]
+ },
+ {
+  "href": "/life/play-out/rent-public-facilities/",
+  "lead": "湖西市の公共施設（アメニティプラザ、湖西運動公園、みなと運動公園、新居体育館、勤労者体育センター、学校体育施設など）は、共通の「湖西市公共施設予約システム」で空き状況の確認・予約ができます。ただし予約申込には事前の利用者登録が必要です。",
+  "note": "利用者登録はシステム上ではできず、窓口での本人確認が必要です。初めて利用する場合は早めに登録手続きを済ませておきましょう。",
+  "real_cards": [
+   {"icon": "💻", "title": "空き状況の閲覧は登録不要", "body": "施設の「空き状況」「施設案内」の閲覧は特別な登録なしで確認できます。まずは候補日の空き状況をチェックしてみましょう。"},
+   {"icon": "🪪", "title": "予約には利用者登録が必要", "body": "予約申込を行うには事前の利用者登録が必要です。登録は窓口（アメニティプラザ、湖西運動公園、勤労者体育センター、新居体育館など）で、本人確認証を持参して行います。"},
+   {"icon": "🏫", "title": "集会施設は各施設ごとに申込", "body": "新居地域センター・西部地域センター・北部多目的センターなどの会議室・ホールは、各施設窓口での個別申込が基本です。予約可能時期は施設ごとに異なります（新居地域センターは使用月の6ヵ月前から）。"},
+   {"icon": "🎓", "title": "高校生以上が対象", "body": "公共施設予約システムの利用者登録は高校生以上が対象です。中学生以下の利用は保護者や団体を通じた申込が必要です。"}
+  ],
+  "qa": [
+   {"question": "予約システムはどこからアクセスできますか。", "answer": "<a href=\"https://yoyacool.e-harp.jp/kosai\" target=\"_blank\" rel=\"noopener\">湖西市公共施設予約システム</a>から、または湖西市LINE公式アカウントからもアクセスできます。"},
+   {"question": "利用者登録はどこでできますか。", "answer": "システム上では登録できず、アメニティプラザ・湖西運動公園・勤労者体育センター・新居体育館の窓口で、代表者本人が本人確認証を持参して申請する必要があります。"},
+   {"question": "新居地域センターのホールはいつから予約できますか。", "answer": "使用月の6ヵ月前から申込ができます。ステージのみの利用は3ヵ月前からです。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/araishisho/gyomuannai/2/1/2240.html\" target=\"_blank\" rel=\"noopener\">新居地域センターの使用（貸館）について</a>を確認してください。"},
+   {"question": "学校の体育施設も借りられますか。", "answer": "市内小中学校の学校体育施設も予約対象に含まれています。空き状況の閲覧にはアカウント登録が必要です。"},
+   {"question": "予約の問い合わせ先はどこですか。", "answer": "スポーツ・生涯学習課（053-576-8560）が窓口です。地域センターの貸館は各センターに直接問い合わせてください。"}
+  ],
+  "tabs": [
+   {"id": "type-system", "label": "予約システム", "heading": "公共施設予約システムを使う", "bullets": ["空き状況・施設案内の閲覧は登録不要", "予約申込には利用者登録が必要", "対象は高校生以上"], "actions": [{"label": "公共施設予約システムについて", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shogaigakushu/gyomuannai/2_1/10513.html", "source": "湖西市スポーツ・生涯学習課"}]},
+   {"id": "type-touroku", "label": "利用者登録", "heading": "利用者登録の手続きをする", "bullets": ["利用者登録申請書と本人確認証が必要", "団体登録は構成員名簿も必要", "代表者本人が窓口へ来所する"], "actions": [{"label": "公共施設予約システムについて", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shogaigakushu/gyomuannai/2_1/10513.html", "source": "湖西市スポーツ・生涯学習課"}]},
+   {"id": "type-araicenter", "label": "地域センター貸館", "heading": "新居地域センターの会議室・ホールを借りる", "bullets": ["使用月の6ヵ月前（ステージのみ3ヵ月前）から申込可能", "利用料は申込時に支払う", "キャンセルは3日前までなら返金対象"], "actions": [{"label": "新居地域センターの使用（貸館）について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/araishisho/gyomuannai/2/1/2240.html", "source": "湖西市新居支所"}]},
+   {"id": "type-gakko", "label": "学校体育施設", "heading": "学校体育施設の開放を利用する", "bullets": ["市内小中学校の体育施設が対象", "空き状況閲覧にはアカウント登録が必要", "地域住民のスポーツ活動向けに開放されている"], "actions": [{"label": "学校体育施設の開放", "href": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/4459.html", "source": "湖西市"}]}
+  ],
+  "steps": {
+   "today": ["借りたい施設と日程の空き状況を予約システムで確認する", "利用者登録が済んでいるか確認する"],
+   "this_week": ["未登録なら窓口で利用者登録を済ませる", "予約申込と利用料の支払い方法を確認する"],
+   "outside": ["定期利用する場合は次回以降の予約可能時期を把握しておく", "キャンセル規定（返金条件）を確認しておく"]
+  },
+  "action_grid": [
+   {"label": "湖西市公共施設予約システムを開く", "href": "https://yoyacool.e-harp.jp/kosai"},
+   {"label": "スポーツ・生涯学習課に問い合わせる", "href": "tel:0535768560"},
+   {"label": "新居地域センターに問い合わせる", "href": "tel:0535948118"}
+  ]
+ },
+ {
+  "href": "/life/play-out/sports-facilities/",
+  "lead": "湖西市のスポーツ施設は、屋外の湖西運動公園、屋内の複合運動施設アメニティプラザ、新居体育館、勤労者体育センターなど本庁・新居支所エリアそれぞれに拠点があります。利用前に予約システムでの空き状況確認と、施設ごとの休館日を押さえておきましょう。",
+  "note": "施設によって休館日・利用時間の区分（午前・午後・夜間）が異なります。個人利用か団体利用かでも申込方法が変わる場合があるため、事前確認をおすすめします。",
+  "real_cards": [
+   {"icon": "🏟️", "title": "湖西運動公園", "body": "野球場、テニスコート（クレー6面）、陸上競技場（400m、スタンド3,170人収容）、弓道場、多目的広場を備えた総合運動公園です。利用時間は6時～21時（多目的広場は8時30分～17時）。"},
+   {"icon": "🏊", "title": "アメニティプラザ", "body": "温水レジャープールのほか、大小2つのアリーナ、トレーニングルームを備えた複合運動施設です。利用時間は9時～21時、休館日は木曜（祝日の場合は開館し翌日休館）。"},
+   {"icon": "🏸", "title": "新居体育館・弓道場・庭球場", "body": "新居町浜名にある体育館は、午前・午後・夜間の3区分で利用でき、毎月第1火曜（祝日の場合翌日）と年末年始が休館日です。"},
+   {"icon": "🏋️", "title": "勤労者体育センター", "body": "バレーボール・バスケットボール・卓球・トランポリン・バドミントンに使える体育室と、トレーニング室を備えています。トレーニング室の利用には講習会の受講が必要です。"}
+  ],
+  "qa": [
+   {"question": "湖西運動公園の利用時間を教えてください。", "answer": "野球場・テニス場・陸上競技場・弓道場・児童広場は6時～21時、多目的広場は8時30分～17時です。休園日は月曜（祝日の場合翌日）と12月29日～1月3日です。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shogaigakushu/5/2356.html\" target=\"_blank\" rel=\"noopener\">湖西運動公園</a>を確認してください。"},
+   {"question": "アメニティプラザの利用料金はいくらですか。", "answer": "温水レジャープールは高校生以上660円、3歳～中学生・70歳以上・障がい者は330円です（他のアリーナ等は別料金）。詳しくは施設（053-573-0777）にお問い合わせください。"},
+   {"question": "新居体育館の休館日はいつですか。", "answer": "毎月第1火曜日（祝日の場合は翌日）と年末年始（12月29日～1月3日）です。利用時間は午前・午後・夜間の3区分制です。"},
+   {"question": "勤労者体育センターのトレーニング室は誰でも使えますか。", "answer": "トレーニング機器利用講習会の受講が必要です。受講後に利用できるようになります。詳細は施設（053-576-4540）にご確認ください。"},
+   {"question": "スポーツ施設の予約はどこからしますか。", "answer": "共通の<a href=\"https://yoyacool.e-harp.jp/kosai\" target=\"_blank\" rel=\"noopener\">湖西市公共施設予約システム</a>から空き状況確認・予約ができます。予約には利用者登録が必要です。"}
+  ],
+  "tabs": [
+   {"id": "type-undokoen", "label": "湖西運動公園", "heading": "湖西運動公園を利用する", "bullets": ["野球場・テニスコート・陸上競技場・弓道場・多目的広場", "利用時間6時～21時（多目的広場8時30分～17時）", "月曜・年末年始休園"], "actions": [{"label": "湖西運動公園", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shogaigakushu/5/2356.html", "source": "湖西市スポーツ・生涯学習課"}]},
+   {"id": "type-amenity", "label": "アメニティプラザ", "heading": "アメニティプラザを利用する", "bullets": ["温水レジャープール・大小アリーナ・トレーニングルーム", "利用時間9時～21時", "休館日は木曜（祝日の場合開館、翌日休館）"], "actions": [{"label": "スポーツ施設", "href": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/index.html", "source": "湖西市"}]},
+   {"id": "type-arai-taiikukan", "label": "新居体育館", "heading": "新居体育館・弓道場・庭球場を利用する", "bullets": ["所在地は新居町浜名522-1", "午前・午後・夜間の3区分利用", "毎月第1火曜・年末年始休館"], "actions": [{"label": "湖西市新居体育館、弓道場、庭球場", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shogaigakushu/5/2357.html", "source": "湖西市"}]},
+   {"id": "type-kinroshacenter", "label": "勤労者体育センター", "heading": "勤労者体育センターを利用する", "bullets": ["所在地は古見1067-3", "バレーボール・バスケ・卓球・トランポリン・バドミントン対応", "トレーニング室は講習会受講が必要"], "actions": [{"label": "勤労者体育センター", "href": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/4456.html", "source": "湖西市"}]}
+  ],
+  "steps": {
+   "today": ["利用したい施設と種目を決める", "予約システムで空き状況を確認する"],
+   "this_week": ["利用者登録が済んでいなければ窓口で手続きする", "トレーニング室希望の場合は講習会の日程を確認する"],
+   "outside": ["定期的に使う場合は各施設の休館日をカレンダーに控えておく", "団体利用の場合は構成員名簿など必要書類を準備しておく"]
+  },
+  "action_grid": [
+   {"label": "スポーツ施設一覧を見る", "href": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/index.html"},
+   {"label": "湖西市公共施設予約システムを見る", "href": "https://yoyacool.e-harp.jp/kosai"},
+   {"label": "湖西運動公園管理事務所に問い合わせる", "href": "tel:0535764795"}
+  ]
+ },
+ {
+  "href": "/life/play-out/swimming-pools/",
+  "lead": "湖西市で現在通年利用できるプールは、複合運動施設アメニティプラザの温水レジャープールです。夏季営業だった新居弁天わんぱくランドのプールは閉鎖され、周辺エリアは再整備が進められているため、プール目的の外出はアメニティプラザが基本になります。",
+  "note": "新居弁天エリアは観光振興のための再整備計画が進行中です。将来的に施設が変わる可能性があるため、最新情報は文化観光課に確認してください。",
+  "real_cards": [
+   {"icon": "🏊", "title": "アメニティプラザの温水レジャープール", "body": "ウォータースライダー・流れるプール・波の出るプールがあり、室温35度以上・水温30～31度で一年を通じて利用できます。"},
+   {"icon": "💴", "title": "料金は660円・330円", "body": "高校生以上660円、3歳～中学生・70歳以上・障がい者は330円です。3歳未満は保護者同伴で利用可否を施設に確認してください。"},
+   {"icon": "🕒", "title": "利用時間9時～21時", "body": "休館日は木曜（祝日の場合は開館し翌日休館）で、学校の夏休み期間は無休です。"},
+   {"icon": "🏖️", "title": "新居弁天のプールは現在休止", "body": "夏季限定だった新居弁天わんぱくランドのプールは閉鎖され、地区一帯の再整備事業が進められています。"}
+  ],
+  "qa": [
+   {"question": "湖西市で通年使えるプールはどこですか。", "answer": "複合運動施設アメニティプラザの温水レジャープールです。冬でも室温35度以上に保たれています。詳細は施設（053-573-0777）にお問い合わせください。"},
+   {"question": "アメニティプラザの料金はいくらですか。", "answer": "高校生以上660円、3歳～中学生・70歳以上・障がい者は330円です。"},
+   {"question": "アメニティプラザの休館日はいつですか。", "answer": "木曜日（祝日の場合は開館し翌日休館）と年末年始です。ただし学校の夏休み期間は無休で営業します。"},
+   {"question": "新居弁天のプールはまだ使えますか。", "answer": "夏季営業だった「新居弁天わんぱくランド」のプールは閉鎖されています。周辺エリアは観光振興に向けた再整備が進められているため、最新の状況は文化観光課（053-576-1230）にご確認ください。"},
+   {"question": "アメニティプラザの駐車場はありますか。", "answer": "360台分の無料駐車場があります。混雑しやすい夏休み期間は早めの来場がおすすめです。"}
+  ],
+  "tabs": [
+   {"id": "type-amenity-pool", "label": "アメニティプラザ", "heading": "アメニティプラザの温水プールを利用する", "bullets": ["ウォータースライダー・流れるプール・波のプールあり", "室温35度以上、水温30～31度で通年営業", "利用時間9時～21時"], "actions": [{"label": "スポーツ施設", "href": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/index.html", "source": "湖西市"}]},
+   {"id": "type-fee", "label": "料金", "heading": "料金体系を確認する", "bullets": ["高校生以上660円", "3歳～中学生・70歳以上・障がい者330円", "3歳未満の扱いは施設に要確認"], "actions": [{"label": "湖西市複合運動施設「アメニティプラザ」トップ", "href": "https://information.konamisportsclub.jp/trust/kosaishi/", "source": "指定管理者サイト"}]},
+   {"id": "type-holiday", "label": "休館日", "heading": "休館日・繁忙期を確認する", "bullets": ["休館日は木曜（祝日の場合開館、翌日休館）", "年末年始休館", "夏休み期間は無休"], "actions": [{"label": "スポーツ施設", "href": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/index.html", "source": "湖西市"}]},
+   {"id": "type-arai-benten", "label": "新居弁天エリア", "heading": "新居弁天エリアの現状を確認する", "bullets": ["夏季プール「わんぱくランド」は閉鎖済み", "地区一帯の再整備事業が進行中", "最新情報は文化観光課へ"], "actions": [{"label": "新居弁天公園整備・管理運営事業", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/araibentenrikatuyou/index.html", "source": "湖西市文化観光課"}]}
+  ],
+  "steps": {
+   "today": ["利用日の混雑予想（夏休み等）を確認する", "持ち物（水着・タオル等）を準備する"],
+   "this_week": ["家族の年齢に応じた料金区分を確認する", "駐車場の混雑を避けたい場合は時間帯を調整する"],
+   "outside": ["新居弁天エリアの再整備の進捗を定期的に確認する", "繰り返し利用する場合は回数券等の有無を施設に確認する"]
+  },
+  "action_grid": [
+   {"label": "アメニティプラザ公式情報を見る", "href": "https://information.konamisportsclub.jp/trust/kosaishi/"},
+   {"label": "湖西市スポーツ施設ページを見る", "href": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/index.html"},
+   {"label": "アメニティプラザに電話する", "href": "tel:0535730777"}
+  ]
+ }
+]

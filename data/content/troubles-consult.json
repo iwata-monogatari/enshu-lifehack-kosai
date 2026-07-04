@@ -1,1 +1,593 @@
-[]
+[
+  {
+    "href": "/life/troubles-consult/",
+    "lead": "湖西市には税金、介護、子育て、農地、空き家など、暮らしの中で困りごとが起きたときの相談窓口が数多く用意されています。まずはどの窓口に相談すればよいかをこのページで整理し、本庁と新居支所のどちらに聞けばよいかも確認しましょう。",
+    "note": "緊急性が高い相談（虐待・DV・生命の危険など）は、ためらわず110番・119番、または後述の専門窓口に直接連絡してください。",
+    "real_cards": [
+      {"icon":"💬","title":"何をどこに相談すればいいか迷ったら","body":"湖西市公式サイトの「相談窓口の一覧」ページに、行政相談・法律相談・消費生活相談・子育て相談・よりそい相談室などがまとめて掲載されています。窓口名が分からないときはまずここを確認するとよいでしょう。"},
+      {"icon":"🏢","title":"本庁と新居支所の役割分担","body":"湖西市役所（本庁・吉美）が多くの相談窓口を担いますが、新居支所（新居町）でも一部の届出や取次ぎが可能な場合があります。来庁前に電話で確認すると二度手間を防げます。"},
+      {"icon":"🌾","title":"農地に関する相談は産業振興課・農業委員会へ","body":"農地の相続・転用・貸し借りなど農地に関する困りごとは、産業振興課 農業水産振興係（湖西市農業委員会事務局を兼務）が窓口です。詳細は本カテゴリ内の「農地」関連ページを確認してください。"}
+    ],
+    "action_grid": [
+      {"label":"湖西市 相談窓口の一覧（公式）","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html"},
+      {"label":"湖西市役所 代表電話","href":"tel:0535761111"},
+      {"label":"湖西市社会福祉協議会","href":"https://kosai-sk.or.jp/"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/animal-pet-consultation/",
+    "lead": "湖西市で犬・猫などペットに関する困りごとがあるときは、環境課生活係が窓口です。犬の登録や狂犬病予防注射、野良猫の不妊去勢手術費補助など、制度を知っていると負担を減らせます。",
+    "note": "野良猫や迷い犬を見つけた場合の対応は、飼い主の有無や状況によって連絡先が変わることがあるため、まず環境課に電話で状況を伝えるのが確実です。",
+    "real_cards": [
+      {"icon":"🐕","title":"犬の登録と狂犬病予防注射","body":"生後91日以上の犬は登録が義務で、登録手数料は3,000円。毎年1回の狂犬病予防注射（注射済票交付手数料550円）も必要です。動物病院のほか、市が実施する4月の集合注射でも接種できます。"},
+      {"icon":"🐈","title":"野良猫の不妊去勢手術費補助","body":"湖西市では野良猫対策協議会が不妊去勢手術の費用を補助しており、申請者負担は1匹あたり6,000円程度です。地域の猫トラブルを減らしたい場合に活用できます。"},
+      {"icon":"📝","title":"登録内容の変更・死亡時の届出","body":"転入・転出、飼い主変更、市内転居、氏名変更の際は環境課への届け出が必要です。オンライン申請フォームも利用できます。犬が死亡した場合も登録抹消の連絡が必要です。"}
+    ],
+    "qa": [
+      {"question":"犬を新しく飼い始めたら何をすればいい？","answer":"生後91日を超えたら環境課生活係で登録し、狂犬病予防注射を受けさせてください。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>を確認してください。"},
+      {"question":"野良猫が増えて困っている場合は？","answer":"野良猫の不妊去勢手術費補助制度があります。環境課生活係（053-576-4533）に相談してください。"},
+      {"question":"ペットが亡くなったときはどうすればいい？","answer":"民間のペット火葬施設を利用できるほか、犬の場合は登録抹消の届出が必要です。環境課に連絡してください。"},
+      {"question":"保護犬・保護猫を譲り受けたい場合は？","answer":"湖西市公式サイトに保護犬情報が掲載される場合があります。また静岡県動物愛護のページでも譲渡動物情報を確認できます。"},
+      {"question":"多頭飼育でトラブルになっている近隣がある場合は？","answer":"多頭飼育や飼養環境については静岡県の動物愛護担当と市の環境課が連携して対応することがあります。まず環境課へ相談してください。"}
+    ],
+    "tabs": [
+      {"id":"type-dog","label":"犬を飼っている方","heading":"登録・注射・しつけの基本","bullets":["生後91日以上で登録必須（3,000円）","毎年の狂犬病予防注射（注射済票550円）","放し飼い禁止、リード使用が必須","フンの持ち帰りなどマナー遵守"],"actions":[{"label":"飼い犬の手続きを見る","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html","source":"湖西市公式サイト"}]},
+      {"id":"type-cat","label":"猫を飼っている・野良猫に困っている方","heading":"不妊去勢手術補助と適正飼育","bullets":["野良猫対策協議会による手術費補助（申請者負担約6,000円）","室内飼育の推奨","近隣トラブル防止のための相談窓口あり"],"actions":[{"label":"野良猫の不妊去勢手術について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/9464.html","source":"湖西市公式サイト"}]},
+      {"id":"type-lost","label":"迷い犬・保護犬を探している方","heading":"保護情報の確認方法","bullets":["市公式サイトの保護犬情報を確認","警察や環境課への遺失物・拾得物届も検討","静岡県の譲渡動物情報も参考に"],"actions":[{"label":"保護犬情報","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1314.html","source":"湖西市公式サイト"}]},
+      {"id":"type-death","label":"ペットが亡くなった方","heading":"火葬と登録抹消","bullets":["民間ペット火葬施設の利用","犬は環境課へ登録抹消の連絡が必要","不明点は環境課生活係に確認"],"actions":[{"label":"ペットの火葬について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/6425.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["環境課生活係（053-576-4533）に電話で状況を伝える","犬・猫それぞれの制度概要を公式サイトで確認する"],
+      "this_week": ["必要な登録・届出書類を準備する","動物病院での予防注射や手術の予約を検討する"],
+      "outside": ["近隣トラブルが深刻な場合は静岡県動物愛護担当にも相談する"]
+    },
+    "action_grid": [
+      {"label":"ペット・動物（湖西市公式）","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/sumai_kotsu/pet_dobutsu/index.html"},
+      {"label":"環境課生活係","href":"tel:0535764533"},
+      {"label":"静岡県動物愛護","href":"https://www.pref.shizuoka.jp/kenkofukushi/eiseiyakuji/dobutsuaigo/index.html"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/cannot-pay-tax/",
+    "lead": "市税の納付が難しくなったときは、放置せず早めに湖西市役所税務課へ相談することが大切です。督促手数料や延滞金が発生する前に、分割納付などの相談が可能な場合があります。",
+    "note": "税金の滞納を放置すると差押えなどの滞納処分に至ることもあります。生活が苦しく支払えない事情がある場合ほど早期の相談が重要です。",
+    "real_cards": [
+      {"icon":"💴","title":"納期限を過ぎるとどうなるか","body":"納期限を過ぎると督促状が送付され、督促手数料が発生します。さらに滞納金額や期間によっては延滞金が加算されるため、早めの相談で負担を抑えられる可能性があります。"},
+      {"icon":"📞","title":"税務課への相談","body":"来庁または電話で納税相談を受け付けています。分割納付など個々の事情に応じた対応が検討される場合があります。まずは現状を伝えることが第一歩です。"},
+      {"icon":"🤝","title":"生活困窮と合わせて相談したい場合","body":"税金だけでなく生活費全般に困っている場合は、湖西市社会福祉協議会の自立相談支援事業もあわせて利用できます。家計改善支援を受けられることがあります。"}
+    ],
+    "qa": [
+      {"question":"税金が払えないときはどこに相談すればいい？","answer":"湖西市役所税務課（053-576-1218）に電話または来庁で相談してください。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/index.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>を確認してください。"},
+      {"question":"分割納付はできる？","answer":"個々の事情により対応が検討される場合があります。まず税務課に相談し、収入状況などを伝えてください。"},
+      {"question":"延滞金はいつから発生する？","answer":"納期限を過ぎて督促状が届いた後、滞納金額・期間に応じて延滞金が発生する場合があります。詳細な料率は税務課に確認してください。"},
+      {"question":"口座振替を使えば滞納を防げる？","answer":"市税などの口座振替払いに対応しています。詳しくは会計課（納付窓口）や税務課に確認してください。"},
+      {"question":"生活が苦しくて税金以外の支払いも厳しい場合は？","answer":"湖西市社会福祉協議会の自立相談支援（053-594-5511）で家計全体の相談ができます。"}
+    ],
+    "tabs": [
+      {"id":"type-notice","label":"督促状が届いた方","heading":"まず税務課へ連絡を","bullets":["督促手数料・延滞金の発生を確認","分割納付など相談可能な場合がある","放置すると滞納処分に至ることも"],"actions":[{"label":"税務課へ電話する","href":"tel:0535761218","source":"湖西市役所"}]},
+      {"id":"type-income-down","label":"収入が減って支払いが難しい方","heading":"早めの相談で選択肢を確保","bullets":["現在の収入・支出状況を整理しておく","減免制度の有無を確認","生活困窮の相談窓口も並行して利用"],"actions":[{"label":"税に関するQ&A","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/yokuarushitsumon/1366.html","source":"湖西市公式サイト"}]},
+      {"id":"type-method","label":"納付方法を見直したい方","heading":"口座振替・納付窓口の確認","bullets":["口座振替払いの申込み方法を確認","納入通知書で納付できる窓口一覧を確認","スマホ決済等の対応状況も確認"],"actions":[{"label":"税金の納め方","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/6/1362.html","source":"湖西市公式サイト"}]},
+      {"id":"type-multi","label":"税金以外にも借金や家計の悩みがある方","heading":"多重債務・家計改善もあわせて相談","bullets":["消費生活相談室で多重債務相談を予約制で実施","社会福祉協議会の家計改善支援も利用可能","一人で抱え込まず早期に相談"],"actions":[{"label":"消費生活相談窓口","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["税務課（053-576-1218）に電話し現状を伝える","督促状や納税通知書を手元に用意する"],
+      "this_week": ["収入・支出の状況をメモにまとめる","分割納付など相談内容を整理する"],
+      "outside": ["生活全体が苦しい場合は社会福祉協議会にも相談する"]
+    },
+    "action_grid": [
+      {"label":"税務課（公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/index.html"},
+      {"label":"税務課へ電話","href":"tel:0535761218"},
+      {"label":"税金の納付方法","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/zeikinnonofu/index.html"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/care-consultation/",
+    "lead": "湖西市には高齢者福祉課と4つの地域包括支援センターがあり、介護保険や高齢者の暮らしに関する相談を受け付けています。担当エリアがセンターごとに分かれているため、まずはどこが自分の地域を担当しているか確認しましょう。",
+    "note": "急を要する体調変化や虐待が疑われる場合は、地域包括支援センターまたは高齢者福祉課へ直接連絡してください。",
+    "real_cards": [
+      {"icon":"🧑‍⚕️","title":"地域包括支援センターとは","body":"保健師・社会福祉士・主任介護支援専門員などの専門職が連携し、介護保険や福祉サービスに関する相談に応じる窓口です。湖西市内に4か所設置されています。"},
+      {"icon":"📋","title":"高齢者福祉課への相談","body":"在宅福祉サービスや高齢者相談全般は053-576-1212、介護予防教室や認知症に関する相談は053-576-4916で受け付けています。"},
+      {"icon":"🏠","title":"要介護認定の申請","body":"介護保険サービスを利用するには要介護認定の申請が必要です。申請窓口や必要書類については高齢者福祉課に確認してください。"}
+    ],
+    "qa": [
+      {"question":"介護の相談はどこにすればいい？","answer":"お住まいの地域を担当する地域包括支援センター、または高齢者福祉課（053-576-1212）に相談してください。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/1198.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>を確認してください。"},
+      {"question":"自分の地域を担当するセンターが分からない場合は？","answer":"高齢者福祉課に問い合わせれば、居住地域を担当するセンターを案内してもらえます。"},
+      {"question":"認知症が心配なときは？","answer":"高齢者福祉課（053-576-4916）または地域包括支援センターで認知症に関する相談ができます。"},
+      {"question":"要介護認定はどこで申請する？","answer":"高齢者福祉課または地域包括支援センターで申請手続きの案内を受けられます。"},
+      {"question":"新居地区に住んでいる場合の窓口は？","answer":"新居地区を担当する地域包括支援センターがあります。事前に高齢者福祉課で担当センターを確認してください。"}
+    ],
+    "tabs": [
+      {"id":"type-first","label":"初めて介護保険を考える方","heading":"まず相談窓口を確認","bullets":["高齢者福祉課（053-576-1212）に電話","居住地域の地域包括支援センターを確認","要介護認定の申請方法を聞く"],"actions":[{"label":"高齢者の総合相談窓口","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/1198.html","source":"湖西市公式サイト"}]},
+      {"id":"type-dementia","label":"認知症が心配な方","heading":"早期の相談がカギ","bullets":["高齢者福祉課（053-576-4916）で相談","地域包括支援センターの専門職に相談","認知症予防教室の情報も確認"],"actions":[{"label":"地域包括支援センター一覧","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/13248.html","source":"湖西市公式サイト"}]},
+      {"id":"type-family","label":"家族の介護をしている方","heading":"介護者自身の負担軽減も相談を","bullets":["ケアマネジャーとの連携","介護サービスの利用調整","家族介護者向けの相談も可能"],"actions":[{"label":"高齢者福祉課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/index.html","source":"湖西市公式サイト"}]},
+      {"id":"type-area","label":"新居地区にお住まいの方","heading":"担当センターの確認を","bullets":["新居支所でも一部相談の取次ぎが可能な場合がある","地域包括支援センターの担当エリアを事前確認","電話で確認してから来所すると確実"],"actions":[{"label":"高齢者福祉課へ電話","href":"tel:0535761212","source":"湖西市役所"}]}
+    ],
+    "steps": {
+      "today": ["高齢者福祉課（053-576-1212）に電話する","困りごとの内容を簡単にメモしておく"],
+      "this_week": ["担当の地域包括支援センターに連絡する","必要な書類（介護保険証等）を確認する"],
+      "outside": ["要介護認定の申請を検討する"]
+    },
+    "action_grid": [
+      {"label":"高齢者福祉課（公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/index.html"},
+      {"label":"地域包括支援センター一覧","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/13248.html"},
+      {"label":"高齢者福祉課へ電話","href":"tel:0535761212"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/child-consultation/",
+    "lead": "子育てや家庭のことで困ったときは、湖西市こども未来課の家庭児童相談係に相談できます。健康福祉センター「おぼと」内の家庭児童相談室で、匿名の電話相談も可能です。",
+    "note": "虐待の疑いがある場合はためらわず児童相談所全国共通ダイヤル「189」または家庭児童相談係に連絡してください。",
+    "real_cards": [
+      {"icon":"👨‍👩‍👧","title":"家庭児童相談の窓口","body":"社会福祉士や教員などの有資格者が、子育てや家庭に関する悩みを相談できます。健康福祉センター「おぼと」1階の家庭児童相談室で、月～金8:30～17:00に対応しています。"},
+      {"icon":"📞","title":"匿名でも相談できる","body":"電話番号053-576-1125または053-576-4874では匿名での相談も可能です。面接相談は事前予約制です。"},
+      {"icon":"🧒","title":"ヤングケアラー・いじめなど個別の相談窓口も","body":"子どもの相談に関しては、ヤングダイヤルこさい、いじめ相談窓口、ヤングケアラー相談など目的別の窓口も用意されています。"}
+    ],
+    "qa": [
+      {"question":"子育ての悩みはどこに相談すればいい？","answer":"こども未来課 家庭児童相談係（053-576-4874）に相談してください。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/1/2253.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>を確認してください。"},
+      {"question":"名前を出さずに相談できる？","answer":"はい。053-576-1125または053-576-4874では匿名での電話相談が可能です。"},
+      {"question":"子どもがいじめられているかもしれない場合は？","answer":"いじめ相談窓口が別途用意されています。学校や教育委員会とあわせて相談できます。"},
+      {"question":"ヤングケアラーについて相談したい場合は？","answer":"湖西市はヤングケアラーについての相談窓口を案内しています。こども未来課に問い合わせてください。"},
+      {"question":"虐待が心配なときはどうすればいい？","answer":"児童相談所全国共通ダイヤル「189」、またはこども未来課家庭児童相談係にすぐ連絡してください。秘密は守られます。"}
+    ],
+    "tabs": [
+      {"id":"type-parenting","label":"子育ての悩みがある方","heading":"家庭児童相談室へ","bullets":["電話相談（匿名可）と面接相談（予約制）","有資格者が対応","健康福祉センター「おぼと」1階"],"actions":[{"label":"家庭児童相談について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/gyomuannai/2/1/2253.html","source":"湖西市公式サイト"}]},
+      {"id":"type-teen","label":"思春期・ヤングケアラーの相談をしたい方","heading":"ヤングダイヤルこさい等の活用","bullets":["ヤングダイヤルこさいで若年層の相談を受付","ヤングケアラー相談窓口もあり","学校とも連携した対応が可能"],"actions":[{"label":"相談窓口の一覧","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html","source":"湖西市公式サイト"}]},
+      {"id":"type-abuse","label":"虐待が心配な方","heading":"迷わずすぐに連絡を","bullets":["児童相談所全国共通ダイヤル「189」","こども未来課家庭児童相談係にも連絡可能","秘密は厳守される"],"actions":[{"label":"こども未来課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/index.html","source":"湖西市公式サイト"}]},
+      {"id":"type-support","label":"子育て支援サービスを知りたい方","heading":"ファミリー・サポート・センター等","bullets":["ファミリー・サポート・センターで送迎や預かりの相互援助","子育て支援センター（のびりん）の利用","各種相談窓口を横断的に確認"],"actions":[{"label":"子育て支援について","href":"https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/kosodateshien/index.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["こども未来課（053-576-4874）に電話する","匿名相談も可能なことを念頭に置く"],
+      "this_week": ["面接相談を希望する場合は予約する","必要に応じて学校とも情報共有する"],
+      "outside": ["継続的な支援が必要な場合は関係機関と連携して見守る"]
+    },
+    "action_grid": [
+      {"label":"こども未来課（公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/kodomo/index.html"},
+      {"label":"家庭児童相談係へ電話","href":"tel:0535764874"},
+      {"label":"子育て・教育","href":"https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/index.html"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/consumer-fraud/",
+    "lead": "訪問販売や架空請求、インターネット通販のトラブルなど、消費生活に関する困りごとは湖西市消費生活相談室に相談できます。市役所1階の相談室で平日9時から15時まで対応しています。",
+    "note": "契約後すぐに気づいた場合はクーリング・オフ制度が使えることがあります。判断に迷ったらまず相談窓口に連絡し、一人で契約解除を進めないようにしましょう。",
+    "real_cards": [
+      {"icon":"🛍️","title":"消費生活相談室","body":"訪問販売、契約トラブル、架空請求など消費生活全般の相談を受け付けています。電話番号は053-576-1609、平日9:00～15:00の対応です。"},
+      {"icon":"💳","title":"多重債務相談","body":"住宅ローンやクレジット、サラ金による多重債務については、弁護士による予約制の相談があります。消費生活相談室を通じて予約できます。"},
+      {"icon":"📱","title":"最新の詐欺手口に注意","body":"特殊詐欺やネット通販詐欺は手口が変化し続けています。少しでも怪しいと感じたら契約前・支払い前に相談することが被害防止につながります。"}
+    ],
+    "qa": [
+      {"question":"訪問販売で契約してしまい後悔している場合は？","answer":"クーリング・オフが使える場合があります。消費生活相談室（053-576-1609）にすぐ相談してください。"},
+      {"question":"身に覚えのない請求が来た場合は？","answer":"架空請求の可能性があります。支払わずに消費生活相談室に相談してください。"},
+      {"question":"借金が複数あって返済が苦しい場合は？","answer":"多重債務相談（弁護士による予約制）が利用できます。消費生活相談室を通じて予約してください。"},
+      {"question":"相談は無料？","answer":"消費生活相談室の相談は無料です。まずは電話でご相談ください。"},
+      {"question":"どこに相談すればよいか分からない場合は？","answer":"湖西市の<a href=\"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html\" target=\"_blank\" rel=\"noopener\">相談窓口の一覧</a>から適切な窓口を確認できます。"}
+    ],
+    "tabs": [
+      {"id":"type-contract","label":"契約トラブルに遭った方","heading":"クーリング・オフや契約解除の相談","bullets":["契約書類を保管しておく","支払い前・解約期限内であれば相談を急ぐ","消費生活相談室（053-576-1609）へ"],"actions":[{"label":"消費生活相談窓口","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html","source":"湖西市公式サイト"}]},
+      {"id":"type-fraud","label":"架空請求・特殊詐欺が疑われる方","heading":"支払わず相談を","bullets":["身に覚えのない請求には応じない","警察相談専用電話#9110も活用","消費生活相談室に事例を伝える"],"actions":[{"label":"消費生活相談室へ電話","href":"tel:0535761609","source":"湖西市役所"}]},
+      {"id":"type-debt","label":"多重債務で悩んでいる方","heading":"弁護士による予約制相談","bullets":["住宅ローン・クレジット・サラ金の債務が対象","予約制のため事前連絡が必要","家計改善支援とあわせて利用可能"],"actions":[{"label":"社会福祉協議会の生活相談","href":"https://kosai-sk.or.jp/consult/life/","source":"湖西市社会福祉協議会"}]},
+      {"id":"type-elderly","label":"高齢の家族の消費者被害が心配な方","heading":"見守りと早期相談","bullets":["訪問販売・電話勧誘の被害に注意","家族間で契約書類を共有しておく","異変に気づいたらすぐ相談室へ"],"actions":[{"label":"相談窓口の一覧","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["消費生活相談室（053-576-1609、平日9:00～15:00）に電話する","契約書・請求書など関連書類を手元に用意する"],
+      "this_week": ["クーリング・オフの期限を確認する","多重債務がある場合は予約制相談を申し込む"],
+      "outside": ["被害が犯罪に該当する可能性がある場合は警察にも相談する"]
+    },
+    "action_grid": [
+      {"label":"相談窓口の一覧（公式）","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html"},
+      {"label":"消費生活相談室へ電話","href":"tel:0535761609"},
+      {"label":"国民生活センター","href":"https://www.kokusen.go.jp/map/22/center3639.html"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/disability-consultation/",
+    "lead": "障害のある方やそのご家族の相談は、湖西市地域福祉課 障害福祉係が窓口です。健康福祉センター「おぼと」内にあり、サービス利用の相談から手帳の手続きまで幅広く対応しています。",
+    "note": "緊急性の高い相談や、どこに相談すべきか分からない場合も、まず地域福祉課に電話すれば適切な窓口や相談支援事業所につないでもらえます。",
+    "real_cards": [
+      {"icon":"🧩","title":"地域福祉課 障害福祉係","body":"身体障害・知的障害・精神障害それぞれの福祉サービスについて相談できます。電話番号は053-576-4532、健康福祉センター「おぼと」内が窓口です。"},
+      {"icon":"🤝","title":"相談支援事業所との連携","body":"障害福祉サービスの利用計画作成などは、市と連携する相談支援事業所がサポートします。地域福祉課に問い合わせれば案内を受けられます。"},
+      {"icon":"💊","title":"精神障害者への医療費助成など","body":"精神障害者医療費助成をはじめ、障害の種類に応じた助成制度があります。詳細は担当窓口で確認してください。"}
+    ],
+    "qa": [
+      {"question":"障害福祉サービスの相談はどこにすればいい？","answer":"地域福祉課 障害福祉係（053-576-4532）に相談してください。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/kenko_fukushi/shogaishafukushi/index.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>を確認してください。"},
+      {"question":"障害者手帳の申請はどこで？","answer":"地域福祉課で申請の案内を受けられます。必要書類などは事前に電話で確認するとスムーズです。"},
+      {"question":"サービス利用計画の作成は自分でできる？","answer":"相談支援事業所に依頼して作成してもらうことも可能です。地域福祉課が事業所を案内します。"},
+      {"question":"精神障害の医療費助成はある？","answer":"精神障害者医療費助成制度があります。詳細は地域福祉課に確認してください。"},
+      {"question":"障害のある子どもの通所支援について知りたい場合は？","answer":"障害児通所支援についても地域福祉課で案内しています。こども未来課とも連携する場合があります。"}
+    ],
+    "tabs": [
+      {"id":"type-new","label":"初めて障害福祉サービスを利用する方","heading":"まず地域福祉課へ相談","bullets":["障害の種類や状況を伝える","手帳の有無に関わらずまず相談可能","相談支援事業所の案内を受けられる"],"actions":[{"label":"障害者福祉について","href":"https://www.city.kosai.shizuoka.jp/kenko_fukushi/shogaishafukushi/index.html","source":"湖西市公式サイト"}]},
+      {"id":"type-service","label":"サービス利用計画を作りたい方","heading":"相談支援事業所との連携","bullets":["地域福祉課が事業所を案内","サービス等利用計画案を作成","定期的なモニタリングも実施"],"actions":[{"label":"障害福祉サービス・障害児通所支援","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/gyomuannai/2/service/2489.html","source":"湖西市公式サイト"}]},
+      {"id":"type-medical","label":"医療費の助成を知りたい方","heading":"精神障害者医療費助成など","bullets":["精神障害者医療費助成制度の対象を確認","申請窓口は地域福祉課","他の医療費助成制度との重複可否も確認"],"actions":[{"label":"精神障害者医療費助成","href":"https://www.city.kosai.shizuoka.jp/kenko_fukushi/shogaishafukushi/iryou/4816.html","source":"湖西市公式サイト"}]},
+      {"id":"type-family","label":"家族が支援している方","heading":"家族の負担軽減も相談を","bullets":["ヤングケアラーに該当しないか確認","地域福祉課で家族向けの情報提供も実施","必要に応じて福祉サービスの調整を依頼"],"actions":[{"label":"地域福祉課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/index.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["地域福祉課 障害福祉係（053-576-4532）に電話する","現在困っていることを簡単に整理しておく"],
+      "this_week": ["必要書類（手帳、診断書等）の有無を確認する","相談支援事業所の案内を受ける"],
+      "outside": ["サービス利用計画を作成し、定期的な見直しを行う"]
+    },
+    "action_grid": [
+      {"label":"障害者福祉（公式）","href":"https://www.city.kosai.shizuoka.jp/kenko_fukushi/shogaishafukushi/index.html"},
+      {"label":"地域福祉課へ電話","href":"tel:0535764532"},
+      {"label":"地域福祉課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/chiikifukushika/index.html"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/",
+    "lead": "湖西市には茶畑や水田など農地が一定程度残っており、農地の相続・転用・貸し借りなどで困ったときは産業振興課 農業水産振興係（湖西市農業委員会事務局）が窓口になります。目的に応じて以下の個別ページも確認してください。",
+    "note": "農地の権利移動や転用には農地法の許可・届出が必要な場合が多く、無断で用途を変えるとトラブルになることがあります。必ず事前に相談してください。",
+    "real_cards": [
+      {"icon":"🌾","title":"農地に関する相談窓口","body":"産業振興課 農業水産振興係（湖西市農業委員会事務局）が、農地の売買・貸借・転用・相続に関する相談を一括して受け付けています。電話番号は053-576-1216です。"},
+      {"icon":"📅","title":"申請には締切日がある","body":"農地転用の許可申請は毎月25日締切、農振除外の申出も年数回の受付期間が決まっています。早めの相談が重要です。"},
+      {"icon":"🔗","title":"目的別の詳細ページ","body":"「農地証明」「農地転用（農地法4条・5条）」「地目変更」「農振除外」「相続」「売買・貸借」など、具体的な手続きは個別ページで確認してください。"}
+    ],
+    "action_grid": [
+      {"label":"農地の売買・貸借・転用について（公式）","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html"},
+      {"label":"湖西市農業委員会","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html"},
+      {"label":"産業振興課へ電話","href":"tel:0535761216"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/certificates/",
+    "lead": "農地の証明書（農地台帳の写し・耕作証明書など）が必要なときは、湖西市農業委員会事務局（産業振興課 農業水産振興係）で申請できます。融資や農家住宅の建築など、証明書の用途によって必要な種類が異なります。",
+    "note": "証明書の発行には日数がかかる場合があるため、必要な時期から逆算して早めに申請することをおすすめします。",
+    "real_cards": [
+      {"icon":"📄","title":"農地台帳の写し","body":"農地の地番・面積・地目・権利関係などが記載された証明で、土地の権利関係を確認したいときに使われます。"},
+      {"icon":"🧑‍🌾","title":"耕作証明書","body":"農業従事者名や経営面積などを証明する書類で、農地取得、農業用軽油の免税、農家住宅の新築・改築などの際に必要になることがあります。"},
+      {"icon":"🏢","title":"申請窓口","body":"湖西市農業委員会事務局（産業振興課 農業水産振興係、電話053-576-1216）で申請できます。必要書類や様式は事前に確認してください。"}
+    ],
+    "qa": [
+      {"question":"耕作証明書は何のために使うの？","answer":"農地取得、農業用軽油の免税手続き、農家住宅の新築・改築などの際に必要になることがあります。用途を伝えて申請してください。"},
+      {"question":"申請はどこでできる？","answer":"産業振興課 農業水産振興係（湖西市農業委員会事務局、053-576-1216）で申請できます。"},
+      {"question":"証明書の発行にはどれくらいかかる？","answer":"申請内容や時期によって異なるため、必要な時期が決まっている場合は早めに窓口へ確認してください。"},
+      {"question":"郵送での申請は可能？","answer":"対応の可否は農業委員会事務局に確認が必要です。まず電話で相談することをおすすめします。"},
+      {"question":"手数料はかかる？","answer":"証明書の種類によって手数料が発生する場合があります。詳細は窓口で確認してください。"}
+    ],
+    "tabs": [
+      {"id":"type-loan","label":"融資・取得手続きに証明書が必要な方","heading":"農地台帳の写しを申請","bullets":["地番・面積・地目・権利関係を確認できる証明","金融機関への提出書類として利用されることが多い","農業委員会事務局に申請"],"actions":[{"label":"農業委員会事務局へ電話","href":"tel:0535761216","source":"湖西市役所"}]},
+      {"id":"type-tax","label":"軽油免税など税務手続きが必要な方","heading":"耕作証明書を申請","bullets":["農業従事者名・経営面積等を証明","農業用軽油の免税申請に添付することがある","用途を明確にして申請するとスムーズ"],"actions":[{"label":"湖西市農業委員会","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html","source":"湖西市公式サイト"}]},
+      {"id":"type-house","label":"農家住宅の新築・改築を考える方","heading":"事前に証明書を確認","bullets":["農家住宅の要件確認に証明書が必要な場合がある","建築関連部署（建設課等）ともあわせて相談","早めの準備がスムーズな手続きにつながる"],"actions":[{"label":"農地の売買・貸借・転用について","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html","source":"湖西市公式サイト"}]},
+      {"id":"type-unknown","label":"どの証明書が必要か分からない方","heading":"まず窓口に相談を","bullets":["提出先が求める証明の種類を確認する","農業委員会事務局に用途を伝えて相談","必要書類・手数料を確認してから申請"],"actions":[{"label":"産業振興課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["提出先が求める証明書の種類を確認する","農業委員会事務局（053-576-1216）に電話する"],
+      "this_week": ["必要書類を準備して申請する","手数料や発行日数を確認する"],
+      "outside": ["証明書を提出先に提出し、必要に応じて控えを保管する"]
+    },
+    "action_grid": [
+      {"label":"農地の売買・貸借・転用について（公式）","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html"},
+      {"label":"湖西市農業委員会","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html"},
+      {"label":"産業振興課へ電話","href":"tel:0535761216"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/change-use/",
+    "lead": "農地を宅地や駐車場などに地目変更したい場合、農地法の許可のほか、農業振興地域の農用地区域内であれば農振除外の手続きも必要になります。湖西市では産業振興課 農業水産振興係が窓口です。",
+    "note": "農振除外の申出には受付時期が決まっているため、地目変更を検討し始めた段階でできるだけ早く相談することが重要です。",
+    "real_cards": [
+      {"icon":"🏗️","title":"地目変更の前に必要な手続き","body":"農地を農地以外の用途に転用する場合は農地法の許可が必要です。農用地区域内であれば、先に農振除外の手続きも行う必要があります。"},
+      {"icon":"🗺️","title":"農用地区域かどうかの確認","body":"対象の土地が農業振興地域の農用地区域内か区域外（いわゆる白地）かによって必要な手続きが異なります。GISこさいなどの地図情報や産業振興課への確認で判別できます。"},
+      {"icon":"📆","title":"申請スケジュール","body":"農地転用許可申請は毎月25日締切（土日祝日の場合は前開庁日）。16～25日の提出が推奨されています。農振除外は年数回の受付期間があります。"}
+    ],
+    "qa": [
+      {"question":"農地を宅地にしたいときはまず何をすればいい？","answer":"まず産業振興課 農業水産振興係（053-576-1216）に相談し、対象地が農用地区域内かどうかを確認してください。"},
+      {"question":"農振除外はどれくらいの期間がかかる？","answer":"年数回の受付時期があり、審査には数か月かかることがあります。早めの相談が重要です。"},
+      {"question":"農地転用の許可申請の締切はいつ？","answer":"毎月25日締切です（土日祝日の場合は前開庁日）。16日から25日の間の提出が推奨されています。"},
+      {"question":"白地（区域外農地）ならすぐ転用できる？","answer":"農振除外の手続きは不要ですが、農地転用の許可申請など他の手続きは必要です。産業振興課に確認してください。"},
+      {"question":"地目変更の登記はどこで行う？","answer":"転用後の地目変更登記は法務局の管轄です。農地法の許可が下りた後に手続きを進めます。"}
+    ],
+    "tabs": [
+      {"id":"type-inside","label":"農用地区域内の農地を転用したい方","heading":"農振除外の申出が必要","bullets":["まず農用地区域内かどうかを確認","農振除外の申出（年数回の受付）を行う","除外後に農地転用の許可申請へ進む"],"actions":[{"label":"産業振興課へ電話","href":"tel:0535761216","source":"湖西市役所"}]},
+      {"id":"type-outside","label":"区域外（白地）の農地を転用したい方","heading":"農地転用の手続きへ","bullets":["農振除外は不要","農地転用及び開発に必要な手続きを進める","毎月25日締切に注意"],"actions":[{"label":"農地の売買・貸借・転用について","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html","source":"湖西市公式サイト"}]},
+      {"id":"type-house2","label":"住宅を建てるために農地を転用したい方","heading":"建築部署ともあわせて相談","bullets":["農地法の許可と建築確認の両方が必要","上下水道・接道状況なども事前確認","早めのスケジュール調整が重要"],"actions":[{"label":"湖西市農業振興地域整備計画について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyo_suisanshinkogakari/14394.html","source":"湖西市公式サイト"}]},
+      {"id":"type-unsure","label":"自分の土地がどちらか分からない方","heading":"地図情報や窓口で確認","bullets":["GISこさいの地図で農業振興地域を確認できる場合がある","最終的には産業振興課での確認が確実","地番を伝えて問い合わせるとスムーズ"],"actions":[{"label":"湖西市農業委員会","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["産業振興課（053-576-1216）に電話し、対象地の状況を伝える","農用地区域内かどうかを確認する"],
+      "this_week": ["必要書類（公図、登記事項証明書等）を準備する","農振除外または農地転用のスケジュールを確認する"],
+      "outside": ["許可・除外が完了したら地目変更登記などの後続手続きを進める"]
+    },
+    "action_grid": [
+      {"label":"農地の売買・貸借・転用について（公式）","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html"},
+      {"label":"湖西市農業振興地域整備計画","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyo_suisanshinkogakari/14394.html"},
+      {"label":"産業振興課へ電話","href":"tel:0535761216"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/conversion/",
+    "lead": "農地を売買・貸借・転用する際には、農地法第3条（権利移動）・4条（自己転用）・5条（転用目的の権利移動）に基づく許可や届出が必要です。湖西市では産業振興課 農業水産振興係（農業委員会事務局）が窓口となります。",
+    "note": "許可を得ずに農地を転用したり権利を移動したりすると、原状回復命令などの対象になることがあります。契約前に必ず相談してください。",
+    "real_cards": [
+      {"icon":"📜","title":"農地法3条・4条・5条の違い","body":"3条は農地のまま所有権や利用権を移す場合、4条は所有者自身が農地を転用する場合、5条は転用目的で所有権や利用権を移す場合に適用されます。該当する条文により必要書類が異なります。"},
+      {"icon":"🗓️","title":"許可申請の締切","body":"許可申請は毎月25日締切（土日祝日の場合は前開庁日）。16日から25日の間の提出が推奨されています。届出書は随時受付です。"},
+      {"icon":"🏢","title":"申請窓口","body":"産業振興課 農業水産振興係（湖西市農業委員会事務局、電話053-576-1216）で相談・申請ができます。様式は市公式サイトからダウンロードできます。"}
+    ],
+    "qa": [
+      {"question":"農地を売りたい・貸したいときはどの条文が適用される？","answer":"農地のまま売買・貸借する場合は農地法第3条が適用されます。転用を伴う場合は5条が適用されることがあります。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>を確認してください。"},
+      {"question":"自分の農地を自分で転用する場合はどうする？","answer":"農地法第4条の許可申請が必要です。産業振興課に相談してください。"},
+      {"question":"許可申請の締切はいつ？","answer":"毎月25日締切です（土日祝日の場合は前開庁日）。16日～25日の提出が推奨されています。"},
+      {"question":"届出だけで済む場合もある？","answer":"市街化区域内の農地転用など一部のケースでは届出で足りる場合があります。該当するか産業振興課に確認してください。"},
+      {"question":"許可なく転用したらどうなる？","answer":"原状回復命令など農地法上の是正措置の対象になることがあります。必ず事前に許可・届出の手続きを行ってください。"}
+    ],
+    "tabs": [
+      {"id":"type-3jo","label":"農地のまま売買・貸借したい方（3条）","heading":"農地法第3条の許可申請","bullets":["農地のまま所有権・利用権を移転する場合","農業委員会の許可が必要","農地バンク（農地中間管理事業）の活用も検討可能"],"actions":[{"label":"農地の貸借（農地バンク事業）について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyo_suisanshinkogakari/4/8740.html","source":"湖西市公式サイト"}]},
+      {"id":"type-4jo","label":"自分の農地を自分で転用したい方（4条）","heading":"農地法第4条の許可申請","bullets":["所有者自身が転用する場合に適用","農用地区域内なら農振除外が先に必要","毎月25日締切に注意"],"actions":[{"label":"産業振興課へ電話","href":"tel:0535761216","source":"湖西市役所"}]},
+      {"id":"type-5jo","label":"転用目的で売買・貸借したい方（5条）","heading":"農地法第5条の許可申請","bullets":["転用を伴う所有権・利用権の移転に適用","買主・借主と共同で申請するのが一般的","許可が下りるまで契約の効力に注意が必要な場合がある"],"actions":[{"label":"農地の売買・貸借・転用について","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html","source":"湖西市公式サイト"}]},
+      {"id":"type-city-area","label":"市街化区域内の農地を転用したい方","heading":"届出で足りる場合がある","bullets":["市街化区域内は許可でなく届出で済むことがある","該当するか産業振興課に確認","随時受付だが早めの相談が安心"],"actions":[{"label":"湖西市農業委員会","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["産業振興課（053-576-1216）に電話し、取引・転用内容を伝える","該当する条文（3条・4条・5条）を確認する"],
+      "this_week": ["必要書類を準備し、締切日までに申請書を提出する","相手方（買主・借主）とも書類内容をすり合わせる"],
+      "outside": ["許可が下りてから契約・登記など後続手続きを進める"]
+    },
+    "action_grid": [
+      {"label":"農地の売買・貸借・転用について（公式）","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html"},
+      {"label":"湖西市農業委員会","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html"},
+      {"label":"産業振興課へ電話","href":"tel:0535761216"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/inheritance/",
+    "lead": "農地を相続した場合、農地法の許可は不要ですが、相続を知った日から10か月以内に農業委員会への届出が必要です。湖西市では産業振興課 農業水産振興係が農業委員会事務局を兼ねています。",
+    "note": "届出をしなかったり虚偽の届出をした場合、10万円以下の過料の対象になることがあります。相続登記が終わっていなくても早めに窓口へ相談してください。",
+    "real_cards": [
+      {"icon":"📝","title":"相続時の届出義務（農地法第3条の3）","body":"相続、遺産分割、包括遺贈などで農地の権利を取得した場合、農地法の許可は不要ですが、農業委員会への届出が必要です。"},
+      {"icon":"⏰","title":"届出期限は10か月以内","body":"権利を取得したことを知った日から10か月以内に届け出る必要があります。相続登記の完了を待たずに届出できる場合もあるため、早めに窓口に確認しましょう。"},
+      {"icon":"🌾","title":"相続後の農地をどうするか","body":"耕作を続けるか、貸す・売る・農地バンクに登録するかなど、相続後の農地活用についても産業振興課で相談できます。"}
+    ],
+    "qa": [
+      {"question":"農地を相続したらまず何をすればいい？","answer":"相続を知った日から10か月以内に、湖西市農業委員会事務局（産業振興課、053-576-1216）へ届出をしてください。"},
+      {"question":"届出をしないとどうなる？","answer":"10万円以下の過料の対象になることがあります。忘れずに届け出てください。"},
+      {"question":"相続登記が終わっていなくても届出できる？","answer":"手続きの詳細は窓口で確認が必要ですが、登記完了前でも届出について相談できる場合があります。まず産業振興課に問い合わせてください。"},
+      {"question":"相続した農地を耕作するつもりがない場合は？","answer":"農地バンク（農地中間管理事業）への登録や、売買・貸借の相談ができます。産業振興課またはJAとぴあ浜松にも相談してみてください。"},
+      {"question":"複数の相続人がいる場合の届出はどうする？","answer":"遺産分割の状況に応じて届出内容が変わるため、産業振興課に個別に相談してください。"}
+    ],
+    "tabs": [
+      {"id":"type-just","label":"最近農地を相続した方","heading":"10か月以内に届出を","bullets":["農業委員会事務局（産業振興課）へ届出書を提出","相続登記済みの登記簿謄本の写し等が必要な場合がある","届出期限を過ぎないよう早めに動く"],"actions":[{"label":"産業振興課へ電話","href":"tel:0535761216","source":"湖西市役所"}]},
+      {"id":"type-notfarm","label":"相続したが耕作する予定がない方","heading":"農地バンクや貸借の検討","bullets":["農地中間管理事業への登録を検討","農地バンクで貸し手・買い手を探せる場合がある","放置すると耕作放棄地として扱われることがある"],"actions":[{"label":"農地の貸借（農地バンク事業）について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyo_suisanshinkogakari/4/8740.html","source":"湖西市公式サイト"}]},
+      {"id":"type-multi-heir","label":"相続人が複数いる方","heading":"遺産分割と届出の整理","bullets":["遺産分割協議の状況を整理する","届出者や届出内容を農業委員会に確認","司法書士相談もあわせて活用できる"],"actions":[{"label":"相談窓口の一覧（司法書士相談）","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html","source":"湖西市公式サイト"}]},
+      {"id":"type-unregistered","label":"相続登記がまだ済んでいない方","heading":"登記と届出をあわせて進める","bullets":["相続登記の義務化にも注意（法務局管轄）","農業委員会への届出は登記と別に必要な場合がある","司法書士や法務局にも相談を検討"],"actions":[{"label":"湖西市農業委員会","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["産業振興課（053-576-1216）に電話し、相続した農地について伝える","相続関係の書類（戸籍・登記簿等）を確認する"],
+      "this_week": ["農業委員会への届出書を準備・提出する","耕作するか貸す・売るかの方針を検討する"],
+      "outside": ["相続登記が未了の場合は法務局・司法書士にも相談する"]
+    },
+    "action_grid": [
+      {"label":"農地の売買・貸借・転用について（公式）","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html"},
+      {"label":"湖西市農業委員会","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html"},
+      {"label":"産業振興課へ電話","href":"tel:0535761216"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/noshin-exclusion/",
+    "lead": "農業振興地域の農用地区域内にある農地を住宅や工場などに転用したい場合、まず「農振除外」の申出が必要です。湖西市では年数回、決まった時期に申出を受け付けています。",
+    "note": "農振除外には要件があり、必ず認められるとは限りません。効率的な農地利用の妨げになる、代替地がある、などの理由で除外できない場合もあります。",
+    "real_cards": [
+      {"icon":"🚫➡️✅","title":"農振除外とは","body":"農業振興地域整備計画に定められた「農用地区域」から対象の土地を外す手続きです。これが認められて初めて農地転用の許可申請に進めます。"},
+      {"icon":"📋","title":"除外できない主なケース","body":"事業を農業振興地域内で行える場合や代替地がある場合、効率的な農業利用や担い手への農地集積を妨げる場合、土地改良事業完了から8年未経過の場合などは除外が認められにくいとされています。"},
+      {"icon":"🗓️","title":"申出の受付時期","body":"湖西市では年数回、期間を定めて農振除外等の申出を受け付けています（例：令和7年度第1回など）。受付時期を逃すと次回まで待つ必要があるため、早めの相談が重要です。"}
+    ],
+    "qa": [
+      {"question":"農振除外の申出はいつでもできる？","answer":"いいえ、年数回の決まった受付期間があります。産業振興課（053-576-1216）に次回の受付時期を確認してください。"},
+      {"question":"必ず除外してもらえる？","answer":"いいえ。効率的な農地利用を妨げる場合や代替地がある場合など、除外できない要件に該当すると認められません。事前相談で可能性を確認してください。"},
+      {"question":"除外が認められたら次に何をする？","answer":"農地転用の許可申請（農地法4条・5条）に進みます。"},
+      {"question":"審査にはどれくらい時間がかかる？","answer":"申出から除外の決定まで数か月かかることが一般的です。余裕を持ったスケジュールで相談してください。"},
+      {"question":"自分の土地が農用地区域かどうか分からない場合は？","answer":"産業振興課に地番を伝えれば確認できます。GISこさいの地図情報も参考になる場合があります。"}
+    ],
+    "tabs": [
+      {"id":"type-house3","label":"住宅を建てたい方","heading":"除外の可能性を早めに確認","bullets":["代替地の有無なども審査対象になる","受付時期に合わせて申出書を準備","除外後に農地転用許可申請へ"],"actions":[{"label":"産業振興課へ電話","href":"tel:0535761216","source":"湖西市役所"}]},
+      {"id":"type-business","label":"事業用地として使いたい方","heading":"効率的農地利用への配慮が必要","bullets":["担い手への農地集積を妨げないかが審査される","土地改良事業完了から8年経過が要件になる場合がある","事前相談で見込みを確認するのが安全"],"actions":[{"label":"湖西市農業振興地域整備計画について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyo_suisanshinkogakari/14394.html","source":"湖西市公式サイト"}]},
+      {"id":"type-timing","label":"申出のタイミングを知りたい方","heading":"年数回の受付期間を確認","bullets":["受付は年数回、期間限定で実施","次回受付の告知は市公式サイトで確認できる","逃すと次回まで待つ必要がある"],"actions":[{"label":"産業振興課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyo_suisanshinkogakari/14394.html","source":"湖西市公式サイト"}]},
+      {"id":"type-unsure2","label":"自分の土地が対象か分からない方","heading":"まず地番で確認を","bullets":["産業振興課に地番を伝えて確認","GISこさいの地図情報も参考にできる","早めの確認でスケジュールに余裕を持てる"],"actions":[{"label":"湖西市農業委員会","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["産業振興課（053-576-1216）に電話し、対象地と計画内容を伝える","次回の農振除外受付時期を確認する"],
+      "this_week": ["除外の可能性について事前相談を受ける","必要書類の準備を始める"],
+      "outside": ["受付期間内に申出書を提出し、審査結果を待つ"]
+    },
+    "action_grid": [
+      {"label":"湖西市農業振興地域整備計画について（公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyo_suisanshinkogakari/14394.html"},
+      {"label":"農地の売買・貸借・転用について","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html"},
+      {"label":"産業振興課へ電話","href":"tel:0535761216"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/farmland/sell-or-rent/",
+    "lead": "使わなくなった農地を売りたい・貸したいときは、湖西市の農地バンク（農地中間管理事業）や産業振興課の仲介的な案内を利用できます。相手を自分で探すのが難しい場合の選択肢として検討してみてください。",
+    "note": "農地の売買・貸借には農地法の許可が必要です。個人間で話がまとまっても、必ず産業振興課・農業委員会を通じた正式な手続きを行ってください。",
+    "real_cards": [
+      {"icon":"🏦","title":"農地中間管理事業（農地バンク）","body":"公益社団法人静岡県農業振興公社が農地中間管理機構として、規模拡大や新規参入を希望する担い手に農地を貸し付ける仕組みです。貸したい方は登録申請書を提出します。"},
+      {"icon":"🤝","title":"借りたい・買いたい方への対応","body":"借りたい・買いたい農地がある場合、産業振興課に地番を伝えると、所有者の連絡先を案内してもらえる場合があります。条件面は所有者と直接話し合います。"},
+      {"icon":"📞","title":"相談窓口","body":"産業振興課 農業水産振興係（053-576-1216）のほか、JAとぴあ浜松営農指導課（053-476-3138）でも相談を受け付けています。"}
+    ],
+    "qa": [
+      {"question":"耕作していない農地を貸したい場合はどうすればいい？","answer":"農地中間管理事業への登録申請書を産業振興課に提出する方法があります。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyo_suisanshinkogakari/4/8740.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>を確認してください。"},
+      {"question":"農地を売りたい場合はどこに相談すればいい？","answer":"産業振興課（053-576-1216）に相談してください。買い手が見つからない場合は農地バンクの活用も検討できます。"},
+      {"question":"借りたい農地が見つからない場合は？","answer":"産業振興課に希望条件を伝えると、候補地の情報を案内してもらえる場合があります。JAとぴあ浜松にも相談できます。"},
+      {"question":"個人間で売買・貸借の話がまとまったらそれで終わり？","answer":"いいえ、農地法に基づく許可（3条・5条）の手続きが別途必要です。必ず農業委員会を通じてください。"},
+      {"question":"農地バンクへの登録に費用はかかる？","answer":"制度の詳細や費用については産業振興課またはJAとぴあ浜松営農指導課に確認してください。"}
+    ],
+    "tabs": [
+      {"id":"type-lend","label":"農地を貸したい方","heading":"農地中間管理事業への登録","bullets":["登録申請書を産業振興課に提出","JAとぴあ浜松営農指導課でも相談可能","担い手への貸付けにより耕作放棄を防げる"],"actions":[{"label":"農地の貸借（農地バンク事業）について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyo_suisanshinkogakari/4/8740.html","source":"湖西市公式サイト"}]},
+      {"id":"type-sell","label":"農地を売りたい方","heading":"産業振興課へ相談","bullets":["農地法上の許可（3条・5条）が必要","買い手探しの相談も可能","農業委員会の証明書等もあわせて準備"],"actions":[{"label":"産業振興課へ電話","href":"tel:0535761216","source":"湖西市役所"}]},
+      {"id":"type-rent-in","label":"農地を借りたい・買いたい方","heading":"希望条件を伝えて案内を受ける","bullets":["産業振興課に地番や希望条件を伝える","所有者の連絡先を案内してもらえる場合がある","条件面は所有者と直接協議"],"actions":[{"label":"農地の売買・貸借・転用について","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html","source":"湖西市公式サイト"}]},
+      {"id":"type-ja","label":"JAにも相談したい方","heading":"JAとぴあ浜松営農指導課","bullets":["営農指導課（053-476-3138）に相談可能","市の窓口とあわせて情報を集められる","担い手とのマッチングに詳しい場合がある"],"actions":[{"label":"湖西市農業委員会","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["産業振興課（053-576-1216）に電話し、売りたい・貸したい農地の状況を伝える","農地バンクの登録要件を確認する"],
+      "this_week": ["登録申請書など必要書類を準備する","JAとぴあ浜松営農指導課にも相談してみる"],
+      "outside": ["相手が決まったら農地法に基づく許可手続きを進める"]
+    },
+    "action_grid": [
+      {"label":"農地の貸借（農地バンク事業）について（公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyo_suisanshinkogakari/4/8740.html"},
+      {"label":"農地の売買・貸借・転用について","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/norinsuisangyo/nogyoiinkai/5210.html"},
+      {"label":"産業振興課へ電話","href":"tel:0535761216"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/foreign-resident-consultation/",
+    "lead": "湖西市はヤマハ発動機をはじめとする企業が立地し、外国籍の住民も多く暮らしています。市役所1階の外国人総合窓口では、ポルトガル語・スペイン語での通訳や生活相談に対応しています。",
+    "note": "対応言語や時間は変更される場合があるため、来庁前に電話で最新の状況を確認すると安心です。",
+    "real_cards": [
+      {"icon":"🌐","title":"外国人総合窓口","body":"市役所1階に設置され、申請手続きの通訳・案内のほか、生活・仕事・子育て・福祉に関する相談にも対応しています。ポルトガル語・スペイン語は専用電話（053-576-2211）、その他の言語は翻訳機で対応します。"},
+      {"icon":"🕒","title":"対応時間","body":"月曜～金曜、ポルトガル語9:00～16:30、スペイン語9:00～15:30、その他言語9:00～16:30（祝日・年末年始を除く）。"},
+      {"icon":"📄","title":"やさしい日本語での案内","body":"やさしい日本語・ポルトガル語・スペイン語の資料が用意されており、多文化共生推進プランに基づく情報発信もSNS等で行われています。"}
+    ],
+    "qa": [
+      {"question":"日本語が苦手でも市役所の手続きはできる？","answer":"外国人総合窓口（市役所1階）で通訳対応が受けられます。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/kyodo/1_1/generaldesk/9709.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>を確認してください。"},
+      {"question":"ポルトガル語・スペイン語以外の言語には対応している？","answer":"翻訳機を使って対応しています。時間は9:00～16:30です。"},
+      {"question":"生活や仕事の相談もできる？","answer":"はい。市役所での手続きだけでなく、生活・仕事・子育て・福祉に関する相談にも対応しています。"},
+      {"question":"やさしい日本語の資料はどこで手に入る？","answer":"湖西市公式サイトでPDF形式の資料が公開されています。窓口でも案内を受けられます。"},
+      {"question":"電話で相談したい場合は？","answer":"ポルトガル語・スペイン語共通で053-576-2211、日本語での問い合わせは053-576-1213です。"}
+    ],
+    "tabs": [
+      {"id":"type-portuguese","label":"ポルトガル語を話す方","heading":"専用電話・窓口対応","bullets":["電話053-576-2211（9:00～16:30）","市役所1階の外国人総合窓口で対面対応も可能","生活相談・申請手続きの通訳に対応"],"actions":[{"label":"外国人総合窓口について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/kyodo/1_1/generaldesk/9709.html","source":"湖西市公式サイト"}]},
+      {"id":"type-spanish","label":"スペイン語を話す方","heading":"専用電話・窓口対応","bullets":["電話053-576-2211（9:00～15:30）","申請書類の記入サポートも受けられる場合がある","子育て・福祉の相談も可能"],"actions":[{"label":"外国人のみなさんへ / For Foreign Residents","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/kyodo/1_1/foreign_residents/index.html","source":"湖西市公式サイト"}]},
+      {"id":"type-other-lang","label":"その他の言語を話す方","heading":"翻訳機を使った対応","bullets":["翻訳機で多言語対応（9:00～16:30）","やさしい日本語の資料も活用できる","事前に電話で対応可能か確認すると安心"],"actions":[{"label":"多文化共生推進プラン","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/kyodo/1_1/1/index.html","source":"湖西市公式サイト"}]},
+      {"id":"type-employer","label":"外国籍従業員を雇用する企業の担当者","heading":"市の窓口情報を案内しよう","bullets":["外国人総合窓口の対応言語・時間を従業員に周知","生活相談窓口としても活用できる","やさしい日本語資料も社内案内に使える"],"actions":[{"label":"外国人総合窓口へ電話","href":"tel:0535762211","source":"湖西市役所"}]}
+    ],
+    "steps": {
+      "today": ["外国人総合窓口（053-576-2211／日本語053-576-1213）に電話する","相談したい内容と使用言語を伝える"],
+      "this_week": ["必要な書類を用意して来庁する（予約の要否も確認）","やさしい日本語の資料を確認する"],
+      "outside": ["継続的な支援が必要な場合は関係窓口（こども未来課・地域福祉課等）とも連携する"]
+    },
+    "action_grid": [
+      {"label":"外国人総合窓口（公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/kyodo/1_1/generaldesk/9709.html"},
+      {"label":"外国人のみなさんへ","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/kyodo/1_1/foreign_residents/index.html"},
+      {"label":"外国人総合窓口へ電話","href":"tel:0535762211"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/legal-general-consultation/",
+    "lead": "法律的な悩みがあるときは、湖西市社会福祉協議会が実施する予約制の弁護士相談・司法書士相談や、消費生活相談室の多重債務相談などを利用できます。行政に関する不満や意見は行政相談も窓口です。",
+    "note": "相談内容によって窓口が異なるため、まず湖西市の「相談窓口の一覧」で該当する窓口を確認してから電話で予約するとスムーズです。",
+    "real_cards": [
+      {"icon":"⚖️","title":"弁護士による法律相談","body":"湖西市社会福祉協議会（053-525-6667）が予約制で弁護士相談を実施しています。専門的な法律問題について相談できます。"},
+      {"icon":"📜","title":"司法書士相談","body":"相続や不動産登記、成年後見などについては司法書士相談が利用できます。こちらも予約制で、湖西市社会福祉協議会が窓口です。"},
+      {"icon":"🏛️","title":"行政相談","body":"行政の仕事に関する苦情や意見・要望を受け付ける行政相談も用意されています。詳細は湖西市の相談窓口一覧ページで確認できます。"}
+    ],
+    "qa": [
+      {"question":"法律相談はどこに予約すればいい？","answer":"湖西市社会福祉協議会（053-525-6667）に電話し、弁護士相談または司法書士相談を予約してください。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>を確認してください。"},
+      {"question":"相続や不動産登記の相談は誰にすればいい？","answer":"司法書士相談が適しています。社会福祉協議会を通じて予約してください。"},
+      {"question":"借金問題は法律相談と多重債務相談のどちらがいい？","answer":"多重債務（住宅ローン・クレジット・サラ金等）は消費生活相談室（053-576-1609）の多重債務相談が窓口です。"},
+      {"question":"行政の対応に不満がある場合はどうすればいい？","answer":"行政相談の窓口を利用できます。詳細は市の相談窓口一覧を確認してください。"},
+      {"question":"相談は無料？","answer":"社会福祉協議会が実施する弁護士相談・司法書士相談、消費生活相談室の相談は基本的に無料です。予約制のため事前連絡が必要です。"}
+    ],
+    "tabs": [
+      {"id":"type-general-law","label":"法律問題全般の相談をしたい方","heading":"弁護士による予約制相談","bullets":["社会福祉協議会（053-525-6667）で予約","専門的な法律問題に対応","予約制のため早めの連絡が必要"],"actions":[{"label":"相談窓口の一覧","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html","source":"湖西市公式サイト"}]},
+      {"id":"type-inheritance-law","label":"相続・登記の相談をしたい方","heading":"司法書士相談","bullets":["相続、不動産登記、成年後見などを扱う","社会福祉協議会を通じて予約","農地が絡む場合は農業委員会ともあわせて相談"],"actions":[{"label":"湖西市社会福祉協議会","href":"https://kosai-sk.or.jp/","source":"湖西市社会福祉協議会"}]},
+      {"id":"type-debt2","label":"借金・多重債務の相談をしたい方","heading":"消費生活相談室の多重債務相談","bullets":["住宅ローン・クレジット・サラ金の債務が対象","弁護士による予約制相談","家計改善支援ともあわせて利用できる"],"actions":[{"label":"消費生活相談室へ電話","href":"tel:0535761609","source":"湖西市役所"}]},
+      {"id":"type-admin","label":"行政への意見・苦情を伝えたい方","heading":"行政相談窓口","bullets":["行政の仕事に関する苦情・意見・要望を受付","中立的な立場の相談員が対応する制度","詳細は相談窓口一覧で確認"],"actions":[{"label":"行政相談","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["相談内容に応じた窓口（社会福祉協議会053-525-6667等）を確認する","相談したい内容を簡単にまとめておく"],
+      "this_week": ["予約制の相談を申し込む","必要書類（契約書、登記簿等）があれば準備する"],
+      "outside": ["相談結果に応じて弁護士・司法書士への正式依頼を検討する"]
+    },
+    "action_grid": [
+      {"label":"相談窓口の一覧（公式）","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/kakusyusoudanmadoguchi/index.html"},
+      {"label":"湖西市社会福祉協議会","href":"https://kosai-sk.or.jp/"},
+      {"label":"消費生活相談室へ電話","href":"tel:0535761609"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/living-costs-trouble/",
+    "lead": "生活費に困ったときは、湖西市社会福祉協議会の自立相談支援事業が窓口です。専門の相談員が就職支援や家計改善、家賃・公共料金の滞納への対応など、状況に応じた支援プランを一緒に考えてくれます。",
+    "note": "一時的な資金が必要な場合は生活福祉資金貸付などの制度もありますが、審査に時間がかかることがあるため、早めの相談が重要です。",
+    "real_cards": [
+      {"icon":"🧭","title":"自立相談支援事業","body":"湖西市社会福祉協議会（053-594-5511、相談予約053-525-6667）が窓口です。生活の困りごとを聞き取り、具体的な支援プランを一緒に作成します。"},
+      {"icon":"💰","title":"生活福祉資金貸付・生活つなぎ資金","body":"低所得世帯・障がい者世帯・高齢者世帯を対象に、無利子または低利子での貸付制度があります。緊急に援護が必要な場合の一時的な貸付制度もあります。"},
+      {"icon":"🏠","title":"住居確保給付金","body":"離職・休業等により収入が減り、住居を失った、または失うおそれがある場合に、一定期間の家賃相当額が支給される制度です。就職活動への支援とあわせて受けられます。"}
+    ],
+    "qa": [
+      {"question":"生活費が足りず困っている場合はどこに相談すればいい？","answer":"湖西市社会福祉協議会の自立相談支援（053-594-5511）に相談してください。詳細は<a href=\"https://kosai-sk.or.jp/consult/life/\" target=\"_blank\" rel=\"noopener\">湖西市社会福祉協議会のページ</a>を確認してください。"},
+      {"question":"家賃が払えず住まいを失いそうな場合は？","answer":"住居確保給付金の対象になる可能性があります。自立相談支援窓口に早めに相談してください。"},
+      {"question":"生活福祉資金の貸付までどれくらいかかる？","answer":"審査に時間がかかり、最短でも1か月程度、混雑時はそれ以上かかる場合があります。余裕を持って相談することが大切です。"},
+      {"question":"税金や公共料金の滞納もあわせて相談できる？","answer":"はい。自立相談支援では家計改善支援として税金・公共料金の滞納についても一緒に整理してもらえます。"},
+      {"question":"相談は無料？","answer":"自立相談支援事業の相談は無料です。まずは電話で連絡してください。"}
+    ],
+    "tabs": [
+      {"id":"type-job-loss","label":"失業・休業で収入が減った方","heading":"住居確保給付金と就職支援","bullets":["家賃相当額の給付を一定期間受けられる場合がある","就職活動の支援とセットで実施","早めの相談で対象になるか確認できる"],"actions":[{"label":"生活のこと（社協）","href":"https://kosai-sk.or.jp/consult/life/","source":"湖西市社会福祉協議会"}]},
+      {"id":"type-loan2","label":"一時的にまとまった資金が必要な方","heading":"生活福祉資金貸付・生活つなぎ資金","bullets":["低所得・障がい者・高齢者世帯が対象","限度額の目安は580万円以内（資金の種類による）","緊急時は生活つなぎ資金の活用も検討"],"actions":[{"label":"社会福祉協議会へ電話","href":"tel:0535945511","source":"湖西市社会福祉協議会"}]},
+      {"id":"type-multi-debt2","label":"税金・公共料金の滞納も抱えている方","heading":"家計改善支援であわせて整理","bullets":["自立相談支援員が家計全体を一緒に整理","税務課など各窓口との調整も相談できる","一人で抱え込まず早期相談を"],"actions":[{"label":"相談予約（社協）","href":"tel:0535256667","source":"湖西市社会福祉協議会"}]},
+      {"id":"type-elderly2","label":"高齢者・障がい者のいる世帯の方","heading":"対象世帯向けの貸付制度","bullets":["高齢者世帯・障がい者世帯向けの資金がある","地域包括支援センターや地域福祉課とも連携可能","制度の詳細は社協に確認"],"actions":[{"label":"湖西市社会福祉協議会","href":"https://kosai-sk.or.jp/","source":"湖西市社会福祉協議会"}]}
+    ],
+    "steps": {
+      "today": ["社会福祉協議会（053-594-5511／予約053-525-6667）に電話する","現在の収入・支出・滞納状況を簡単に整理する"],
+      "this_week": ["面談を予約し、支援プランの相談を受ける","必要書類（収入証明等）を準備する"],
+      "outside": ["支援プランに沿って就職活動や家計改善を継続する"]
+    },
+    "action_grid": [
+      {"label":"生活のこと（社協・公式）","href":"https://kosai-sk.or.jp/consult/life/"},
+      {"label":"社会福祉協議会へ電話","href":"tel:0535945511"},
+      {"label":"相談予約（社協）","href":"tel:0535256667"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/road-repair-mirror/",
+    "lead": "市道の穴や破損したカーブミラー、街路灯の不具合を見つけたときは、湖西市土木課に連絡すると対応してもらえます。危険な破損は早めの通報が事故防止につながります。",
+    "note": "県道・国道の場合は管轄が異なることがあります。どの道路か分からない場合もまず土木課に連絡すれば、適切な管轄先を案内してもらえます。",
+    "real_cards": [
+      {"icon":"🕳️","title":"道路の穴・破損","body":"市道の陥没やひび割れなどを見つけたら土木課（053-576-4545）に連絡してください。場所（住所・目印）を伝えるとスムーズです。"},
+      {"icon":"🪞","title":"カーブミラーの破損・向きのずれ","body":"見通しの悪い交差点のカーブミラーが壊れている、向きがずれているといった場合も土木課が対応窓口です。"},
+      {"icon":"💡","title":"街路灯の不具合","body":"街路灯が点灯しない、破損しているなどの場合も土木課に連絡してください。管轄が自治会等の防犯灯である場合は案内を受けられます。"}
+    ],
+    "qa": [
+      {"question":"市道の穴を見つけたらどこに連絡すればいい？","answer":"湖西市土木課（053-576-4545）に連絡してください。場所を具体的に伝えると対応がスムーズです。"},
+      {"question":"カーブミラーが壊れている場合は？","answer":"土木課に連絡すれば修繕や交換の対応を検討してもらえます。"},
+      {"question":"街路灯が切れている場合はどこに連絡する？","answer":"市道沿いの街路灯であれば土木課、自治会管理の防犯灯であれば自治会にも確認が必要な場合があります。まず土木課に問い合わせてください。"},
+      {"question":"県道や国道の破損はどうすればいい？","answer":"管轄が県または国になるため、土木課に連絡すれば適切な窓口を案内してもらえます。"},
+      {"question":"メールでの通報はできる？","answer":"詳細な連絡方法は土木課に確認してください。電話（053-576-4545）またはファクス（053-576-1897）での連絡が基本です。"}
+    ],
+    "tabs": [
+      {"id":"type-hole","label":"道路の穴・陥没を見つけた方","heading":"すぐに土木課へ連絡","bullets":["場所（住所・目印）を具体的に伝える","危険性が高い場合はその旨も伝える","写真があれば準備しておくとスムーズ"],"actions":[{"label":"土木課へ電話","href":"tel:0535764545","source":"湖西市役所"}]},
+      {"id":"type-mirror","label":"カーブミラーの不具合を見つけた方","heading":"設置場所を伝えて相談","bullets":["向きのずれ・破損の状況を伝える","交差点名や近隣の目印を伝えると特定しやすい","土木課（053-576-4545）が窓口"],"actions":[{"label":"土木課（公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/doboku/index.html","source":"湖西市公式サイト"}]},
+      {"id":"type-light","label":"街路灯の不具合を見つけた方","heading":"市道か自治会管理かで窓口が変わる場合あり","bullets":["まず土木課に連絡","自治会管理の防犯灯の場合は案内を受けられる","夜間の安全に関わるため早めの通報を"],"actions":[{"label":"土木課へ電話","href":"tel:0535764545","source":"湖西市役所"}]},
+      {"id":"type-otherroad","label":"県道・国道の破損を見つけた方","heading":"管轄窓口の案内を受ける","bullets":["市道以外は県・国の管轄になることがある","土木課に連絡すれば適切な窓口を案内","緊急性が高い場合は状況を詳しく伝える"],"actions":[{"label":"土木課","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/doboku/index.html","source":"湖西市公式サイト"}]}
+    ],
+    "steps": {
+      "today": ["土木課（053-576-4545）に電話し、場所と状況を伝える","可能であれば写真を撮っておく"],
+      "this_week": ["対応状況について土木課に確認する","危険が続く場合は再度連絡する"],
+      "outside": ["恒久的な補修が必要な場合は継続的にフォローする"]
+    },
+    "action_grid": [
+      {"label":"土木課（公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/doboku/index.html"},
+      {"label":"土木課へ電話","href":"tel:0535764545"},
+      {"label":"湖西市トップページ","href":"https://www.city.kosai.shizuoka.jp/"}
+    ]
+  },
+  {
+    "href": "/life/troubles-consult/vacant-house-consultation/",
+    "lead": "実家が空き家になった、将来空き家になりそうで心配、といった悩みは湖西市都市計画課まちづくり係に相談できます。空き家バンクの活用や、専門家との連携で管理・活用・売却の選択肢を整理できます。",
+    "note": "空き家の管理や売却については、市の窓口に加えて不動産・空き家の専門知識を持つ民間相談先を利用する方法もあります。周辺エリアでは、富士ヶ丘サービス（https://www.fujigaoka-service.co.jp/ ）が空き家・相続に関する相談を受け付けています。まずは市の窓口で制度を確認したうえで、必要に応じて活用を検討するとよいでしょう。",
+    "real_cards": [
+      {"icon":"🏚️","title":"空き家の相談窓口","body":"都市計画課 まちづくり係（053-576-3117）が空き家に関する相談を受け付けています。管理不全な空き家についての助言や、空き家等対策計画に基づく取り組みを行っています。"},
+      {"icon":"🏦","title":"空き家バンク","body":"空き家を売りたい・貸したい人のための情報提供制度です。所有者が物件を登録し、購入・賃借希望者が市のウェブサイトや窓口で情報を確認できます。"},
+      {"icon":"🤝","title":"専門家との連携・相談会","body":"市は法律専門家等と連携した空き家対策にも取り組んでいます。相続や活用に迷ったときは、実家じまいセミナー等の開催情報もあわせて確認するとよいでしょう。"}
+    ],
+    "qa": [
+      {"question":"実家が空き家になりそうで心配な場合は？","answer":"都市計画課まちづくり係（053-576-3117）に相談してください。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html\" target=\"_blank\" rel=\"noopener\">湖西市公式ページ</a>を確認してください。"},
+      {"question":"空き家バンクにはどうやって登録する？","answer":"都市計画課に問い合わせて登録方法を確認してください。売りたい・貸したい物件の情報を市が公開します。"},
+      {"question":"空き家を売却したいが誰に相談すればいい？","answer":"市の窓口で制度を確認したうえで、不動産の専門知識を持つ相談先（例：富士ヶ丘サービス https://www.fujigaoka-service.co.jp/ ）に相談する方法もあります。"},
+      {"question":"管理が行き届かない空き家が近隣にある場合は？","answer":"都市計画課に相談すれば、所有者への助言など空き家等対策計画に基づく対応を検討してもらえます。"},
+      {"question":"相続した実家をどうするか迷っている場合は？","answer":"司法書士相談（社会福祉協議会経由）や、空き家・不動産の相談先とあわせて検討すると選択肢を整理しやすくなります。"}
+    ],
+    "tabs": [
+      {"id":"type-worry","label":"実家が将来空き家になりそうな方","heading":"早めの情報収集がカギ","bullets":["都市計画課まちづくり係に相談","空き家バンクの仕組みを確認","家族間で今後の方針を話し合っておく"],"actions":[{"label":"空き家について","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html","source":"湖西市公式サイト"}]},
+      {"id":"type-already-vacant","label":"すでに空き家を所有している方","heading":"管理・活用・売却の選択肢を整理","bullets":["空き家バンクへの登録を検討","管理不全にならないよう定期的な管理を","売却を検討する場合は専門家にも相談"],"actions":[{"label":"都市計画課へ電話","href":"tel:0535763117","source":"湖西市役所"}]},
+      {"id":"type-neighbor-vacant","label":"近隣の空き家が心配な方","heading":"都市計画課への情報提供","bullets":["管理不全な空き家の状況を伝える","市から所有者への助言等につながる場合がある","緊急性が高い場合はその旨も伝える"],"actions":[{"label":"第2次湖西市空家等対策計画","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/7093.html","source":"湖西市公式サイト"}]},
+      {"id":"type-sell2","label":"空き家の売却・活用を考えている方","heading":"市の窓口と専門家の両方を活用","bullets":["空き家バンクで情報公開する方法がある","相続や登記の相談は司法書士相談も利用可能","不動産・空き家の専門相談先（富士ヶ丘サービス等）に相談する方法もある"],"actions":[{"label":"富士ヶ丘サービス（空き家・不動産相談）","href":"https://www.fujigaoka-service.co.jp/","source":"富士ヶ丘サービス"}]}
+    ],
+    "steps": {
+      "today": ["都市計画課まちづくり係（053-576-3117）に電話する","空き家の現状（築年数、管理状況等）を整理する"],
+      "this_week": ["空き家バンクへの登録要否を検討する","家族間で今後の方針（管理・活用・売却）を話し合う"],
+      "outside": ["必要に応じて司法書士や不動産の専門相談先にも相談する"]
+    },
+    "action_grid": [
+      {"label":"空き家について（公式）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/akiya/8977.html"},
+      {"label":"都市計画課へ電話","href":"tel:0535763117"},
+      {"label":"富士ヶ丘サービス","href":"https://www.fujigaoka-service.co.jp/"}
+    ]
+  }
+]

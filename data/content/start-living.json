@@ -1,1 +1,528 @@
-[]
+[
+ {
+  "href": "/life/start-living/",
+  "lead": "湖西市に転入・引っ越しをしたら、住所変更・マイナンバーカード・ごみの出し方・水道・ペット登録など、片づけるべき手続きが一度に押し寄せます。ここでは「暮らし始めた」直後によく必要になる手続きを一覧にまとめました。",
+  "note": "湖西市には本庁（吉美）と旧新居町エリアの新居支所の2つの窓口があります。手続きによって取扱いが異なる場合があるので、来庁前に電話で確認すると安心です。",
+  "real_cards": [
+   {"icon": "🏠", "title": "まず住所の手続きから", "body": "転入届・転居届は住み始めてから14日以内が期限です。マイナンバーカードの住所変更もあわせて行いましょう。"},
+   {"icon": "📄", "title": "証明書・カードをそろえる", "body": "住民票・印鑑登録証明書・マイナンバーカードは、その後の手続き（銀行、勤務先、学校など）で何度も必要になります。"},
+   {"icon": "🗑️", "title": "ごみの出し方を確認", "body": "湖西市はA地区・B地区で収集曜日が異なります。転入時にごみ分別カレンダーで自分の地区を確認しましょう。"},
+   {"icon": "🐕", "title": "ペットがいる場合の登録", "body": "犬を飼っている場合は、転入から30日以内の登録と毎年の狂犬病予防注射が必要です。"}
+  ],
+  "action_grid": [
+   {"label": "湖西市公式サイトで手続き一覧を見る", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/todokede_toroku_shomei/kakushutetsuzuki/index.html"},
+   {"label": "市民課に問い合わせる", "href": "tel:0535764531"},
+   {"label": "新居支所に問い合わせる", "href": "tel:0535941115"}
+  ]
+ },
+ {
+  "href": "/life/start-living/moving-address-change/",
+  "lead": "湖西市で住所を変更するときは、転入届・転出届・転居届のどれに当てはまるかをまず整理しましょう。市外から湖西市に移る「転入」は、住み始めてから14日以内に市民課または新居支所へ届け出る必要があります。",
+  "note": "この記事は一般的な手続きの流れをまとめたものです。世帯構成や在留資格などで必要書類が変わるため、詳細は市民課に確認してください。",
+  "real_cards": [
+   {"icon": "📋", "title": "転入届は14日以内が期限", "body": "前住所地で発行された転出証明書と、本人確認書類（マイナンバーカード、運転免許証など）を持って、住み始めてから14日以内に届け出ます。"},
+   {"icon": "💳", "title": "マイナンバーカードもあわせて", "body": "マイナンバーカードを持っている人は、住所変更手続きの際に窓口で継続利用の手続きを行います。カードを忘れると再来庁が必要になるので必ず持参してください。"},
+   {"icon": "🏢", "title": "本庁と新居支所どちらでも受付", "body": "住民異動届は市民課（本庁）でも新居支所市民窓口係でも提出できます。お住まいのエリアに近い方を選んで構いません。"},
+   {"icon": "💻", "title": "オンライン予約サービスもある", "body": "マイナポータルを使った転出届・転入（転居）予約サービスにより、事前に来庁予約や一部の手続きをオンラインで済ませることもできます。"}
+  ],
+  "qa": [
+   {"question": "転入届はいつまでに出せばいいですか。", "answer": "湖西市に住み始めてから14日以内です。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/3/1228.html\" target=\"_blank\" rel=\"noopener\">湖西市の転入・転出・転居などのページ</a>を確認してください。"},
+   {"question": "転出証明書を忘れた場合はどうすればいいですか。", "answer": "前住所地の市区町村に問い合わせて再発行してもらうか、マイナンバーカードを使ったオンライン転出届を利用していれば証明書が不要な場合もあります。窓口（053-576-4531）で相談してください。"},
+   {"question": "新居支所でも転入届は受け付けてもらえますか。", "answer": "はい、新居支所市民窓口係でも住民異動届を受け付けています。ただし一部の手続きは本庁のみの対応となる場合があるため、事前に確認すると安心です。"},
+   {"question": "世帯主以外が手続きに行っても大丈夫ですか。", "answer": "同一世帯の人であれば手続き可能な場合が多いですが、委任状が必要になるケースもあります。事前に市民課（053-576-4531）に確認してください。"},
+   {"question": "転入と同時に他の手続きも済ませられますか。", "answer": "国民健康保険や児童手当など、関連する手続きをまとめて案内する「手続きチェックシート」が用意されています。窓口で受け取るか、DX推進課（053-576-4909）に問い合わせてください。"}
+  ],
+  "tabs": [
+   {"id": "type-move-in", "label": "転入届", "heading": "市外から湖西市に引っ越してきた場合", "bullets": ["住み始めてから14日以内に届け出る", "前住所地の転出証明書が必要", "マイナンバーカードがあれば住所変更もあわせて行う"], "actions": [{"label": "転入・転出・転居など", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/3/1228.html", "source": "湖西市市民課"}]},
+   {"id": "type-move-out", "label": "転出届", "heading": "湖西市から市外へ引っ越す場合", "bullets": ["引っ越し予定日の14日前から手続き可能", "転出証明書を受け取り、転居先の市区町村に提出する", "マイナンバーカード利用者はオンライン転出届も選べる"], "actions": [{"label": "オンラインによる転出届・転入（転居）予約サービス", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/3/12629.html", "source": "湖西市市民課"}]},
+   {"id": "type-relocate", "label": "転居届", "heading": "湖西市内で住所を変更する場合", "bullets": ["市内で引っ越した場合は転居届を提出する", "住み始めてから14日以内が期限", "マイナンバーカードの記載変更もあわせて行う"], "actions": [{"label": "各種手続き", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/todokede_toroku_shomei/kakushutetsuzuki/index.html", "source": "湖西市"}]},
+   {"id": "type-related", "label": "関連手続き", "heading": "住所変更にあわせて確認したい手続き", "bullets": ["国民健康保険・国民年金の住所変更", "児童手当・こども医療費助成の住所変更", "水道の使用開始・休止の届出"], "actions": [{"label": "手続きチェックシートのご案内", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/joho/gyomuannai/1_1/15790.html", "source": "湖西市"}]}
+  ],
+  "steps": {
+   "today": ["前住所地の転出証明書、本人確認書類、マイナンバーカードを準備する", "本庁と新居支所のどちらに行くか決める"],
+   "this_week": ["14日以内に住民異動届（転入・転居）を提出する", "国民健康保険・児童手当など関連手続きの要否を確認する"],
+   "outside": ["運転免許証・銀行口座など住所変更が必要な他の書類も順次更新する", "郵便物の転送手続き（日本郵便）も済ませておく"]
+  },
+  "action_grid": [
+   {"label": "市民課に問い合わせる", "href": "tel:0535764531"},
+   {"label": "新居支所市民窓口係に問い合わせる", "href": "tel:0535941115"},
+   {"label": "オンライン転出届・転入予約サービスを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/3/12629.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/moved-in/",
+  "lead": "湖西市に引っ越してきた後は、住所変更以外にも国民健康保険、マイナンバーカード、ごみの出し方、水道など、片づけるべき手続きが複数あります。優先順位を決めて、抜けなく進めましょう。",
+  "note": "世帯構成（単身か家族か）、加入している保険の種類によって必要な手続きは変わります。不明な点は市民課（053-576-4531）へ確認してください。",
+  "real_cards": [
+   {"icon": "1️⃣", "title": "最優先は住所の届出", "body": "転入届は住み始めてから14日以内が期限です。まずこれを済ませないと、他の行政手続きも前に進みません。"},
+   {"icon": "2️⃣", "title": "保険・年金の手続き", "body": "国民健康保険に加入する場合は、転入届と同時か直後に保険年金課で手続きをします。会社の健康保険がある場合は勤務先の手続きを確認してください。"},
+   {"icon": "3️⃣", "title": "ごみ・水道の生活インフラ", "body": "ごみ分別カレンダーで収集曜日を確認し、水道の使用開始連絡を2営業日前までに済ませておくと引っ越し当日から困りません。"},
+   {"icon": "4️⃣", "title": "子ども・ペットがいる場合", "body": "児童手当・こども医療費助成の住所変更、犬の登録・注射済票の切り替えなど、該当する人だけ必要な手続きも忘れずに。"}
+  ],
+  "qa": [
+   {"question": "転入したらまず何をすればいいですか。", "answer": "まず市民課または新居支所で転入届を提出してください。その際にマイナンバーカードの住所変更、国民健康保険の加入なども一緒に案内してもらえます。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/3/1228.html\" target=\"_blank\" rel=\"noopener\">転入・転出・転居などのページ</a>を参照してください。"},
+   {"question": "手続きの一覧表のようなものはありますか。", "answer": "湖西市には「手続きチェックシート」があり、転入時に必要な関連手続きを確認できます。窓口で受け取るか、DX推進課（053-576-4909）に問い合わせてください。"},
+   {"question": "会社員なので健康保険の手続きは不要ですか。", "answer": "勤務先の社会保険に加入している場合、市役所での国民健康保険手続きは基本的に不要です。ただし住所変更は別途、勤務先経由で行う必要があります。"},
+   {"question": "新居地区に引っ越した場合も同じ窓口ですか。", "answer": "新居支所でも住民異動届や各種証明書の発行に対応しています。詳細は新居支所（053-594-1115）に確認してください。"},
+   {"question": "何日以内に全部済ませればいいですか。", "answer": "転入届自体は14日以内が期限ですが、水道の使用開始連絡は入居の2営業日前まで、ごみの出し方確認は入居後すぐに確認しておくと安心です。手続きごとに期限が異なるため、早めの対応をおすすめします。"}
+  ],
+  "tabs": [
+   {"id": "type-address", "label": "住所関連", "heading": "住所変更の届出をする", "bullets": ["転入届は住み始めてから14日以内", "マイナンバーカードの住所変更も同時に", "本庁・新居支所どちらでも受付"], "actions": [{"label": "転入・転出・転居など", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/3/1228.html", "source": "湖西市市民課"}]},
+   {"id": "type-insurance", "label": "保険・年金", "heading": "国民健康保険・国民年金の手続き", "bullets": ["転入から14日以内に加入手続きを行う", "前住所地の資格喪失証明が必要な場合がある", "保険年金課・新居地域センターで受付"], "actions": [{"label": "他の市区町村から転入してきたとき", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/hokennenkinka/gyomuannai/5/2/9321.html", "source": "湖西市保険年金課"}]},
+   {"id": "type-life", "label": "生活インフラ", "heading": "ごみ・水道の生活インフラを整える", "bullets": ["ごみ分別カレンダーでA地区・B地区を確認する", "水道の使用開始は2営業日前までに連絡", "電気・ガスとまとめて手続きできるサービスもある"], "actions": [{"label": "水道の使用開始・休止等", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/12278.html", "source": "湖西市上下水道課"}]},
+   {"id": "type-family", "label": "子ども・ペット", "heading": "子どもやペットがいる場合の手続き", "bullets": ["児童手当・こども医療費助成の住所変更が必要", "犬を飼っている場合は登録の切り替えが必要", "転校・転園の手続きも学校教育課等で確認"], "actions": [{"label": "飼い犬の手続き・狂犬病予防注射・飼い方について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html", "source": "湖西市環境課"}]}
+  ],
+  "steps": {
+   "today": ["転入届に必要な書類（転出証明書・本人確認書類）を確認する", "水道の使用開始連絡をする（未連絡なら至急）"],
+   "this_week": ["14日以内に転入届・国民健康保険等の手続きを行う", "ごみ分別カレンダーで自分の地区の収集曜日を確認する"],
+   "outside": ["児童手当・こども医療費助成など該当する制度の住所変更を行う", "犬を飼っている場合は登録内容の変更手続きをする"]
+  },
+  "action_grid": [
+   {"label": "市民課に問い合わせる", "href": "tel:0535764531"},
+   {"label": "手続きチェックシートの案内を見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/joho/gyomuannai/1_1/15790.html"},
+   {"label": "各種手続き一覧を見る", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/todokede_toroku_shomei/kakushutetsuzuki/index.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/resident-registration/",
+  "lead": "会社の入社手続きや学校の提出書類で住民票の写しが急ぎで必要になることはよくあります。湖西市では窓口交付のほか、マイナンバーカードを使ったコンビニ交付や郵送請求も利用できます。",
+  "note": "マイナンバーカードを持っていれば、コンビニ交付を使うことで窓口より早く・安く取得できる場合があります。手数料や取扱時間は変更されることがあるため、最新情報は公式サイトで確認してください。",
+  "real_cards": [
+   {"icon": "🏢", "title": "窓口交付が基本", "body": "市民課（本庁）または新居支所市民窓口係で、本人確認書類を持参すれば当日交付されます。手数料は1通350円です。"},
+   {"icon": "📱", "title": "マイナンバーカードならコンビニ交付", "body": "利用者証明用電子証明書が搭載されたマイナンバーカードがあれば、全国のコンビニのマルチコピー機で6時30分から23時まで取得できます。"},
+   {"icon": "✉️", "title": "郵送でも請求できる", "body": "遠方に住んでいる家族が代理で必要な場合など、郵便による請求も可能です。専用の申請書と返信用封筒、手数料分の定額小為替を同封します。"},
+   {"icon": "⏰", "title": "夜間・休日は電話予約制", "body": "平日の日中に来庁できない場合、事前に電話予約すれば夜間や休日でも交付を受けられる時間外交付サービスがあります。"}
+  ],
+  "qa": [
+   {"question": "住民票の写しの手数料はいくらですか。", "answer": "1通350円です。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/1226.html\" target=\"_blank\" rel=\"noopener\">戸籍・住民登録に関する証明などのページ</a>を確認してください。"},
+   {"question": "コンビニ交付は誰でも使えますか。", "answer": "利用者証明用電子証明書が搭載されたマイナンバーカードを持っている人が対象です。カードの暗証番号（4桁）が必要になります。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/2274.html\" target=\"_blank\" rel=\"noopener\">コンビニ交付のページ</a>を参照してください。"},
+   {"question": "新居地区に住んでいますが本庁まで行く必要がありますか。", "answer": "いいえ、新居支所市民窓口係でも住民票の写しの交付を受けられます。本庁まで行く必要はありません。"},
+   {"question": "代理人でも住民票は取得できますか。", "answer": "委任状があれば代理人による取得も可能です。マイナンバーカードのコンビニ交付は原則本人のカードが必要なので、代理の場合は窓口か郵送請求を利用してください。"},
+   {"question": "急ぎで今日中に必要な場合はどうすればいいですか。", "answer": "平日開庁時間内であれば市民課・新居支所の窓口で当日交付されます。閉庁後に必要な場合は、事前電話予約による時間外交付サービスの利用を検討してください。"}
+  ],
+  "tabs": [
+   {"id": "type-window", "label": "窓口交付", "heading": "市民課・新居支所で交付を受ける", "bullets": ["本人確認書類（マイナンバーカード、運転免許証等）が必要", "手数料は1通350円", "受付時間は平日8時30分～17時15分"], "actions": [{"label": "戸籍・住民登録に関する証明など", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/1226.html", "source": "湖西市市民課"}]},
+   {"id": "type-conveni", "label": "コンビニ交付", "heading": "マイナンバーカードでコンビニ交付を使う", "bullets": ["利用者証明用電子証明書付きのマイナンバーカードが必要", "全国のセブン-イレブン、ローソン等で利用可能", "6時30分から23時まで利用できる"], "actions": [{"label": "コンビニ交付", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/2274.html", "source": "湖西市市民課"}]},
+   {"id": "type-mail", "label": "郵送請求", "heading": "郵便で住民票を請求する", "bullets": ["申請書・返信用封筒・手数料分の定額小為替を同封", "遠方居住者や代理請求に便利", "到着まで数日かかるため余裕を持って申請"], "actions": [{"label": "住民票等", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/yuubin/2153.html", "source": "湖西市市民課"}]},
+   {"id": "type-afterhours", "label": "時間外交付", "heading": "夜間・休日の時間外交付サービスを使う", "bullets": ["事前の電話予約が必要", "平日日中に来庁できない人向け", "住民票のほか印鑑登録証明書等にも対応"], "actions": [{"label": "電話予約による時間外交付サービス", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/1225.html", "source": "湖西市市民課"}]}
+  ],
+  "steps": {
+   "today": ["マイナンバーカードの有無・暗証番号を確認する", "必要な通数と提出先の要件（発行日制限など）を確認する"],
+   "this_week": ["窓口またはコンビニ交付で住民票の写しを取得する", "遠方の場合は郵送請求の準備をする"],
+   "outside": ["定期的に証明書が必要な場合は時間外交付サービスの利用も検討する", "マイナンバーカードの電子証明書の有効期限を確認しておく"]
+  },
+  "action_grid": [
+   {"label": "市民課に問い合わせる", "href": "tel:0535764531"},
+   {"label": "コンビニ交付のページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/2274.html"},
+   {"label": "郵送請求のページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/yuubin/2153.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/certificates/",
+  "lead": "住民票、戸籍謄本・抄本、印鑑登録証明書など、提出先によって必要な証明書の種類は異なります。湖西市で取得できる主な証明書と窓口・手数料を整理しました。",
+  "note": "戸籍関係の証明書は本籍地でしか取得できません。湖西市に本籍がない場合は、本籍地の市区町村へ請求する必要があります。",
+  "real_cards": [
+   {"icon": "📄", "title": "住民票の写し・印鑑登録証明書", "body": "湖西市に住民登録がある人が対象です。手数料は1通350円。市民課・新居支所・コンビニ交付で取得できます。"},
+   {"icon": "📜", "title": "戸籍謄本・抄本・戸籍の附票", "body": "湖西市に本籍がある人が対象です。全部事項証明（謄本）・個人事項証明（抄本）とも1通450円です。本籍が他市町村にある場合は取得できません。"},
+   {"icon": "🖋️", "title": "印鑑登録の手続き", "body": "実印を登録していないと印鑑登録証明書は発行できません。転入者は湖西市で新たに印鑑登録をする必要があります。"},
+   {"icon": "🏢", "title": "取得場所は複数ある", "body": "市民課（本庁）、新居支所市民窓口係のほか、マイナンバーカードがあればコンビニ交付、郵送請求も選べます。"}
+  ],
+  "qa": [
+   {"question": "どの証明書が必要か分からないときはどうすればいいですか。", "answer": "提出先（勤務先、学校、金融機関など）に「何の証明書が必要か」を確認するのが確実です。不明な場合は市民課（053-576-4531）に相談してください。"},
+   {"question": "戸籍謄本は湖西市で取れますか。", "answer": "湖西市に本籍がある場合のみ取得できます。本籍が他の市区町村にある場合は、そちらへ請求するか、本籍地が分からない場合は本籍地記載の住民票で確認してください。"},
+   {"question": "印鑑登録はどこでできますか。", "answer": "市民課または新居支所で登録できます。本人が窓口に来て手続きする場合は、その場で登録できることが多いです。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/1226.html\" target=\"_blank\" rel=\"noopener\">戸籍・住民登録に関する証明などのページ</a>を確認してください。"},
+   {"question": "広域交付という制度があると聞きました。", "answer": "本籍が湖西市以外でも、一部の戸籍証明書は最寄りの市区町村窓口で取得できる広域交付サービスがあります。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/14504.html\" target=\"_blank\" rel=\"noopener\">証明書の広域交付サービスのページ</a>を参照してください。"},
+   {"question": "手数料の支払い方法は現金だけですか。", "answer": "窓口ではキャッシュレス決済（電子マネー、クレジットカード、QRコード決済）にも対応しています。"}
+  ],
+  "tabs": [
+   {"id": "type-juminhyo", "label": "住民票", "heading": "住民票の写しを取得する", "bullets": ["湖西市に住民登録がある人が対象", "手数料は1通350円", "窓口・コンビニ交付・郵送で取得可能"], "actions": [{"label": "戸籍・住民登録に関する証明など", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/1226.html", "source": "湖西市市民課"}]},
+   {"id": "type-koseki", "label": "戸籍", "heading": "戸籍謄本・抄本を取得する", "bullets": ["湖西市に本籍がある人が対象", "全部事項証明・個人事項証明とも1通450円", "本籍地以外では原則取得できない"], "actions": [{"label": "戸籍謄(抄)本・身分証明書・戸籍附票等", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/yuubin/2154.html", "source": "湖西市市民課"}]},
+   {"id": "type-inkan", "label": "印鑑登録証明書", "heading": "印鑑登録証明書を取得する", "bullets": ["事前に印鑑登録が済んでいる必要がある", "手数料は1通350円", "登録した印鑑登録証（カード）の持参が必要"], "actions": [{"label": "コンビニ交付", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/2274.html", "source": "湖西市市民課"}]},
+   {"id": "type-wide-area", "label": "広域交付", "heading": "本籍地以外でも取れる広域交付を使う", "bullets": ["一部の戸籍証明書は最寄りの市区町村窓口で取得可能", "本人確認書類の持参が必要", "対象となる証明書の種類は事前確認が必要"], "actions": [{"label": "証明書の広域交付サービス", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/14504.html", "source": "湖西市市民課"}]}
+  ],
+  "steps": {
+   "today": ["必要な証明書の種類（住民票か戸籍か）を提出先に確認する", "本籍地が湖西市かどうかを確認する"],
+   "this_week": ["窓口・コンビニ交付・郵送のうち都合の良い方法で取得する", "印鑑登録が未済の場合は登録を済ませる"],
+   "outside": ["繰り返し必要になる証明書は取得方法をあらかじめ決めておく", "マイナンバーカードの電子証明書の有効期限を確認しておく"]
+  },
+  "action_grid": [
+   {"label": "市民課に問い合わせる", "href": "tel:0535764531"},
+   {"label": "コンビニ交付のページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/2274.html"},
+   {"label": "広域交付サービスのページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/14504.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/city-hall-branches/",
+  "lead": "湖西市の行政窓口は、吉美にある本庁と、旧新居町エリアの新居支所の2か所に分かれています。「どちらに行けば手続きできるか」を事前に確認しておくと二度手間を防げます。",
+  "note": "新居支所は「地域のミニ市役所」として多くの手続きに対応していますが、一部の業務は本庁のみの取扱いです。個別の手続きは事前に電話確認をおすすめします。",
+  "real_cards": [
+   {"icon": "🏛️", "title": "本庁（吉美）", "body": "都市計画・建築住宅・環境・上下水道など、専門性の高い課の多くが本庁にあります。住所は湖西市吉美3268番地です。"},
+   {"icon": "🏢", "title": "新居支所（新居町浜名519-1）", "body": "住民票・戸籍・印鑑証明の発行、住民異動届、国民健康保険・国民年金、パスポート申請・受取など、日常的な手続きの多くに対応しています。"},
+   {"icon": "📞", "title": "迷ったら電話確認が確実", "body": "同じ「証明書発行」でも戸籍関連は本籍地の確認が必要だったりと、内容によって案内が変わります。来庁前に一本電話するのが結局一番早い場合があります。"},
+   {"icon": "⏰", "title": "開庁時間は共通", "body": "本庁・新居支所とも平日8時30分～17時15分が基本の受付時間です。土日祝日・年末年始（12月29日～1月3日）は休みです。"}
+  ],
+  "qa": [
+   {"question": "新居支所でも住民票は取れますか。", "answer": "はい、新居支所市民窓口係でも住民票の写しの交付を受けられます。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/araishisho/gyomuannai/tetsuduki/5524.html\" target=\"_blank\" rel=\"noopener\">新居支所での行政サービスのページ</a>を確認してください。"},
+   {"question": "新居支所で扱えない手続きは何ですか。", "answer": "都市計画・建築確認・上下水道の専門的な相談など、本庁の専門課でしか対応できない業務があります。個別の手続きは新居支所（053-594-1115）または本庁の担当課へ確認してください。"},
+   {"question": "パスポートはどちらでも申請できますか。", "answer": "はい、パスポートの申請・受取は本庁市民課・新居支所市民窓口係のどちらでも対応しています。"},
+   {"question": "本庁の住所と電話番号を教えてください。", "answer": "湖西市吉美3268番地、代表電話は053-576-1111です。担当課ごとの直通番号は<a href=\"https://www.city.kosai.shizuoka.jp/shiseijoho/shinoshokai/3172.html\" target=\"_blank\" rel=\"noopener\">各課連絡先のページ</a>で確認できます。"},
+   {"question": "土日に手続きはできますか。", "answer": "通常の窓口は土日祝日が休みです。証明書が急ぎで必要な場合は、事前予約制の時間外交付サービスやコンビニ交付を利用してください。"}
+  ],
+  "tabs": [
+   {"id": "type-honcho", "label": "本庁", "heading": "本庁（吉美）でできること", "bullets": ["都市計画・建築住宅・環境・上下水道などの専門相談", "市役所全体の代表窓口", "住所：湖西市吉美3268番地"], "actions": [{"label": "各課連絡先", "href": "https://www.city.kosai.shizuoka.jp/shiseijoho/shinoshokai/3172.html", "source": "湖西市"}]},
+   {"id": "type-arai", "label": "新居支所", "heading": "新居支所でできること", "bullets": ["住民票・戸籍・印鑑証明の発行", "住民異動届、国民健康保険・国民年金の手続き", "パスポート申請・受取、税証明の発行"], "actions": [{"label": "新居支所での行政サービス", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/araishisho/gyomuannai/tetsuduki/5524.html", "source": "湖西市新居支所"}]},
+   {"id": "type-hours", "label": "受付時間", "heading": "開庁時間・休業日を確認する", "bullets": ["平日8時30分～17時15分が基本", "土日祝日・年末年始は休み", "パスポート業務は9時～17時など一部時間が異なる場合がある"], "actions": [{"label": "新居支所（新居地域センター内）", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/araishisho/tyousyasisetsuannai/5498.html", "source": "湖西市新居支所"}]},
+   {"id": "type-remote", "label": "来庁しない方法", "heading": "来庁せずに済ませる方法を検討する", "bullets": ["マイナンバーカードがあればコンビニ交付が使える", "郵送請求や電話・オンライン手続きに対応する業務もある", "内容によっては来庁が必須の場合もある"], "actions": [{"label": "コンビニ交付", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/2274.html", "source": "湖西市市民課"}]}
+  ],
+  "steps": {
+   "today": ["必要な手続きがどちらの窓口で扱えるか電話で確認する", "本人確認書類・印鑑など持ち物を確認する"],
+   "this_week": ["開庁時間内に本庁または新居支所へ行く", "手続きに時間がかかりそうな場合は午前中の来庁を検討する"],
+   "outside": ["来庁不要な方法（コンビニ交付・郵送等）が使えないか確認する", "次回以降の手続きのために担当課の連絡先を控えておく"]
+  },
+  "action_grid": [
+   {"label": "本庁（代表）に問い合わせる", "href": "tel:0535761111"},
+   {"label": "新居支所に問い合わせる", "href": "tel:0535941115"},
+   {"label": "各課連絡先一覧を見る", "href": "https://www.city.kosai.shizuoka.jp/shiseijoho/shinoshokai/3172.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/mynumber/",
+  "lead": "マイナンバーカードは転入時の各種手続きや証明書のコンビニ交付でも使うため、早めに用意しておくと便利です。湖西市では申請方法が複数あり、交付は市役所窓口で受け取ります。",
+  "note": "申請は義務ではありませんが、住所変更をした場合はカードの追記事項欄の更新手続きが必要です。手続きを忘れると電子証明書が失効することがあるので注意してください。",
+  "real_cards": [
+   {"icon": "📱", "title": "申請方法は複数ある", "body": "スマートフォンでQRコードを読み取るオンライン申請、郵送申請、証明写真を無料で撮影してもらえる窓口・出張申請などがあります。"},
+   {"icon": "📮", "title": "受け取りは市役所窓口で", "body": "申請後、準備ができると「交付通知書（はがき）」が届きます。これを持って市民課で受け取ります。本人確認書類も必要です。"},
+   {"icon": "🔁", "title": "転入時は住所の追記が必要", "body": "他市区町村から転入した人がマイナンバーカードを継続利用する場合、住所変更の手続きを転入届と同時に行う必要があります。"},
+   {"icon": "⏳", "title": "有効期限に注意", "body": "カード自体は発行から10回目の誕生日まで、電子証明書は5回目の誕生日までが有効期限です。期限が近づくと更新の案内が届きます。"}
+  ],
+  "qa": [
+   {"question": "マイナンバーカードはどこで申請できますか。", "answer": "オンライン（QRコード）、郵送、市民課窓口での申請などが可能です。<a href=\"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/todokede_toroku_shomei/mynumbercard/4159.html\" target=\"_blank\" rel=\"noopener\">マイナンバーカードについてのページ</a>を参照してください。"},
+   {"question": "受け取りはどこでできますか。", "answer": "本庁市民課での受け取りが基本です。交付通知書（はがき）が届いたら、本人確認書類とあわせて持参してください。夜間窓口が開設される日もあります。"},
+   {"question": "転入したらカードはどうすればいいですか。", "answer": "転入届の手続きの際に、マイナンバーカードを持参して住所変更（継続利用）の手続きを行ってください。忘れると電子証明書が使えなくなる場合があります。"},
+   {"question": "有効期限が近いという通知が来ました。どうすればいいですか。", "answer": "更新の案内に従って、市民課で電子証明書または本体カードの更新手続きを行ってください。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/1/17437.html\" target=\"_blank\" rel=\"noopener\">有効期限に関するページ</a>を確認してください。"},
+   {"question": "1歳未満の子どもも申請できますか。", "answer": "はい、申請できます。1歳未満の子どもは写真なしのカードとなり、自宅に郵送される取り扱いです。"}
+  ],
+  "tabs": [
+   {"id": "type-apply", "label": "申請", "heading": "マイナンバーカードを申請する", "bullets": ["スマートフォンのQRコード読み取りでオンライン申請できる", "郵送申請も可能（申請書に写真を貼付）", "窓口や携帯ショップで無料の写真撮影サポートがある場合も"], "actions": [{"label": "マイナンバーカード(個人番号カード)の申請方法等について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/1/2300.html", "source": "湖西市市民課"}]},
+   {"id": "type-receive", "label": "受け取り", "heading": "カードを受け取る", "bullets": ["交付通知書（はがき）が届いたら市民課へ", "本人確認書類の持参が必要", "夜間窓口開庁日もある"], "actions": [{"label": "マイナンバーカード交付の夜間窓口開庁日について", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/todokede_toroku_shomei/mynumbercard/4400.html", "source": "湖西市市民課"}]},
+   {"id": "type-movein", "label": "転入時の手続き", "heading": "転入時にカードの住所変更をする", "bullets": ["転入届と同時にカードの継続利用手続きが必要", "忘れると電子証明書が使えなくなる場合がある", "本庁・新居支所どちらでも手続き可能"], "actions": [{"label": "マイナンバーカードに関する手続きについて", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/1/16916.html", "source": "湖西市市民課"}]},
+   {"id": "type-expire", "label": "有効期限", "heading": "有効期限・更新を確認する", "bullets": ["カード本体は10回目の誕生日まで有効", "電子証明書は5回目の誕生日まで有効", "期限が近づくと更新案内が届く"], "actions": [{"label": "マイナンバーカードと電子証明書の有効期限にご注意ください", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/1/17437.html", "source": "湖西市市民課"}]}
+  ],
+  "steps": {
+   "today": ["未申請の場合は申請方法（オンライン・郵送・窓口）を決める", "既にカードを持っている場合は住所変更手続きの要否を確認する"],
+   "this_week": ["申請書提出、または市民課で住所変更手続きを行う", "交付通知書が届いたら早めに受け取りに行く"],
+   "outside": ["電子証明書・カード本体の有効期限を確認しておく", "コンビニ交付や各種オンライン手続きで積極的に活用する"]
+  },
+  "action_grid": [
+   {"label": "市民課に問い合わせる", "href": "tel:0535764531"},
+   {"label": "マイナンバー総合フリーダイヤルに電話する", "href": "tel:0120950178"},
+   {"label": "マイナンバーカードについてのページを見る", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/todokede_toroku_shomei/mynumbercard/4159.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/how-to-garbage/",
+  "lead": "湖西市のごみ出しは地区（A地区・B地区）によって収集曜日が異なります。引っ越し直後で分からない場合は、まず自分の住所がどちらの地区か、収集カレンダーで確認しましょう。",
+  "note": "令和6年4月からごみ出しルールが一部変更されています。以前の情報のまま出すとルール違反になることがあるので、最新のカレンダー・ガイドブックで確認してください。",
+  "real_cards": [
+   {"icon": "🗓️", "title": "地区ごとに収集曜日が異なる", "body": "湖西市はA地区（新所・大森・岡崎など）とB地区（表鷲津・鷲津など）に分かれ、それぞれ収集曜日が設定されています。"},
+   {"icon": "📖", "title": "ごみガイドブックで分別を確認", "body": "燃やせるごみ、燃やせないごみ、缶・びん・ペットボトル、電池、古紙など、品目ごとの分別方法がガイドブックにまとまっています。"},
+   {"icon": "📱", "title": "ごみ分別アプリも便利", "body": "品目を検索すると分別区分と収集日が分かるアプリが配信されています。カレンダー機能や通知機能もあります。"},
+   {"icon": "🚫", "title": "ルール違反に注意", "body": "収集日の朝に指定の時間・場所に出す、指定袋を使うなどのルールがあります。違反すると収集されずに残されることがあります。"}
+  ],
+  "qa": [
+   {"question": "自分の地区がA地区かB地区か分かりません。", "answer": "<a href=\"https://www.city.kosai.shizuoka.jp/search_service/gargage_search/index.html\" target=\"_blank\" rel=\"noopener\">ごみ出し検索のページ</a>に住所を入力すると、収集曜日や分別区分が確認できます。分からない場合は廃棄物対策課（053-577-1280）に問い合わせてください。"},
+   {"question": "指定のごみ袋はありますか。", "answer": "品目によって指定袋や分別ルールが定められています。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/gomi_kankyo/gomi_recycle/bunbetu/index.html\" target=\"_blank\" rel=\"noopener\">家庭ごみの分別・出し方のページ</a>を確認してください。"},
+   {"question": "外国語の分別カレンダーはありますか。", "answer": "はい、日本語のほかポルトガル語、スペイン語、英語、中国語、インドネシア語、ベトナム語版のごみ分別収集カレンダーが用意されています。"},
+   {"question": "収集日を過ぎてしまったごみはどうすればいいですか。", "answer": "次回の収集日まで自宅で保管するか、環境センターへの自己搬入（要事前確認）を検討してください。廃棄物対策課（053-577-1280）に相談すると安心です。"},
+   {"question": "ルール違反の出し方をするとどうなりますか。", "answer": "収集されずに黄色い警告シールが貼られて残される場合があります。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/bunbetsu/2413.html\" target=\"_blank\" rel=\"noopener\">このような出し方はルール違反ですのページ</a>を確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-calendar", "label": "収集カレンダー", "heading": "自分の地区の収集日を確認する", "bullets": ["A地区・B地区で収集曜日が異なる", "多言語版カレンダーも用意されている", "ごみ出し検索サービスで住所から確認できる"], "actions": [{"label": "ごみ分別収集カレンダー ごみガイドブック 搬入規定", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/14395.html", "source": "湖西市廃棄物対策課"}]},
+   {"id": "type-sort", "label": "分別ルール", "heading": "品目ごとの分別ルールを確認する", "bullets": ["燃やせるごみ・燃やせないごみ・資源物に分ける", "缶・びん・ペットボトル、電池、古紙は別区分", "分別方法はガイドブックに詳しく掲載"], "actions": [{"label": "家庭ごみの分別・出し方", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/gomi_kankyo/gomi_recycle/bunbetu/index.html", "source": "湖西市廃棄物対策課"}]},
+   {"id": "type-app", "label": "アプリ", "heading": "ごみ分別アプリを活用する", "bullets": ["品目検索で分別区分が分かる", "収集日の通知機能がある", "iPhone・Android両対応"], "actions": [{"label": "ごみ分別アプリの配信について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/3127.html", "source": "湖西市廃棄物対策課"}]},
+   {"id": "type-newrule", "label": "ルール変更", "heading": "令和6年度からのルール変更を確認する", "bullets": ["令和6年4月1日からごみ出しルールが一部変更", "以前の情報のままだとルール違反になる場合がある", "最新のガイドブックで確認が必要"], "actions": [{"label": "令和6年4月1日からごみ出しルールが変わります", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/14019.html", "source": "湖西市廃棄物対策課"}]}
+  ],
+  "steps": {
+   "today": ["自分の住所がA地区・B地区のどちらか確認する", "最初に出すごみの分別区分を確認する"],
+   "this_week": ["ごみ分別収集カレンダーを入手する（紙・アプリどちらでも）", "指定の集積場所を確認する"],
+   "outside": ["品目に迷ったときの検索方法（アプリ・電話）を確認しておく", "年末年始など特別なごみ出し期間の案内も確認しておく"]
+  },
+  "action_grid": [
+   {"label": "廃棄物対策課に問い合わせる", "href": "tel:0535771280"},
+   {"label": "ごみ出し検索を使う", "href": "https://www.city.kosai.shizuoka.jp/search_service/gargage_search/index.html"},
+   {"label": "家庭ごみの分別・出し方を見る", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/gomi_kankyo/gomi_recycle/bunbetu/index.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/garbage-sorting-calendar/",
+  "lead": "ごみ分別収集カレンダーは、引っ越し先の地区で「何を」「いつ」出せばいいかをまとめて確認できる資料です。湖西市はA地区・B地区で内容が分かれているので、まず自分の地区版を手に入れましょう。",
+  "note": "カレンダーは年度ごとに更新されます。前の住居で使っていたカレンダーをそのまま使うと収集日を間違えることがあるため、転入後は必ず最新版を確認してください。",
+  "real_cards": [
+   {"icon": "📆", "title": "A地区・B地区でカレンダーが違う", "body": "A地区は新所・大森・岡崎など、B地区は表鷲津・鷲津などが対象です。自分の住所がどちらか分からない場合は廃棄物対策課に確認してください。"},
+   {"icon": "🌐", "title": "多言語版もある", "body": "日本語のほか、ポルトガル語、スペイン語、英語、中国語、インドネシア語、ベトナム語のカレンダーが用意されています。"},
+   {"icon": "📲", "title": "アプリでも同じ内容を確認できる", "body": "紙のカレンダーを紛失した場合や、通知機能を使いたい場合はごみ分別アプリが便利です。"},
+   {"icon": "🏭", "title": "自己搬入という選択肢もある", "body": "収集日を待てない場合は、環境センターへ自分でごみを持ち込む方法もあります（事前確認・料金あり）。"}
+  ],
+  "qa": [
+   {"question": "カレンダーはどこでもらえますか。", "answer": "転入時の窓口で配布されるほか、廃棄物対策課や公式サイトからも入手できます。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/14395.html\" target=\"_blank\" rel=\"noopener\">ごみ分別収集カレンダーのページ</a>を確認してください。"},
+   {"question": "自分の地区がA地区かB地区か分からない場合はどうすればいいですか。", "answer": "<a href=\"https://www.city.kosai.shizuoka.jp/search_service/gargage_search/index.html\" target=\"_blank\" rel=\"noopener\">ごみ出し検索のページ</a>で住所を入力すれば確認できます。廃棄物対策課（053-577-1280）への電話確認も可能です。"},
+   {"question": "祝日の場合、収集は休みになりますか。", "answer": "地区・時期によって取り扱いが異なる場合があります。カレンダーに祝日の収集有無が明記されているので、そちらを確認してください。"},
+   {"question": "年末年始のごみ出しはどうなりますか。", "answer": "年末年始は通常と異なる収集スケジュールになります。<a href=\"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/gomi_kankyo/gomi_recycle/motikomi/index.html\" target=\"_blank\" rel=\"noopener\">年末年始のごみ・資源物の出し方についてのページ</a>を確認してください。"},
+   {"question": "旧新居町エリアと湖西地区でカレンダーが違いますか。", "answer": "令和6年4月からごみ出しルールが統一され、以前は分かれていた湖西地区（A・B）と新居地区の収集カレンダーが1つのパターンにまとめられています。"}
+  ],
+  "tabs": [
+   {"id": "type-area-a", "label": "A地区", "heading": "A地区（新所・大森・岡崎など）のカレンダー", "bullets": ["新所・大森・岡崎などが対象", "燃やせるごみ・燃やせないごみ等の収集曜日が設定される", "年度ごとに最新版を確認する必要がある"], "actions": [{"label": "ごみ分別収集カレンダー ごみガイドブック 搬入規定", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/14395.html", "source": "湖西市廃棄物対策課"}]},
+   {"id": "type-area-b", "label": "B地区", "heading": "B地区（表鷲津・鷲津など）のカレンダー", "bullets": ["表鷲津・鷲津などが対象", "A地区と収集曜日が異なる場合がある", "自分の地区を勘違いしないよう住所で確認する"], "actions": [{"label": "ごみ出し検索", "href": "https://www.city.kosai.shizuoka.jp/search_service/gargage_search/index.html", "source": "湖西市廃棄物対策課"}]},
+   {"id": "type-app", "label": "アプリ活用", "heading": "ごみ分別アプリでカレンダーを確認する", "bullets": ["品目検索・収集日検索ができる", "通知機能で出し忘れを防げる", "紙のカレンダーの代わりにもなる"], "actions": [{"label": "ごみ分別アプリの配信について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/3127.html", "source": "湖西市廃棄物対策課"}]},
+   {"id": "type-nenmatsu", "label": "年末年始", "heading": "年末年始の特別なごみ出しを確認する", "bullets": ["通常と異なる収集日程になる", "事前に公式サイトで案内される", "自己搬入で対応する選択肢もある"], "actions": [{"label": "年末年始のごみ・資源物の出し方について", "href": "https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/gomi_kankyo/gomi_recycle/motikomi/index.html", "source": "湖西市廃棄物対策課"}]}
+  ],
+  "steps": {
+   "today": ["自分の住所がA地区・B地区のどちらかを確認する", "最新年度のカレンダーを入手する"],
+   "this_week": ["主な品目（燃やせるごみ等）の収集曜日を確認する", "アプリを使う場合はインストールしておく"],
+   "outside": ["年末年始など特別スケジュールの時期は事前に確認する", "分別に迷う品目が出たら都度アプリや電話で確認する"]
+  },
+  "action_grid": [
+   {"label": "廃棄物対策課に問い合わせる", "href": "tel:0535771280"},
+   {"label": "ごみ出し検索を使う", "href": "https://www.city.kosai.shizuoka.jp/search_service/gargage_search/index.html"},
+   {"label": "ごみ分別アプリの案内を見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/3127.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/bulky-garbage-dropoff/",
+  "lead": "布団や家具など通常の収集に出せない粗大ごみは、湖西市では戸別収集（電話予約制）と環境センターへの自己搬入の2つの方法から選べます。急いでいる、または費用を抑えたい場合は自己搬入が向いています。",
+  "note": "自己搬入は自分で車に積んで運ぶ手間がかかりますが、戸別収集より早く処分できる場合があります。品目や量によって料金が異なるため、事前に確認してから搬入してください。",
+  "real_cards": [
+   {"icon": "📞", "title": "戸別収集は電話予約制", "body": "環境センター（053-577-1280）に電話し、品目・数量（1回10個まで）を伝えます。納付書と専用シールを受け取り、金融機関で支払いを済ませてから収集日に出します。"},
+   {"icon": "🚗", "title": "自己搬入は当日精算", "body": "環境センターに直接持ち込む方法です。家庭ごみは100キログラムまで500円で、その場で現金精算します。予約なしで平日・祝日に利用できます。"},
+   {"icon": "📅", "title": "収集までの日数に注意", "body": "戸別収集は予約から収集まで通常3週間程度かかります。すぐに処分したい場合は自己搬入を検討してください。"},
+   {"icon": "🧊", "title": "家電リサイクル品は別扱い", "body": "エアコン・テレビ・冷蔵庫・洗濯機は家電リサイクル法の対象品で、粗大ごみとしては出せません。別途リサイクル料金がかかります。"}
+  ],
+  "qa": [
+   {"question": "戸別収集の料金はいくらですか。", "answer": "品目によって異なります。三辺の合計が240センチメートル以上のソファなどは1,000円、それ以外の家具・イス・自転車などは500円です。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/2397.html\" target=\"_blank\" rel=\"noopener\">粗大ごみの戸別収集のページ</a>を確認してください。"},
+   {"question": "環境センターへの持ち込みは予約が必要ですか。", "answer": "平日と祝日は予約不要です。ただし第3日曜日の持ち込みは事前予約制です。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/gomimotikomi/2396.html\" target=\"_blank\" rel=\"noopener\">ごみ・資源物の持ち込みのページ</a>を参照してください。"},
+   {"question": "環境センターの受付時間は何時までですか。", "answer": "平日9時00分～16時30分です。第3日曜日は9時00分～12時00分（家庭ごみのみ、要予約）です。"},
+   {"question": "エアコンや冷蔵庫も粗大ごみとして出せますか。", "answer": "いいえ、家電リサイクル法対象品（エアコン・テレビ・冷蔵庫・洗濯機）は粗大ごみとして扱えません。購入店や指定引取場所での処分が必要です。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/shobundekinai/2406.html\" target=\"_blank\" rel=\"noopener\">家電リサイクルのページ</a>を確認してください。"},
+   {"question": "立ち合いは必要ですか。", "answer": "戸別収集の場合、立ち合いは不要です。指定日の朝までに敷地内入り口に出しておけば収集されます。自宅内から自分で運び出せない場合は民間業者への依頼を検討してください。"}
+  ],
+  "tabs": [
+   {"id": "type-kobetsu", "label": "戸別収集", "heading": "電話予約で自宅から収集してもらう", "bullets": ["環境センターに電話予約（1回10個まで）", "納付書と専用シールを金融機関で精算", "予約から収集まで約3週間かかる"], "actions": [{"label": "粗大ごみの戸別収集", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/2397.html", "source": "湖西市廃棄物対策課"}]},
+   {"id": "type-jiko", "label": "自己搬入", "heading": "環境センターに自分で持ち込む", "bullets": ["平日9時～16時30分、祝日も受付", "家庭ごみ100kgまで500円、その場で現金精算", "第3日曜日は事前予約制"], "actions": [{"label": "ごみ・資源物の持ち込み", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/gomimotikomi/2396.html", "source": "湖西市廃棄物対策課"}]},
+   {"id": "type-kaden", "label": "家電リサイクル品", "heading": "エアコン・テレビ・冷蔵庫・洗濯機は別扱い", "bullets": ["粗大ごみとしては出せない", "購入店や指定引取場所での処分が必要", "別途リサイクル料金がかかる"], "actions": [{"label": "エアコン・テレビ・冷蔵庫・洗濯機(家電リサイクル)", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/shobundekinai/2406.html", "source": "湖西市廃棄物対策課"}]},
+   {"id": "type-caution", "label": "業者に注意", "heading": "無許可の不用品回収業者に注意する", "bullets": ["トラックで巡回する無許可業者とのトラブルが報告されている", "違法業者に依頼すると不法投棄等のトラブルに巻き込まれる恐れがある", "市の正規窓口（環境センター）を利用するのが安全"], "actions": [{"label": "違法な不用品回収業者にご注意ください", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/osirase/2442.html", "source": "湖西市廃棄物対策課"}]}
+  ],
+  "steps": {
+   "today": ["処分したいものが粗大ごみか家電リサイクル品か確認する", "戸別収集か自己搬入かを決める"],
+   "this_week": ["戸別収集の場合は環境センターに電話予約する", "自己搬入の場合は車を用意し環境センターの受付時間を確認する"],
+   "outside": ["納付書・専用シールを使って指定日に収集してもらう", "家電リサイクル品は別ルートで処分する"]
+  },
+  "action_grid": [
+   {"label": "環境センターに問い合わせる", "href": "tel:0535771280"},
+   {"label": "ごみ・資源物の持ち込みページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/gomimotikomi/2396.html"},
+   {"label": "粗大ごみの戸別収集ページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/2397.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/dog-registration/",
+  "lead": "湖西市で犬を飼い始めたら、生後91日を過ぎた時点で登録が必要です。転入時にすでに登録済みの犬を連れてきた場合も、湖西市での登録の切り替えが必要になるので忘れずに手続きしましょう。",
+  "note": "登録は一生に一度（犬の生涯で1回）ですが、転入した場合は前の市区町村での登録を湖西市に引き継ぐ手続きが必要です。鑑札を紛失した場合の再交付にも対応しています。",
+  "real_cards": [
+   {"icon": "🐶", "title": "登録は環境課または委託動物病院で", "body": "湖西市役所環境課のほか、市内の委託動物病院（コイケ動物病院、みなみ動物病院、湖西動物病院）でも登録できます。手数料は3,000円です。"},
+   {"icon": "🏷️", "title": "鑑札は首輪に着ける", "body": "登録が完了すると鑑札が交付されます。犬の首輪などに必ず着けておくことで、迷子になった際の身元確認に役立ちます。"},
+   {"icon": "🔁", "title": "転入時は登録の切り替えが必要", "body": "他の市区町村で登録済みの犬を連れて湖西市に転入した場合、前の自治体で交付された鑑札を持参して湖西市での登録に切り替える手続きが必要です。"},
+   {"icon": "📋", "title": "登録内容の変更届も忘れずに", "body": "飼い主の住所・氏名の変更、犬が亡くなった場合の死亡届なども環境課への届出が必要です。"}
+  ],
+  "qa": [
+   {"question": "犬の登録はいつまでにすればいいですか。", "answer": "生後91日を経過したら速やかに登録する必要があります。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html\" target=\"_blank\" rel=\"noopener\">飼い犬の手続き・狂犬病予防注射・飼い方についてのページ</a>を確認してください。"},
+   {"question": "登録手数料はいくらですか。", "answer": "3,000円です。環境課窓口または委託動物病院で支払います。"},
+   {"question": "他の市から転入してきた犬も登録が必要ですか。", "answer": "はい、前の自治体の鑑札を持って、湖西市環境課で登録の切り替え手続きをしてください。"},
+   {"question": "鑑札をなくしてしまいました。", "answer": "環境課（053-576-4533）で再交付の手続きができます。手数料が必要な場合があるので、詳細は窓口にお問い合わせください。"},
+   {"question": "犬が亡くなった場合はどうすればいいですか。", "answer": "環境課へ死亡届を提出してください。ペットの火葬については<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/6425.html\" target=\"_blank\" rel=\"noopener\">ペットの火葬についてのページ</a>も参考にしてください。"}
+  ],
+  "tabs": [
+   {"id": "type-new", "label": "新規登録", "heading": "生後91日を過ぎた犬を新規登録する", "bullets": ["環境課または委託動物病院で登録可能", "手数料3,000円", "登録は生涯に一度でよい"], "actions": [{"label": "飼い犬の手続き・狂犬病予防注射・飼い方について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html", "source": "湖西市環境課"}]},
+   {"id": "type-transfer", "label": "転入時の切り替え", "heading": "転入時に登録を切り替える", "bullets": ["前の自治体の鑑札を持参する", "湖西市環境課で切り替え手続きをする", "飼い主の住所変更も同時に届け出る"], "actions": [{"label": "各課連絡先", "href": "https://www.city.kosai.shizuoka.jp/shiseijoho/shinoshokai/3172.html", "source": "湖西市"}]},
+   {"id": "type-lost-tag", "label": "鑑札紛失時", "heading": "鑑札を紛失した場合の再交付", "bullets": ["環境課窓口で再交付手続きができる", "手数料が必要な場合がある", "首輪への装着を忘れずに"], "actions": [{"label": "飼い犬の手続き・狂犬病予防注射・飼い方について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html", "source": "湖西市環境課"}]},
+   {"id": "type-death", "label": "死亡・譲渡時", "heading": "犬が亡くなった・譲渡した場合の届出", "bullets": ["環境課へ死亡届の提出が必要", "譲渡した場合も名義変更の届出が必要", "ペットの火葬情報も確認しておくと安心"], "actions": [{"label": "ペットの火葬について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/6425.html", "source": "湖西市環境課"}]}
+  ],
+  "steps": {
+   "today": ["犬の登録状況（未登録か他市登録済みか）を確認する", "必要な持ち物（前の鑑札、本人確認書類）を準備する"],
+   "this_week": ["環境課または委託動物病院で登録・切り替え手続きをする", "鑑札を首輪に装着する"],
+   "outside": ["毎年の狂犬病予防注射のスケジュールを確認する", "住所変更や譲渡などがあれば都度環境課に届け出る"]
+  },
+  "action_grid": [
+   {"label": "環境課に問い合わせる", "href": "tel:0535764533"},
+   {"label": "飼い犬の手続きページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html"},
+   {"label": "各課連絡先一覧を見る", "href": "https://www.city.kosai.shizuoka.jp/shiseijoho/shinoshokai/3172.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/dog-registration-rabies/",
+  "lead": "犬の登録が済んだら、次は毎年の狂犬病予防注射です。湖西市では動物病院での個別接種と、4月に市内を巡回する集合注射のどちらかを選べます。接種後は注射済票の交付を受けることが必要です。",
+  "note": "集合注射以外（動物病院での個別接種）を受けた場合は、動物病院が発行する接種証明書を環境課に提出しないと注射済票が交付されません。この提出忘れに注意してください。",
+  "real_cards": [
+   {"icon": "💉", "title": "毎年1回の接種が義務", "body": "生後91日以上の犬は、狂犬病予防法により毎年1回の予防注射が義務付けられています。"},
+   {"icon": "🚐", "title": "4月の集合注射が便利", "body": "毎年4月に市内を巡回する集合注射会場で接種を受けられます。日程・会場は年度ごとに案内されます。"},
+   {"icon": "🏥", "title": "動物病院でも通年接種可能", "body": "集合注射の日程が合わない場合は、市内外の動物病院で個別に接種できます。ただし証明書の環境課への提出が別途必要です。"},
+   {"icon": "🏷️", "title": "注射済票の交付手数料は550円", "body": "接種後に発行される注射済票は、鑑札と同様に犬の首輪に着けておく必要があります。"}
+  ],
+  "qa": [
+   {"question": "今年の集合注射はいつですか。", "answer": "例年4月に実施されます。最新の日程・会場は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html\" target=\"_blank\" rel=\"noopener\">狂犬病予防集合注射についてのページ</a>で確認してください。"},
+   {"question": "動物病院で受けた場合、注射済票はどうやってもらえますか。", "answer": "動物病院が発行する接種証明書を、湖西市役所環境課に提出することで注射済票（手数料550円）が交付されます。"},
+   {"question": "注射済票の交付手数料はいくらですか。", "answer": "550円です。集合注射の場合は当日その場で交付されることが多く、動物病院接種の場合は環境課への提出時に支払います。"},
+   {"question": "接種を忘れるとどうなりますか。", "answer": "狂犬病予防法違反となる可能性があります。できるだけ早く動物病院または環境課（053-576-4533）に相談してください。"},
+   {"question": "転入したばかりで湖西市の集合注射日程が分かりません。", "answer": "環境課（053-576-4533）に問い合わせるか、公式サイトの案内ページを確認してください。日程が合わない場合は動物病院での個別接種も可能です。"}
+  ],
+  "tabs": [
+   {"id": "type-group", "label": "集合注射", "heading": "4月の集合注射を利用する", "bullets": ["毎年4月に市内を巡回", "会場・日程は年度ごとに公式サイトで案内", "当日その場で注射済票が交付されることが多い"], "actions": [{"label": "令和8年度狂犬病予防集合注射について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html", "source": "湖西市環境課"}]},
+   {"id": "type-clinic", "label": "動物病院で接種", "heading": "動物病院で個別に接種する", "bullets": ["集合注射の日程が合わない場合に便利", "市内外どちらの動物病院でも可", "接種証明書を環境課に提出する必要がある"], "actions": [{"label": "飼い犬の手続き・狂犬病予防注射・飼い方について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html", "source": "湖西市環境課"}]},
+   {"id": "type-certificate", "label": "注射済票交付", "heading": "注射済票の交付を受ける", "bullets": ["手数料550円", "鑑札と同様に首輪へ装着する", "紛失時は環境課で再交付可能"], "actions": [{"label": "飼い犬の手続き・狂犬病予防注射・飼い方について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html", "source": "湖西市環境課"}]},
+   {"id": "type-event", "label": "動物愛護週間", "heading": "動物愛護週間などの関連情報も確認する", "bullets": ["9月20日～26日は動物愛護週間", "適正飼育に関する啓発イベントが行われる場合がある", "飼い方全般の相談も環境課で受け付けている"], "actions": [{"label": "9月20日～26日は動物愛護週間です。", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/12007.html", "source": "湖西市環境課"}]}
+  ],
+  "steps": {
+   "today": ["愛犬が今年度すでに接種済みかどうか確認する", "集合注射の日程が合うか確認する"],
+   "this_week": ["集合注射または動物病院で接種を受ける", "動物病院で接種した場合は証明書を準備する"],
+   "outside": ["環境課に証明書を提出し注射済票を受け取る（動物病院接種の場合）", "来年度の接種時期をカレンダーに控えておく"]
+  },
+  "action_grid": [
+   {"label": "環境課に問い合わせる", "href": "tel:0535764533"},
+   {"label": "集合注射の案内ページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html"},
+   {"label": "飼い犬の手続きページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/pets-lost-animals/",
+  "lead": "飼っている犬や猫がいなくなったときは、まず落ち着いて連絡先を確認しましょう。湖西市環境課だけでなく、犬の保護は静岡県西部保健所が担当している場合が多いため、あわせて連絡するのが確実です。",
+  "note": "湖西市では常時「保護犬情報」が更新されているとは限りません。市内で保護されていない場合でも、近隣市町や保健所で保護されているケースがあるため、複数の窓口に確認することをおすすめします。",
+  "real_cards": [
+   {"icon": "🚨", "title": "まず西部保健所に連絡", "body": "犬・猫の保護は静岡県西部保健所（衛生薬務課053-437-2245、浜名分庁舎053-401-0155）が主な窓口です。迷子になったらすぐに連絡しましょう。"},
+   {"icon": "🏢", "title": "湖西市環境課にも確認", "body": "湖西市役所環境課（053-576-4533）でも保護犬の情報を把握している場合があります。あわせて問い合わせておくと安心です。"},
+   {"icon": "🏷️", "title": "鑑札・注射済票が身元確認の鍵", "body": "犬の首輪に鑑札・注射済票がついていれば、保護された際にすぐ飼い主が分かります。日頃から必ず装着しておきましょう。"},
+   {"icon": "🌐", "title": "県のホームページも確認", "body": "静岡県内全体の迷い犬・保護犬情報は、静岡県の公式ホームページでも公開されています。広い範囲で情報を探す際に活用してください。"}
+  ],
+  "qa": [
+   {"question": "犬がいなくなりました。まずどこに連絡すればいいですか。", "answer": "静岡県西部保健所衛生薬務課（053-437-2245）または浜名分庁舎（053-401-0155）にすぐ連絡してください。あわせて湖西市環境課（053-576-4533）にも伝えておくと安心です。"},
+   {"question": "湖西市の公式サイトで保護犬の情報を確認できますか。", "answer": "<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1314.html\" target=\"_blank\" rel=\"noopener\">保護犬情報のページ</a>で確認できますが、常時情報が掲載されているとは限りません。市外で保護されている可能性もあるため、県のホームページもあわせて確認してください。"},
+   {"question": "猫がいなくなった場合も同じ窓口でいいですか。", "answer": "猫については法律上の登録制度がないため、警察（遺失物届）や地域の掲示板、SNSでの情報提供も有効です。保健所・環境課にも念のため相談してください。"},
+   {"question": "迷子の犬を見つけた場合はどうすればいいですか。", "answer": "無理に捕まえようとせず、西部保健所または湖西市環境課に連絡してください。鑑札・注射済票がついていれば、飼い主の特定につながります。"},
+   {"question": "ペットが亡くなってしまった場合の相談先はどこですか。", "answer": "湖西市環境課（053-576-4533）に死亡届を提出し、火葬については<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/6425.html\" target=\"_blank\" rel=\"noopener\">ペットの火葬についてのページ</a>を参考にしてください。"}
+  ],
+  "tabs": [
+   {"id": "type-hoken", "label": "西部保健所", "heading": "静岡県西部保健所に連絡する", "bullets": ["犬・猫の保護を担当する主な窓口", "衛生薬務課：053-437-2245", "浜名分庁舎：053-401-0155"], "actions": [{"label": "保護犬情報", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1314.html", "source": "湖西市環境課"}]},
+   {"id": "type-kankyoka", "label": "環境課", "heading": "湖西市環境課にも問い合わせる", "bullets": ["登録情報から飼い主を特定しやすくなる", "保護犬情報の把握・共有先の一つ", "犬の登録・注射済票の相談もあわせてできる"], "actions": [{"label": "飼い犬の手続き・狂犬病予防注射・飼い方について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html", "source": "湖西市環境課"}]},
+   {"id": "type-found", "label": "見つけた場合", "heading": "迷い犬・迷い猫を見つけた場合", "bullets": ["無理に捕まえようとせず専門窓口に連絡する", "首輪の鑑札・注射済票の有無を確認する", "警察への遺失物・拾得物の届出も選択肢になる"], "actions": [{"label": "保護犬情報", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1314.html", "source": "湖西市環境課"}]},
+   {"id": "type-prevention", "label": "予防対策", "heading": "普段からできる迷子対策", "bullets": ["鑑札・注射済票を必ず首輪に装着する", "マイクロチップ装着も選択肢の一つ", "脱走防止の柵・リードの点検を習慣にする"], "actions": [{"label": "9月20日～26日は動物愛護週間です。", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/12007.html", "source": "湖西市環境課"}]}
+  ],
+  "steps": {
+   "today": ["西部保健所と湖西市環境課の両方に連絡する", "近隣で目撃情報がないか確認する"],
+   "this_week": ["SNSや地域の掲示板で情報提供を呼びかける", "警察へ遺失物届を出すかどうか検討する"],
+   "outside": ["見つかった後は鑑札・注射済票の装着状況を見直す", "マイクロチップ装着など再発防止策を検討する"]
+  },
+  "action_grid": [
+   {"label": "静岡県西部保健所（衛生薬務課）に電話する", "href": "tel:0534372245"},
+   {"label": "湖西市環境課に電話する", "href": "tel:0535764533"},
+   {"label": "保護犬情報のページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1314.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/public-transit/",
+  "lead": "湖西市で車に頼らずに移動する場合、市が運行するコミュニティバス「コーちゃんバス」が主な選択肢です。JR駅と各地区の病院・買い物施設を結んでおり、市内は一律運賃で利用できます。",
+  "note": "コーちゃんバスは土日祝日・年末年始が運休です。通院や買い物の予定を立てる際は平日ダイヤであることを前提に計画してください。路線バスの運行状況は変更されることがあるため、最新の時刻表を確認しましょう。",
+  "real_cards": [
+   {"icon": "🚌", "title": "コーちゃんバスが市内の足", "body": "各地区からJR駅周辺を結ぶコミュニティバスです。運賃は市内一律200円（小学生100円、未就学児無料）で、電子決済（PayPay、イオンPayなど）にも対応しています。"},
+   {"icon": "📅", "title": "運行は平日のみ", "body": "月曜日から金曜日の運行で、土日祝日・年末年始（12月29日～1月3日）は運休です。一部路線には曜日限定の運休便もあります。"},
+   {"icon": "🚉", "title": "JR東海道本線も利用できる", "body": "市内にはJR東海道本線の駅があり、浜松・豊橋方面への移動に使えます。コーちゃんバスと組み合わせて駅までアクセスする使い方が一般的です。"},
+   {"icon": "🗺️", "title": "総合交通マップで全体像を確認", "body": "湖西市総合交通マップには、コーちゃんバス・民間路線バスの経路がまとめて掲載されています。転入直後はこれで移動手段を把握するのがおすすめです。"}
+  ],
+  "qa": [
+   {"question": "コーちゃんバスの運賃はいくらですか。", "answer": "市内一律200円です。小学生は100円、未就学児は無料です。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/koutuu/kouchanbasuniknnsurukoo/3553.html\" target=\"_blank\" rel=\"noopener\">コーちゃんバスについてのページ</a>を確認してください。"},
+   {"question": "土日にコーちゃんバスは走っていますか。", "answer": "いいえ、土曜日・日曜日・祝日・年末年始は運休です。平日のみの運行なので注意してください。"},
+   {"question": "電子決済は使えますか。", "answer": "はい、PayPayやイオンPayなどの電子決済に対応しています。現金でももちろん利用できます。"},
+   {"question": "時刻表や路線図はどこで確認できますか。", "answer": "<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/koutuu/kouchanbasuniknnsurukoo/3553.html\" target=\"_blank\" rel=\"noopener\">湖西市総合交通マップ</a>で各路線の経路・時刻表を確認できます。運行事業者（浜松バス株式会社）のホームページでも最新情報が案内されています。"},
+   {"question": "民間の路線バスもありますか。", "answer": "はい、コーちゃんバスとは別に民間事業者による路線バスも一部区間で運行されています。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/koutuu/6151.html\" target=\"_blank\" rel=\"noopener\">民間路線バスのページ</a>を参照してください。"}
+  ],
+  "tabs": [
+   {"id": "type-kochan", "label": "コーちゃんバス", "heading": "コーちゃんバスを利用する", "bullets": ["各地区とJR駅周辺を結ぶコミュニティバス", "運賃は市内一律200円", "平日運行、土日祝日・年末年始は運休"], "actions": [{"label": "コーちゃんバスについて", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/koutuu/kouchanbasuniknnsurukoo/3553.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-jr", "label": "JR線", "heading": "JR東海道本線を利用する", "bullets": ["浜松・豊橋方面へのアクセスに便利", "コーちゃんバスと組み合わせて駅まで移動する使い方が一般的", "通勤・通学の定期券利用も検討できる"], "actions": [{"label": "湖西市総合交通マップ", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/koutuu/kouchanbasuniknnsurukoo/3553.html", "source": "湖西市"}]},
+   {"id": "type-private-bus", "label": "民間路線バス", "heading": "民間の路線バスを確認する", "bullets": ["コーちゃんバスとは別に一部区間を運行", "路線・本数は縮小傾向にあるため事前確認が必要", "最新の運行状況は事業者ホームページで確認"], "actions": [{"label": "民間路線バス", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/koutuu/6151.html", "source": "湖西市都市計画課"}]},
+   {"id": "type-latest", "label": "最新情報", "heading": "コーちゃんバスの最新情報・ダイヤ改正を確認する", "bullets": ["ダイヤ改正や停留所の変更が随時案内される", "利用前に最新の総合交通マップを確認する", "問い合わせは都市計画課公共交通係"], "actions": [{"label": "コーちゃんバス 最新情報", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/koutuu/kouchanbasuniknnsurukoo/18393.html", "source": "湖西市都市計画課"}]}
+  ],
+  "steps": {
+   "today": ["自宅最寄りのコーちゃんバス停留所を確認する", "行きたい場所（病院・買い物先・駅）への路線があるか確認する"],
+   "this_week": ["総合交通マップで時刻表を確認し、実際に乗ってみる", "電子決済を使う場合は事前に準備しておく"],
+   "outside": ["通院・通学などで定期的に使う場合はダイヤの平日限定に注意する", "ダイヤ改正情報を定期的にチェックする"]
+  },
+  "action_grid": [
+   {"label": "都市計画課 公共交通係に問い合わせる", "href": "tel:0535764560"},
+   {"label": "コーちゃんバスについてのページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/koutuu/kouchanbasuniknnsurukoo/3553.html"},
+   {"label": "湖西市総合交通マップを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/koutuu/kouchanbasuniknnsurukoo/3553.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/water-sewer/",
+  "lead": "湖西市の水道料金・下水道使用料に関する問い合わせは、湖西市上下水道課ではなく「お客さま料金センター」が窓口です。このセンターは豊橋市上下水道局と共同運営されており、電話番号が豊橋市の市外局番（0532）である点に注意してください。",
+  "note": "料金や使用開始・休止に関する電話番号（0532-26-7022）は豊橋市外局番のため、市外通話と勘違いして掛けそびれるケースがあります。湖西市の番号だと思って0535から掛け直さないよう気をつけてください。",
+  "real_cards": [
+   {"icon": "💧", "title": "料金は口径・使用量で決まる", "body": "基本料金に加え、使用量に応じた段階制の従量料金がかかります。例えば13mm口径の基本料金は2,210円です。"},
+   {"icon": "☎️", "title": "お客さま料金センターは豊橋の番号", "body": "水道料金・使用開始停止の問い合わせ窓口「湖西市お客さま料金センター」は、豊橋市上下水道局との共同運営で、電話番号は0532-26-7022（豊橋市外局番）です。"},
+   {"icon": "🏢", "title": "料金以外の相談は上下水道課へ", "body": "水道管の工事や漏水など料金以外の相談は、湖西市上下水道課（053-574-2213）が窓口です。窓口が分かれている点に注意してください。"},
+   {"icon": "💳", "title": "支払い方法で割引もある", "body": "口座振替・クレジットカード払い、または検針票のSMS受信・不要設定にすると、料金が割引になる制度があります。"}
+  ],
+  "qa": [
+   {"question": "水道料金の問い合わせ先はどこですか。", "answer": "湖西市お客さま料金センター（0532-26-7022）です。この番号は豊橋市外局番なので、市外電話だと思って掛け間違えないよう注意してください。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/suidouryoukin/1956.html\" target=\"_blank\" rel=\"noopener\">水道料金・加入金についてのページ</a>を確認してください。"},
+   {"question": "なぜ豊橋市の番号なのですか。", "answer": "湖西市上下水道課の料金業務（お客さま料金センター）が豊橋市上下水道局と共同運営されているためです。制度自体は湖西市の水道事業として提供されています。"},
+   {"question": "料金の支払い方法にはどんなものがありますか。", "answer": "口座振替、クレジットカード払い、コンビニ払いなどがあります。口座振替・クレジットカード払いには割引制度もあります。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/suidouryoukin/1957.html\" target=\"_blank\" rel=\"noopener\">料金のお支払方法のページ</a>を参照してください。"},
+   {"question": "加入金とは何ですか。", "answer": "新たに水道を引く際にかかる費用です。13mm口径で55,000円、20mm口径で89,100円などと口径によって異なります。"},
+   {"question": "水道料金の集金を装った詐欺があると聞きました。", "answer": "はい、湖西市でも水道料金の集金詐欺の注意喚起が出ています。訪問での現金徴収は行っていないため、不審な訪問には応じず、<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/suidouryoukin/11463.html\" target=\"_blank\" rel=\"noopener\">水道料金の集金詐欺についての注意ページ</a>を確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-fee", "label": "料金体系", "heading": "水道料金の仕組みを確認する", "bullets": ["口径ごとに基本料金が異なる（13mmで2,210円）", "使用量に応じた段階制の従量料金が加算される", "令和7年4月から料金改定が適用されている"], "actions": [{"label": "水道料金・加入金について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/suidouryoukin/1956.html", "source": "湖西市上下水道課"}]},
+   {"id": "type-center", "label": "お客さま料金センター", "heading": "料金の問い合わせ窓口を確認する", "bullets": ["豊橋市上下水道局との共同運営窓口", "電話番号は0532-26-7022（豊橋市外局番）", "使用開始・休止の連絡もここで受付"], "actions": [{"label": "水道の使用開始・休止等", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/12278.html", "source": "湖西市上下水道課"}]},
+   {"id": "type-payment", "label": "支払い方法", "heading": "支払い方法・割引制度を確認する", "bullets": ["口座振替・クレジットカードで55円割引", "検針票のSMS受信・不要設定でも割引対象", "クレジットカード決済にも対応"], "actions": [{"label": "上下水道料金のクレジットカード決済について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/suidouryoukin/10667.html", "source": "湖西市上下水道課"}]},
+   {"id": "type-caution", "label": "詐欺注意", "heading": "水道料金の集金詐欺に注意する", "bullets": ["訪問での現金徴収は行っていない", "不審な訪問・電話には応じない", "不安な場合は上下水道課に確認する"], "actions": [{"label": "【注意】水道料金の集金詐欺について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/suidouryoukin/11463.html", "source": "湖西市上下水道課"}]}
+  ],
+  "steps": {
+   "today": ["水道料金の請求書・検針票で口径と料金を確認する", "お客さま料金センターの電話番号（0532-26-7022）を控えておく"],
+   "this_week": ["支払い方法を確認し、必要なら口座振替やカード払いに変更する", "料金以外の相談（漏水等）があれば上下水道課に連絡する"],
+   "outside": ["毎月の検針票で使用量の変化を確認する習慣をつける", "不審な集金の訪問には応じず市に確認する"]
+  },
+  "action_grid": [
+   {"label": "お客さま料金センターに問い合わせる", "href": "tel:0532267022"},
+   {"label": "上下水道課（料金以外の相談）に問い合わせる", "href": "tel:0535742213"},
+   {"label": "水道料金・加入金についてのページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/suidouryoukin/1956.html"}
+  ]
+ },
+ {
+  "href": "/life/start-living/water-start-stop-fees/",
+  "lead": "引っ越し当日に水が使えないと困るため、水道の使用開始・休止の連絡は早めに済ませておく必要があります。湖西市では希望日の2営業日前までに「お客さま料金センター」へ連絡する仕組みです。",
+  "note": "このお客さま料金センターは豊橋市上下水道局との共同運営窓口で、電話番号は0532-26-7022（豊橋市外局番）です。湖西市内の番号だと思って掛け間違えないよう注意してください。",
+  "real_cards": [
+   {"icon": "📅", "title": "2営業日前までの連絡が必要", "body": "使用開始・休止とも、希望日の2営業日前までにお客さま料金センターへ連絡します。土日祝日をまたぐ場合は余裕を持って早めに連絡しましょう。"},
+   {"icon": "☎️📠🌐", "title": "電話・ファックス・インターネットで申込可能", "body": "電話は平日8時30分～17時15分、ファックスとインターネット申込は24時間受け付けています。ファックス：0532-26-7023。"},
+   {"icon": "🔌", "title": "電気・ガスとまとめて手続きできるサービスもある", "body": "中部電力ミライズなどの電気・ガス契約とあわせて水道の使用開始・休止を一括で申し込める「引越しおまとめ便」のようなサービスも案内されています。"},
+   {"icon": "⚠️", "title": "休止連絡を忘れると基本料金がかかり続ける", "body": "使用していない状態でも、休止の届出をしないと基本料金の請求が続きます。退去時は必ず休止連絡をしてください。"}
+  ],
+  "qa": [
+   {"question": "水道の使用開始はいつまでに連絡すればいいですか。", "answer": "希望日の2営業日前までに、湖西市お客さま料金センター（0532-26-7022）へ連絡してください。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/12278.html\" target=\"_blank\" rel=\"noopener\">水道の使用開始・休止等のページ</a>を参照してください。"},
+   {"question": "土日でも申込できますか。", "answer": "ファックス（0532-26-7023）とインターネット申込は24時間受け付けています。電話の場合は平日8時30分～17時15分のみです。休止日が土日祝日にあたる場合は翌営業日の対応となります。"},
+   {"question": "使用開始の連絡に必要な情報は何ですか。", "answer": "開始日、住所、使用者名義、引越し前の住所、連絡先です。休止の場合は休止日、住所、使用者名義、転居先、連絡先が必要です。"},
+   {"question": "電気やガスと一緒に手続きできますか。", "answer": "はい、中部電力ミライズなどが提供する引っ越し手続きの一括申込サービスを利用すると、水道の使用開始・休止もあわせて申し込める場合があります。"},
+   {"question": "退去したのに休止連絡を忘れていました。どうなりますか。", "answer": "休止の届出がない間は基本料金が発生し続けます。気づいた時点ですぐにお客さま料金センターへ連絡し、実際の使用終了日を伝えてください。"}
+  ],
+  "tabs": [
+   {"id": "type-start", "label": "使用開始", "heading": "水道の使用を開始する手続き", "bullets": ["希望日の2営業日前までに連絡が必要", "開始日・住所・使用者名義・連絡先を伝える", "電話・ファックス・インターネットで申込可能"], "actions": [{"label": "水道の使用開始・休止等", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/12278.html", "source": "湖西市上下水道課"}]},
+   {"id": "type-stop", "label": "使用休止", "heading": "水道の使用を休止する手続き", "bullets": ["退去・引っ越し時に必ず連絡する", "連絡がないと基本料金が発生し続ける", "休止日・転居先・連絡先を伝える"], "actions": [{"label": "お引越しや名義変更等の各種届出方法(上下水道)", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/suidousiyoushashoyuusha/1958.html", "source": "湖西市上下水道課"}]},
+   {"id": "type-bundle", "label": "一括申込サービス", "heading": "電気・ガスとまとめて申込む", "bullets": ["中部電力ミライズ等の引っ越し一括サービスを利用できる場合がある", "個別に連絡する手間を減らせる", "対応可否は事前に確認しておくと安心"], "actions": [{"label": "お引越しや名義変更等の各種届出方法(上下水道)", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/suidousiyoushashoyuusha/1958.html", "source": "湖西市上下水道課"}]},
+   {"id": "type-emergency", "label": "緊急時の連絡", "heading": "時間外・休日の緊急連絡先を確認する", "bullets": ["漏水など緊急時は専用の緊急連絡先がある", "平日夜間・土日祝日も対応窓口がある", "料金の相談とは別窓口の場合がある"], "actions": [{"label": "時間外及び土、日、祝日の緊急連絡先について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/suidousiyoushashoyuusha/2729.html", "source": "湖西市上下水道課"}]}
+  ],
+  "steps": {
+   "today": ["引っ越し予定日を確認し、2営業日前までに間に合うか確認する", "使用開始・休止それぞれに必要な情報（住所・名義等）を整理する"],
+   "this_week": ["お客さま料金センター（0532-26-7022）に電話・ファックス・ネットで申込む", "電気・ガスの契約も同時に進める"],
+   "outside": ["退去時は休止連絡を忘れずに行う", "漏水など緊急時の連絡先を控えておく"]
+  },
+  "action_grid": [
+   {"label": "お客さま料金センターに問い合わせる", "href": "tel:0532267022"},
+   {"label": "水道の使用開始・休止等のページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/12278.html"},
+   {"label": "緊急連絡先のページを見る", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/suidoka/1_1/suidousiyoushashoyuusha/2729.html"}
+  ]
+ }
+]
