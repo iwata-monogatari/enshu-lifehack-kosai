@@ -105,7 +105,11 @@
         "国の特別史跡に指定"
       ]
     ],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photo_archive": {
+      "url": "https://kosaialb.atawi.link/photos/ndl-arai-sekisho-1914/",
+      "label": "1914年刊の写真帖に残る新居関所跡"
+    }
   },
   {
     "slug": "arai-shuku",
@@ -206,7 +210,11 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photo_archive": {
+      "url": "https://kosaialb.atawi.link/photos/ndl-arai-1918/",
+      "label": "1918年刊の写真帖に残る新居の水辺"
+    }
   },
   {
     "slug": "kinokuniya",
@@ -463,7 +471,11 @@
         "宿場を坂上へ移転"
       ]
     ],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photo_archive": {
+      "url": "https://kosaialb.atawi.link/photos/ndl-shirasuka-1918/",
+      "label": "1918年刊の写真帖に残る白須賀の道"
+    }
   },
   {
     "slug": "shirasuka-culture",
@@ -742,7 +754,11 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photo_archive": {
+      "url": "https://kosaialb.atawi.link/photos/ndl-honkoji-1914/",
+      "label": "1914年刊の写真帖に残る本興寺の参道"
+    }
   },
   {
     "slug": "ogaji-hashimoto",
@@ -935,7 +951,11 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photo_archive": {
+      "url": "https://kosaialb.atawi.link/photos/myoryuji-1933/",
+      "label": "1933年刊の写真帖に残る妙立寺の本堂"
+    }
   },
   {
     "slug": "ochiba-haiji",
@@ -2426,6 +2446,10 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photo_archive": {
+      "url": "https://kosaialb.atawi.link/photos/shinjohara-1989/",
+      "label": "1989年の新所原駅"
+    }
   }
 ]
