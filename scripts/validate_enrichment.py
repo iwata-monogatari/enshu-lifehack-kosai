@@ -54,6 +54,8 @@ if len(districts)!=len(set(districts)):problems.append('Duplicate care district'
 if next(c for c in centers if '神座' in c['districts'])['phone']!='053-573-2050':problems.append('Wrong 神座 center')
 if next(c for c in centers if '岡崎' in c['districts'])['phone']!='053-577-5455':problems.append('Wrong 岡崎 center')
 directory=load('kosai-directory.json')['items']
+library_matches=[el for el in soups['/kosai-directory/'].select('[data-filter-item]') if '図書館' in el['data-search']]
+if len(library_matches)!=2:problems.append('Library keyword includes unrelated cultural facilities')
 for f in directory:
  if not f['sources'] or not f['checked_at']:problems.append('Facility source/date missing: '+f['name'])
 gym=next(f for f in directory if '勤労者' in f['name'])

@@ -105,7 +105,8 @@ def build_questions():
 def build_directory():
  body='<p>'+e(DIRECTORY['scope'])+'</p><p class="confirmed">掲載項目の照合日：'+e(DIRECTORY['checked_at'])+'。電話は施設の一般窓口の場合があり、個別手続きの担当番号とは異なります。</p><p>年末年始は通常の休館日と異なります。<a href="https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/7539.html" target="_blank" rel="noopener">市公式の2026〜2027年末年始業務表</a>もあわせて確認してください。</p><div data-filter-list data-page-size="18">'+search_controls('directory','施設名・地区・目的','例：新居、図書館、テニス、介護',sorted({f['category'] for f in DIRECTORY['items']}))+'<div class="directory-grid">'
  for f in DIRECTORY['items']:
-  info=' '.join([f['name'],f['address'],f['category'],*f['details']]);phone=re.search(r'0\d{2,3}-\d{2,3}-\d{4}',f['phone'])
+  # The broad official category also contains museums: "図書館" must not match all of them.
+  info=' '.join([f['name'],f['address'],f['category'].replace('文化・図書館','文化'),*f['details']]);phone=re.search(r'0\d{2,3}-\d{2,3}-\d{4}',f['phone'])
   body+=f'<article id="{f["id"]}" class="facility-card" data-filter-item data-category="{e(f["category"])}" data-search="{e(info)}"><p class="eyebrow">{e(f["category"])}</p><h2>{e(f["name"])}</h2><p class="facility-address">{e(f["address"])}</p>'
   if phone:body+=f'<p><a class="phone-link" href="tel:{phone[0].replace("-","")}">{e(f["phone"])}</a></p>'
   else:body+='<p class="mini">個別の連絡先は公式案内をご確認ください。</p>'
