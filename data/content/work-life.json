@@ -7,7 +7,7 @@
    {"icon":"🏧","title":"口座振替は静岡銀行・浜松磐田信用金庫・遠州信用金庫等に対応","body":"登録した金融機関口座から納期限日に自動的に引き落とされる方法です。各金融機関の窓口または郵送での申込みができます。"},
    {"icon":"📱","title":"スマホアプリ決済・eL-QRにも対応","body":"納付書に印刷されたQRコード（eL-QR）を使い、PayPay等のスマホアプリ決済やクレジットカード決済ができます。カード決済の手数料は納付者負担です。"},
    {"icon":"🏪","title":"コンビニ・金融機関窓口でも納付可能","body":"市県民税（普通徴収分）・固定資産税・都市計画税・軽自動車税・国民健康保険税は、セブン-イレブン、ローソン、ファミリーマート等のコンビニで現金納付できます。"},
-   {"icon":"📅","title":"税目ごとに納期限が異なる","body":"軽自動車税の納期限は5月31日、その他の税目は年度ごとに納期限一覧（PDF）が公開されます。複数の税目をまとめて納付することも可能です。"}
+   {"icon":"📅","title":"税目ごとに納期限が異なる","body":"2026年度の軽自動車税の納期限は6月1日でした。その他の税目も年度ごとの納期限一覧（PDF）で確認してください。複数の税目をまとめて納付することも可能です。"}
   ],
   "qa": [
    {"question":"どの納付方法が一番手間がかかりませんか。","answer":"納め忘れを防ぎたい場合は口座振替がおすすめです。登録金融機関から自動的に引き落とされます。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/6/1362.html\" target=\"_blank\" rel=\"noopener\">湖西市公式サイト（税金の納め方について）</a>をご覧ください。"},
@@ -67,7 +67,7 @@
    {"icon":"🎓","title":"浜松技術専門校（浜松テクノカレッジ）","body":"静岡県立の職業訓練校で、機械加工・溶接・電気工事・造園等のコースがあり、転職を見据えたスキルアップにも利用できます。"}
   ],
   "qa": [
-   {"question":"湖西市には独自の就職支援サービスがありますか。","answer":"再就職・転職個別相談会が市主催で開催されています。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/1/4/1264.html\" target=\"_blank\" rel=\"noopener\">湖西市公式サイト（再就職・転職個別相談会）</a>でご確認ください。"},
+   {"question":"湖西市には独自の就職支援サービスがありますか。","answer":"再就職・転職個別相談会が市主催で開催されています。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/jinnzaikakuhosyuurousienn/saiyousyuurousienn/syuurousienn/1263.html\" target=\"_blank\" rel=\"noopener\">就労に関する相談窓口</a>でご確認ください。"},
    {"question":"しずおかジョブステーションとは何ですか。","answer":"静岡県の就職支援窓口で、市内で毎月出張相談会が開催されています。求人紹介やキャリア相談を無料で受けられます。"},
    {"question":"若年層向けの支援はありますか。","answer":"浜松わかものハローワークが就職活動の進め方セミナー等のイベントを実施しています。"},
    {"question":"労働問題（解雇や配置転換など）の相談はどこにできますか。","answer":"浜松労働基準監督署総合労働相談コーナー（電話053-541-7488）や、静岡県西部県民生活センターの労働相談専用ダイヤル（0120-9-39610）が利用できます。"},
@@ -78,9 +78,9 @@
    {"id":"type-soudan","label":"個別に相談したい","heading":"じっくり相談しながら転職先を探したい方","bullets":["市主催の再就職・転職個別相談会が利用できます","しずおかジョブステーションの出張相談も毎月開催されています","経験豊富な相談員が個別に対応します"],
     "actions":[{"label":"産業振興課へ電話","href":"tel:053-576-1215","source":"湖西市産業振興課産業活性化係"}]},
    {"id":"type-wakamono","label":"若年層で転職・就職したい","heading":"20代・30代で就職活動を進めたい方","bullets":["浜松わかものハローワークのセミナーが利用できます","就職活動の進め方など実践的な内容です","市内での開催イベントもあります"],
-    "actions":[{"label":"労働に関する関係機関ページを見る","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/1/4/1264.html","source":"湖西市公式サイト"}]},
+    "actions":[{"label":"就労に関する相談窓口","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/jinnzaikakuhosyuurousienn/saiyousyuurousienn/syuurousienn/1263.html","source":"湖西市公式サイト"}]},
    {"id":"type-training","label":"スキルアップしてから転職したい","heading":"職業訓練を受けたい方","bullets":["浜松技術専門校（浜松テクノカレッジ）が利用できます","機械加工・溶接・電気工事・造園等のコースがあります","在職者向けのスキルアップ講座もあります"],
-    "actions":[{"label":"浜松技術専門校ページを見る","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/1/4/2/16002.html","source":"湖西市公式サイト"}]},
+    "actions":[{"label":"湖西市の就労支援・関連機関案内","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/jinnzaikakuhosyuurousienn/saiyousyuurousienn/syuurousienn/index.html","source":"湖西市公式サイト"}]},
    {"id":"type-roudou","label":"労働問題を相談したい","heading":"解雇・配置転換等でトラブルを抱えている方","bullets":["浜松労働基準監督署総合労働相談コーナーが利用できます","静岡県西部県民生活センターの労働相談専用ダイヤルもあります","ライフサポートセンター西部事務所でも相談できます"],
     "actions":[{"label":"浜松労働基準監督署へ電話","href":"tel:053-541-7488","source":"浜松労働基準監督署総合労働相談コーナー"}]}
   ],
@@ -90,8 +90,8 @@
    "outside": ["応募・面接を進める","必要に応じて職業訓練の受講を検討する"]
   },
   "action_grid": [
-   {"label":"労働に関する関係機関（公式ページ）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/1/4/1264.html"},
-   {"label":"再就職・転職個別相談会","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/1/4/1264.html"},
+   {"label":"就労に関する相談窓口","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/jinnzaikakuhosyuurousienn/saiyousyuurousienn/syuurousienn/1263.html"},
+   {"label":"就労に関する相談窓口","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/jinnzaikakuhosyuurousienn/saiyousyuurousienn/syuurousienn/1263.html"},
    {"label":"産業振興課へ電話","href":"tel:053-576-1215"}
   ]
  },
@@ -136,7 +136,7 @@
  },
  {
   "href": "/life/work-life/light-vehicle-tax/",
-  "lead": "湖西市の軽自動車税は、原動機付自転車・小型特殊自動車は市役所税務課、軽自動車（四輪・三輪）は軽自動車検査協会、軽二輪車は運輸支局が申告・登録の窓口となり、車両の種類によって手続き先が異なります。納期限は5月31日です。",
+  "lead": "湖西市の軽自動車税は、原動機付自転車・小型特殊自動車は市役所税務課、軽自動車（四輪・三輪）は軽自動車検査協会、軽二輪車は運輸支局が申告・登録の窓口となり、車両の種類によって手続き先が異なります。2026年度の納期限は6月1日でした。翌年度以降は各年度の納期限一覧で確認してください。",
   "note": "廃車や住所変更の届出をしないままにしておくと、使っていない車両にも課税され続けます。乗らなくなった原付・小型特殊自動車は早めに廃車の届出をしましょう。",
   "real_cards": [
    {"icon":"🛵","title":"原付・小型特殊自動車は市役所税務課で手続き","body":"原動機付自転車や小型特殊自動車の新規登録・廃車は市役所税務課で手続きします。標識（ナンバープレート）もその場で交付されます。"},
@@ -148,7 +148,7 @@
    {"question":"原付を廃車したいのですが、どこで手続きしますか。","answer":"原動機付自転車・小型特殊自動車は市役所税務課で廃車の届出ができます。標識（ナンバープレート）を返納してください。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/keijidoshazei/index.html\" target=\"_blank\" rel=\"noopener\">湖西市公式サイト（軽自動車税）</a>をご覧ください。"},
    {"question":"軽自動車（四輪）の廃車手続きも市役所でできますか。","answer":"できません。660cc以下の軽自動車（四輪・三輪）は軽自動車検査協会が窓口です。"},
    {"question":"税額はいくらですか。","answer":"車種・区分により異なります。原付第一種は2,000円、三輪以上の軽自動車は初度検査年月により3,100円〜12,900円が目安です。"},
-   {"question":"納期はいつですか。","answer":"軽自動車税（種別割）の納期限は5月31日です（土日にあたる場合は翌開庁日）。毎年4月1日時点の所有者に課税されます。"},
+   {"question":"納期はいつですか。","answer":"2026年度の軽自動車税（種別割）の納期限は6月1日でした。年度ごとの納期限を確認してください。毎年4月1日時点の所有者に課税されます。"},
    {"question":"車検用の納税証明書はどこで取れますか。","answer":"税務課窓口のほか、マイナンバーカードを使ったオンライン郵送申請でも24時間365日申請できます（普通郵便は無料、速達は300円）。"},
    {"question":"問い合わせ先はどこですか。","answer":"湖西市税務課収納係、電話053-576-4536です。軽自動車・軽二輪車は上記の外部機関が窓口となります。"}
   ],
@@ -165,7 +165,7 @@
   "steps": {
    "today": ["所有する車両の種類（原付・軽自動車・軽二輪車）を確認する","納税通知書で税額・納期を確認する"],
    "this_week": ["廃車や住所変更が必要な場合は該当窓口に連絡する","車検予定がある場合は納税証明書の要否を確認する"],
-   "outside": ["納期限（5月31日）までに納付する","車両を手放した際は速やかに廃車手続きを行う"]
+   "outside": ["納税通知書と当該年度の納期限一覧で期限を確認して納付する","車両を手放した際は速やかに廃車手続きを行う"]
   },
   "action_grid": [
    {"label":"軽自動車税（公式ページ）","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/zeikin/keijidoshazei/index.html"},
@@ -282,7 +282,7 @@
   "steps": {
    "today": ["退職日・扶養状況・次の勤務先の有無を整理する","健康保険資格喪失証明書や離職票の有無を確認する"],
    "this_week": ["保険年金課国保年金係(053-576-4585)で加入・脱退の手続きを行う","国民年金の種別変更の要否を確認する"],
-   "outside": ["国民健康保険証・年金の納付書を確認する","収入減少がある場合は保険税・保険料の軽減を相談する"]
+   "outside": ["マイナ保険証または資格確認書・年金の納付書を確認する","収入減少がある場合は保険税・保険料の軽減を相談する"]
   },
   "action_grid": [
    {"label":"国民年金（公式ページ）","href":"https://www.city.kosai.shizuoka.jp/kurashi_tetsuzuki/nenkin_hoken/kokuminnenkin/index.html"},
@@ -341,7 +341,7 @@
   ],
   "qa": [
    {"question":"起業の相談はまずどこにすればいいですか。","answer":"湖西市産業振興課産業活性化係（電話053-576-1215）にご相談ください。夜間相談や創業スクールなど、状況に応じた支援メニューを案内してもらえます。"},
-   {"question":"特定創業支援等事業とはどんな制度ですか。","answer":"経営・財務・人材育成・販路開拓について1か月以上の期間に4回以上のアドバイスを受けたことが認められると、市の認定により創業関連保証の拡大や登録免許税の軽減等の優遇措置を受けられる制度です。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/kigyoshien_yuchi/kigyoshien/index.html\" target=\"_blank\" rel=\"noopener\">湖西市公式サイト（特定創業支援等事業のご案内）</a>をご覧ください。"},
+   {"question":"特定創業支援等事業とはどんな制度ですか。","answer":"経営・財務・人材育成・販路開拓について1か月以上の期間に4回以上のアドバイスを受けたことが認められると、市の認定により創業関連保証の拡大や登録免許税の軽減等の優遇措置を受けられる制度です。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/shokoroseikakari/sougyousienn/soudan/2098.html\" target=\"_blank\" rel=\"noopener\">創業を応援！湖西市特定創業支援等事業のご案内</a>をご覧ください。"},
    {"question":"夜間相談はどんな内容ですか。","answer":"毎月第3木曜日に開催される、創業や経営の悩みを相談できる無料相談です。日中忙しい方でも利用しやすい時間帯に設定されています。"},
    {"question":"空き店舗を活用して開業したいのですが、補助金はありますか。","answer":"湖西市ビジネスチャレンジ支援補助金（空き店舗等利活用出店事業）が利用できる場合があります。対象要件や補助額は産業振興課にご確認ください。"},
    {"question":"開業資金の融資に関する支援はありますか。","answer":"湖西市開業パワーアップ支援資金利子補給制度があり、静岡県の制度融資を利用した際の利子の一部が補助される場合があります。"},
@@ -351,7 +351,7 @@
    {"id":"type-soudan","label":"まず相談したい","heading":"起業のアイデアを相談したい方","bullets":["産業振興課産業活性化係が最初の相談先です","毎月第3木曜日の夜間相談も利用できます","事業内容に応じて支援策を紹介してもらえます"],
     "actions":[{"label":"産業振興課へ電話","href":"tel:053-576-1215","source":"湖西市産業振興課産業活性化係"}]},
    {"id":"type-ninnttei","label":"創業の認定制度を活用したい","heading":"優遇措置を受けたい方","bullets":["特定創業支援等事業の認定を受けられます","4回以上のアドバイスを受けることが条件です","認定により創業関連保証の拡大等が受けられます"],
-    "actions":[{"label":"特定創業支援等事業のご案内を見る","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/kigyoshien_yuchi/kigyoshien/index.html","source":"湖西市公式サイト"}]},
+    "actions":[{"label":"創業を応援！湖西市特定創業支援等事業のご案内","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/shokoroseikakari/sougyousienn/soudan/2098.html","source":"湖西市公式サイト"}]},
    {"id":"type-hojokin","label":"補助金を活用したい","heading":"開業資金の負担を軽減したい方","bullets":["空き店舗等利活用出店事業の補助があります","クラウドファンディング活用事業の補助もあります","開業パワーアップ支援資金利子補給制度も利用できます"],
     "actions":[{"label":"補助金一覧ページを見る","href":"https://www.city.kosai.shizuoka.jp/kigyoshokai/support/hojokin/index.html","source":"湖西市公式サイト"}]},
    {"id":"type-school","label":"体系的に学んでから起業したい","heading":"ビジネスプランをしっかり作りたい方","bullets":["創業スクールで財務・税務の基礎を学べます","全6回程度の講座構成です","事業計画書の作成支援も受けられます"],
@@ -364,7 +364,7 @@
   },
   "action_grid": [
    {"label":"創業支援（公式ページ）","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/shokoroseikakari/sougyousienn/index.html"},
-   {"label":"特定創業支援等事業のご案内","href":"https://www.city.kosai.shizuoka.jp/sangyo_shigoto/kigyoshien_yuchi/kigyoshien/index.html"},
+   {"label":"創業を応援！湖西市特定創業支援等事業のご案内","href":"https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/shokoroseikakari/sougyousienn/soudan/2098.html"},
    {"label":"産業振興課へ電話","href":"tel:053-576-1215"}
   ]
  },
@@ -487,7 +487,7 @@
  },
  {
   "href": "/life/work-life/tax-certificates/",
-  "lead": "湖西市の納税証明書・課税証明書は、マイナンバーカードを使ったコンビニ交付（住民票の写し等と同様に6時30分〜23時）のほか、税務課窓口・郵送・軽自動車税に関してはオンライン郵送申請でも取得できます。用途に応じた証明年度・様式を確認してから申請しましょう。",
+  "lead": "湖西市の税証明は種類によって取得方法が異なります。コンビニ交付の税証明は最新年度の市県民税所得・課税証明書で、納税証明書すべてが対象ではありません。税務課窓口・郵送や、対象証明書のオンライン郵送申請も確認してください。用途に応じた証明年度・様式を確認してから申請しましょう。",
   "note": "車検で使う軽自動車税納税証明書は、軽JNKS（軽自動車税納付確認システム）の導入により、車検の際に紙の証明書提示が不要になる場合があります。まずは車検業者に確認するとスムーズです。",
   "real_cards": [
    {"icon":"🏪","title":"コンビニ交付で市県民税所得・課税証明書を取得","body":"マイナンバーカードを使い、全国のコンビニのマルチコピー機で市県民税所得・課税証明書を取得できます。6時30分から23時まで利用可能です（システムメンテナンス時間を除く）。"},

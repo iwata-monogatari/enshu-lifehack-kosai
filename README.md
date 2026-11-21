@@ -27,7 +27,25 @@ favicon.svg
 
 本サイトは公式サイトのクロール・静的化ではなく、`data/topics_master.json` の中項目台帳をもとに、公式情報を1件ずつ調査した上でAIが執筆する「台帳駆動」の生成物である（掛川版・森町版と同じ方式）。
 
-## 免責
+## 最新情報の更新
+
+期限・休止・制度変更は `data/current-updates.json` に確認日、本文、公式出典、対象ページを記録します。既存本文の変更は `data/topics_master.json` と `data/content/` に反映してください。今回確認した案内の日付と、ページ全体の従来の確認日は区別しています。
+
+既存のcanonical・回遊・共通部品・計測を保持した更新手順：
+
+```sh
+python scripts/refresh_current_information.py
+node scripts/build-search-index.mjs
+python scripts/build_sitemap.py
+python scripts/inspect_all.py
+node scripts/test-search.mjs
+node scripts/check-synonyms.mjs
+python scripts/check_official_links.py
+```
+
+公開前後に実ブラウザーでPC・狭幅表示、最新情報から詳細への導線、出典リンクを確認します。終了した期限案内は次回更新時に整理し、未確認の全ページへ一律に確認日を付け替えないでください。
+
+## 免責事項
 
 本サイトは湖西市公式サイトではありません。最新・正確な情報は湖西市公式サイトをご確認ください。
 運営：富士ヶ丘サービス ／ 代表：大石浩之

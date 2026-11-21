@@ -373,7 +373,7 @@
    {"question": "転入したばかりで湖西市の集合注射日程が分かりません。", "answer": "環境課（053-576-4533）に問い合わせるか、公式サイトの案内ページを確認してください。日程が合わない場合は動物病院での個別接種も可能です。"}
   ],
   "tabs": [
-   {"id": "type-group", "label": "集合注射", "heading": "4月の集合注射を利用する", "bullets": ["毎年4月に市内を巡回", "会場・日程は年度ごとに公式サイトで案内", "当日その場で注射済票が交付されることが多い"], "actions": [{"label": "令和8年度狂犬病予防集合注射について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html", "source": "湖西市環境課"}]},
+   {"id": "type-group", "label": "集合注射", "heading": "4月の集合注射を利用する", "bullets": ["毎年4月に市内を巡回", "会場・日程は年度ごとに公式サイトで案内", "当日その場で注射済票が交付されることが多い"], "actions": [{"label": "飼い犬の手続き・狂犬病予防注射・飼い方について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html", "source": "湖西市環境課"}]},
    {"id": "type-clinic", "label": "動物病院で接種", "heading": "動物病院で個別に接種する", "bullets": ["集合注射の日程が合わない場合に便利", "市内外どちらの動物病院でも可", "接種証明書を環境課に提出する必要がある"], "actions": [{"label": "飼い犬の手続き・狂犬病予防注射・飼い方について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html", "source": "湖西市環境課"}]},
    {"id": "type-certificate", "label": "注射済票交付", "heading": "注射済票の交付を受ける", "bullets": ["手数料550円", "鑑札と同様に首輪へ装着する", "紛失時は環境課で再交付可能"], "actions": [{"label": "飼い犬の手続き・狂犬病予防注射・飼い方について", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html", "source": "湖西市環境課"}]},
    {"id": "type-event", "label": "動物愛護週間", "heading": "動物愛護週間などの関連情報も確認する", "bullets": ["9月20日～26日は動物愛護週間", "適正飼育に関する啓発イベントが行われる場合がある", "飼い方全般の相談も環境課で受け付けている"], "actions": [{"label": "9月20日～26日は動物愛護週間です。", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/12007.html", "source": "湖西市環境課"}]}

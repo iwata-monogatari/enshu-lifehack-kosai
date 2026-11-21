@@ -22,7 +22,7 @@ def load_parts():
     parts = {}
     for path in sorted(glob.glob(os.path.join(PARTS_DIR, "*.html"))):
         name = os.path.splitext(os.path.basename(path))[0]
-        with open(path, encoding="utf-8", newline="") as f:
+        with open(path, encoding="utf-8") as f:
             parts[name] = f.read().strip()
     return parts
 
@@ -43,7 +43,7 @@ def main():
     changed = []
     total_markers = {name: 0 for name in parts}
     for path, rel in target_files():
-        with open(path, encoding="utf-8", newline="") as f:
+        with open(path, encoding="utf-8") as f:
             html = f.read()
         new_html = html
         for name, content in parts.items():
@@ -51,11 +51,17 @@ def main():
                 r"<!-- PART:%s:START -->.*?<!-- PART:%s:END -->" % (re.escape(name), re.escape(name)),
                 re.S,
             )
+            # Older published pages already load this tracker after the footer
+            # marker. Preserve that placement instead of installing it twice.
+            outside = pattern.sub('', new_html)
+            for tracker in re.findall(r'<script\b[^>]*data-fujigaoka-analytics="true"[^>]*></script>', content):
+                if tracker in outside:
+                    content = content.replace(tracker, '')
             replacement = "<!-- PART:%s:START -->%s<!-- PART:%s:END -->" % (name, content, name)
             new_html, n = pattern.subn(lambda m: replacement, new_html)
             total_markers[name] += n
         if new_html != html:
-            with open(path, "w", encoding="utf-8", newline="") as f:
+            with open(path, "w", encoding="utf-8", newline="\n") as f:
                 f.write(new_html)
             changed.append(rel)
     for name in sorted(total_markers):

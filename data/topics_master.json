@@ -407,7 +407,7 @@
   "facts": {
    "window": "教育総務課",
    "tel": "053-576-4792",
-   "cost": "令和6年10月から市内公立中学校の給食費を市が全額負担。小学校分の負担状況は確認中（要確認）",
+   "cost": "2026年度は市立小学校・中学校の給食費を無償化。長期停止世帯への給付は別途条件あり",
    "allergy": "確認中（要確認）。個別対応の詳細は学校・教育総務課へ確認",
    "note": "PFI手法による新学校給食センター整備が進行中（令和6年11月事業契約締結）"
   },
@@ -501,8 +501,8 @@
   "status": "ai-checked",
   "sources_kosai": [
    {
-    "url": "https://www.lib.kosai.shizuoka.jp/annai/howto/",
-    "label": "各部屋貸出のご案内（湖西市立図書館）",
+    "url": "https://www.lib.kosai.shizuoka.jp/",
+    "label": "図書館公式のお知らせ・問い合わせ先（湖西市立図書館）",
     "confidence": "high"
    },
    {
@@ -2380,7 +2380,7 @@
    },
    {
     "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/yojikyoikuka/gyomuannai/1_2/16079.html",
-    "label": "令和8年度認可保育施設の新年度（4月）入園申込み（湖西市公式）",
+    "label": "令和9年度認可保育施設の新年度（4月）入園申込み（湖西市公式）",
     "confidence": "high"
    }
   ],
@@ -5249,8 +5249,8 @@
     "confidence": "high"
    },
    {
-    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshokan/gyomuannai/4/7753.html",
-    "label": "図書館大人向けイベント",
+    "url": "https://www.lib.kosai.shizuoka.jp/",
+    "label": "湖西市立図書館の最新のお知らせ",
     "confidence": "high"
    }
   ],
@@ -5396,7 +5396,7 @@
     "confidence": "high"
    },
    {
-    "url": "https://yoyacool.e-harp.jp/kosai",
+    "url": "https://yoyacool.e-harp.jp/kosai/FacilitySearch/Index",
     "label": "湖西市公共施設予約システム",
     "confidence": "high"
    },
@@ -5515,7 +5515,7 @@
     "confidence": "high"
    },
    {
-    "url": "https://yoyacool.e-harp.jp/kosai",
+    "url": "https://yoyacool.e-harp.jp/kosai/FacilitySearch/Index",
     "label": "湖西市公共施設予約システム",
     "confidence": "high"
    }
@@ -5574,7 +5574,7 @@
     "confidence": "high"
    },
    {
-    "url": "https://yoyacool.e-harp.jp/kosai",
+    "url": "https://yoyacool.e-harp.jp/kosai/FacilitySearch/Index",
     "label": "湖西市公共施設予約システム",
     "confidence": "high"
    }
@@ -5733,8 +5733,8 @@
     "confidence": "high"
    },
    {
-    "url": "https://www.lib.kosai.shizuoka.jp/annai/howto-2/",
-    "label": "湖西市立図書館 ご利用方法",
+    "url": "https://www.lib.kosai.shizuoka.jp/",
+    "label": "湖西市立図書館 お知らせ・問い合わせ先",
     "confidence": "high"
    },
    {
@@ -6049,7 +6049,7 @@
    },
    {
     "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kankyoka/gyomuannai/4/1147.html",
-    "label": "令和8年度狂犬病予防集合注射について",
+    "label": "飼い犬の手続き・狂犬病予防注射・飼い方について",
     "confidence": "high"
    },
    {
@@ -7078,8 +7078,8 @@
     "confidence": "high"
    },
    {
-    "url": "https://www.kokusen.go.jp/map/22/center3639.html",
-    "label": "湖西市消費生活相談室（国民生活センター）",
+    "url": "https://www.kokusen.go.jp/map/index.html",
+    "label": "全国の消費生活相談窓口一覧（国民生活センター）",
     "confidence": "high"
    }
   ],
@@ -7456,7 +7456,7 @@
   "sources_kosai": [
    {
     "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/nogyoiinkai/1_1/1418.html",
-    "label": "令和7年度 第1回 農振除外等 申出受付について",
+    "label": "農業委員会の窓口・農地手続き",
     "confidence": "high"
    },
    {
@@ -7887,8 +7887,8 @@
     "confidence": "high"
    },
    {
-    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/6/9621.html",
-    "label": "スマホアプリ決済サービスによる市税の納付について",
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/zeimuka/gyomuannai/6/12737.html",
+    "label": "eL-QRによる納付方法を確認する",
     "confidence": "high"
    }
   ],
@@ -7973,23 +7973,23 @@
   "status": "ai-checked",
   "sources_kosai": [
    {
-    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/1/4/1264.html",
-    "label": "再就職・転職個別相談会",
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/jinnzaikakuhosyuurousienn/saiyousyuurousienn/syuurousienn/1263.html",
+    "label": "就労に関する相談窓口",
     "confidence": "high"
    },
    {
-    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/1/4/1264.html",
-    "label": "労働に関する関係機関",
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/jinnzaikakuhosyuurousienn/saiyousyuurousienn/syuurousienn/1263.html",
+    "label": "就労に関する相談窓口",
     "confidence": "high"
    },
    {
-    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/1/4/2/syurouibento/13961.html",
-    "label": "しずおかジョブステーション出張相談会",
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/jinnzaikakuhosyuurousienn/saiyousyuurousienn/syuurousienn/index.html",
+    "label": "湖西市の就労相談・募集案内",
     "confidence": "high"
    },
    {
-    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/1/4/2/16002.html",
-    "label": "静岡県立浜松技術専門校（浜松テクノカレッジ）",
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/mono/jinnzaikakuhosyuurousienn/saiyousyuurousienn/syuurousienn/index.html",
+    "label": "湖西市の就労支援・関連機関案内",
     "confidence": "high"
    }
   ],
@@ -8107,7 +8107,7 @@
   "facts": {
    "window": "税務課 収納係",
    "tel": "053-576-4536",
-   "due": "5月31日",
+   "due": "2026年度は6月1日。年度ごとの公式納期限一覧を確認",
    "note": "原付・小型特殊は市役所、軽自動車(四輪等)は軽自動車検査協会、軽二輪は運輸支局が窓口"
   },
   "ai_checked_date": "2026-07-04",
@@ -8364,7 +8364,7 @@
     "confidence": "high"
    },
    {
-    "url": "https://www.city.kosai.shizuoka.jp/sangyo_shigoto/kigyoshien_yuchi/kigyoshien/index.html",
+    "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/sangyoshinkoka/shokoroseikakari/sougyousienn/soudan/2098.html",
     "label": "創業を応援！湖西市特定創業支援等事業のご案内",
     "confidence": "high"
    },

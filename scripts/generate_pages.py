@@ -70,6 +70,25 @@ def load_content_map():
     return content
 
 
+def current_updates_html(href):
+    """確認した変更だけを、元の本文全体の確認日と区別して表示する。"""
+    path = ROOT / 'data' / 'current-updates.json'
+    if not path.exists():
+        return ''
+    data = json.loads(path.read_text(encoding='utf-8'))
+    year, month, day = map(int, data['checked_at'].split('-'))
+    checked_label = f'{year}年{month}月{day}日'
+    items = [i for i in data['items'] if href in i['pages']]
+    if not items:
+        return ''
+    cards = []
+    for item in items:
+        paragraphs = ''.join(f'<p>{esc(p)}</p>' for p in item['paragraphs'])
+        links = ''.join(f'<a class="official-link" href="{esc(s["url"])}" target="_blank" rel="noopener">{esc(s["label"])}</a>' for s in item['sources'])
+        cards.append(f'<article class="current-update"><h3>{esc(item["title"])}</h3>{paragraphs}{links}</article>')
+    return f'<section class="current-updates" aria-label="更新した情報"><h2>{checked_label}に確認した変更・案内</h2><p class="mini">以下の項目を公式情報と照合しました。各制度の対象条件や受付状況は、リンク先でご確認ください。</p>{"".join(cards)}</section>'
+
+
 def real_cards_html(cards):
     if not cards:
         return ""
@@ -256,6 +275,7 @@ def render_page(item, city, category_items, content_map):
 <main><div class="wrap">
 {breadcrumb}
 <section class="hero"><div class="hero-visual"><h1>{esc(title)}</h1></div><div class="hero-body"><p class="lead">{lead}</p></div></section>
+{current_updates_html(item['href'])}
 {note_html}
 {rich_html}
 <h2 class="sec">公式窓口・確認先</h2><div class="official">{facts_html(item.get('facts'))}{sources_html(item.get('sources_kosai'), city_name)}</div>

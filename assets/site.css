@@ -282,3 +282,13 @@ body.hub.home .quick-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1
 @media(max-width:420px){
 body.home .quick-grid,body.home .search-row{grid-template-columns:1fr}
 }
+/* Dated official-information updates. Keep the existing category design. */
+.current-updates{margin:1.5rem 0;padding:clamp(1rem,3vw,1.75rem);border:1px solid #abc9dd;border-radius:14px;background:#f4faff;color:#193c53;overflow-wrap:anywhere}
+.current-updates h2{margin-top:0;font-size:1.35rem;line-height:1.5}
+.current-updates-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.current-update{min-width:0;padding:1rem;background:#fff;border:1px solid #d3e1eb;border-radius:10px;margin:.8rem 0}
+.current-update h3{font-size:1.06rem;line-height:1.6;margin:0 0 .6rem}
+.current-update p{font-size:1rem;line-height:1.8;margin:.6rem 0}
+.current-update a{color:#135777;text-decoration:underline;text-underline-offset:3px}
+.current-update .official-link{font-size:1rem;white-space:normal}
+@media(max-width:640px){.current-updates-grid{grid-template-columns:1fr}.current-updates{padding:1rem}.current-update{padding:.9rem}}

@@ -41,11 +41,11 @@
   "steps": {
    "today": ["候補地が市街化区域か調整区域かを都市計画課に電話で確認する", "利用できそうな補助金（定住促進奨励金等）の年齢・条件を確認する"],
    "this_week": ["都市計画課で開発許可の要否・必要書類を相談する", "建築士・工務店と設計内容・スケジュールを打ち合わせる"],
-   "outside": ["登記完了後6ヵ月以内に定住促進奨励金の申請を行う（該当する場合）", "着工前に建築確認申請の要否を建築士と確認する"]
+   "outside": ["定住促進奨励金は登記等から6か月以内かつ2026年12月28日17時15分までの最終期限を確認する", "着工前に建築確認申請の要否を建築士と確認する"]
   },
   "action_grid": [
    {"label": "都市計画課 開発指導係に問い合わせる", "href": "tel:0535761693"},
-   {"label": "湖西市開発行為等の手引きを見る", "href": "https://www.city.kosai.shizuoka.jp/material/files/group/26/kyokagaiyou202103.pdf"},
+   {"label": "開発行為と最新の手引きを確認する", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/toshikeikakuka/gyomuannai/4/1/2/1257.html"},
    {"label": "定住促進奨励金の詳細を見る", "href": "https://www.city.kosai.shizuoka.jp/kosai_saiko/hojoseido/6391.html"}
   ]
  },
