@@ -1,0 +1,287 @@
+[
+  {
+    "href": "/hub/procedures/",
+    "title": "引っ越し・手続き",
+    "category": "暮らしの便利ガイド",
+    "icon": "🧾",
+    "synonyms": [],
+    "status": "published"
+  },
+  {
+    "href": "/hub/family/",
+    "title": "子育て・学校",
+    "category": "暮らしの便利ガイド",
+    "icon": "👶",
+    "synonyms": [],
+    "status": "published"
+  },
+  {
+    "href": "/hub/care/",
+    "title": "親・介護・健康",
+    "category": "暮らしの便利ガイド",
+    "icon": "👵",
+    "synonyms": [],
+    "status": "published"
+  },
+  {
+    "href": "/hub/property/",
+    "title": "住まい・相続",
+    "category": "暮らしの便利ガイド",
+    "icon": "🏠",
+    "synonyms": [],
+    "status": "published"
+  },
+  {
+    "href": "/hub/trouble/",
+    "title": "仕事・お金・困りごと",
+    "category": "暮らしの便利ガイド",
+    "icon": "🧩",
+    "synonyms": [],
+    "status": "published"
+  },
+  {
+    "href": "/hub/enjoy/",
+    "title": "遊ぶ・学ぶ・施設を使う",
+    "category": "暮らしの便利ガイド",
+    "icon": "🌳",
+    "synonyms": [],
+    "status": "published"
+  },
+  {
+    "href": "/guides/",
+    "title": "湖西の暮らしガイドを探す",
+    "category": "暮らしの便利ガイド",
+    "icon": "📖",
+    "synonyms": [
+      "手続き一覧",
+      "全記事",
+      "索引"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/checklist/",
+    "title": "暮らしの準備チェックリスト",
+    "category": "暮らしの便利ガイド",
+    "icon": "✅",
+    "synonyms": [
+      "持ち物",
+      "やること",
+      "準備"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/checklist/moving-in/",
+    "title": "湖西へ転入するとき：準備チェック",
+    "category": "暮らしの便利ガイド",
+    "icon": "✅",
+    "synonyms": [
+      "チェックリスト",
+      "持ち物",
+      "期限"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/checklist/moving-out/",
+    "title": "湖西から転出するとき：準備チェック",
+    "category": "暮らしの便利ガイド",
+    "icon": "✅",
+    "synonyms": [
+      "チェックリスト",
+      "持ち物",
+      "期限"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/checklist/marriage/",
+    "title": "結婚で名前・住所が変わるとき：準備チェック",
+    "category": "暮らしの便利ガイド",
+    "icon": "✅",
+    "synonyms": [
+      "チェックリスト",
+      "持ち物",
+      "期限"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/checklist/baby/",
+    "title": "妊娠・出産の準備：準備チェック",
+    "category": "暮らしの便利ガイド",
+    "icon": "✅",
+    "synonyms": [
+      "チェックリスト",
+      "持ち物",
+      "期限"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/checklist/retirement/",
+    "title": "退職・働き方が変わるとき：準備チェック",
+    "category": "暮らしの便利ガイド",
+    "icon": "✅",
+    "synonyms": [
+      "チェックリスト",
+      "持ち物",
+      "期限"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/checklist/care/",
+    "title": "親の介護が始まりそうなとき：準備チェック",
+    "category": "暮らしの便利ガイド",
+    "icon": "✅",
+    "synonyms": [
+      "チェックリスト",
+      "持ち物",
+      "期限"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/checklist/bereavement/",
+    "title": "身近な方が亡くなったとき：準備チェック",
+    "category": "暮らしの便利ガイド",
+    "icon": "✅",
+    "synonyms": [
+      "チェックリスト",
+      "持ち物",
+      "期限"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/checklist/inheritance/",
+    "title": "家・土地を相続したとき：準備チェック",
+    "category": "暮らしの便利ガイド",
+    "icon": "✅",
+    "synonyms": [
+      "チェックリスト",
+      "持ち物",
+      "期限"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/checklist/business/",
+    "title": "湖西で創業・開業するとき：準備チェック",
+    "category": "暮らしの便利ガイド",
+    "icon": "✅",
+    "synonyms": [
+      "チェックリスト",
+      "持ち物",
+      "期限"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/questions/",
+    "title": "質問から探す湖西の暮らし",
+    "category": "暮らしの便利ガイド",
+    "icon": "💬",
+    "synonyms": [
+      "よくある質問",
+      "Q&A",
+      "相談"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/kosai-directory/",
+    "title": "湖西の施設・窓口を探す",
+    "category": "暮らしの便利ガイド",
+    "icon": "📍",
+    "synonyms": [
+      "電話番号",
+      "住所",
+      "施設一覧",
+      "図書館",
+      "公園"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/tools/care-center/",
+    "title": "自治会から介護の相談先を探す",
+    "category": "暮らしの便利ガイド",
+    "icon": "☎️",
+    "synonyms": [
+      "地域包括支援センター",
+      "高齢者",
+      "神座",
+      "岡崎",
+      "介護相談"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/tools/",
+    "title": "湖西の暮らしに使えるツール",
+    "category": "暮らしの便利ガイド",
+    "icon": "🧰",
+    "synonyms": [],
+    "status": "published"
+  },
+  {
+    "href": "/emergency/",
+    "title": "急病・災害・緊急時の連絡先",
+    "category": "暮らしの便利ガイド",
+    "icon": "⚠️",
+    "synonyms": [
+      "119",
+      "110",
+      "救急",
+      "火災",
+      "避難"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/",
+    "title": "湖西の歴史・自然を訪ねる",
+    "category": "暮らしの便利ガイド",
+    "icon": "🌿",
+    "synonyms": [
+      "観光",
+      "新居関所",
+      "紀伊国屋",
+      "潮見坂",
+      "白須賀"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/for-visitors/",
+    "title": "湖西に出かける方へ",
+    "category": "暮らしの便利ガイド",
+    "icon": "🧳",
+    "synonyms": [],
+    "status": "published"
+  },
+  {
+    "href": "/for-parents/",
+    "title": "湖西に親・実家がある方へ",
+    "category": "暮らしの便利ガイド",
+    "icon": "🏡",
+    "synonyms": [],
+    "status": "published"
+  },
+  {
+    "href": "/for-moving/",
+    "title": "湖西で暮らすことを考える方へ",
+    "category": "暮らしの便利ガイド",
+    "icon": "🚚",
+    "synonyms": [
+      "移住",
+      "転居",
+      "定住",
+      "引っ越し"
+    ],
+    "status": "published"
+  }
+]

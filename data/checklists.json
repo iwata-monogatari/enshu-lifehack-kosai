@@ -1,0 +1,457 @@
+[
+  {
+    "id": "moving-in",
+    "title": "湖西へ転入するとき",
+    "lead": "住所だけでなく、水道・ごみ・子どもの手続きを一緒に整理します。",
+    "items": [
+      {
+        "id": "moving-in-1",
+        "when": "引っ越し前",
+        "text": "転出元で転出手続きの方法を確認",
+        "href": "/life/moving-out/move-out-notice/",
+        "tip": "転出証明書の要否はマイナンバーカードを使う手続きかどうかでも異なります。"
+      },
+      {
+        "id": "moving-in-2",
+        "when": "2営業日前まで",
+        "text": "新居の水道開始を連絡",
+        "href": "/life/start-living/water-start-stop-fees/",
+        "tip": "開始日・住所・使用者名・以前の住所・連絡先を準備。"
+      },
+      {
+        "id": "moving-in-3",
+        "when": "住み始めてから14日以内",
+        "text": "転入届とカードの住所変更を確認",
+        "href": "/life/start-living/moving-address-change/",
+        "tip": "実際に住み始めた日を確認。外国籍の方は在留カード等も確認します。"
+      },
+      {
+        "id": "moving-in-4",
+        "when": "必要な人",
+        "text": "国保・年金の加入先を確認",
+        "href": "/life/work-life/nhk-pension/",
+        "tip": "勤務先の健康保険に加入しているかで手続きが変わります。"
+      },
+      {
+        "id": "moving-in-5",
+        "when": "子どもがいる場合",
+        "text": "児童手当・医療費・学校・保育園を確認",
+        "href": "/life/family-grow/child-allowance-medical/",
+        "tip": "児童手当は転出予定日の翌日から15日以内の申請が原則。"
+      },
+      {
+        "id": "moving-in-6",
+        "when": "最初のごみ出し前",
+        "text": "住所に対応する収集カレンダーを用意",
+        "href": "/life/start-living/garbage-sorting-calendar/",
+        "tip": "地区・曜日・ごみ種別を確認します。"
+      },
+      {
+        "id": "moving-in-7",
+        "when": "生活を始めたら",
+        "text": "避難先と移動手段を家族で確認",
+        "href": "/life/emergency/evacuation-hazard-map/",
+        "tip": "ハザードマップと災害別の避難先を確認。"
+      }
+    ]
+  },
+  {
+    "id": "moving-out",
+    "title": "湖西から転出するとき",
+    "lead": "停止日と転出先での手続きを分け、請求や申請の行き違いを防ぎます。",
+    "items": [
+      {
+        "id": "moving-out-1",
+        "when": "引っ越し前",
+        "text": "転出届の方法と転出予定日を確認",
+        "href": "/life/moving-out/move-out-notice/",
+        "tip": "窓口・郵送・オンラインの条件を確認。"
+      },
+      {
+        "id": "moving-out-2",
+        "when": "2営業日前まで",
+        "text": "水道の中止日と精算先を連絡",
+        "href": "/life/moving-out/stop-water/",
+        "tip": "連絡しないと基本料金が発生します。"
+      },
+      {
+        "id": "moving-out-3",
+        "when": "早めに",
+        "text": "粗大ごみの処分方法・受付日を確認",
+        "href": "/life/moving-out/bulk-garbage-cleaning/",
+        "tip": "家電リサイクル対象品などは別ルートです。"
+      },
+      {
+        "id": "moving-out-4",
+        "when": "子どもがいる場合",
+        "text": "学校と園へそれぞれ転出を相談",
+        "href": "/life/moving-out/school-nursery-procedures/",
+        "tip": "在学証明・教科書給与証明、園の退園手続き等を確認。"
+      },
+      {
+        "id": "moving-out-5",
+        "when": "該当する人",
+        "text": "国保・介護・児童手当等の変更を確認",
+        "href": "/life/moving-out/moving-away/",
+        "tip": "市外へ出ると利用できなくなる受給者証等があります。"
+      },
+      {
+        "id": "moving-out-6",
+        "when": "犬と引っ越す場合",
+        "text": "犬の登録を転入先自治体へ相談",
+        "href": "/life/moving-out/dog-ownership-change/",
+        "tip": "鑑札・マイクロチップの登録状況を確認。"
+      },
+      {
+        "id": "moving-out-7",
+        "when": "転居後",
+        "text": "転入先で住所・保険・支援の申請",
+        "href": "/life/start-living/moving-address-change/",
+        "tip": "湖西側の転出手続きで全手続きが完了するわけではありません。"
+      }
+    ]
+  },
+  {
+    "id": "marriage",
+    "title": "結婚で名前・住所が変わるとき",
+    "lead": "婚姻届、住所変更、勤務先や金融機関の変更を分けて準備します。",
+    "items": [
+      {
+        "id": "marriage-1",
+        "when": "提出前",
+        "text": "婚姻届の記入内容・証人欄・本人確認を確認",
+        "href": "/life/family-grow/marriage/",
+        "tip": "外国籍・未成年等の個別事情は事前相談。時間外提出は後日補正が必要になることがあります。"
+      },
+      {
+        "id": "marriage-2",
+        "when": "同居・転居する場合",
+        "text": "住所変更届を別に確認",
+        "href": "/life/start-living/moving-address-change/",
+        "tip": "婚姻届だけでは住所は変わりません。"
+      },
+      {
+        "id": "marriage-3",
+        "when": "氏名変更後",
+        "text": "マイナンバーカード等の記載事項を変更",
+        "href": "/life/start-living/mynumber/",
+        "tip": "暗証番号と電子証明書の扱いも確認。"
+      },
+      {
+        "id": "marriage-4",
+        "when": "保険が変わる場合",
+        "text": "勤務先の扶養・健康保険・年金を確認",
+        "href": "/life/work-life/nhk-pension/",
+        "tip": "市役所と勤務先の手続きを切り分けます。"
+      },
+      {
+        "id": "marriage-5",
+        "when": "生活関連",
+        "text": "銀行・免許・契約名義・水道を確認",
+        "href": "/life/start-living/water-sewer/",
+        "tip": "各契約先で必要な証明書と本人確認書類を確認します。"
+      }
+    ]
+  },
+  {
+    "id": "baby",
+    "title": "妊娠・出産の準備",
+    "lead": "健診、出生届、手当、医療費、保育の相談を時期別に整理します。",
+    "items": [
+      {
+        "id": "baby-1",
+        "when": "妊娠がわかったら",
+        "text": "母子健康手帳・健診・相談の案内を確認",
+        "href": "/life/family-grow/pregnancy/",
+        "tip": "妊娠届と面談・給付の案内を確認。"
+      },
+      {
+        "id": "baby-2",
+        "when": "出産前",
+        "text": "出生届と各申請に必要な書類を用意",
+        "href": "/life/family-grow/childbirth/",
+        "tip": "出生届と児童手当・医療費助成は別申請です。"
+      },
+      {
+        "id": "baby-3",
+        "when": "出生の日を含め14日以内",
+        "text": "出生届を提出",
+        "href": "/life/family-grow/childbirth/",
+        "tip": "出生証明書一体の届書と母子健康手帳を準備。"
+      },
+      {
+        "id": "baby-4",
+        "when": "原則、出生翌日から15日以内",
+        "text": "児童手当を申請",
+        "href": "/life/family-grow/child-allowance/",
+        "tip": "公務員は勤務先へ。書類不足でも期限前に相談します。"
+      },
+      {
+        "id": "baby-5",
+        "when": "健康保険の資格取得後",
+        "text": "子ども医療費の受給者証を確認",
+        "href": "/life/family-grow/child-allowance-medical/",
+        "tip": "子どもの保険資格と必要な添付資料を確認。"
+      },
+      {
+        "id": "baby-6",
+        "when": "案内が届いたら",
+        "text": "乳幼児健診と予防接種を確認",
+        "href": "/life/family-grow/infant-health-check/",
+        "tip": "母子健康手帳と市の案内を保管します。"
+      },
+      {
+        "id": "baby-7",
+        "when": "復職を考える時期",
+        "text": "園の申込時期・保育必要性を確認",
+        "href": "/life/family-grow/nursery-childcare/",
+        "tip": "年度途中入園と翌年度4月入園では受付日程が異なります。"
+      }
+    ]
+  },
+  {
+    "id": "retirement",
+    "title": "退職・働き方が変わるとき",
+    "lead": "健康保険・年金・税金の手続きを別々に確認します。",
+    "items": [
+      {
+        "id": "retirement-1",
+        "when": "退職前",
+        "text": "退職日と健康保険の資格喪失日を確認",
+        "href": "/life/work-life/nhk-pension/",
+        "tip": "会社から受け取る資格喪失証明書等を確認。"
+      },
+      {
+        "id": "retirement-2",
+        "when": "退職前後",
+        "text": "次の健康保険を比較して決める",
+        "href": "/life/work-life/nhk-pension/",
+        "tip": "再就職先の保険・扶養・任意継続・国保は条件と期限が異なります。"
+      },
+      {
+        "id": "retirement-3",
+        "when": "必要な人",
+        "text": "年金の種別変更と免除相談を確認",
+        "href": "/life/work-life/nhk-pension/",
+        "tip": "配偶者の扶養も含めて確認。"
+      },
+      {
+        "id": "retirement-4",
+        "when": "納期限前",
+        "text": "国保税・住民税の納付と軽減を確認",
+        "href": "/life/work-life/national-health-insurance-tax/",
+        "tip": "非自発的失業の軽減は離職理由等の条件があります。"
+      },
+      {
+        "id": "retirement-5",
+        "when": "求職する場合",
+        "text": "雇用保険・職業相談を確認",
+        "href": "/life/work-life/job-change/",
+        "tip": "離職票・本人確認書類などはハローワークの案内で確認。"
+      },
+      {
+        "id": "retirement-6",
+        "when": "生活費が不足する場合",
+        "text": "家計・住まいの相談をする",
+        "href": "/life/troubles-consult/living-costs-trouble/",
+        "tip": "納付や家賃の遅れを放置せず、早い段階で相談します。"
+      }
+    ]
+  },
+  {
+    "id": "care",
+    "title": "親の介護が始まりそうなとき",
+    "lead": "日常の困りごとから相談・申請・利用費の確認へ進みます。",
+    "items": [
+      {
+        "id": "care-1",
+        "when": "最初に",
+        "text": "本人の希望と日常生活の困りごとを整理",
+        "href": "/life/parents-care/care-started/",
+        "tip": "食事・入浴・移動・服薬・家族の支援状況をメモ。"
+      },
+      {
+        "id": "care-2",
+        "when": "相談するとき",
+        "text": "自治会担当の地域包括支援センターを調べる",
+        "href": "/life/parents-care/community-support-center/",
+        "tip": "住所の地区名と自治会名は必ずしも同じではありません。"
+      },
+      {
+        "id": "care-3",
+        "when": "申請前",
+        "text": "保険証類・本人確認・主治医を確認",
+        "href": "/life/parents-care/care-certification-support-center/",
+        "tip": "必要な資格確認書類は高齢者福祉課へ確認。"
+      },
+      {
+        "id": "care-4",
+        "when": "申請後",
+        "text": "認定調査と主治医意見書の流れを確認",
+        "href": "/life/parents-care/care-certification-support-center/",
+        "tip": "普段できないことや見守りの必要性を具体的に伝えます。"
+      },
+      {
+        "id": "care-5",
+        "when": "結果が届いたら",
+        "text": "ケアプランとサービスの見積もりを確認",
+        "href": "/life/parents-care/long-term-care-insurance/",
+        "tip": "自己負担割合・支給限度額・保険外費用を分けて確認。"
+      },
+      {
+        "id": "care-6",
+        "when": "施設を検討するとき",
+        "text": "医療対応・食費・居住費・面会条件を比較",
+        "href": "/life/parents-care/find-nursing-home/",
+        "tip": "空室・受入条件は施設へ直接確認します。"
+      }
+    ]
+  },
+  {
+    "id": "bereavement",
+    "title": "身近な方が亡くなったとき",
+    "lead": "届出と葬送、その後の保険・年金・税・家の手続きを整理します。",
+    "items": [
+      {
+        "id": "bereavement-1",
+        "when": "まず",
+        "text": "死亡届・火葬許可の手順を確認",
+        "href": "/life/end-of-life/bereavement/",
+        "tip": "医師の死亡診断書等を受け取り、葬儀社と提出の役割を確認。"
+      },
+      {
+        "id": "bereavement-2",
+        "when": "窓口へ行く前",
+        "text": "おくやみ手続きの予約・必要書類を確認",
+        "href": "/life/end-of-life/bereavement-procedures/",
+        "tip": "持ち物は亡くなった方・手続きする方の状況で変わります。"
+      },
+      {
+        "id": "bereavement-3",
+        "when": "保険・年金",
+        "text": "保険資格や年金の届出を確認",
+        "href": "/life/end-of-life/pension-inheritance/",
+        "tip": "未支給年金等は受け取れる人や必要書類が異なります。"
+      },
+      {
+        "id": "bereavement-4",
+        "when": "税・財産",
+        "text": "納税通知先と相続登記を別々に確認",
+        "href": "/life/end-of-life/property-tax-inheritance/",
+        "tip": "市の代表者届出だけで所有権登記は変わりません。"
+      },
+      {
+        "id": "bereavement-5",
+        "when": "契約・生活",
+        "text": "水道・電気・金融機関等の連絡先を整理",
+        "href": "/life/end-of-life/after-death-procedures/",
+        "tip": "名義変更と解約のどちらが必要か確認。"
+      },
+      {
+        "id": "bereavement-6",
+        "when": "家が空く場合",
+        "text": "家の管理と郵便・防犯を確認",
+        "href": "/life/end-of-life/house-became-vacant/",
+        "tip": "売却・解体を急ぐ前に権利関係と家族の方針を確認します。"
+      }
+    ]
+  },
+  {
+    "id": "inheritance",
+    "title": "家・土地を相続したとき",
+    "lead": "登記、税、農地、管理、活用を別の手続きとして整理します。",
+    "items": [
+      {
+        "id": "inheritance-1",
+        "when": "資料を集める",
+        "text": "所在地・登記名義・納税通知書を確認",
+        "href": "/life/end-of-life/inherited-house/",
+        "tip": "固定資産税の書類と登記事項を照合。"
+      },
+      {
+        "id": "inheritance-2",
+        "when": "期限を確認",
+        "text": "相続登記の期限を法務局等へ確認",
+        "href": "/life/end-of-life/inheritance/",
+        "tip": "施行前の相続も対象。取得を知った時期により期限を確認します。"
+      },
+      {
+        "id": "inheritance-3",
+        "when": "話し合いが必要",
+        "text": "相続人・遺言・分割状況を整理",
+        "href": "/life/end-of-life/inheritance/",
+        "tip": "まとまらない場合は相続人申告登記等も専門家へ相談。"
+      },
+      {
+        "id": "inheritance-4",
+        "when": "税の連絡先",
+        "text": "現所有者・代表者に関する届出を確認",
+        "href": "/life/end-of-life/property-tax-inheritance/",
+        "tip": "登記申請とは別の市の手続きです。"
+      },
+      {
+        "id": "inheritance-5",
+        "when": "農地がある場合",
+        "text": "農業委員会への相続届出を確認",
+        "href": "/life/troubles-consult/farmland/inheritance/",
+        "tip": "土地の利用変更・売買・賃貸には別の手続きが必要です。"
+      },
+      {
+        "id": "inheritance-6",
+        "when": "管理と活用",
+        "text": "空き家の点検・空き家バンクを検討",
+        "href": "/life/housing/vacant-house/",
+        "tip": "登録は無料でも、売却・貸借の契約費用等は別に確認します。"
+      }
+    ]
+  },
+  {
+    "id": "business",
+    "title": "湖西で創業・開業するとき",
+    "lead": "物件や設備を契約する前に、許認可・資金・支援条件を確認します。",
+    "items": [
+      {
+        "id": "business-1",
+        "when": "構想段階",
+        "text": "商品・顧客・場所・資金を整理して相談",
+        "href": "/life/work-life/start-business/",
+        "tip": "創業相談で事業計画や資金調達の確認点を整理。"
+      },
+      {
+        "id": "business-2",
+        "when": "契約前",
+        "text": "補助制度の対象と申請時期を確認",
+        "href": "/life/work-life/subsidies/",
+        "tip": "採択前の契約・支出が対象外になる制度があります。"
+      },
+      {
+        "id": "business-3",
+        "when": "場所を決める前",
+        "text": "用途・建築・農地の条件を確認",
+        "href": "/life/housing/build-house/",
+        "tip": "農地を店舗・駐車場にする場合は別途確認。"
+      },
+      {
+        "id": "business-4",
+        "when": "営業前",
+        "text": "業種の許認可・届出先を確認",
+        "href": "/life/work-life/start-business/",
+        "tip": "飲食・福祉など業種により保健所等への手続きが必要です。"
+      },
+      {
+        "id": "business-5",
+        "when": "開業時",
+        "text": "税・社会保険・雇用の手続きを確認",
+        "href": "/life/work-life/tax/",
+        "tip": "税務署・年金事務所・労働関係機関など窓口を分けます。"
+      },
+      {
+        "id": "business-6",
+        "when": "開業後",
+        "text": "収支と支援制度の報告条件を管理",
+        "href": "/life/work-life/start-business/",
+        "tip": "補助金の交付決定・支払・実績報告を区別します。"
+      }
+    ]
+  }
+]

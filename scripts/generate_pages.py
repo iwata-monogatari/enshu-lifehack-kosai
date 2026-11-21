@@ -23,6 +23,8 @@ import argparse
 import json
 import re
 from pathlib import Path
+from enrichment_render import LABELS, practical_html, guide_navigation, add_toc
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 LEDGER = ROOT / "data" / "topics_master.json"
@@ -95,7 +97,7 @@ def real_cards_html(cards):
     parts = []
     for c in cards:
         parts.append(
-            f'<div class="card real-card"><h3>{esc(c.get("icon",""))} {esc(c.get("title",""))}</h3>'
+            f'<div class="card real-card"><h3><span aria-hidden="true">{esc(c.get("icon",""))}</span> {esc(c.get("title",""))}</h3>'
             f'<p>{esc(c.get("body",""))}</p></div>'
         )
     return f'<h2 class="sec">先に知っておきたいこと</h2><div class="grid">{"".join(parts)}</div>'
@@ -174,7 +176,7 @@ def facts_html(facts):
         return ""
     rows = []
     for k, v in facts.items():
-        rows.append(f"<p class=\"mini\"><b>{esc(k)}</b>：{esc(v)}</p>")
+        rows.append(f"<p class=\"mini\"><b>{esc(LABELS.get(k,k))}</b>：{esc(v)}</p>")
     return "".join(rows)
 
 
@@ -183,9 +185,11 @@ def sources_html(sources, city_name):
         return f"<p class=\"mini\">出典URL未確定（{esc(city_name)}公式サイトでの個別確認が必要）</p>"
     links = []
     for s in sources:
+        host = urlparse(s['url']).hostname or ''
+        publisher = f'{city_name}公式' if host == 'www.city.kosai.shizuoka.jp' else ('国・公的機関の案内' if host.endswith('.go.jp') else '関連機関の案内')
         links.append(
             f'<a class="official-link" href="{esc(s["url"])}" target="_blank" rel="noopener">'
-            f'{esc(s["label"])} <span>{esc(city_name)}公式</span></a>'
+            f'{esc(s["label"])} <span>{esc(publisher)}</span></a>'
         )
     return "".join(links)
 
@@ -234,14 +238,17 @@ def render_page(item, city, category_items, content_map):
     hub_href = min((i["href"] for i in category_items), key=len)
     is_hub = item["href"] == hub_href
     if is_hub:
-        breadcrumb = f'<p class="breadcrumb"><a href="/">{esc(site_name)}</a> ／ {esc(icon)} {esc(category)}</p>'
+        breadcrumb = f'<p class="breadcrumb"><a href="/">{esc(site_name)}</a> ／ <span aria-hidden="true">{esc(icon)}</span> {esc(category)}</p>'
     else:
         breadcrumb = (
             f'<p class="breadcrumb"><a href="/">{esc(site_name)}</a> ／ '
-            f'<a href="{esc(hub_href)}">{esc(icon)} {esc(category)}</a> ／ {esc(title)}</p>'
+            f'<a href="{esc(hub_href)}"><span aria-hidden="true">{esc(icon)}</span> {esc(category)}</a> ／ {esc(title)}</p>'
         )
 
     content = content_map.get(item["href"])
+    display_title = esc(title)
+    if icon and title.startswith(icon):
+        display_title = f'<span aria-hidden="true">{esc(icon)}</span>' + esc(title[len(icon):])
 
     if content and content.get("lead"):
         lead = esc(content["lead"])
@@ -274,8 +281,11 @@ def render_page(item, city, category_items, content_map):
 <!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">{esc(site_name)}は{esc(city_name)}公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END -->
 <main><div class="wrap">
 {breadcrumb}
-<section class="hero"><div class="hero-visual"><h1>{esc(title)}</h1></div><div class="hero-body"><p class="lead">{lead}</p></div></section>
+<section class="hero"><div class="hero-visual"><h1>{display_title}</h1></div><div class="hero-body"><p class="lead">{lead}</p></div></section>
+{guide_navigation()}
+<!-- LIFE:TOC -->
 {current_updates_html(item['href'])}
+{practical_html(item['href'])}
 {note_html}
 {rich_html}
 <h2 class="sec">公式窓口・確認先</h2><div class="official">{facts_html(item.get('facts'))}{sources_html(item.get('sources_kosai'), city_name)}</div>
@@ -286,7 +296,7 @@ def render_page(item, city, category_items, content_map):
 </div></main><!-- PART:footer:START --><!-- PART:footer:END -->
 </body></html>
 """
-    return html, verified
+    return add_toc(html), verified
 
 
 def main():

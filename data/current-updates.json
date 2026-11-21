@@ -442,6 +442,84 @@
       ],
       "home": true,
       "summary": "図書館ウェブサイトはサーバー障害中です。蔵書検索・予約は別のOPACへ進めます。利用案内は各館にお問い合わせください。"
+    },
+    {
+      "id": "ochiba-cleaning",
+      "title": "おちばの里親水公園：12月4日のトイレ等休止",
+      "pages": [
+        "/life/play-out/find-parks/",
+        "/life/play-out/kids-playgrounds/"
+      ],
+      "summary": "12月4日は清掃終了予定の16時頃まで、トイレ・手洗い場等が使えません。",
+      "paragraphs": [
+        "2026年12月4日（金）は貯水槽・トイレ清掃のため、作業終了予定の16時頃まで公園内のトイレ・手洗い場等を使用できません。",
+        "同公園のバーベキュー・キャンプは2024年3月末で終了しています。"
+      ],
+      "sources": [
+        {
+          "label": "おちばの里親水公園",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3564.html"
+        }
+      ],
+      "home": true
+    },
+    {
+      "id": "arai-exhibition",
+      "title": "新居関所：開催中と次回の企画展",
+      "pages": [
+        "/life/play-out/cultural-facilities/"
+      ],
+      "summary": "「古記録からたどる新居の歴史」は11月23日まで。次回展は11月28日から。",
+      "paragraphs": [
+        "2026年11月23日（月・祝）まで「古記録からたどる新居の歴史」を開催。11月28日（土）〜12月25日（金）は「写真でみる新居の近現代」を開催予定です。",
+        "開館9:00〜16:30。月曜休館（開催中の11月23日は祝日のため開館）。大人400円、小中学生150円。紀伊国屋との共通券は大人500円、小中学生200円。"
+      ],
+      "sources": [
+        {
+          "label": "新居関所史料館企画展情報",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/araisekiato/11459.html"
+        }
+      ],
+      "home": true
+    },
+    {
+      "id": "pool-yearend",
+      "title": "アメニティプラザ：年末年始のプール休止",
+      "pages": [
+        "/life/play-out/swimming-pools/",
+        "/life/play-out/sports-facilities/"
+      ],
+      "summary": "プールは2026年12月21日〜2027年1月5日、清掃・点検のため休止。",
+      "paragraphs": [
+        "市の2026〜2027年末年始業務案内では、プール施設は清掃・点検のため2026年12月21日（月）〜2027年1月5日（火）休止とされています。施設内の他設備の営業日とは区別して確認してください。"
+      ],
+      "sources": [
+        {
+          "label": "年末年始の業務案内",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/7539.html"
+        }
+      ],
+      "home": true
+    },
+    {
+      "id": "arai-gym-website",
+      "title": "新居体育館：独自サイト停止中の確認先",
+      "pages": [
+        "/life/play-out/sports-facilities/",
+        "/life/play-out/rent-public-facilities/"
+      ],
+      "summary": "市公式の施設ページと予約システム、電話で利用情報を確認できます。",
+      "paragraphs": [
+        "市の新居体育館案内には、施設独自ウェブサイトを安全性確認のため公開停止し、再開時期は未定と記載されています。ウェブサイトの停止を体育館の休館と混同しないでください。",
+        "利用情報は市公式ページ、公共施設予約システム、新居体育館053-594-3911で確認できます。"
+      ],
+      "sources": [
+        {
+          "label": "湖西市新居体育館、弓道場、庭球場",
+          "url": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/4454.html"
+        }
+      ],
+      "home": true
     }
   ]
 }

@@ -1,0 +1,977 @@
+{
+  "checked_at": "2026-11-21",
+  "scope": "市の官公署・文化施設・スポーツ施設一覧と、公開の観光・施設案内、地域包括支援センターを照合した一覧。湖西市内の全事業者・全施設を網羅するものではありません。所在地・電話の確認と、時間・料金等の確認は掲載項目ごとに区別しています。",
+  "items": [
+    {
+      "name": "湖西市役所",
+      "phone": "053-576-1111",
+      "address": "湖西市吉美3268",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-1",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "新居支所",
+      "phone": "053-594-1111",
+      "address": "湖西市新居町浜名519-1",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-2",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "湖西市健康福祉センター(おぼと)",
+      "phone": "053-576-4794",
+      "address": "湖西市古見1044",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-3",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "西部市民サービスセンター",
+      "phone": "053-573-0040",
+      "address": "湖西市駅南2-4-1",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-4",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        },
+        {
+          "label": "西部市民サービスセンター",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3262.html"
+        }
+      ],
+      "details": [
+        "平日8:30〜17:15。証明書・印鑑登録等を取り扱います。住所変更、出生・婚姻・死亡届、旅券、マイナンバー、戸籍の広域交付は取り扱いません。",
+        "2027年2月1日からの窓口受付時間変更は、手続きページの最新案内も確認してください。"
+      ]
+    },
+    {
+      "name": "子育て支援センター",
+      "phone": "053-594-5922",
+      "address": "湖西市新居町浜名485",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-5",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "湖西市はつらつセンター",
+      "phone": "053-578-1118",
+      "address": "湖西市入出1801",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-6",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        },
+        {
+          "label": "はつらつセンター",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3264.html"
+        }
+      ],
+      "details": [
+        "開館9:00〜17:30、利用可能時間9:00〜21:30。月曜、12月29日〜1月3日休館。",
+        "公共的団体、福祉・ボランティア・地域づくりの活動団体等が対象。利用目的と減免の可否を施設へ確認。"
+      ]
+    },
+    {
+      "name": "老人福祉センター",
+      "phone": "053-594-5554",
+      "address": "湖西市新居町浜名643-1",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-7",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        },
+        {
+          "label": "老人福祉センター",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3339.html"
+        }
+      ],
+      "details": [
+        "9:00〜16:30。土日祝・12月28日〜1月4日休館。",
+        "湖西市に住所がある60歳以上の人は無料。市外の人・60歳未満の人は有料で利用可能。"
+      ]
+    },
+    {
+      "name": "湖西市環境センター",
+      "phone": "053-577-1280",
+      "address": "湖西市吉美3294-47",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-8",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "湖西浄化センター",
+      "phone": "053-574-2211",
+      "address": "湖西市吉美950-28",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-9",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "新居浄化センター(リュミエール新居)",
+      "phone": "053-574-2211",
+      "address": "湖西市新居町浜名2800",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-10",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "湖西市笠子廃棄物処分場",
+      "phone": "053-579-1175",
+      "address": "湖西市白須賀3985-1961",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-11",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "湖西市営火葬場",
+      "phone": "053-578-2328",
+      "address": "湖西市入出1537",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-12",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "新居斎場(やすらぎ苑)",
+      "phone": "053-594-8900",
+      "address": "湖西市新居町中之郷1138-1",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-13",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "湖西地域職業訓練センター",
+      "phone": "053-576-1490",
+      "address": "湖西市吉美2918-1",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-14",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "湖西市消防本部",
+      "phone": "053-574-0211",
+      "address": "湖西市古見1076",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-15",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "湖西市消防署",
+      "phone": "053-574-0213",
+      "address": "湖西市古見1076",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-16",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "湖西市消防署西分署",
+      "phone": "053-573-0119",
+      "address": "湖西市岡崎821-1",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-17",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "湖西市消防署南分署",
+      "phone": "053-595-0119",
+      "address": "湖西市新居町浜名657",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-18",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "市立湖西病院",
+      "phone": "053-576-1231",
+      "address": "湖西市鷲津2259-1",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-19",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "湖西市訪問看護ステーション",
+      "phone": "053-574-2940",
+      "address": "湖西市古見1044",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-20",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "衛生プラント",
+      "phone": "053-579-0135",
+      "address": "湖西市白須賀3465",
+      "category": "行政・福祉・生活",
+      "checked_at": "2026-11-21",
+      "id": "facility-21",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3321.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "中央図書館",
+      "phone": "053-576-4351",
+      "address": "湖西市吉美3219-1",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-22",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        },
+        {
+          "url": "https://www.lib.kosai.shizuoka.jp/",
+          "label": "図書館公式：サーバー障害のお知らせ・問い合わせ先"
+        },
+        {
+          "url": "https://www.iw.licsre-saas.jp/kosai/webopac/index.do",
+          "label": "図書館公式：蔵書検索・予約システム（OPAC）"
+        }
+      ],
+      "details": [
+        "2026年11月21日確認時点で図書館ウェブサイトはサーバー障害中。蔵書検索・予約は別のOPACで利用できます。開館・利用案内は各館へお問い合わせください。"
+      ]
+    },
+    {
+      "name": "新居図書館",
+      "phone": "053-594-3155",
+      "address": "新居町新居250-5",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-23",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        },
+        {
+          "url": "https://www.lib.kosai.shizuoka.jp/",
+          "label": "図書館公式：サーバー障害のお知らせ・問い合わせ先"
+        },
+        {
+          "url": "https://www.iw.licsre-saas.jp/kosai/webopac/index.do",
+          "label": "図書館公式：蔵書検索・予約システム（OPAC）"
+        }
+      ],
+      "details": [
+        "2026年11月21日確認時点で図書館ウェブサイトはサーバー障害中。蔵書検索・予約は別のOPACで利用できます。開館・利用案内は各館へお問い合わせください。"
+      ]
+    },
+    {
+      "name": "西部地域センター",
+      "phone": "053-577-2867",
+      "address": "湖西市駅南2-4-1",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-24",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "北部多目的センター",
+      "phone": "053-578-0760",
+      "address": "湖西市太田458-1",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-25",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "南部地区構造改善センター",
+      "phone": "053-579-2516",
+      "address": "湖西市白須賀5128",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-26",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "新居地域センター",
+      "phone": "053-594-8118",
+      "address": "湖西市新居町浜名519-1",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-27",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "白須賀宿歴史拠点施設（おんやど白須賀）",
+      "phone": "053-579-1777",
+      "address": "湖西市白須賀900",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-28",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        },
+        {
+          "label": "おんやど白須賀（白須賀宿歴史拠点施設）",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/shirasukashuku/1221.html"
+        }
+      ],
+      "details": [
+        "10:00〜16:00。月曜休館（祝日は翌日）・年末年始。入館無料。駐車場4台（うち障がい者用1台）。",
+        "平日は新所原駅からコーちゃんバス白須賀岡崎線「おんやど白須賀」下車。運行時刻は別途確認。"
+      ]
+    },
+    {
+      "name": "特別史跡新居関所・新居関所史料館",
+      "phone": "053-594-3615",
+      "address": "湖西市新居町新居1227-5",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-29",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        },
+        {
+          "label": "新居関所・史料館【特別史跡新居関跡】",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/araisekiato/10304.html"
+        }
+      ],
+      "details": [
+        "9:00〜16:30。月曜休館（祝日は開館）、8月は無休。年末年始は12月26日〜1月2日休館。",
+        "入館料：大人400円、小中学生150円。無料駐車場30台。ガイド希望は来館10日前までに予約。"
+      ]
+    },
+    {
+      "name": "新居宿旅籠紀伊国屋資料館",
+      "phone": "053-594-3821",
+      "address": "湖西市新居町新居1280-1",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-30",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        },
+        {
+          "label": "新居宿旅籠紀伊国屋資料館【市指定文化財】",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/8958.html"
+        }
+      ],
+      "details": [
+        "9:00〜16:30。月曜休館（祝日は開館）、8月は無休。12月26日〜1月2日休館。",
+        "単館：大人210円、小中学生100円。関所との共通券：大人500円、小中学生200円。専用駐車場なし。関所駐車場を利用。"
+      ]
+    },
+    {
+      "name": "小松楼",
+      "phone": "053-594-0540",
+      "address": "湖西市新居町新居1190-3",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-31",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        },
+        {
+          "label": "小松楼まちづくり交流館（旧小松楼本館）【国登録有形文化財】",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/8959.html"
+        }
+      ],
+      "details": [
+        "9:00〜17:00。月曜休館（祝日は開館）、12月29日〜1月3日休館。入館無料。"
+      ]
+    },
+    {
+      "name": "湖西市ふれあい交流館",
+      "phone": "053-576-5110",
+      "address": "湖西市鷲津1038-1",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-32",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "浜名湖れんが館",
+      "phone": "053-576-1215",
+      "address": "湖西市鷲津479-31",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-33",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        },
+        {
+          "label": "浜名湖れんが館",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3283.html"
+        }
+      ],
+      "details": [
+        "利用月の3か月前の初日から利用日の2週間前まで予約可能。電話は空き確認・仮予約までで、申請と使用料の納入が別に必要。",
+        "常時開館ではありません。見学は産業振興課053-576-1215へ事前問い合わせ。施設の基本案内の所在地は鷲津479-31です。"
+      ]
+    },
+    {
+      "name": "道の駅 潮見坂",
+      "phone": "053-579-3600",
+      "address": "湖西市白須賀1896-2",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-34",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        },
+        {
+          "label": "道の駅潮見坂",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/michinoeki/12187.html"
+        }
+      ],
+      "details": [
+        "売店8:00〜18:00、食堂8:30〜18:00（ラストオーダー17:00）。足湯10:00〜16:00（夏季17:00まで、天候等で休止あり）。",
+        "トイレ・情報コーナー・授乳室は24時間。一般道側の駐車場から施設へは階段があります。"
+      ]
+    },
+    {
+      "name": "今切体験の里 海湖館",
+      "phone": "053-594-6624",
+      "address": "湖西市新居町新居官有無番地",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-35",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        },
+        {
+          "label": "新居弁天今切体験の里海湖館",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/7641.html"
+        }
+      ],
+      "details": [
+        "9:00〜17:00。月曜休館（祝日は翌日）・年末年始。夏季・天候により変更があります。",
+        "クラフトやバーベキューなどの体験は実施日・料金・予約条件を運営者へ確認してください。"
+      ]
+    },
+    {
+      "name": "新居弁天海水浴場",
+      "phone": "053-576-1230",
+      "address": "湖西市新居町新居3288-101",
+      "category": "文化・図書館",
+      "checked_at": "2026-11-21",
+      "id": "facility-36",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3322.html"
+        },
+        {
+          "label": "新居弁天海水浴場",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/10260.html"
+        }
+      ],
+      "details": [
+        "2026年度の開設期間は7月18日〜8月30日で終了しています。現在の遊泳営業として案内していません。次年度の開設は公式発表をご確認ください。"
+      ]
+    },
+    {
+      "name": "アメニティプラザ",
+      "phone": "053-573-0777",
+      "address": "湖西市吉美3294-48",
+      "category": "スポーツ",
+      "checked_at": "2026-11-21",
+      "id": "facility-37",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3323.html"
+        },
+        {
+          "label": "年末年始の業務案内",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/7539.html"
+        }
+      ],
+      "details": [
+        "プールは清掃・点検のため2026年12月21日〜2027年1月5日休止。通常の営業日・利用料金は施設の案内で確認してください。"
+      ]
+    },
+    {
+      "name": "勤労者体育センター",
+      "phone": "053-576-4540",
+      "address": "湖西市古見1067-3",
+      "category": "スポーツ",
+      "checked_at": "2026-11-21",
+      "id": "facility-38",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3323.html"
+        },
+        {
+          "label": "勤労者体育センター（一部施設の休止について）",
+          "url": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/4456.html"
+        }
+      ],
+      "details": [
+        "体育室全面は天井の一部落下により当面休止。トレーニング室・卓球室は利用可能です。トレーニング室は機器利用講習会の受講が必要。再開状況は市の案内で確認。"
+      ]
+    },
+    {
+      "name": "湖西運動公園",
+      "phone": "運動公園 053-576-4795",
+      "address": "湖西市吉美830-1",
+      "category": "スポーツ",
+      "checked_at": "2026-11-21",
+      "id": "facility-39",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3323.html"
+        },
+        {
+          "label": "湖西運動公園",
+          "url": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/4453.html"
+        }
+      ],
+      "details": [
+        "陸上・弓道・野球・テニス・児童広場は6:00〜21:00、多目的広場は8:30〜17:00。月曜（祝日は翌日）・12月29日〜1月3日休場。",
+        "予約システムまたは管理事務所へ。競技・時間帯・市内外・年齢・照明使用で料金が変わります。"
+      ]
+    },
+    {
+      "name": "梶田多目的運動広場",
+      "phone": "運動公園 053-576-4795",
+      "address": "湖西市吉美959-1",
+      "category": "スポーツ",
+      "checked_at": "2026-11-21",
+      "id": "facility-40",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3323.html"
+        }
+      ],
+      "details": []
+    },
+    {
+      "name": "北部地区運動広場",
+      "phone": "運動公園 053-576-4795",
+      "address": "湖西市内浦30",
+      "category": "スポーツ",
+      "checked_at": "2026-11-21",
+      "id": "facility-41",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3323.html"
+        },
+        {
+          "label": "北部地区運動広場",
+          "url": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/4458.html"
+        }
+      ],
+      "details": [
+        "庭球場・ゲートボール場は6:00〜日没、ソフトボール場は6:00〜21:00。12月29日〜1月3日休場。",
+        "予約システムは空き状況確認のみ。申込先は湖西運動公園管理事務所053-576-4795。"
+      ]
+    },
+    {
+      "name": "新居体育館・弓道場・庭球場",
+      "phone": "053-594-3911",
+      "address": "湖西市新居町浜名522-1",
+      "category": "スポーツ",
+      "checked_at": "2026-11-21",
+      "id": "facility-42",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3323.html"
+        },
+        {
+          "label": "湖西市新居体育館、弓道場、庭球場",
+          "url": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/4454.html"
+        }
+      ],
+      "details": [
+        "毎月第1火曜（祝日は翌日）・12月29日〜1月3日休館。予約は市の公共施設予約システムまたは窓口へ。",
+        "施設独自ウェブサイトは安全性確認のため公開停止・再開未定と市が案内しています。市公式ページと電話053-594-3911で確認できます。"
+      ]
+    },
+    {
+      "name": "みなと運動公園",
+      "phone": "053-594-3456",
+      "address": "湖西市新居町新居3146",
+      "category": "スポーツ",
+      "checked_at": "2026-11-21",
+      "id": "facility-43",
+      "sources": [
+        {
+          "label": "湖西市の施設一覧",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3323.html"
+        },
+        {
+          "label": "湖西市みなと運動公園",
+          "url": "https://www.city.kosai.shizuoka.jp/kanko_bunka_sports/sportsshisetsu/4455.html"
+        }
+      ],
+      "details": [
+        "月曜（祝日は翌日）・12月29日〜1月3日休場。",
+        "予約は市の公共施設予約システムまたは新居体育館053-594-3911へ。"
+      ]
+    },
+    {
+      "id": "emina",
+      "name": "市民活動センター エミーナ",
+      "category": "行政・福祉・生活",
+      "address": "湖西市鷲津1293-4",
+      "phone": "",
+      "details": [
+        "9:00〜21:00。12月28日〜1月3日・臨時点検日は休館。",
+        "登録団体への会議室貸出が中心。印刷機は用紙持ち込み。駐車場のみの利用にも条件があります。"
+      ],
+      "sources": [
+        {
+          "label": "市民活動センター「エミーナ」",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3668.html"
+        }
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "id": "ochiba",
+      "name": "おちばの里親水公園",
+      "category": "公園・自然",
+      "address": "湖西市大知波（所在地・入口は公式地図参照）",
+      "phone": "053-576-4793",
+      "details": [
+        "2026年12月4日は清掃のため、作業終了予定の16時頃までトイレ・手洗い場等を使用できません。",
+        "2024年4月以降、バーベキュー・キャンプは利用できません。体験講座等の活動は行為許可が必要です。"
+      ],
+      "sources": [
+        {
+          "label": "おちばの里親水公園",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/3564.html"
+        }
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "id": "himawari",
+      "name": "鷲津駅前ひまわり広場",
+      "category": "公園・自然",
+      "address": "JR鷲津駅前",
+      "phone": "",
+      "details": [
+        "イベント・ステージの利用は事前申請が必要です。交流スペースの申込先は別で、鷲津商店街協同組合053-575-0039です。"
+      ],
+      "sources": [
+        {
+          "label": "鷲津駅前ひまわり広場",
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/4822.html"
+        }
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "id": "tokiwamansaku",
+      "name": "トキワマンサク群生地",
+      "category": "公園・自然",
+      "address": "湖西市神座（公式アクセス案内参照）",
+      "phone": "",
+      "details": [
+        "例年の見頃は4月中旬。11月の開花案内ではありません。県指定天然記念物。",
+        "群生地に駐車場はなく、県道334号側の駐車場から約850m。トイレは群生地近く。"
+      ],
+      "sources": [
+        {
+          "label": "トキワマンサク【県天然記念物】",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/1278.html"
+        }
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "id": "fishing-parking",
+      "name": "新居弁天海釣公園駐車場",
+      "category": "観光・移動",
+      "address": "今切口近く（海湖館・海水浴場の最寄り駐車場）",
+      "phone": "",
+      "details": [
+        "入庫から24時間ごと400円、30分以内の出庫は無料。現金のみ・高額紙幣不可。約400台。",
+        "回数券は海湖館の開館時間に販売。悪天候・工事等で全部または一部を休止する場合があります。"
+      ],
+      "sources": [
+        {
+          "label": "新居弁天海釣公園駐車場",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/10535.html"
+        }
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "id": "cycle-arai",
+      "name": "ゆ〜りん 新居町駅西ターミナル",
+      "category": "観光・移動",
+      "address": "湖西市新居3423-18",
+      "phone": "053-594-5022",
+      "details": [
+        "市掲載の利用時間は9:00〜16:00。貸出車種・在庫・当日の返却条件は電話で確認してください。",
+        "市の料金案内は更新日が2021年のため、今回の一覧には現行料金として転記していません。"
+      ],
+      "sources": [
+        {
+          "label": "ゆ～りんレンタサイクル",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/kanko/spot/10498.html"
+        }
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "id": "care-49",
+      "name": "湖西白萩地域包括支援センター",
+      "category": "介護の相談",
+      "address": "湖西市太田450-1",
+      "phone": "053-573-2050",
+      "details": [
+        "担当自治会：新所、入出、神座、太田、青平、大知波、利木、横山"
+      ],
+      "sources": [
+        {
+          "label": "高齢者の総合相談窓口",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/1198.html"
+        },
+        {
+          "label": "高齢者の相談窓口『地域包括支援センター』",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/13248.html"
+        }
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "id": "care-50",
+      "name": "光湖苑地域包括支援センター",
+      "category": "介護の相談",
+      "address": "湖西市新所岡崎梅田入会地17-20",
+      "phone": "053-577-5455",
+      "details": [
+        "担当自治会：上の原、上ノ原、新所原、南上の原第1、南上の原第2、南上の原第3、白須賀第1、白須賀第2、白須賀第3、白須賀第4、白須賀第5、白須賀第6、大森、岡崎、梅田"
+      ],
+      "sources": [
+        {
+          "label": "高齢者の総合相談窓口",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/1198.html"
+        },
+        {
+          "label": "高齢者の相談窓口『地域包括支援センター』",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/13248.html"
+        }
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "id": "care-51",
+      "name": "恵翔苑地域包括支援センター",
+      "category": "介護の相談",
+      "address": "湖西市新居町中之郷3636-21",
+      "phone": "053-595-1114",
+      "details": [
+        "担当自治会：表鷲津、鷲津、河美、古見、川尻、市場、山口、坊瀬"
+      ],
+      "sources": [
+        {
+          "label": "高齢者の総合相談窓口",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/1198.html"
+        },
+        {
+          "label": "高齢者の相談窓口『地域包括支援センター』",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/13248.html"
+        }
+      ],
+      "checked_at": "2026-11-21"
+    },
+    {
+      "id": "care-52",
+      "name": "燦光地域包括支援センター",
+      "category": "介護の相談",
+      "address": "湖西市新居町新居1800-1",
+      "phone": "053-594-7474",
+      "details": [
+        "担当自治会：新居中央、柏原、新居南、橋本、西浜名、内山、住吉、ベイリーフ、郷南郷北、三ツ谷、あけぼの"
+      ],
+      "sources": [
+        {
+          "label": "高齢者の総合相談窓口",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/1198.html"
+        },
+        {
+          "label": "高齢者の相談窓口『地域包括支援センター』",
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/koureisha/4/13248.html"
+        }
+      ],
+      "checked_at": "2026-11-21"
+    }
+  ]
+}

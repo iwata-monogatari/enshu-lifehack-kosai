@@ -1,0 +1,84 @@
+[
+  {
+    "id": "procedures",
+    "icon": "🧾",
+    "title": "引っ越し・手続き",
+    "lead": "住所変更、ごみ、水道、証明書。引っ越し前後に必要なことを順に確認。",
+    "categories": [
+      "暮らし始めた",
+      "新しい場所へ"
+    ],
+    "checklists": [
+      "moving-in",
+      "moving-out",
+      "marriage"
+    ]
+  },
+  {
+    "id": "family",
+    "icon": "👶",
+    "title": "子育て・学校",
+    "lead": "妊娠・出産から保育園、学校、放課後の居場所まで。",
+    "categories": [
+      "家族が増える",
+      "学ぶ・育つ"
+    ],
+    "checklists": [
+      "baby"
+    ]
+  },
+  {
+    "id": "care",
+    "icon": "👵",
+    "title": "親・介護・健康",
+    "lead": "親の様子が気になるとき、介護の申請、受診・健診の相談先を整理。",
+    "categories": [
+      "親のこと",
+      "健康・医療"
+    ],
+    "checklists": [
+      "care",
+      "retirement"
+    ]
+  },
+  {
+    "id": "property",
+    "icon": "🏠",
+    "title": "住まい・相続",
+    "lead": "空き家、住み替え、相続、お別れの手続きをつなげて確認。",
+    "categories": [
+      "家・住まい",
+      "人生の終わり",
+      "これから暮らす"
+    ],
+    "checklists": [
+      "inheritance",
+      "bereavement"
+    ]
+  },
+  {
+    "id": "trouble",
+    "icon": "🧩",
+    "title": "仕事・お金・困りごと",
+    "lead": "税金、働き方、創業、契約や生活の悩み。相談先へ進む。",
+    "categories": [
+      "困った・相談したい",
+      "働く・暮らす",
+      "もしもの時"
+    ],
+    "checklists": [
+      "business",
+      "retirement"
+    ]
+  },
+  {
+    "id": "enjoy",
+    "icon": "🌳",
+    "title": "遊ぶ・学ぶ・施設を使う",
+    "lead": "図書館、公園、歴史文化、スポーツ。利用条件を調べて出かける。",
+    "categories": [
+      "遊ぶ・使う・出かける"
+    ],
+    "checklists": []
+  }
+]

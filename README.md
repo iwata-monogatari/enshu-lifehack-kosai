@@ -34,16 +34,23 @@ favicon.svg
 既存のcanonical・回遊・共通部品・計測を保持した更新手順：
 
 ```sh
+python scripts/build_enrichment.py
 python scripts/refresh_current_information.py
+python scripts/inject_parts.py
 node scripts/build-search-index.mjs
 python scripts/build_sitemap.py
 python scripts/inspect_all.py
+python scripts/validate_enrichment.py
 node scripts/test-search.mjs
 node scripts/check-synonyms.mjs
 python scripts/check_official_links.py
 ```
 
 公開前後に実ブラウザーでPC・狭幅表示、最新情報から詳細への導線、出典リンクを確認します。終了した期限案内は次回更新時に整理し、未確認の全ページへ一律に確認日を付け替えないでください。
+
+目的別入口は `data/hubs.json`、準備リストは `data/checklists.json`、今回照合した持ち物・費用等は `data/practical-guides.json`、施設一覧は `data/kosai-directory.json`、自治会別相談先は `data/care-centers.json` を編集します。`scripts/build_enrichment.py` が補助ページとトップの入口を生成し、`data/auxiliary-pages.json` を検索・サイトマップへ渡します。既存Q&Aの確認日は元ページから引き継ぎ、今回の追加情報とは区別します。
+
+施設の電話は一般窓口と担当課を区別します。施設独自サイトの停止を施設の休館と扱わず、営業時間未照合の施設にはその範囲を明記します。担当自治会は住所から推測せず市の区分を使います。チェック状態は利用者のブラウザー内にのみ保存し、送信しません。新しい機能の変更時は絞り込み・該当なし・チェック保持と解除・自治会選択・PC/390px/320px表示を確認します。
 
 ## 免責事項
 
