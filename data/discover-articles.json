@@ -109,7 +109,39 @@
     "photo_archive": {
       "url": "https://kosaialb.atawi.link/photos/ndl-arai-sekisho-1914/",
       "label": "1914年刊の写真帖に残る新居関所跡"
-    }
+    },
+    "photos": [
+      {
+        "id": "ndl-arai-sekisho-1914",
+        "title": "松の間にたたずむ新居関所跡",
+        "dateLabel": "1914年刊（撮影年不詳）",
+        "credit": "静岡県浜名郡 編『静岡県浜名郡誌』上巻（1914年刊）／国立国会図書館デジタルコレクション（91コマ）",
+        "source": "https://dl.ndl.go.jp/pid/1183531/1/91",
+        "license": "パブリックドメイン（著作権保護期間満了）",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.ja",
+        "change": "原資料の写真範囲を切り出し、縮小してWebPに変換。着色・修復は行っていません。",
+        "evidence": "https://dl.ndl.go.jp/api/iiif/1183531/manifest.json",
+        "alt": "松の木の間に瓦屋根の建物と門が並び、手前に広い地面が見える新居関所跡。",
+        "album_url": "https://kosaialb.atawi.link/photos/ndl-arai-sekisho-1914/",
+        "after_section": 2,
+        "caption": "松に囲まれた新居関所跡。現在の見学では、現存建築と後年の復元部分を分けて見ると、景色の変化も読み取れます。",
+        "images": [
+          {
+            "url": "/assets/archive/ndl-arai-sekisho-1914-480.webp",
+            "width": 480,
+            "height": 339,
+            "sha256": "5773eed5b5b0340b53ad2479ef4fa1d88a6e17c239a3fd5bf7cbab48f3cdc927"
+          },
+          {
+            "url": "/assets/archive/ndl-arai-sekisho-1914-1280.webp",
+            "width": 1280,
+            "height": 905,
+            "sha256": "9a9443f001b9391aa2ad6cd3ca0b83515800c7aeca6a4c50f01b03d9cceb81ee"
+          }
+        ],
+        "source_title": "松の間にたたずむ新居関所跡"
+      }
+    ]
   },
   {
     "slug": "arai-shuku",
@@ -214,7 +246,39 @@
     "photo_archive": {
       "url": "https://kosaialb.atawi.link/photos/ndl-arai-1918/",
       "label": "1918年刊の写真帖に残る新居の水辺"
-    }
+    },
+    "photos": [
+      {
+        "id": "ndl-arai-1918",
+        "title": "舟の集まる新居の水辺",
+        "dateLabel": "1918年刊（撮影年不詳）",
+        "credit": "東光園編輯局 編『東海道：広重画五拾三次現状写真対照』（東光園、1918年刊）／国立国会図書館デジタルコレクション（82コマ）",
+        "source": "https://dl.ndl.go.jp/pid/1873421/1/82",
+        "license": "パブリックドメイン（著作権保護期間満了）",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.ja",
+        "change": "国立国会図書館電子展示会と同じ写真範囲を切り出し、縮小してWebPに変換。",
+        "evidence": "https://dl.ndl.go.jp/api/iiif/1873421/manifest.json",
+        "alt": "石積みの岸に木舟が並び、その向こうに家々と人の姿が見えます。",
+        "album_url": "https://kosaialb.atawi.link/photos/ndl-arai-1918/",
+        "after_section": 2,
+        "caption": "舟が並ぶ新居の水辺。街道の人馬の往来とともに、水上交通も町の風景を形づくっていたことが伝わります。",
+        "images": [
+          {
+            "url": "/assets/archive/ndl-arai-1918-480.webp",
+            "width": 480,
+            "height": 346,
+            "sha256": "ff15287f9401dd926cdfd56e1b2fb93160c4e733a08a8f8c2818d6658f3c751d"
+          },
+          {
+            "url": "/assets/archive/ndl-arai-1918-1280.webp",
+            "width": 1280,
+            "height": 923,
+            "sha256": "c07e5a0400eacc05a8a162d0ab7890bd4e4a21987976ec56cf6103fb2c4fe0a8"
+          }
+        ],
+        "source_title": "舟の集まる新居の水辺"
+      }
+    ]
   },
   {
     "slug": "kinokuniya",
@@ -298,7 +362,39 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photos": [
+      {
+        "id": "commons-1e7ec3d5609a",
+        "title": "新居宿の旅籠紀伊国屋",
+        "dateLabel": "2015年8月25日",
+        "credit": "Twilight2640（Wikimedia Commons）",
+        "source": "https://commons.wikimedia.org/wiki/File:Kinokuniya,_Former_Inn_at_Arai-juku,_Kosai_city.JPG",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "change": "原画像の全体を表示用に縮小しWebPに変換。",
+        "evidence": "https://commons.wikimedia.org/wiki/File:Kinokuniya,_Former_Inn_at_Arai-juku,_Kosai_city.JPG",
+        "alt": "街道に面した旅籠紀伊国屋。",
+        "album_url": "https://kosaialb.atawi.link/photos/commons-1e7ec3d5609a/",
+        "after_section": 2,
+        "caption": "街道に面する紀伊国屋の外観。格子のある二階と、通りに沿って延びる屋根を見渡せます。",
+        "images": [
+          {
+            "url": "/assets/archive/commons-1e7ec3d5609a-480.webp",
+            "width": 480,
+            "height": 360,
+            "sha256": "21b49cb3e40a1e67b49f0408714a0078c4e44196ed3ce45bc5855194bc5d96cb"
+          },
+          {
+            "url": "/assets/archive/commons-1e7ec3d5609a-1280.webp",
+            "width": 1280,
+            "height": 960,
+            "sha256": "3af6b23ce3792c4400e6c12fb9e94cd388f63d429eea37050f6619932f61a554"
+          }
+        ],
+        "source_title": "Kinokuniya, Former Inn at Arai-juku, Kosai city.JPG"
+      }
+    ]
   },
   {
     "slug": "komatsuro",
@@ -475,7 +571,39 @@
     "photo_archive": {
       "url": "https://kosaialb.atawi.link/photos/ndl-shirasuka-1918/",
       "label": "1918年刊の写真帖に残る白須賀の道"
-    }
+    },
+    "photos": [
+      {
+        "id": "ndl-shirasuka-1918",
+        "title": "木々の間を下る白須賀の道",
+        "dateLabel": "1918年刊（撮影年不詳）",
+        "credit": "東光園編輯局 編『東海道：広重画五拾三次現状写真対照』（東光園、1918年刊）／国立国会図書館デジタルコレクション（85コマ）",
+        "source": "https://dl.ndl.go.jp/pid/1873421/1/85",
+        "license": "パブリックドメイン（著作権保護期間満了）",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.ja",
+        "change": "国立国会図書館電子展示会と同じ写真範囲を切り出し、縮小してWebPに変換。",
+        "evidence": "https://dl.ndl.go.jp/api/iiif/1873421/manifest.json",
+        "alt": "松の幹と電柱の間を道が下り、坂の先に家並みが見えます。",
+        "album_url": "https://kosaialb.atawi.link/photos/ndl-shirasuka-1918/",
+        "after_section": 2,
+        "caption": "木々の間を下る白須賀の道。写真帖に残る街道の姿を、坂の地形を読む手掛かりに。",
+        "images": [
+          {
+            "url": "/assets/archive/ndl-shirasuka-1918-480.webp",
+            "width": 480,
+            "height": 352,
+            "sha256": "2634555d9ad963d67ef0543826a2d69fe7fa458e0ea9802966f18b9734019890"
+          },
+          {
+            "url": "/assets/archive/ndl-shirasuka-1918-1280.webp",
+            "width": 1280,
+            "height": 938,
+            "sha256": "bc134664acb89787be9d437f9570f1cd6d8c44ce1b8bd0b27f9db9f0ca11007f"
+          }
+        ],
+        "source_title": "木々の間を下る白須賀の道"
+      }
+    ]
   },
   {
     "slug": "shirasuka-culture",
@@ -670,7 +798,39 @@
         "生家を復元"
       ]
     ],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photos": [
+      {
+        "id": "commons-78d9a0f60c4e",
+        "title": "豊田佐吉の生家",
+        "dateLabel": "2012年6月2日",
+        "credit": "Yanajin33（Wikimedia Commons）",
+        "source": "https://commons.wikimedia.org/wiki/File:Toyota_Sakichi_Birthplace.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "change": "原画像の全体を表示用に縮小しWebPに変換。",
+        "evidence": "https://commons.wikimedia.org/wiki/File:Toyota_Sakichi_Birthplace.JPG",
+        "alt": "豊田佐吉の生家。",
+        "album_url": "https://kosaialb.atawi.link/photos/commons-78d9a0f60c4e/",
+        "after_section": 3,
+        "caption": "豊田佐吉記念館の復元生家。佐吉が暮らした時代の建物そのものではなく、1990年に復元された姿です。",
+        "images": [
+          {
+            "url": "/assets/archive/commons-78d9a0f60c4e-480.webp",
+            "width": 480,
+            "height": 360,
+            "sha256": "2d42337b9fd71f76112eaa122a3598f73e43df00f47d30d13e315c61a7010922"
+          },
+          {
+            "url": "/assets/archive/commons-78d9a0f60c4e-1280.webp",
+            "width": 1280,
+            "height": 960,
+            "sha256": "8e7954c200ae9c406504d988b4c3f4196c7f29f0e96a72c4db82c9c58ba74426"
+          }
+        ],
+        "source_title": "Toyota Sakichi Birthplace.JPG"
+      }
+    ]
   },
   {
     "slug": "honkouji",
@@ -758,7 +918,39 @@
     "photo_archive": {
       "url": "https://kosaialb.atawi.link/photos/ndl-honkoji-1914/",
       "label": "1914年刊の写真帖に残る本興寺の参道"
-    }
+    },
+    "photos": [
+      {
+        "id": "ndl-honkoji-1914",
+        "title": "本興寺へ続く木立の参道",
+        "dateLabel": "1914年刊（撮影年不詳）",
+        "credit": "静岡県浜名郡 編『静岡県浜名郡誌』上巻（1914年刊）／国立国会図書館デジタルコレクション（135コマ）",
+        "source": "https://dl.ndl.go.jp/pid/1183531/1/135",
+        "license": "パブリックドメイン（著作権保護期間満了）",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.ja",
+        "change": "原資料の写真範囲を切り出し、縮小してWebPに変換。着色・修復は行っていません。",
+        "evidence": "https://dl.ndl.go.jp/api/iiif/1183531/manifest.json",
+        "alt": "大きな木々に囲まれた本興寺の参道で、石段の手前に一人が立っている。",
+        "album_url": "https://kosaialb.atawi.link/photos/ndl-honkoji-1914/",
+        "after_section": 1,
+        "caption": "木立の奥へ続く本興寺の参道。建物だけでなく、境内へ向かう道も写真に残されています。",
+        "images": [
+          {
+            "url": "/assets/archive/ndl-honkoji-1914-480.webp",
+            "width": 480,
+            "height": 670,
+            "sha256": "deaa96f59ea470c4030a8cc8ba347027070b39096bec5618ae00f6efe6614fce"
+          },
+          {
+            "url": "/assets/archive/ndl-honkoji-1914-1280.webp",
+            "width": 1280,
+            "height": 1788,
+            "sha256": "9c0a1cd6c8bceb2e264a5231011dbc4594fbf42266d4c390310df9ad3ee9617c"
+          }
+        ],
+        "source_title": "本興寺へ続く木立の参道"
+      }
+    ]
   },
   {
     "slug": "ogaji-hashimoto",
@@ -955,7 +1147,39 @@
     "photo_archive": {
       "url": "https://kosaialb.atawi.link/photos/myoryuji-1933/",
       "label": "1933年刊の写真帖に残る妙立寺の本堂"
-    }
+    },
+    "photos": [
+      {
+        "id": "myoryuji-1933",
+        "title": "妙立寺の本堂（1933年刊）",
+        "dateLabel": "1933年刊（撮影年不詳）",
+        "credit": "撮影者不詳（Wikimedia Commons）／田中忠治『豊田佐吉伝』豊田佐吉翁正傳編纂所、1933年",
+        "source": "https://commons.wikimedia.org/wiki/File:Myoryu-ji_Kosai_1933.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "change": "原画像の全体を表示用に縮小しWebPに変換。",
+        "evidence": "https://commons.wikimedia.org/wiki/File:Myoryu-ji_Kosai_1933.jpg",
+        "alt": "妙立寺の本堂（1933年刊）",
+        "album_url": "https://kosaialb.atawi.link/photos/myoryuji-1933/",
+        "after_section": 2,
+        "caption": "1933年刊の資料に載る妙立寺の本堂と境内。宇津山から吉美へ移った寺の、その後の姿を伝える一枚です。",
+        "images": [
+          {
+            "url": "/assets/archive/myoryuji-1933-480.webp",
+            "width": 480,
+            "height": 317,
+            "sha256": "c276859671e0c19ad94528ac4d828fca8ff7c7a4d483fc9e555a7739713a0e04"
+          },
+          {
+            "url": "/assets/archive/myoryuji-1933-1280.webp",
+            "width": 1106,
+            "height": 731,
+            "sha256": "d9d4a084de5f9470de6ed6fe2a94043bca85583fc5fe32768a5226709523e70a"
+          }
+        ],
+        "source_title": "Myoryu-ji Kosai 1933.jpg"
+      }
+    ]
   },
   {
     "slug": "ochiba-haiji",
@@ -1301,7 +1525,39 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photos": [
+      {
+        "id": "shinjohara-view-2016",
+        "title": "湖西連峰から望む新所原の町",
+        "dateLabel": "2016年5月5日",
+        "credit": "Pagoda009（Wikimedia Commons）",
+        "source": "https://commons.wikimedia.org/wiki/File:Kosai_Renp%C5%8D6.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "change": "原画像の全体を表示用に縮小しWebPに変換。",
+        "evidence": "https://commons.wikimedia.org/wiki/File:Kosai_Renp%C5%8D6.jpg",
+        "alt": "湖西連峰から望む新所原の町",
+        "album_url": "https://kosaialb.atawi.link/photos/shinjohara-view-2016/",
+        "after_section": 2,
+        "caption": "湖西連峰から見下ろす新所原の町。山裾と市街地の近さがわかります。登山道の現在の通行状況を示す写真ではありません。",
+        "images": [
+          {
+            "url": "/assets/archive/shinjohara-view-2016-480.webp",
+            "width": 480,
+            "height": 360,
+            "sha256": "cbd901bca9a47247ce1d6ba7fb1333908f1175150c44561a6b779f6ed1a4ab31"
+          },
+          {
+            "url": "/assets/archive/shinjohara-view-2016-1280.webp",
+            "width": 1280,
+            "height": 960,
+            "sha256": "2f29893916ea2e5c3e2333e09c941b29fa23bc1f7e12eb22c3b0a233d0bf5bb2"
+          }
+        ],
+        "source_title": "Kosai Renpō6.jpg"
+      }
+    ]
   },
   {
     "slug": "hamanako-imagire",
@@ -1403,7 +1659,39 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photos": [
+      {
+        "id": "commons-8dcf80a46256",
+        "title": "新居から望む浜名湖の養殖棚と山並み",
+        "dateLabel": "2012年1月1日",
+        "credit": "くろふね（Wikimedia Commons）",
+        "source": "https://commons.wikimedia.org/wiki/File:%E6%B5%9C%E5%90%8D%E6%B9%96_-_panoramio_(3).jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "change": "原画像の全体を表示用に縮小しWebPに変換。",
+        "evidence": "https://commons.wikimedia.org/wiki/File:%E6%B5%9C%E5%90%8D%E6%B9%96_-_panoramio_(3).jpg",
+        "alt": "浜名湖の水面に養殖棚が並び、その向こうに家並みと山の稜線が見えます。",
+        "album_url": "https://kosaialb.atawi.link/photos/commons-8dcf80a46256/",
+        "after_section": 2,
+        "caption": "新居側から望む浜名湖の養殖棚と山並み。湖上の仕事と、対岸の暮らしを同じ風景の中に見ることができます。",
+        "images": [
+          {
+            "url": "/assets/archive/commons-8dcf80a46256-480.webp",
+            "width": 480,
+            "height": 320,
+            "sha256": "363751feae6f747182fce0dd487d8ce8974bbd306d4e071fce010584cbc0aedd"
+          },
+          {
+            "url": "/assets/archive/commons-8dcf80a46256-1280.webp",
+            "width": 1280,
+            "height": 853,
+            "sha256": "854b595281842b289734fbbd2823b796ac68743604c268e1ea80f88b23a00b2c"
+          }
+        ],
+        "source_title": "浜名湖 - panoramio (3).jpg"
+      }
+    ]
   },
   {
     "slug": "kaikokan",
@@ -1495,7 +1783,39 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photos": [
+      {
+        "id": "commons-93a2cdbdb8e6",
+        "title": "新居の海浜公園から見る浜名大橋",
+        "dateLabel": "2007年1月13日",
+        "credit": "Original uploader was Tawashi2006 at ja.wikipedia（Wikimedia Commons）",
+        "source": "https://commons.wikimedia.org/wiki/File:Hamana_Bridge01.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "change": "原画像の全体を表示用に縮小しWebPに変換。",
+        "evidence": "https://commons.wikimedia.org/wiki/File:Hamana_Bridge01.jpg",
+        "alt": "草地の向こうを浜名大橋が渡っています。",
+        "album_url": "https://kosaialb.atawi.link/photos/commons-93a2cdbdb8e6/",
+        "after_section": 2,
+        "caption": "新居の海浜公園から見た浜名大橋。海湖館そのものの写真ではなく、周辺の水辺を知るための景観写真です。",
+        "images": [
+          {
+            "url": "/assets/archive/commons-93a2cdbdb8e6-480.webp",
+            "width": 480,
+            "height": 360,
+            "sha256": "fc7256db4811755cf13ffbd19f960583ac3857f975614367acd8310c5ec4b143"
+          },
+          {
+            "url": "/assets/archive/commons-93a2cdbdb8e6-1280.webp",
+            "width": 1000,
+            "height": 750,
+            "sha256": "623e33449d39ebe1ce28447b61196bceeff9bdda4c892d1ccabe441ca75dc4fe"
+          }
+        ],
+        "source_title": "Hamana Bridge01.jpg"
+      }
+    ]
   },
   {
     "slug": "shiomizaka",
@@ -1578,7 +1898,39 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photos": [
+      {
+        "id": "commons-536e43e46ebb",
+        "title": "道の駅潮見坂",
+        "dateLabel": "2007年1月13日",
+        "credit": "Tawashi2006（Wikimedia Commons）",
+        "source": "https://commons.wikimedia.org/wiki/File:%E9%81%93%E3%81%AE%E9%A7%85%E6%BD%AE%E8%A6%8B%E5%9D%8201.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "change": "原画像の全体を表示用に縮小しWebPに変換。",
+        "evidence": "https://commons.wikimedia.org/wiki/File:%E9%81%93%E3%81%AE%E9%A7%85%E6%BD%AE%E8%A6%8B%E5%9D%8201.jpg",
+        "alt": "道の駅潮見坂の建物と駐車場。",
+        "album_url": "https://kosaialb.atawi.link/photos/commons-536e43e46ebb/",
+        "after_section": 1,
+        "caption": "2007年の道の駅潮見坂。建物と駐車場を写した当時の記録です。現在の設備や営業時間は本文の案内をご確認ください。",
+        "images": [
+          {
+            "url": "/assets/archive/commons-536e43e46ebb-480.webp",
+            "width": 480,
+            "height": 240,
+            "sha256": "6cd55a71441d7b2581c514f79e3b56a248cd46478f4befa9982f873352f24206"
+          },
+          {
+            "url": "/assets/archive/commons-536e43e46ebb-1280.webp",
+            "width": 1100,
+            "height": 550,
+            "sha256": "79e215f7bc7617a64e5ce0d6c462ad2b946672373fbe46330a33252ee4b43fff"
+          }
+        ],
+        "source_title": "道の駅潮見坂01.jpg"
+      }
+    ]
   },
   {
     "slug": "kosai-food",
@@ -1674,7 +2026,39 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photos": [
+      {
+        "id": "commons-7f46ee63be7e",
+        "title": "梅田の無人野菜販売所",
+        "dateLabel": "2016年12月27日",
+        "credit": "Ana Paula Hirama（Wikimedia Commons）",
+        "source": "https://commons.wikimedia.org/wiki/File:%E9%87%8E%E8%8F%9C_(33122636191).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "change": "原画像の全体を表示用に縮小しWebPに変換。",
+        "evidence": "https://commons.wikimedia.org/wiki/File:%E9%87%8E%E8%8F%9C_(33122636191).jpg",
+        "alt": "梅田の道沿いに置かれた無人の野菜販売所。",
+        "album_url": "https://kosaialb.atawi.link/photos/commons-7f46ee63be7e/",
+        "after_section": 4,
+        "caption": "梅田の道沿いにあった野菜販売所。地元の畑と日々の食卓のつながりを感じさせます。現在の営業や品ぞろえを案内する写真ではありません。",
+        "images": [
+          {
+            "url": "/assets/archive/commons-7f46ee63be7e-480.webp",
+            "width": 480,
+            "height": 360,
+            "sha256": "fd1f73b1ea463ab061c8b958a24a8bb0809df7edd645d7d8eb9a7808c780c160"
+          },
+          {
+            "url": "/assets/archive/commons-7f46ee63be7e-1280.webp",
+            "width": 1280,
+            "height": 960,
+            "sha256": "acfad57e1c8cb0c2056ed45da6fda7ebf26a0a1107132f0fdce48234e5624684"
+          }
+        ],
+        "source_title": "野菜 (33122636191).jpg"
+      }
+    ]
   },
   {
     "slug": "kosai-festivals",
@@ -1875,7 +2259,39 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photos": [
+      {
+        "id": "shizuoka-mizube-higasaki",
+        "title": "日ヶ崎地区親水公園の噴水（撮影年不詳）",
+        "dateLabel": "撮影年不詳（2013年公開資料）",
+        "credit": "「静岡のみずべ100選・浜名川・日ヶ崎地区親水公園」、静岡県（河川企画課）",
+        "source": "https://opendata.pref.shizuoka.jp/dataset/fuji-160.html",
+        "license": "クリエイティブ・コモンズ 表示 4.0 国際（CC BY 4.0）",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+        "change": "この掲載画像は「静岡のみずべ100選・浜名川・日ヶ崎地区親水公園」（静岡県）を縮小・WebP変換して利用しています。色調・構図は変更していません。原画像は600×450pxです。",
+        "evidence": "https://opendata.pref.shizuoka.jp/privacy.html",
+        "alt": "日ヶ崎地区親水公園のアーチと噴水、周りの広場",
+        "album_url": "https://kosaialb.atawi.link/photos/shizuoka-mizube-higasaki/",
+        "after_section": 3,
+        "caption": "浜名川の日ヶ崎地区親水公園にあるアーチと噴水。水辺に設けられた意匠を眺める手掛かりになります。",
+        "images": [
+          {
+            "url": "/assets/archive/shizuoka-mizube-higasaki-480.webp",
+            "width": 480,
+            "height": 360,
+            "sha256": "99a2a07ec684f7f4e0c1c3c2a625eb82ec202ab60e6b73f8356828e68dd666d8"
+          },
+          {
+            "url": "/assets/archive/shizuoka-mizube-higasaki-1280.webp",
+            "width": 600,
+            "height": 450,
+            "sha256": "95dfb3a24d2b8d454181ede205e05f9df80f158baee72e90b83bfa0e7d3dc5e0"
+          }
+        ],
+        "source_title": "静岡のみずべ100選・浜名川・日ヶ崎地区親水公園（099_600.jpg）"
+      }
+    ]
   },
   {
     "slug": "chibata",
@@ -1976,7 +2392,39 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "photos": [
+      {
+        "id": "chibata-2006",
+        "title": "知波田駅の駅舎（2006年）",
+        "dateLabel": "2006年11月22日",
+        "credit": "Bakkai（Wikimedia Commons）",
+        "source": "https://commons.wikimedia.org/wiki/File:Chibata_stn_1.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "change": "原画像の全体を表示用に縮小しWebPに変換。 原出典では撮影者によるレタッチ済みと記載されています。",
+        "evidence": "https://commons.wikimedia.org/wiki/File:Chibata_stn_1.jpg",
+        "alt": "知波田駅の駅舎（2006年）",
+        "album_url": "https://kosaialb.atawi.link/photos/chibata-2006/",
+        "after_section": 4,
+        "caption": "2006年の知波田駅。地域を訪ねる入口の一つです。駅から山の史跡までは別に移動の計画が必要です。",
+        "images": [
+          {
+            "url": "/assets/archive/chibata-2006-480.webp",
+            "width": 360,
+            "height": 480,
+            "sha256": "3999102cf6b2531bb1b6c4f9160c1a5552f8cf53af62573bf6491347d6a88272"
+          },
+          {
+            "url": "/assets/archive/chibata-2006-1280.webp",
+            "width": 720,
+            "height": 960,
+            "sha256": "b232ac7d88ade548d3b1807bfdb4a4e74c809685a01129a515826188357125c6"
+          }
+        ],
+        "source_title": "Chibata stn 1.jpg"
+      }
+    ]
   },
   {
     "slug": "arai-temples",
@@ -2450,6 +2898,38 @@
     "photo_archive": {
       "url": "https://kosaialb.atawi.link/photos/shinjohara-1989/",
       "label": "1989年の新所原駅"
-    }
+    },
+    "photos": [
+      {
+        "id": "shinjohara-1989",
+        "title": "平成元年の新所原駅",
+        "dateLabel": "1989年12月22日",
+        "credit": "Suikotei（Wikimedia Commons）",
+        "source": "https://commons.wikimedia.org/wiki/File:JR_Shinjohara_Station_19891222.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "change": "原画像の全体を表示用に縮小しWebPに変換。",
+        "evidence": "https://commons.wikimedia.org/wiki/File:JR_Shinjohara_Station_19891222.jpg",
+        "alt": "平成元年の新所原駅",
+        "album_url": "https://kosaialb.atawi.link/photos/shinjohara-1989/",
+        "after_section": 1,
+        "caption": "平成元年の新所原駅前。瓦屋根の旧駅舎とタクシーが並ぶ風景から、乗換えの町の記憶をたどれます。",
+        "images": [
+          {
+            "url": "/assets/archive/shinjohara-1989-480.webp",
+            "width": 480,
+            "height": 304,
+            "sha256": "4e400d34e6a096109d42e887a28e211bca1bdc47b9ee824c4566d222ef4dae8b"
+          },
+          {
+            "url": "/assets/archive/shinjohara-1989-1280.webp",
+            "width": 1280,
+            "height": 811,
+            "sha256": "19a39c7435f9a45c91516c258d102002a84c7f27f26690522273ba4719d89559"
+          }
+        ],
+        "source_title": "JR Shinjohara Station 19891222.jpg"
+      }
+    ]
   }
 ]

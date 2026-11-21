@@ -12,17 +12,23 @@ def build(g):
   return f'<article class="story-card" data-filter-item data-category="{e(a["category"])}" data-search="{e(a["title"]+" "+a["area"]+" "+a["lead"])}"><div class="story-card-top" style="--story-bg:{bg};--story-ink:{fg}"><span>{e(k)}</span><strong>{e(a["area"])}</strong></div><div class="story-card-body"><h2><a href="{url(a)}">{e(a["title"])}</a></h2><p>{e(a["lead"])}</p><a class="story-read" href="{url(a)}">記事を読む <span aria-hidden="true">→</span></a></div></article>'
  def refs(a,ns):
   return '<p class="story-cite">出典：'+ ' ／ '.join(f'<a href="{e(a["sources"][n]["url"])}" target="_blank" rel="noopener">{e(a["sources"][n]["label"])}</a>' for n in ns)+'</p>'
+ def photograph(p):
+  small,large=p['images']; license_url=p['licenseUrl'].replace('http://','https://',1)
+  inherited=' この掲載画像にも同じ表示・継承ライセンスを適用します。' if '/by-sa/' in license_url else ''
+  return '<figure class="story-photo"><a href="'+e(p['album_url'])+'" aria-label="'+e(p['title'])+'を湖西懐かし写真館で見る"><img src="'+e(large['url'])+'" srcset="'+e(small['url'])+' '+str(small['width'])+'w, '+e(large['url'])+' '+str(large['width'])+'w" sizes="(max-width: 820px) 92vw, 780px" width="'+str(large['width'])+'" height="'+str(large['height'])+'" alt="'+e(p['alt'])+'" loading="lazy" decoding="async"></a><figcaption><p class="photo-caption">'+e(p['caption'])+'</p><p class="photo-date">'+e(p['dateLabel'])+'</p><p class="photo-credit">出典：<a href="'+e(p['source'])+'">'+e(p['credit'])+'</a><br>利用条件：<a href="'+e(license_url)+'">'+e(p['license'])+'</a></p><p class="photo-album"><a href="'+e(p['album_url'])+'">湖西懐かし写真館で、この写真を詳しく見る →</a></p><details class="photo-reuse"><summary>画像の加工・利用について</summary><p>原作品名：'+e(p['source_title'])+'</p><p>'+e(p['change'])+' 湖西懐かし写真館の掲載用画像を使用し、本記事では追加の切り抜き・着色はしていません。'+inherited+'</p></details></figcaption></figure>'
  def enrich(href,title,lead,body,icon='📚',category='観光・歴史・地域情報',synonyms=None,article=None):
   g.write(href,title,lead,body,category,icon,synonyms)
   p=g.ROOT/href.strip('/')/'index.html';s=p.read_text(encoding='utf-8')
   s=s.replace('暮らしに合わせて、次の一歩へ','湖西を知る、歩く、楽しむ')
   s=s.replace('<body class="enriched-page">','<body class="enriched-page story-page">')
-  s=s.replace('</head>','<link rel="stylesheet" href="/assets/discover.css?v=20261121a"></head>')
+  s=s.replace('</head>','<link rel="stylesheet" href="/assets/discover.css?v=20261121photos"></head>')
   s=s.replace(g.nav(),'<nav class="utility-nav" aria-label="湖西の記事を探す"><a href="/discover/">観光・歴史の記事一覧</a><a href="/kosai-directory/">施設・窓口検索</a><a href="/for-visitors/">お出かけの準備</a><a href="/guides/">暮らしのガイド</a></nav>')
   if article:
    s=re.sub(r'<aside class="editorial-note">.*?</aside>','',s,flags=re.S)
    s=s.replace('／ '+e(title)+'</p>','／ <a href="/discover/">観光・歴史</a> ／ '+e(article['area'])+'</p>',1)
    schema={'@context':'https://schema.org','@type':'Article','headline':title,'description':lead,'inLanguage':'ja','datePublished':'2026-11-21','dateModified':article['checked_at'],'author':{'@type':'Organization','name':'湖西ライフハック'},'mainEntityOfPage':g.SITE+href,'citation':[x['url'] for x in article['sources']]}
+   if article.get('photos'):
+    schema['image']=[{'@type':'ImageObject','contentUrl':g.SITE+p['images'][-1]['url'],'caption':p['caption'],'creditText':p['credit'],'license':p['licenseUrl'],'isBasedOn':p['source']} for p in article['photos']]
    s=s.replace('</head>','<meta property="og:type" content="article"><meta property="og:title" content="'+e(title)+'"><meta property="og:description" content="'+e(lead)+'"><meta property="og:url" content="'+g.SITE+href+'"><script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script></head>')
   p.write_text(s,encoding='utf-8',newline='\n')
  for a in data:
@@ -34,7 +40,8 @@ def build(g):
    body+='<section class="story-timeline"><h2>年代をたどる</h2><ol>'+''.join('<li><strong>'+e(y)+'</strong><span>'+e(t)+'</span></li>' for y,t in a['timeline'])+'</ol><p class="mini">下記の公式資料に基づく年代整理。建物の創建・再建・復元を区別しています。</p></section>'
   for i,sec in enumerate(a['sections']):
    body+=f'<section class="story-section" id="section-{i+1}"><p class="story-number" aria-hidden="true">{i+1:02d}</p><h2>{e(sec["heading"])}</h2>'+''.join('<p>'+e(p)+'</p>' for p in sec['paragraphs'])+refs(a,sec['sources'])+'</section>'
-  if a.get('photo_archive'):
+   body+=''.join(photograph(p) for p in a.get('photos',[]) if p['after_section']==i+1)
+  if a.get('photo_archive') and not a.get('photos'):
    photo=a['photo_archive']
    body+='<aside class="story-summary" aria-label="昔の写真から地域をたどる"><h2>写真で、昔の景色をたどる</h2><p>この場所が写る写真も見てみませんか。<a href="'+e(photo['url'])+'">'+e(photo['label'])+'</a>を、湖西懐かし写真館で紹介しています。写真の出典や撮影時期も確認できます。</p></aside>'
   body+='<section id="questions" class="story-faq"><h2>よくある質問</h2>'+''.join('<details><summary>'+e(q['q'])+'</summary><p>'+e(q['a'])+'</p></details>' for q in a['qa'])+'</section>'
