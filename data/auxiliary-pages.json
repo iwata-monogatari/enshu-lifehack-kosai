@@ -242,20 +242,6 @@
     "status": "published"
   },
   {
-    "href": "/discover/",
-    "title": "湖西の歴史・自然を訪ねる",
-    "category": "暮らしの便利ガイド",
-    "icon": "🌿",
-    "synonyms": [
-      "観光",
-      "新居関所",
-      "紀伊国屋",
-      "潮見坂",
-      "白須賀"
-    ],
-    "status": "published"
-  },
-  {
     "href": "/for-visitors/",
     "title": "湖西に出かける方へ",
     "category": "暮らしの便利ガイド",
@@ -281,6 +267,319 @@
       "転居",
       "定住",
       "引っ越し"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/arai-sekisho/",
+    "title": "新居関所を読む：現存する面番所と今切渡船の歴史",
+    "category": "街道と宿場",
+    "icon": "📚",
+    "synonyms": [
+      "新居",
+      "街道と宿場",
+      "新居関所を読む"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/arai-shuku/",
+    "title": "新居宿のまち歩き：本陣跡・寄馬跡・秋葉灯籠をつなぐ",
+    "category": "街道と宿場",
+    "icon": "📚",
+    "synonyms": [
+      "新居",
+      "街道と宿場",
+      "新居宿のまち歩き"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/kinokuniya/",
+    "title": "紀伊国屋資料館：旅籠の間取りから新居宿の旅を想像する",
+    "category": "街道と宿場",
+    "icon": "📚",
+    "synonyms": [
+      "新居",
+      "街道と宿場",
+      "紀伊国屋資料館"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/komatsuro/",
+    "title": "小松楼の建築を読む：新居の近代とまちづくり交流館",
+    "category": "街道と宿場",
+    "icon": "📚",
+    "synonyms": [
+      "新居",
+      "街道と宿場",
+      "小松楼の建築を読む"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/shirasuka-shuku/",
+    "title": "白須賀宿と潮見坂：津波による移転を地形から知る",
+    "category": "街道と宿場",
+    "icon": "📚",
+    "synonyms": [
+      "白須賀",
+      "街道と宿場",
+      "白須賀宿と潮見坂"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/shirasuka-culture/",
+    "title": "白須賀の学問と文学：夏目甕麿・加納諸平を知る",
+    "category": "人物と地域文化",
+    "icon": "📚",
+    "synonyms": [
+      "白須賀",
+      "人物と地域文化",
+      "白須賀の学問と文学"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/sakichi-toyoda/",
+    "title": "豊田佐吉記念館：湖西から始まる織機と発明の歩み",
+    "category": "人物と地域文化",
+    "icon": "📚",
+    "synonyms": [
+      "鷲津・山口",
+      "人物と地域文化",
+      "豊田佐吉記念館"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/honkouji/",
+    "title": "本興寺の見どころ：茅葺本堂・文晁の絵・白秋の歌碑",
+    "category": "寺社と文化財",
+    "icon": "📚",
+    "synonyms": [
+      "鷲津・吉美",
+      "寺社と文化財",
+      "本興寺の見どころ"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/ogaji-hashimoto/",
+    "title": "応賀寺と橋本の歴史：仏像・浜名橋・歌枕の地域を歩く",
+    "category": "寺社と文化財",
+    "icon": "📚",
+    "synonyms": [
+      "中之郷・浜名",
+      "寺社と文化財",
+      "応賀寺と橋本の歴史"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/utsuyama-myoryuji/",
+    "title": "宇津山城跡と妙立寺：浜名湖西岸の戦国史をたどる",
+    "category": "寺社と文化財",
+    "icon": "📚",
+    "synonyms": [
+      "入出・吉美",
+      "寺社と文化財",
+      "宇津山城跡と妙立寺"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/ochiba-haiji/",
+    "title": "大知波峠廃寺跡：発掘で見えてきた平安時代の山寺",
+    "category": "寺社と文化財",
+    "icon": "📚",
+    "synonyms": [
+      "知波田",
+      "寺社と文化財",
+      "大知波峠廃寺跡"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/kosai-kilns/",
+    "title": "湖西窯跡群と横枕古墳：古代のものづくりを知る",
+    "category": "人物と地域文化",
+    "icon": "📚",
+    "synonyms": [
+      "吉美・市内各地",
+      "人物と地域文化",
+      "湖西窯跡群と横枕古墳"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/tokiwamansaku/",
+    "title": "トキワマンサクと湖西の名木：花の季節と天然記念物",
+    "category": "湖・海・山の自然",
+    "icon": "📚",
+    "synonyms": [
+      "神座・新居",
+      "湖・海・山の自然",
+      "トキワマンサクと湖西の名木"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/kosai-mountains/",
+    "title": "湖西連峰の入口選び：梅田と大知波、歴史と眺望の歩き方",
+    "category": "湖・海・山の自然",
+    "icon": "📚",
+    "synonyms": [
+      "新所原・知波田",
+      "湖・海・山の自然",
+      "湖西連峰の入口選び"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/hamanako-imagire/",
+    "title": "浜名湖と今切口：汽水の湖が育てる風景と暮らし",
+    "category": "湖・海・山の自然",
+    "icon": "📚",
+    "synonyms": [
+      "浜名湖西岸",
+      "湖・海・山の自然",
+      "浜名湖と今切口"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/kaikokan/",
+    "title": "海湖館と新居弁天：体験・釣り・海水浴を分けて計画する",
+    "category": "湖・海・山の自然",
+    "icon": "📚",
+    "synonyms": [
+      "新居弁天",
+      "湖・海・山の自然",
+      "海湖館と新居弁天"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/shiomizaka/",
+    "title": "道の駅潮見坂：遠州灘の景色・足湯・地元の食材",
+    "category": "湖・海・山の自然",
+    "icon": "📚",
+    "synonyms": [
+      "白須賀",
+      "湖・海・山の自然",
+      "道の駅潮見坂"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/kosai-food/",
+    "title": "湖西の食を知る：うなぎ・しらすから砂糖えんどうまで",
+    "category": "人物と地域文化",
+    "icon": "📚",
+    "synonyms": [
+      "市内各地",
+      "人物と地域文化",
+      "湖西の食を知る"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/kosai-festivals/",
+    "title": "湖西の祭りを知る：新居の手筒花火と秋の流鏑馬",
+    "category": "人物と地域文化",
+    "icon": "📚",
+    "synonyms": [
+      "新居・鷲津・吉美・新所",
+      "人物と地域文化",
+      "湖西の祭りを知る"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/nakane-gardens/",
+    "title": "新居の庭と水辺：中根金作のデザインをまち歩きで見る",
+    "category": "人物と地域文化",
+    "icon": "📚",
+    "synonyms": [
+      "新居・浜名",
+      "人物と地域文化",
+      "新居の庭と水辺"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/chibata/",
+    "title": "知波田・神座を知る：山寺・古墳・地域の信仰",
+    "category": "地域を歩く",
+    "icon": "📚",
+    "synonyms": [
+      "知波田・神座",
+      "地域を歩く",
+      "知波田・神座を知る"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/arai-temples/",
+    "title": "新居の寺社と町の記憶：移転・火防・海の信仰を読む",
+    "category": "地域を歩く",
+    "icon": "📚",
+    "synonyms": [
+      "新居",
+      "地域を歩く",
+      "新居の寺社と町の記憶"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/shirasuka-temples/",
+    "title": "白須賀・境宿の寺社：街道と海を結ぶ信仰の場所",
+    "category": "地域を歩く",
+    "icon": "📚",
+    "synonyms": [
+      "白須賀・境宿",
+      "地域を歩く",
+      "白須賀・境宿の寺社"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/hamana-uchiyama/",
+    "title": "浜名・内山・中之郷：旧東海道の間にある地域の歴史",
+    "category": "地域を歩く",
+    "icon": "📚",
+    "synonyms": [
+      "浜名・内山・中之郷",
+      "地域を歩く",
+      "浜名・内山・中之郷"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/tenhama/",
+    "title": "天浜線で湖西へ：新所原・大森・知波田から地域を知る",
+    "category": "地域を歩く",
+    "icon": "📚",
+    "synonyms": [
+      "新所原・知波田",
+      "地域を歩く",
+      "天浜線で湖西へ"
+    ],
+    "status": "published"
+  },
+  {
+    "href": "/discover/",
+    "title": "湖西の観光・歴史・地域情報",
+    "category": "観光・歴史・地域情報",
+    "icon": "🌿",
+    "synonyms": [
+      "観光",
+      "歴史",
+      "地域情報",
+      "記事一覧"
     ],
     "status": "published"
   }

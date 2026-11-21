@@ -171,6 +171,9 @@ def update_home():
 
 def main():
  build_hubs();build_catalog();build_checklists();n=build_questions();build_directory();build_care_tool();build_emergency();build_audiences();update_home()
+ import sys
+ from discover_render import build as build_discover
+ stories=build_discover(sys.modules[__name__])
  (ROOT/'data/auxiliary-pages.json').write_text(json.dumps(REGISTRY,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
- print(json.dumps({'new_pages':len(REGISTRY),'questions':n,'facilities':len(DIRECTORY['items']),'checklists':len(CHECKS)},ensure_ascii=False))
+ print(json.dumps({'pages':len(REGISTRY),'articles':stories,'questions':n,'facilities':len(DIRECTORY['items']),'checklists':len(CHECKS)},ensure_ascii=False))
 if __name__=='__main__':main()
