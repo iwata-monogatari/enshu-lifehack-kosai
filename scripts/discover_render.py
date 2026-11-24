@@ -32,8 +32,26 @@ def article_album_link(photo):
          f'<p>{escape(photo["description"])}</p>'
          f'<p>{album_link(photo["path"], photo["label"], "discover_article")}</p></aside>')
 
+def story_notices(slug, updates):
+ items = [item for item in updates['items'] if slug in item.get('discover', ())]
+ if not items:
+  return ''
+ return '<aside class="story-now" aria-label="訪問前の最新案内"><h2>訪問前の最新案内</h2>'+''.join(
+  f'<h3>{escape(item["title"])}</h3><p>{escape(item["discover_summary"])}</p>'
+  +'<ul>'+''.join(f'<li><a href="{escape(src["url"])}">{escape(src["label"])}</a></li>' for src in item['sources'])+'</ul>'
+  +f'<p class="mini">確認日：<time datetime="{escape(item["checked_at"])}">{escape(item["checked_at"])}</time></p>'
+  for item in items)+'</aside>'
+
+def discover_notices(updates):
+ items = [item for item in updates['items'] if item.get('discover')]
+ links = ''.join(
+  f'<li>{escape(item["discover_summary"])} <a href="/discover/{escape(item["discover"][0])}/">詳しい案内</a></li>'
+  for item in items)
+ day = updates.get('updated_at', updates['checked_at'])
+ return f'<aside class="story-now"><h2>お出かけ前の最新情報</h2><ul>{links}</ul><p class="mini">更新日：<time datetime="{escape(day)}">{escape(day)}</time></p></aside>'
+
 def build(g):
- data=g.load('discover-articles.json'); by={a['slug']:a for a in data}; e=g.e
+ data=g.load('discover-articles.json'); updates=g.load('current-updates.json'); by={a['slug']:a for a in data}; e=g.e
  def url(a):return '/discover/'+a['slug']+'/'
  def card(a):
   bg,fg,k=COLORS[a['category']]
@@ -62,6 +80,7 @@ def build(g):
  for a in data:
   bg,fg,k=COLORS[a['category']]
   body=f'<article class="story-body"><div class="story-meta"><span>{e(a["category"])} · {e(a["area"])}</span><time datetime="{a["checked_at"]}">資料確認：2026年11月21日</time></div>'
+  body+=story_notices(a['slug'],updates)
   body+='<aside class="story-summary"><h2>訪ねる前の基本情報</h2><dl>'+''.join('<div><dt>'+e(k)+'</dt><dd>'+e(v)+'</dd></div>' for k,v in a['facts'].items())+'</dl></aside>'
   body+='<nav class="page-toc story-toc" aria-label="記事の目次"><strong>この記事でわかること</strong>'+''.join(f'<a href="#section-{i+1}">{i+1:02d}　{e(sec["heading"])}</a>' for i,sec in enumerate(a['sections']))+'<a href="#questions">よくある質問</a><a href="#sources">出典と確認範囲</a></nav>'
   if a['timeline']:
@@ -81,7 +100,7 @@ def build(g):
  g.REGISTRY[:]=[x for x in g.REGISTRY if x['href']!='/discover/']
  body='<section class="story-intro"><p class="eyebrow">まちの背景を知ると、いつもの景色が変わる</p><h2>街道から山寺へ。湖から暮らしへ。</h2><p>新居関所と白須賀宿の歴史、寺社に伝わる文化財、豊田佐吉の発明、浜名湖の自然と食。由来を読む記事と、訪ねるための情報を一緒にまとめました。</p><div class="story-topics">'+''.join(f'<span>{e(c)}</span>' for c in COLORS)+'</div></section>'
  body+=album_feature_links()
- body+='<aside class="story-now"><h2>秋冬に出かける前に</h2><ul><li>本興寺の庭園は木曜定休、冬季拝観は15:30までの案内があります。<a href="/discover/honkouji/">拝観条件を確認</a></li><li>新居関所の企画展は11月23日まで、次回は11月28日から。<a href="/discover/arai-sekisho/">会期を見る</a></li><li>おちばの里親水公園は12月4日にトイレ等の一時休止予定。<a href="/discover/ochiba-haiji/">登山前の確認</a></li></ul><p class="mini">2026年11月21日確認。花の見頃や終了済みの夏の催しを、現在開催中とは案内していません。</p></aside>'
+ body+=discover_notices(updates)
  body+='<section id="story-list"><h2>地域・関心から記事を探す</h2><div data-filter-list data-page-size="30">'+g.search_controls('stories','場所・人物・知りたいこと','例：新居、白須賀、豊田佐吉、食',list(COLORS))+'<div class="story-grid">'+''.join(card(a) for a in data)+'</div><button type="button" class="load-more" data-filter-more hidden>続きを表示</button></div></section>'
  body+='<section><h2>訪問の準備と暮らしの情報</h2>'+g.cards([('/kosai-directory/','施設の所在地・連絡先','住所や電話、利用条件を施設名で検索。'),('/for-visitors/','移動・駐車・出発前の確認','公共交通と気象・避難の確認先へ。'),('/hub/enjoy/','公園・文化・地域活動','施設予約や暮らしのガイドも確認。')])+'</section>'
  enrich('/discover/','湖西の観光・歴史・地域情報','新居・白須賀の宿場、寺社と古代遺跡、豊田佐吉、浜名湖・湖西連峰、食と祭り。湖西を深く知る読み物と、訪問前に役立つ案内を探せます。',body,icon='🌿',synonyms=['観光','歴史','地域情報','記事一覧'])

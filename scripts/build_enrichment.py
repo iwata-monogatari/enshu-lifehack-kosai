@@ -163,7 +163,7 @@ def update_home():
  text=re.sub(r'<!-- CURRENT:QUICK:START -->.*?<!-- CURRENT:QUICK:END -->','',text,flags=re.S)
  current=load('current-updates.json')
  # Keep the brief alert separate from the complete list below.
- quick='<!-- CURRENT:QUICK:START --><aside class="current-quick"><strong>'+e(current['checked_at'])+'確認の主な案内</strong>'+''.join(link(i['pages'][0],i['title']) for i in [i for i in current['items'] if i.get('home')][:2])+'<a href="#current-information">休止・受付期限・お出かけの最新情報をまとめて見る →</a></aside><!-- CURRENT:QUICK:END -->'
+ quick='<!-- CURRENT:QUICK:START --><aside class="current-quick"><strong>'+e(current.get('updated_at',current['checked_at']))+'更新の主な案内</strong>'+''.join(link(i['pages'][0],i['title']) for i in [i for i in current['items'] if i.get('home')][:2])+'<a href="#current-information">休止・受付期限・お出かけの最新情報をまとめて見る →</a></aside><!-- CURRENT:QUICK:END -->'
  pos=text.index('<!-- ENRICHMENT:START -->');text=text[:pos]+quick+text[pos:]
  text=text.replace('住民票、税金、ごみ、子育て、介護、空き家、おくやみなど、湖西市の公式情報へ進むための入口を整理しています。','手続きの期限や持ち物、子育て、親の介護、住まい、休日のお出かけ。質問検索・準備チェック・施設案内から、必要な公式情報へ進めます。')
  text=re.sub(r'<meta name="description" content="[^"]*">','<meta name="description" content="湖西市の手続き・子育て・介護・住まい・観光を目的別に案内。最新の受付期限、必要書類、準備チェックリスト、施設・窓口検索、自治会別の介護相談先を調べられる非公式ナビです。">',text,count=1)

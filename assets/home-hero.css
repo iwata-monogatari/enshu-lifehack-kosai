@@ -1,0 +1,50 @@
+.home .kosai-photo-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(1rem, 3vw, 2.25rem);
+  padding: clamp(1rem, 3vw, 2rem);
+  background: #e9f2ee;
+  color: #153e3c;
+  border: 1px solid #bfcec4;
+  border-radius: 1rem;
+}
+.kosai-hero-copy, .kosai-hero-photo { min-width: 0; }
+.kosai-hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem .85rem;
+  margin-top: 1rem;
+}
+.kosai-hero-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: .3rem .7rem;
+  border: 1px solid #638980;
+  border-radius: .5rem;
+  color: #153e3c;
+  background: #f9fdfb;
+  text-underline-offset: .18em;
+}
+.kosai-hero-photo { margin: 0; }
+.kosai-hero-picture { display: block; border-radius: .65rem; }
+.kosai-hero-picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center 44%;
+  border-radius: inherit;
+}
+.kosai-hero-photo figcaption {
+  margin-top: .45rem;
+  font-size: .82rem;
+  line-height: 1.65;
+  color: #354c49;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 700px) {
+  .home .kosai-photo-hero { grid-template-columns: minmax(0, 1fr); }
+}

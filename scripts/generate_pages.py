@@ -72,6 +72,11 @@ def load_content_map():
     return content
 
 
+def update_date(day):
+    year, month, day = map(int, day.split('-'))
+    return f'{year}年{month}月{day}日'
+
+
 def current_updates_html(href):
     """確認した変更だけを、元の本文全体の確認日と区別して表示する。"""
     path = ROOT / 'data' / 'current-updates.json'
@@ -84,11 +89,15 @@ def current_updates_html(href):
     if not items:
         return ''
     cards = []
+    show_item_dates = any('checked_at' in item for item in items)
     for item in items:
         paragraphs = ''.join(f'<p>{esc(p)}</p>' for p in item['paragraphs'])
         links = ''.join(f'<a class="official-link" href="{esc(s["url"])}" target="_blank" rel="noopener">{esc(s["label"])}</a>' for s in item['sources'])
-        cards.append(f'<article class="current-update"><h3>{esc(item["title"])}</h3>{paragraphs}{links}</article>')
-    return f'<section class="current-updates" aria-label="更新した情報"><h2>{checked_label}に確認した変更・案内</h2><p class="mini">以下の項目を公式情報と照合しました。各制度の対象条件や受付状況は、リンク先でご確認ください。</p>{"".join(cards)}</section>'
+        date = item.get('checked_at', data['checked_at'])
+        item_date = f'<p class="mini">確認日：<time datetime="{esc(date)}">{update_date(date)}</time></p>' if show_item_dates else ''
+        cards.append(f'<article class="current-update"><h3>{esc(item["title"])}</h3>{item_date}{paragraphs}{links}</article>')
+    heading = '手続き・利用前の最新案内' if show_item_dates else checked_label+'に確認した変更・案内'
+    return f'<section class="current-updates" aria-label="更新した情報"><h2>{heading}</h2><p class="mini">以下の項目を公式情報と照合しました。各制度の対象条件や受付状況は、リンク先でご確認ください。</p>{"".join(cards)}</section>'
 
 
 def real_cards_html(cards):
