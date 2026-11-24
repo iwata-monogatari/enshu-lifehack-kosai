@@ -1,8 +1,36 @@
 """Sourced editorial articles. Called by build_enrichment, which owns the registry."""
 import json,re
+from html import escape
 from pathlib import Path
 
 COLORS={'街道と宿場':('#eae2d5','#755638','街道を歩く'),'寺社と文化財':('#e5ece0','#496545','歴史を読む'),'人物と地域文化':('#f4e5d9','#865332','地域を知る'),'湖・海・山の自然':('#dcecf0','#286576','自然を訪ねる'),'地域を歩く':('#e6e5f0','#5e547f','土地をつなぐ')}
+
+ALBUM_ORIGIN = 'https://kosaialb.atawi.link'
+ALBUM_FEATURES = (
+ ('/features/arai-shuku/', '新居宿・新居関所の古写真'),
+ ('/features/shirasuka/', '白須賀宿・潮見坂の昔の写真'),
+ ('/features/aerial/', '鷲津・新居など湖西市の空中写真'),
+ ('/features/kosai-station/', '新所原・鷲津・新居町の駅前写真'),
+)
+
+def album_link(path, label, placement):
+ target = path.strip('/').rsplit('/', 1)[-1].replace('-', '_') or 'top'
+ event = f'album_referral_{placement}_{target}'
+ return f'<a href="{escape(ALBUM_ORIGIN+path)}" data-track-click="{escape(event)}">{escape(label)}</a>'
+
+def album_feature_links():
+ links = ''.join(f'<li>{album_link(path, label, "discover_index")}</li>' for path, label in ALBUM_FEATURES)
+ return ('<aside class="story-summary" aria-label="湖西懐かし写真館の特集">'
+         '<h2>湖西の昔を、写真で見比べる</h2>'
+         '<p>'+album_link('/','湖西懐かし写真館','discover_index')+
+         'で、新居と白須賀の旧東海道、駅舎、浜名湖西岸をたどります。写真ごとに撮影時期や出典を確認できます。</p>'
+         f'<ul>{links}</ul></aside>')
+
+def article_album_link(photo):
+ return ('<aside class="story-summary" aria-label="湖西懐かし写真館の関連写真">'
+         '<h2>湖西懐かし写真館で見比べる</h2>'
+         f'<p>{escape(photo["description"])}</p>'
+         f'<p>{album_link(photo["path"], photo["label"], "discover_article")}</p></aside>')
 
 def build(g):
  data=g.load('discover-articles.json'); by={a['slug']:a for a in data}; e=g.e
@@ -41,6 +69,8 @@ def build(g):
   for i,sec in enumerate(a['sections']):
    body+=f'<section class="story-section" id="section-{i+1}"><p class="story-number" aria-hidden="true">{i+1:02d}</p><h2>{e(sec["heading"])}</h2>'+''.join('<p>'+e(p)+'</p>' for p in sec['paragraphs'])+refs(a,sec['sources'])+'</section>'
    body+=''.join(photograph(p) for p in a.get('photos',[]) if p['after_section']==i+1)
+   if a.get('related_archive') and a['related_archive']['after_section']==i+1:
+    body+=article_album_link(a['related_archive'])
   if a.get('photo_archive') and not a.get('photos'):
    photo=a['photo_archive']
    body+='<aside class="story-summary" aria-label="昔の写真から地域をたどる"><h2>写真で、昔の景色をたどる</h2><p>この場所が写る写真も見てみませんか。<a href="'+e(photo['url'])+'">'+e(photo['label'])+'</a>を、湖西懐かし写真館で紹介しています。写真の出典や撮影時期も確認できます。</p></aside>'
@@ -50,7 +80,7 @@ def build(g):
   enrich(url(a),a['title'],a['lead'],category=a['category'],body=body,article=a,synonyms=[a['area'],a['category'],a['title'].split('：')[0]])
  g.REGISTRY[:]=[x for x in g.REGISTRY if x['href']!='/discover/']
  body='<section class="story-intro"><p class="eyebrow">まちの背景を知ると、いつもの景色が変わる</p><h2>街道から山寺へ。湖から暮らしへ。</h2><p>新居関所と白須賀宿の歴史、寺社に伝わる文化財、豊田佐吉の発明、浜名湖の自然と食。由来を読む記事と、訪ねるための情報を一緒にまとめました。</p><div class="story-topics">'+''.join(f'<span>{e(c)}</span>' for c in COLORS)+'</div></section>'
- body+='<aside class="story-summary"><h2>読んだ土地を、昔の写真でも。</h2><p>新居の水辺、白須賀の街道、鷲津・新所原の駅前。<a href="https://kosaialb.atawi.link/">湖西懐かし写真館</a>では、湖西・旧新居町の景色を写真と出典からたどれます。歴史の記事と見比べながら、まちの移り変わりを楽しんでみませんか。</p></aside>'
+ body+=album_feature_links()
  body+='<aside class="story-now"><h2>秋冬に出かける前に</h2><ul><li>本興寺の庭園は木曜定休、冬季拝観は15:30までの案内があります。<a href="/discover/honkouji/">拝観条件を確認</a></li><li>新居関所の企画展は11月23日まで、次回は11月28日から。<a href="/discover/arai-sekisho/">会期を見る</a></li><li>おちばの里親水公園は12月4日にトイレ等の一時休止予定。<a href="/discover/ochiba-haiji/">登山前の確認</a></li></ul><p class="mini">2026年11月21日確認。花の見頃や終了済みの夏の催しを、現在開催中とは案内していません。</p></aside>'
  body+='<section id="story-list"><h2>地域・関心から記事を探す</h2><div data-filter-list data-page-size="30">'+g.search_controls('stories','場所・人物・知りたいこと','例：新居、白須賀、豊田佐吉、食',list(COLORS))+'<div class="story-grid">'+''.join(card(a) for a in data)+'</div><button type="button" class="load-more" data-filter-more hidden>続きを表示</button></div></section>'
  body+='<section><h2>訪問の準備と暮らしの情報</h2>'+g.cards([('/kosai-directory/','施設の所在地・連絡先','住所や電話、利用条件を施設名で検索。'),('/for-visitors/','移動・駐車・出発前の確認','公共交通と気象・避難の確認先へ。'),('/hub/enjoy/','公園・文化・地域活動','施設予約や暮らしのガイドも確認。')])+'</section>'
@@ -58,6 +88,6 @@ def build(g):
  home=g.ROOT/'index.html';s=home.read_text(encoding='utf-8')
  s=re.sub(r'<!-- DISCOVER:START -->.*?<!-- DISCOVER:END -->','',s,flags=re.S)
  featured=['arai-sekisho','sakichi-toyoda','kosai-food']
- block='<section class="home-discover"><p class="eyebrow">観光・歴史・地域の読み物</p><h2>湖西のことを、もっと知る</h2><p>宿場の面影、山寺の遺跡、発明家の足跡、湖と海が育てた食。場所の背景まで読める記事をまとめました。</p>'+g.cards([(url(by[k]),by[k]['title'],by[k]['lead']) for k in featured])+'<p class="all-tools-link"><a href="/discover/">観光・歴史・地域情報の記事一覧へ →</a></p><p>昔の景色も見てみたい方は、<a href="https://kosaialb.atawi.link/">湖西懐かし写真館</a>へ。新居の水辺や駅前など、写真に残るまちの記憶をたどれます。</p></section>'
+ block='<section class="home-discover"><p class="eyebrow">観光・歴史・地域の読み物</p><h2>湖西のことを、もっと知る</h2><p>宿場の面影、山寺の遺跡、発明家の足跡、湖と海が育てた食。場所の背景まで読める記事をまとめました。</p>'+g.cards([(url(by[k]),by[k]['title'],by[k]['lead']) for k in featured])+'<p class="all-tools-link"><a href="/discover/">観光・歴史・地域情報の記事一覧へ →</a></p><p>昔の景色も見てみたい方は、'+album_link('/','湖西懐かし写真館','home')+'へ。新居の水辺や駅前など、写真に残るまちの記憶をたどれます。</p></section>'
  pos=s.index('<section id="category-links"');s=s[:pos]+'<!-- DISCOVER:START -->'+block+'<!-- DISCOVER:END -->'+s[pos:];home.write_text(s,encoding='utf-8',newline='\n')
  return len(data)

@@ -141,7 +141,13 @@
         ],
         "source_title": "松の間にたたずむ新居関所跡"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/features/arai-shuku/",
+      "label": "関所・渡船場・宝屋の古写真を見る",
+      "description": "上陸して関所を通る順序を読んだあとに、松のある渡船場と、水辺に建っていた旅館・宝屋を見比べられます。",
+      "after_section": 3
+    }
   },
   {
     "slug": "arai-shuku",
@@ -278,7 +284,13 @@
         ],
         "source_title": "舟の集まる新居の水辺"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/features/arai-shuku/",
+      "label": "新居宿の水辺と泉町通りを古写真で見る",
+      "description": "舟が並んだ水辺と、家々の前に人が立つ泉町通り。宿場を歩く前に、二つの風景を写真で見比べられます。",
+      "after_section": 2
+    }
   },
   {
     "slug": "kinokuniya",
@@ -394,7 +406,13 @@
         ],
         "source_title": "Kinokuniya, Former Inn at Arai-juku, Kosai city.JPG"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/features/arai-shuku/",
+      "label": "新居宿の旅館と水辺の古写真を見る",
+      "description": "同じ新居で、水辺に面していた別の旅館・宝屋の写真も残っています。新居の宿と舟の往来を想像する手がかりになります。",
+      "after_section": 2
+    }
   },
   {
     "slug": "komatsuro",
@@ -476,7 +494,13 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "related_archive": {
+      "path": "/features/arai-shuku/",
+      "label": "新居の宿と舟だまりを古写真で見る",
+      "description": "水辺に建つ別の旅館・宝屋と、舟が並ぶ岸辺の写真から、小松楼がある新居の町の風景もたどれます。",
+      "after_section": 1
+    }
   },
   {
     "slug": "shirasuka-shuku",
@@ -603,7 +627,13 @@
         ],
         "source_title": "木々の間を下る白須賀の道"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/features/shirasuka/",
+      "label": "白須賀の道と潮見坂を昔の写真で見比べる",
+      "description": "大正・昭和初期の写真帖に残る木立の間の道から、平成の潮見坂近くの海岸までを見比べられます。",
+      "after_section": 2
+    }
   },
   {
     "slug": "shirasuka-culture",
@@ -694,7 +724,13 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "related_archive": {
+      "path": "/features/shirasuka/",
+      "label": "学問が育った白須賀の町を古写真でたどる",
+      "description": "人物の足跡をたどる町歩きに、白須賀の街道と、かつての蚕業取締所出張所の写真を重ねてみてください。",
+      "after_section": 4
+    }
   },
   {
     "slug": "sakichi-toyoda",
@@ -950,7 +986,13 @@
         ],
         "source_title": "本興寺へ続く木立の参道"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/photos/ndl-honkoji-hall-1941/",
+      "label": "1941年刊の資料で本興寺の茅葺本堂を見る",
+      "description": "松に囲まれた本堂正面の古写真があります。境内で見上げる大きな茅葺き屋根を、資料に残る姿と見比べられます。",
+      "after_section": 1
+    }
   },
   {
     "slug": "ogaji-hashimoto",
@@ -1179,7 +1221,13 @@
         ],
         "source_title": "Myoryu-ji Kosai 1933.jpg"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/features/aerial/",
+      "label": "入出周辺の湖岸を空中写真で見る",
+      "description": "宇津山が面する浜名湖西岸の地形を、入出周辺の空中写真でたどれます。",
+      "after_section": 1
+    }
   },
   {
     "slug": "ochiba-haiji",
@@ -1557,7 +1605,13 @@
         ],
         "source_title": "Kosai Renpō6.jpg"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/photos/shinjohara-1989/",
+      "label": "梅田側の玄関口、平成元年の新所原駅を見る",
+      "description": "梅田側へ向かうときに利用する新所原駅には、瓦屋根の駅舎、キヨスク、駅前のタクシーが写る1989年の写真が残っています。",
+      "after_section": 2
+    }
   },
   {
     "slug": "hamanako-imagire",
@@ -1691,7 +1745,13 @@
         ],
         "source_title": "浜名湖 - panoramio (3).jpg"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/features/aerial/",
+      "label": "新居・入出の湖岸を空中写真で見比べる",
+      "description": "新居と入出の撮影記録を年代別に並べています。湖の南側と西岸で、水辺と町の位置関係を見比べられます。",
+      "after_section": 2
+    }
   },
   {
     "slug": "kaikokan",
@@ -1815,7 +1875,13 @@
         ],
         "source_title": "Hamana Bridge01.jpg"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/photos/commons-ef48cf33394e/",
+      "label": "新居の海釣公園と浜名湖を上空から見る",
+      "description": "岸壁と桟橋、水面の位置関係を上空から確認できます。写真の撮影年は不詳です。",
+      "after_section": 2
+    }
   },
   {
     "slug": "shiomizaka",
@@ -1930,7 +1996,13 @@
         ],
         "source_title": "道の駅潮見坂01.jpg"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/features/shirasuka/",
+      "label": "旧東海道と遠州灘の写真を見比べる",
+      "description": "平成の道の駅だけでなく、東海道写真帖に収められた白須賀の道と、潮見坂近くの遠州灘の写真もあります。",
+      "after_section": 4
+    }
   },
   {
     "slug": "kosai-food",
@@ -2058,7 +2130,13 @@
         ],
         "source_title": "野菜 (33122636191).jpg"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/photos/arai-fishing-huts-1935/",
+      "label": "昭和10年の新居海岸と漁労小屋を見る",
+      "description": "新居の海岸では、漁に使われた小屋がクロマツ林の手前に並んでいました。浜名湖・遠州灘の魚介を支えた暮らしを写真から振り返れます。",
+      "after_section": 2
+    }
   },
   {
     "slug": "kosai-festivals",
@@ -2291,7 +2369,13 @@
         ],
         "source_title": "静岡のみずべ100選・浜名川・日ヶ崎地区親水公園（099_600.jpg）"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/features/arai-shuku/",
+      "label": "庭と水辺を訪ねる前に、新居の古写真を見る",
+      "description": "いまの庭園や散歩道を歩く前に、渡船場や舟が集まっていた岸辺の写真から、新居と水辺の関わりを振り返れます。",
+      "after_section": 3
+    }
   },
   {
     "slug": "chibata",
@@ -2424,7 +2508,13 @@
         ],
         "source_title": "Chibata stn 1.jpg"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/features/aerial/",
+      "label": "知波田・大知波周辺を空中写真で見る",
+      "description": "湖岸と集落の位置関係を、終戦翌年とその後の空中写真で見比べられます。",
+      "after_section": 2
+    }
   },
   {
     "slug": "arai-temples",
@@ -2556,7 +2646,13 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "related_archive": {
+      "path": "/features/arai-shuku/",
+      "label": "新居の通りと渡船場を古写真で見る",
+      "description": "寺社を訪ねるときに通る町の来歴を、泉町通りの絵葉書や新居の渡しの写真でもたどれます。",
+      "after_section": 3
+    }
   },
   {
     "slug": "shirasuka-temples",
@@ -2676,7 +2772,13 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "related_archive": {
+      "path": "/features/shirasuka/",
+      "label": "白須賀の街道と海の写真を見る",
+      "description": "街道と海の両方にゆかりのある地域を、古い写真帖の白須賀の道と、潮見坂近くの遠州灘の写真からたどれます。",
+      "after_section": 3
+    }
   },
   {
     "slug": "hamana-uchiyama",
@@ -2801,7 +2903,13 @@
       }
     ],
     "timeline": [],
-    "checked_at": "2026-11-21"
+    "checked_at": "2026-11-21",
+    "related_archive": {
+      "path": "/photos/kosai-gsi-464056/",
+      "label": "1946年の中之郷周辺を上空から見る",
+      "description": "1946年7月の空中写真で、現在の新居町中之郷郷北付近を撮影中心とする原版を確認できます。",
+      "after_section": 4
+    }
   },
   {
     "slug": "tenhama",
@@ -2930,6 +3038,12 @@
         ],
         "source_title": "JR Shinjohara Station 19891222.jpg"
       }
-    ]
+    ],
+    "related_archive": {
+      "path": "/features/kosai-station/",
+      "label": "天浜線と湖西の昔の駅舎を見る",
+      "description": "平成元年の新所原だけでなく、大森・知波田・アスモ前などの駅の記録も写真館にまとめています。",
+      "after_section": 2
+    }
   }
 ]
