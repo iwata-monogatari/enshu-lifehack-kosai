@@ -2,6 +2,7 @@
 import json,re
 from html import escape
 from pathlib import Path
+from archive_links import add_photo_links
 
 COLORS={'街道と宿場':('#eae2d5','#755638','街道を歩く'),'寺社と文化財':('#e5ece0','#496545','歴史を読む'),'人物と地域文化':('#f4e5d9','#865332','地域を知る'),'湖・海・山の自然':('#dcecf0','#286576','自然を訪ねる'),'地域を歩く':('#e6e5f0','#5e547f','土地をつなぐ')}
 
@@ -89,7 +90,7 @@ def build(g):
    if article.get('photos'):
     schema['image']=[{'@type':'ImageObject','contentUrl':g.SITE+p['images'][-1]['url'],'caption':p['caption'],'creditText':p['credit'],'license':p['licenseUrl'],'isBasedOn':p['source']} for p in article['photos']]
    s=s.replace('</head>','<meta property="og:type" content="article"><meta property="og:title" content="'+e(title)+'"><meta property="og:description" content="'+e(lead)+'"><meta property="og:url" content="'+g.SITE+href+'"><script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script></head>')
-  p.write_text(s,encoding='utf-8',newline='\n')
+  p.write_text(add_photo_links(s,href),encoding='utf-8',newline='\n')
  for a in data:
   bg,fg,k=COLORS[a['category']]
   body=f'<article class="story-body"><div class="story-meta"><span>{e(a["category"])} · {e(a["area"])}</span><time datetime="{a["checked_at"]}">資料確認：{japanese_date(a["checked_at"])}</time></div>'

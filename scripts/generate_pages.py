@@ -24,6 +24,7 @@ import json
 import re
 from pathlib import Path
 from enrichment_render import LABELS, practical_html, guide_navigation, add_toc
+from archive_links import add_photo_links
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -305,7 +306,7 @@ def render_page(item, city, category_items, content_map):
 </div></main><!-- PART:footer:START --><!-- PART:footer:END -->
 </body></html>
 """
-    return add_toc(html), verified
+    return add_toc(add_photo_links(html, item['href'])), verified
 
 
 def main():

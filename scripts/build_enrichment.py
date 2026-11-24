@@ -9,6 +9,7 @@ from pathlib import Path
 from html import escape,unescape
 from urllib.parse import quote
 from generate_pages import load_content_map
+from archive_links import add_photo_links
 
 ROOT=Path(__file__).resolve().parent.parent
 SITE='https://kosai.enshu-lifehack.com'
@@ -43,6 +44,8 @@ def write(href,title,lead,body,category='暮らしの便利ガイド',icon='📖
  html+=f'<section class="hero"><p class="eyebrow">暮らしに合わせて、次の一歩へ</p><h1><span aria-hidden="true">{icon}</span> {e(title)}</h1><p class="lead">{e(lead)}</p></section>'+nav()+body
  html+='<aside class="editorial-note"><h2>この案内の確認範囲</h2><p>掲載情報の確認日は項目ごとに示しています。制度の対象・期限・予約状況は公式窓口で確認してください。リンク先の既存ガイド全体を一律に再確認したことを示す日付ではありません。</p><p><a href="/#current-information">期限のある最新情報</a>・<a href="https://www.city.kosai.shizuoka.jp/">湖西市公式サイト</a>・<a href="/terms/">利用について</a></p></aside>'
  html+='</div></main><script src="/assets/life-tools.js" defer></script>'+block('footer')+'</body></html>\n'
+ if not href.startswith('/discover/'):
+  html=add_photo_links(html,href)
  out=ROOT/href.strip('/')/'index.html';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(html,encoding='utf-8',newline='\n')
  REGISTRY.append(dict(href=href,title=title,category=category,icon=icon,synonyms=synonyms or [],status='published'))
 
