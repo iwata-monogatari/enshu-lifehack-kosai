@@ -2,6 +2,44 @@
   "checked_at": "2026-11-21",
   "items": [
     {
+      "id": "seasonal-holidays-2026",
+      "title": "2026年のクリスマス催しと年末年始の施設休業",
+      "summary": "12月1日のMooovi浜名湖のリースづくり、12月16日の湖西高校湖風館の飾りづくり、年末年始の施設利用を確認。",
+      "paragraphs": [
+        "12月1日（火）は新居町のMooovi浜名湖で、木の実を使うクリスマスリースづくり。熱い道具を使うため制作は保護者向けで、各回の人数に限りがあります。施設の利用受付・当日の参加方法は主催者の案内でご確認ください。",
+        "12月16日（水）19時〜21時、鷲津の湖西高校湖風館で、粘土を使ったクリスマス・お正月飾りづくり。電話申込み制、定員20人、参加費700円（学生以下無料）です。小中学生は保護者同伴。持ち物と申込先は市の案内・広報でご確認ください。",
+        "12月20日（日）9時〜11時、浜名学園なぎさ作業所で正月用の寄せ植え・季節の花苗を販売。数量限定で、売り切れ次第終了です。",
+        "年末年始の施設休業は湖西市の施設別一覧で確認してください。市は、アメニティプラザのプール施設について、清掃・点検のため2026年12月21日〜2027年1月5日を休みと案内しています。プール以外とは利用日が異なります。中央図書館は2026年12月28日〜2027年1月4日、新居図書館は12月29日〜1月5日が休館です。"
+      ],
+      "sources": [
+        {
+          "url": "https://boat-kids-park-hamanako.com/hello-world/",
+          "label": "Mooovi浜名湖公式：クリスマスリースづくり（11月23日投稿）"
+        },
+        {
+          "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/hisho/gyomuannai/3/kouenjigyou/kyouikukouen/14339.html",
+          "label": "湖西市公式：レク楽のひろば 令和8年度日程"
+        },
+        {
+          "url": "https://www.city.kosai.shizuoka.jp/material/files/group/1/2026kosai1115_lib_2.pdf",
+          "label": "湖西市「広報こさい」2026年11月15日号（PDF）"
+        },
+        {
+          "url": "https://hamanagakuen.jp/news/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B412%E6%9C%8820%E6%97%A5%E6%97%A5%E3%80%8C%E6%AD%A3%E6%9C%88%E7%94%A8%E5%AF%84%E3%81%9B%E6%A4%8D%E3%81%88%E8%B2%A9%E5%A3%B2%E4%BC%9A%E3%80%8D%E9%96%8B%E5%82%AC/",
+          "label": "浜名学園公式：なぎさ作業所の寄せ植え販売会"
+        },
+        {
+          "url": "https://www.city.kosai.shizuoka.jp/shiseijoho/chosha_shisetsuannai/7539.html",
+          "label": "湖西市公式：2026〜2027年の年末年始 施設別業務案内"
+        }
+      ],
+      "pages": [
+        "/life/play-out/cultural-facilities/"
+      ],
+      "home": true,
+      "checked_at": "2026-11-25"
+    },
+    {
       "id": "certificates-pause",
       "title": "コンビニ交付は11月24日〜12月7日に停止",
       "paragraphs": [
@@ -643,5 +681,5 @@
       "discover_summary": "本興寺の庭園は冬季15時30分まで。木曜日は庭園拝観が休みです。"
     }
   ],
-  "updated_at": "2026-11-24"
+  "updated_at": "2026-11-25"
 }
