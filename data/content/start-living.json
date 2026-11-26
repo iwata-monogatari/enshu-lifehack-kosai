@@ -120,23 +120,23 @@
  {
   "href": "/life/start-living/certificates/",
   "lead": "住民票、戸籍謄本・抄本、印鑑登録証明書など、提出先によって必要な証明書の種類は異なります。湖西市で取得できる主な証明書と窓口・手数料を整理しました。",
-  "note": "戸籍関係の証明書は本籍地でしか取得できません。湖西市に本籍がない場合は、本籍地の市区町村へ請求する必要があります。",
+  "note": "本籍が湖西市外でも、戸籍謄本・除籍謄本は広域交付の対象です。戸籍抄本（個人事項証明書）や戸籍の附票などは対象外なので、本籍地の自治体の案内をご確認ください。",
   "real_cards": [
    {"icon": "📄", "title": "住民票の写し・印鑑登録証明書", "body": "湖西市に住民登録がある人が対象です。手数料は1通350円。市民課・新居支所・コンビニ交付で取得できます。"},
-   {"icon": "📜", "title": "戸籍謄本・抄本・戸籍の附票", "body": "湖西市に本籍がある人が対象です。全部事項証明（謄本）・個人事項証明（抄本）とも1通450円です。本籍が他市町村にある場合は取得できません。"},
+   {"icon": "📜", "title": "戸籍謄本・抄本・戸籍の附票", "body": "戸籍謄本・除籍謄本は、本籍が湖西市外でも広域交付を利用できる場合があります。戸籍抄本と戸籍の附票は広域交付の対象外です。"},
    {"icon": "🖋️", "title": "印鑑登録の手続き", "body": "実印を登録していないと印鑑登録証明書は発行できません。転入者は湖西市で新たに印鑑登録をする必要があります。"},
    {"icon": "🏢", "title": "取得場所は複数ある", "body": "市民課（本庁）、新居支所市民窓口係のほか、マイナンバーカードがあればコンビニ交付、郵送請求も選べます。"}
   ],
   "qa": [
    {"question": "どの証明書が必要か分からないときはどうすればいいですか。", "answer": "提出先（勤務先、学校、金融機関など）に「何の証明書が必要か」を確認するのが確実です。不明な場合は市民課（053-576-4531）に相談してください。"},
-   {"question": "戸籍謄本は湖西市で取れますか。", "answer": "湖西市に本籍がある場合のみ取得できます。本籍が他の市区町村にある場合は、そちらへ請求するか、本籍地が分からない場合は本籍地記載の住民票で確認してください。"},
+   {"question": "本籍が湖西市外でも、戸籍謄本を湖西市で取れますか。", "answer": "はい。戸籍・除籍の全部事項証明書（謄本）は、本人・配偶者・父母や祖父母・子や孫が、顔写真付きの公的身分証明書を持って窓口で請求できます。個人事項証明書（抄本）や代理人・郵送による請求には広域交付を使えません。一部の未電算化の戸籍・除籍は対象外で、受け取りまで時間がかかる場合もあります。<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/14504.html\" target=\"_blank\" rel=\"noopener\">湖西市の広域交付案内</a>でご確認ください。"},
    {"question": "印鑑登録はどこでできますか。", "answer": "市民課または新居支所で登録できます。本人が窓口に来て手続きする場合は、その場で登録できることが多いです。詳細は<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/1226.html\" target=\"_blank\" rel=\"noopener\">戸籍・住民登録に関する証明などのページ</a>を確認してください。"},
    {"question": "広域交付という制度があると聞きました。", "answer": "本籍が湖西市以外でも、一部の戸籍証明書は最寄りの市区町村窓口で取得できる広域交付サービスがあります。詳しくは<a href=\"https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/14504.html\" target=\"_blank\" rel=\"noopener\">証明書の広域交付サービスのページ</a>を参照してください。"},
    {"question": "手数料の支払い方法は現金だけですか。", "answer": "窓口ではキャッシュレス決済（電子マネー、クレジットカード、QRコード決済）にも対応しています。"}
   ],
   "tabs": [
    {"id": "type-juminhyo", "label": "住民票", "heading": "住民票の写しを取得する", "bullets": ["湖西市に住民登録がある人が対象", "手数料は1通350円", "窓口・コンビニ交付・郵送で取得可能"], "actions": [{"label": "戸籍・住民登録に関する証明など", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/1226.html", "source": "湖西市市民課"}]},
-   {"id": "type-koseki", "label": "戸籍", "heading": "戸籍謄本・抄本を取得する", "bullets": ["湖西市に本籍がある人が対象", "全部事項証明・個人事項証明とも1通450円", "本籍地以外では原則取得できない"], "actions": [{"label": "戸籍謄(抄)本・身分証明書・戸籍附票等", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/yuubin/2154.html", "source": "湖西市市民課"}]},
+   {"id": "type-koseki", "label": "戸籍", "heading": "戸籍謄本・抄本を取得する", "bullets": ["戸籍謄本・除籍謄本は、本籍が湖西市外でも広域交付を利用できる場合がある", "戸籍抄本と戸籍の附票は広域交付の対象外。本籍地の自治体に取得方法を確認する", "広域交付は顔写真付きの公的身分証明書を持って対応窓口へ"], "actions": [{"label": "戸籍謄本・除籍謄本の広域交付", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/14504.html", "source": "湖西市市民課"}, {"label": "戸籍謄(抄)本・身分証明書・戸籍附票等", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/yuubin/2154.html", "source": "湖西市市民課"}]},
    {"id": "type-inkan", "label": "印鑑登録証明書", "heading": "印鑑登録証明書を取得する", "bullets": ["事前に印鑑登録が済んでいる必要がある", "手数料は1通350円", "登録した印鑑登録証（カード）の持参が必要"], "actions": [{"label": "コンビニ交付", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/2274.html", "source": "湖西市市民課"}]},
    {"id": "type-wide-area", "label": "広域交付", "heading": "本籍地以外でも取れる広域交付を使う", "bullets": ["一部の戸籍証明書は最寄りの市区町村窓口で取得可能", "本人確認書類の持参が必要", "対象となる証明書の種類は事前確認が必要"], "actions": [{"label": "証明書の広域交付サービス", "href": "https://www.city.kosai.shizuoka.jp/soshikiichiran/shiminka/gyomuannai/6/4/14504.html", "source": "湖西市市民課"}]}
   ],
